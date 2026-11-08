@@ -1,0 +1,286 @@
+{
+  "title": "Husbands — Full-Film Source Audio Acoustic Reference",
+  "version": "V1",
+  "date": "2026-11-08",
+  "status": "INITIAL_FULL_FILM_ACOUSTIC_REFERENCE — reusable baseline; cue-level emotion and exact phonetic alignment remain separate review tasks",
+  "repository": "onlinec-coder/SRT-Translator",
+  "source_audio": {
+    "original_uploaded_name": "Husbands_audio(1).wav",
+    "sha256": "6e1c1cfaad4867dcae717f38e0e636e0ec481c9e9c43d9454c59703b932b03a7",
+    "duration_seconds": 2260.996625,
+    "duration_timecode": "00:37:40.997",
+    "sample_rate_hz": 16000,
+    "channels": 1,
+    "bit_depth": 16,
+    "encoding": "PCM WAV",
+    "peak_normalized_sample": 1,
+    "whole_file_rms_dbfs": -18.34,
+    "note": "The uploaded WAV is retained here by its derived acoustic reference and SHA-256 identity; the original binary audio itself is not stored in this JSON."
+  },
+  "source_alignment": {
+    "english_subtitles": "Husbands_ocr_en.srt",
+    "english_subtitles_blob_sha": "eb9bfb38d01887f49729b876eb3d6363e2d39c37",
+    "mongolian_subtitles": "Husbands_mn_v3.srt",
+    "mongolian_subtitles_blob_sha": "9ce7d3bf0137e09ee0987100a88f06b56bbd1354",
+    "speaker_assignments": "speaker_assignments.json",
+    "speaker_assignments_blob_sha": "656c6edde2c6135c530e524de0398e08705fc075",
+    "character_registry": "Husbands_characters_reconciled.json",
+    "character_registry_blob_sha": "d51e77ba28bfad038c96e0d27fae5c5d4fe5e0d0",
+    "cue_count": 1213,
+    "assigned_cue_count": 1213,
+    "unassigned_cue_count": 0,
+    "distinct_character_registry_entries": 12,
+    "alignment_note": "Audio windows were aligned to the source subtitle cue timestamps and speaker_assignments.json. This is a first-pass alignment, not forced phoneme alignment."
+  },
+  "analysis_method": {
+    "vad": "WebRTC VAD, aggressiveness mode 2, 30 ms frames at 16 kHz",
+    "f0": "Autocorrelation-based rough F0 estimate, 60–500 Hz search; profile summary excludes values outside 75–350 Hz to reduce octave and boundary errors",
+    "intensity": "Frame RMS in dBFS over VAD-positive frames",
+    "spectral_brightness": "Median spectral centroid over VAD-positive sampled frames",
+    "rate": "English subtitle word count divided by estimated VAD-positive speech seconds; indicative only, not a phoneme-aligned speaking-rate measurement",
+    "speaker_windows": "Adjacent cues for the same speaker were merged when the gap was <=1200 ms for aggregate voice sampling",
+    "limits": [
+      "Music, effects, reverberation, overlapping dialogue, and VAD false positives can influence acoustic measurements.",
+      "Merged same-speaker windows can include short inter-cue gaps and nearby speech; aggregate values are reference estimates, not clean isolated-stem measurements.",
+      "F0 estimates are approximate and can contain octave errors; low-sample characters must not be voice-matched from median F0 alone.",
+      "Acoustic features cannot reliably determine semantic emotion by themselves. Emotion labels must be confirmed against acting context and listening.",
+      "English word rate is not directly transferable to Mongolian dubbing; Mongolian syllable density, morphology, phrasing, and acting pauses must be considered independently."
+    ]
+  },
+  "character_voice_profiles": {
+    "C001": {
+      "name": "Vivienne",
+      "cue_count": 915,
+      "english_words": 4250,
+      "subtitle_duration_s": 1275.02,
+      "vad_active_s_est": 1413.24,
+      "english_wpm_est": 180.4,
+      "median_f0_hz_est": 163.3,
+      "f0_iqr_hz_est": [
+        146.8,
+        186
+      ],
+      "f0_samples": 17909,
+      "median_rms_dbfs": -21.5,
+      "median_spectral_centroid_hz": 772.9,
+      "coverage": "sufficient",
+      "production_reference": "Primary voice identity. Narration, inner monologue, and direct dialogue remain the same Vivienne voice. Vary pace, phrase contour, breath, emphasis, and emotional intensity cue by cue; do not lock to one global speed."
+    },
+    "C003": {
+      "name": "Aria",
+      "cue_count": 82,
+      "english_words": 395,
+      "subtitle_duration_s": 112.92,
+      "vad_active_s_est": 122.7,
+      "english_wpm_est": 193.2,
+      "median_f0_hz_est": 197.5,
+      "f0_iqr_hz_est": [
+        169.8,
+        225.4
+      ],
+      "f0_samples": 1588,
+      "median_rms_dbfs": -23.6,
+      "median_spectral_centroid_hz": 928.2,
+      "coverage": "sufficient",
+      "production_reference": "Higher median pitch and brighter spectral profile than Vivienne in this first pass; preserve a distinct, lighter/brighter identity without exaggerating pitch."
+    },
+    "C012": {
+      "name": "Alpha Valeris",
+      "cue_count": 13,
+      "english_words": 53,
+      "subtitle_duration_s": 15.41,
+      "vad_active_s_est": 15.9,
+      "english_wpm_est": 200,
+      "median_f0_hz_est": 175.8,
+      "f0_iqr_hz_est": [
+        100,
+        242.5
+      ],
+      "f0_samples": 127,
+      "median_rms_dbfs": -24.4,
+      "median_spectral_centroid_hz": 966.6,
+      "coverage": "limited",
+      "production_reference": "Short sample. Do not lock final voice casting or pitch from this profile alone."
+    },
+    "C013": {
+      "name": "Luna Valerius",
+      "cue_count": 14,
+      "english_words": 72,
+      "subtitle_duration_s": 22.61,
+      "vad_active_s_est": 25.8,
+      "english_wpm_est": 167.4,
+      "median_f0_hz_est": 158.4,
+      "f0_iqr_hz_est": [
+        141.6,
+        211.9
+      ],
+      "f0_samples": 283,
+      "median_rms_dbfs": -24.9,
+      "median_spectral_centroid_hz": 1002.6,
+      "coverage": "limited",
+      "production_reference": "Short sample; brighter spectral centroid in this sample, but voice identity needs direct audition."
+    },
+    "C014": {
+      "name": "Chief Elder Laurent",
+      "cue_count": 17,
+      "english_words": 81,
+      "subtitle_duration_s": 23.4,
+      "vad_active_s_est": 24.78,
+      "english_wpm_est": 196.1,
+      "median_f0_hz_est": 105.3,
+      "f0_iqr_hz_est": [
+        92,
+        143.2
+      ],
+      "f0_samples": 212,
+      "median_rms_dbfs": -22.3,
+      "median_spectral_centroid_hz": 868.5,
+      "coverage": "limited",
+      "production_reference": "Lowest stable median F0 in the cast sample; likely lower-register voice reference, but verify against isolated dialogue."
+    },
+    "C002": {
+      "name": "Lucian",
+      "cue_count": 110,
+      "english_words": 467,
+      "subtitle_duration_s": 126.83,
+      "vad_active_s_est": 145.83,
+      "english_wpm_est": 192.1,
+      "median_f0_hz_est": 146.8,
+      "f0_iqr_hz_est": [
+        102.6,
+        205.1
+      ],
+      "f0_samples": 1411,
+      "median_rms_dbfs": -22.9,
+      "median_spectral_centroid_hz": 870.8,
+      "coverage": "sufficient",
+      "production_reference": "Low-mid median pitch with broad expressive range in this sample; preserve controlled masculine register and allow cue-level dynamic variation."
+    },
+    "C004": {
+      "name": "Mother",
+      "cue_count": 28,
+      "english_words": 117,
+      "subtitle_duration_s": 39.16,
+      "vad_active_s_est": 40.86,
+      "english_wpm_est": 171.8,
+      "median_f0_hz_est": 168.4,
+      "f0_iqr_hz_est": [
+        146.8,
+        205.1
+      ],
+      "f0_samples": 495,
+      "median_rms_dbfs": -22.8,
+      "median_spectral_centroid_hz": 776.4,
+      "coverage": "limited",
+      "production_reference": "Moderate sample; timbre appears less bright than Aria/Morgana in aggregate. Confirm with listening before final voice selection."
+    },
+    "C005": {
+      "name": "Narrator",
+      "cue_count": 0,
+      "english_words": 0,
+      "subtitle_duration_s": 0,
+      "vad_active_s_est": 0,
+      "english_wpm_est": null,
+      "median_f0_hz_est": null,
+      "f0_iqr_hz_est": null,
+      "f0_samples": 0,
+      "median_rms_dbfs": null,
+      "median_spectral_centroid_hz": null,
+      "coverage": "none",
+      "production_reference": "No independent narrator assignment in the current reconciled mapping. Narration is mapped to Vivienne/C001 per project decision; do not create a separate narrator voice unless the user revises this."
+    },
+    "C008": {
+      "name": "Morgana",
+      "cue_count": 20,
+      "english_words": 93,
+      "subtitle_duration_s": 21.77,
+      "vad_active_s_est": 21.75,
+      "english_wpm_est": 256.6,
+      "median_f0_hz_est": 181.8,
+      "f0_iqr_hz_est": [
+        169.3,
+        205.1
+      ],
+      "f0_samples": 311,
+      "median_rms_dbfs": -24.8,
+      "median_spectral_centroid_hz": 1023.3,
+      "coverage": "limited",
+      "production_reference": "Bright spectral profile and upper-mid median pitch in this short sample; the WPM estimate is especially sensitive to the small sample and must not be treated as a fixed target."
+    },
+    "C009": {
+      "name": "Lance Laurent",
+      "cue_count": 7,
+      "english_words": 25,
+      "subtitle_duration_s": 6.74,
+      "vad_active_s_est": 7.68,
+      "english_wpm_est": 195.3,
+      "median_f0_hz_est": 118.5,
+      "f0_iqr_hz_est": [
+        97.6,
+        216.2
+      ],
+      "f0_samples": 69,
+      "median_rms_dbfs": -22.1,
+      "median_spectral_centroid_hz": 759.3,
+      "coverage": "very_limited",
+      "production_reference": "Very short sample; no final voice identity decision from these measurements."
+    },
+    "C010": {
+      "name": "Luke Laurent",
+      "cue_count": 5,
+      "english_words": 21,
+      "subtitle_duration_s": 7.1,
+      "vad_active_s_est": 7.86,
+      "english_wpm_est": 160.3,
+      "median_f0_hz_est": 153.8,
+      "f0_iqr_hz_est": [
+        103.6,
+        200.6
+      ],
+      "f0_samples": 84,
+      "median_rms_dbfs": -23,
+      "median_spectral_centroid_hz": 703.7,
+      "coverage": "very_limited",
+      "production_reference": "Very short sample; no final voice identity decision from these measurements."
+    },
+    "C019": {
+      "name": "The royal seer",
+      "cue_count": 2,
+      "english_words": 11,
+      "subtitle_duration_s": 3.08,
+      "vad_active_s_est": 3.03,
+      "english_wpm_est": 217.8,
+      "median_f0_hz_est": 97.6,
+      "f0_iqr_hz_est": [
+        90.4,
+        133.9
+      ],
+      "f0_samples": 36,
+      "median_rms_dbfs": -19.4,
+      "median_spectral_centroid_hz": 885,
+      "coverage": "very_limited",
+      "production_reference": "Only two cues; acoustic statistics are descriptive, not sufficient for voice casting."
+    }
+  },
+  "emotion_and_acting": {
+    "status": "NOT_FULLY_ANNOTATED_FOR_ALL_CHARACTERS",
+    "rule": "Do not infer an emotion label from pitch, loudness, or spectral brightness alone. Use audio plus scene context and dialogue semantics.",
+    "vivienne_confirmed_reference": "VIVIENNE_EMOTION_DELIVERY_MAP_V1.md",
+    "vivienne_delivery_decisions": "Use the existing user-confirmed emotion map. Narration defaults to natural, restrained delivery; D3 [angry] only for the user-approved genuinely angry cues, not for hurt, sarcasm, disgust, firmness, or sadness.",
+    "other_characters": "Emotion-by-cue annotation remains to be completed through scene-by-scene audition; current acoustic data provides a baseline for detecting changes in pitch, intensity, pace, and pauses."
+  },
+  "dubbing_use": {
+    "pace": "Set cue-level rate and phrase timing from meaning and available dialogue window, not one constant speed. Preserve connected phrases across subtitle boundaries.",
+    "timing": "Use VAD-active speech estimates as initial timing references only. Final cue start/end and overlap decisions require listening against scene edits and neighboring speakers.",
+    "voice_identity": "Use the per-character median F0, IQR, RMS, and spectral centroid as rough reference ranges; prioritize human listening over numeric matching.",
+    "emotion": "Store emotion as a separate reviewed annotation with confidence and evidence. Keep source acoustic observations separate from interpretation.",
+    "future_reuse": "This JSON plus the English/Mongolian SRTs, speaker assignments, character registry, and emotion map is the reusable project reference. The WAV itself should not need to be re-uploaded for these baseline metrics."
+  },
+  "next_required_passes": [
+    "Create cue-level source speech onset/offset and active-duration estimates for all 1213 cues using exact cue windows, not merged speaker windows.",
+    "Review overlapping or overrun dialogue against neighboring speaker onset and scene cuts.",
+    "Annotate emotion, emphasis, breath, pause, vocal texture, and phrase contour cue by cue for every speaking character; label uncertain cases for human review.",
+    "Build per-character reference excerpts from clean, non-overlapping source speech and verify the rough pitch/timbre baselines by audition.",
+    "Derive Mongolian dubbing pace targets per cue using source performance, Mongolian syllable load, phrase intent, and available time window."
+  ]
+}
