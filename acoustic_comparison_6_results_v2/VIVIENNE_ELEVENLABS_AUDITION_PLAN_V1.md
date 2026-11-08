@@ -127,7 +127,7 @@ The repository includes two local diagnostic/generation scripts:
 The generator:
 - Uses only Python standard-library modules.
 - Reads `ELEVENLABS_API_KEY` from the process environment or the project's local `.env`.
-- Reads optional `ELEVENLABS_VOICE_ID` from the environment or `.env`; if absent, it tries the historical ID `t9cfscnpanqv8SAN8rHS`.
+- Reads optional `ELEVENLABS_VOICE_ID` from the environment or `.env`; if absent, it uses the newly supplied candidate ID `6Km4T9TrZXIhfMaxglHw`. This candidate must pass the live voice-access check before generation.
 - Checks that the selected voice is accessible before sending any text-to-speech requests. If the ID is inaccessible, it stops before generating audio.
 - Uses `eleven_v3` and `mp3_44100_128`.
 - Omits per-request voice settings so all four requests use the same saved voice defaults.
@@ -135,7 +135,7 @@ The generator:
 - Does not overwrite existing clips; it can resume by reusing files already generated.
 - Stops after an API error to avoid repeated unexpected credit use.
 
-The script makes four paid/credit-consuming API requests if none of the output clips already exists. If the historical voice ID returns 404, first run `list_elevenlabs_voices.py`, identify the intended Vivienne voice in the returned list, and set `ELEVENLABS_VOICE_ID` in the local `.env`. Never guess or silently substitute a different voice. It never prints or modifies the API key. Do not commit `.env`.
+The script makes four paid/credit-consuming API requests if none of the output clips already exists. The current candidate ID is `6Km4T9TrZXIhfMaxglHw`; the preflight check will confirm whether this API key can access it. If `.env` already contains `ELEVENLABS_VOICE_ID`, that value overrides the default candidate. Never guess or silently substitute a different voice. It never prints or modifies the API key. Do not commit `.env`.
 
 ## 10. Next step after generation
 
