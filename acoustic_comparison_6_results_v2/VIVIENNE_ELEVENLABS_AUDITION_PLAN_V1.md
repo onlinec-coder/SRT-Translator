@@ -237,3 +237,14 @@ Next generate one D3 comparison for cue 736 using the `[angry]` delivery tag, wh
 Generation script: `generate_vivienne_D3_controlled_angry.py`
 Output: `acoustic_comparison_6_results_v2/vivienne_elevenlabs_auditions/vivienne_D3_controlled_angry_cue736.mp3`
 One TTS request; may consume account credits. Existing output is reused. Keep D2 unchanged for A/B comparison.
+
+
+## 13. D3 compared against the original video (2026-11-08)
+
+The user compared the D3 controlled-angry audition for cue 736 against the corresponding performance in the original film, listening around 23:10–23:25 (cue 736: 00:23:17.600–00:23:19.166). The user's verdict was: "болсон байна" (acceptable / works).
+
+### Decision
+
+D3 is accepted as the current angry-delivery direction for Vivienne, based on the user's direct comparison with the original video. It is preferred over D2 for this cue because D3 was judged to work in the real-film comparison after D2 had been reported as too weak. Keep D2 as a softer comparison/reference, not the primary angry baseline.
+
+This is a provisional performance-direction approval for Vivienne's controlled-angry mode, not approval to alter numerical voice settings or to apply the angry tag indiscriminately to every emotional line. Keep the same voice ID and eleven_v3 model. Preserve A/B/C directions. For future angry cues, adapt intensity to scene context and validate representative lines before applying the direction broadly.
