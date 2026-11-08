@@ -172,3 +172,14 @@ Production direction:
 - Do not soften the line into sadness or a merely vulnerable refusal.
 - Do not exaggerate the anger into shouting or aggression.
 - Keep the delivery natural and faithful to the original performance.
+
+
+## 18. User-confirmed clarification — group J, cues 1203–1205 (2026-11-08)
+
+The user compared cues 1203–1205 (approximately 00:37:24–00:37:28) against the original film and clarified that this is **Vivienne herself speaking in her ordinary natural narration voice**.
+
+Production direction:
+- Keep the same C001 Vivienne voice identity; narration is not a separate speaker or a separate narrator voice.
+- Use her ordinary, natural speaking voice for this passage.
+- Do not add conspicuous joy, heightened hope, theatrical happiness, or uncertainty that the user did not hear in the original.
+- Preserve the sense that Vivienne herself is speaking, with natural phrasing and clear Mongolian articulation.
