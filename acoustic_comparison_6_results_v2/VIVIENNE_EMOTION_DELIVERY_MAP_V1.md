@@ -2,7 +2,7 @@
 
 Date: 2026-11-08
 Repository scope: `onlinec-coder/SRT-Translator` only
-Status: **Planning inventory only — no TTS generated and no ElevenLabs credits used**
+Status: **Original-film emotion review complete — user-confirmed delivery map; no new TTS generated and no ElevenLabs credits used**
 
 ## 1. Locked voice-production constraints
 
@@ -34,15 +34,20 @@ This map groups existing C001 lines by likely acting function so production can 
 | I. Disgusted, decisive refusal | 925–926, 963 (00:29:07–00:30:10) | “Чи намайг дүр эсгээд чиний хань болохыг хүсэж байна уу?” / “Ингэж болохгүй.” | Disgust with slight, controlled anger; firm and decisive, without shouting or aggression. |
 | J. Hopeful resolution / cautious warmth | 1203–1205 (00:37:24–00:37:28) | “Тохирлоо. Гэхдээ энэ удаа бид хоёулаа аз жаргалтай болно.” | Gentle resolve and cautious optimism; avoid turning it into an overly bright or theatrical happy voice. |
 
-## 4. Recommended validation order — no new TTS yet
+## 4. Original-film review status — completed (2026-11-08)
 
-1. **D — Controlled hurt / bitter irony:** review cues 679–690 against the original film. This is distinct from the already validated angry confrontation.
-2. **F — Firm boundary / calm defiance:** review cues 722–724 and 758 against the original film. Determine whether the delivery is cool/decisive rather than angry.
-3. **B/C — Hurt realization and vulnerability:** review cues 427–434 and 17–19. Keep narration/inner-monologue voice identity identical to direct dialogue.
-4. **G — Evidence-led explanation:** review cues 775–789 and 812–819. This is a long multi-cue sequence; prioritize continuity and clear Mongolian articulation.
-5. **I/J — Emotional limit and resolution:** review cues 925–926, 963, and 1203–1205.
+The user has completed the planned original-film review for the selected passages:
+- D — cues 679–690: hurt, cold irony / bitter sarcasm, not anger.
+- F — cues 722–724 and 758: calm boundary-setting / confident correction, with restrained hurt or slight displeasure; not anger or sarcasm.
+- B — cues 427 and 430–434: hurt, loss of trust, slight disgust; lowered, near-whisper delivery.
+- C — cues 17–19 and 1153/1155: ordinary, natural Vivienne narration; no added dramatic emotion.
+- E — cues 710 and 736: D3 controlled anger validated against the original.
+- G — cues 775–789 and 812–819: calm, self-confident factual explanation; clear contrastive emphasis where needed.
+- H — cues 913–915: displeasure, not anger or bitter sarcasm.
+- I — cues 925–926 and 963: disgust with slight controlled anger; cue 963 also decisively firm.
+- J — cues 1203–1205: ordinary natural Vivienne narration, spoken by Vivienne herself; no added conspicuous joy, heightened hope, theatrical happiness, or uncertainty.
 
-For each group, first listen to the original film and existing generated clips if available. Record the user's judgment. Do not spend credits just to create a sample when the original performance already provides enough direction.
+**Review phase complete.** The map is now a user-confirmed acting reference for production. No additional cue review is planned unless a concrete issue emerges during production. No new paid TTS auditions have been generated; do not spend ElevenLabs credits without the user's explicit approval.
 
 ## 5. Production rules
 
