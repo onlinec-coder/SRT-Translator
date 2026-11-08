@@ -1,87 +1,113 @@
-# Husbands — Objective Acoustic A/B Findings
+# Husbands — Objective Acoustic A/B Findings (Speaker-Filtered Revision)
 
 Date: 2026-11-08
 Source repository: `onlinec-coder/SRT-Translator`
-Inputs:
-- `acoustic_comparison_6_results_v2/objective_measurements.json`
-- `acoustic_comparison_6_results_v2/objective_measurements.csv`
-- Six Gemini qualitative analyses in `acoustic_comparison_6_results_v2/`
 
 ## Executive conclusion
 
-The Speech versions are consistently quieter than the Original versions in the measured cue windows. The average Speech-minus-Original RMS difference is approximately:
-- Normal: **-5.25 dB** (5 cues)
-- Emotional: **-3.31 dB** (5 cues)
-- Quiet: **-4.56 dB** (10 cues)
-- All measured cues: **-4.42 dB** (20 cues)
+The acoustic test groups were cross-checked against the current `speaker_assignments.json`. Several groups contain more than one speaker. Earlier whole-group means describe the WAV cue sets, but must not be treated as Vivienne-only measurements.
 
-Peak level is also lower in Speech. The most important pattern is not simply lower overall level: the lower-tail frame RMS values (p10) are often much lower in Speech, consistent with reduced quiet details, breaths, tails, or low-level ambience. This supports the qualitative Gemini observation that quiet/sad delivery may sound less breathy and less emotionally nuanced after speech extraction/processing.
+For Vivienne-specific interpretation, use only these C001 cue subsets:
 
-Do not interpret this as proof that the extraction algorithm itself caused every difference: the Original includes background audio and the Speech stem has a different signal composition. RMS, peak, ZCR and frame-level values are therefore affected by music/background separation as well as voice processing.
+| Test group | C001 Vivienne cues | Mean Speech-minus-Original RMS |
+|---|---|---:|
+| Normal | 66, 67 | **−3.62 dB** (2 cues) |
+| Emotional | 698–702 | **−3.31 dB** (5 cues) |
+| Quiet | 9, 10, 13, 17–19 | **−3.56 dB** (6 cues) |
 
-## By test group
+Speech RMS is lower than Original across all three Vivienne-only subsets. These are small samples, and RMS includes all audio in each cue window. The measurements do not isolate whether the difference came from source separation, denoising, gating, gain, or residual background audio.
 
-### Normal delivery
+## 1. Speaker identity audit
 
-- Mean RMS difference: **-5.25 dB**.
-- Cues 66, 67 and 69 are each about -3.5 to -3.7 dB.
-- Cue 70 is -6.13 dB.
-- Cue 68 is the largest change: RMS -9.34 dB, peak -3.21 dB, approximate median F0 +98.5 Hz.
-- Cue 68's F0 estimate is especially suspect because the autocorrelation estimate reaches the 400 Hz ceiling in both versions; do not use this cue to set pitch.
+| Group | Cue IDs | Speaker in speaker_assignments.json | Vivienne profile |
+|---|---|---|---|
+| Normal | 66–67 | C001 Vivienne | Include |
+| Normal | 68–70 | C004 Mother | Exclude |
+| Emotional | 698–702 | C001 Vivienne | Include |
+| Quiet | 9–10 | C001 Vivienne | Include |
+| Quiet | 11–12 | C002 Lucian | Exclude |
+| Quiet | 13 | C001 Vivienne | Include |
+| Quiet | 14–16 | C002 Lucian | Exclude |
+| Quiet | 17–19 | C001 Vivienne | Include |
 
-Interpretation: the ordinary voice remains broadly recognizable, but level and quiet details are reduced. Cue 68 needs listening-based review because the large F0 estimate shift may be a pitch-tracking error, a change in which voiced frames dominate, or a genuine change; this measurement cannot decide which.
+Corrections:
+- Normal cue 68 (“Үнэхээр уучлаарай.”) and cues 69–70 belong to Mother, not Vivienne.
+- Quiet cues 11–12 and 14–16 belong to Lucian.
+- Quiet cues 9–10 and 17–19 are Vivienne's inner monologue; cue 13 is Vivienne narration.
+- Emotional cues 698–702 are all Vivienne, across narration, inner monologue, and direct dialogue.
 
-### Emotional delivery
+The former normal mean of −5.25 dB across cues 66–70 and quiet mean of −4.56 dB across cues 9–19 are mixed-speaker statistics. Do not use them as Vivienne-only values.
 
-- Mean RMS difference: **-3.31 dB**.
-- All five cues have a consistent RMS reduction of roughly -3.1 to -3.9 dB.
-- Cue 701 (the angry/emphatic cue) has RMS -3.94 dB and peak -3.35 dB. Approximate median F0 rises from 163.8 to 176.5 Hz; Speech F0 p90 is 320.3 Hz versus 208.4 Hz in Original.
-- Gemini's qualitative assessment rated cue 701's anger stronger in Original than Speech.
+## 2. Vivienne-only measurements
 
-Interpretation: the loudness contrast is reduced in Speech, while the pitch tracker suggests some higher-pitch activity remains or becomes more prominent. This is not enough to conclude that anger has been removed. Preserve the Original as the primary emotional-performance reference; use Speech as a cleaned intelligibility reference.
+### Normal narration — cues 66–67
+- Mean RMS difference: **−3.62 dB**.
+- Cue 66: −3.50 dB; cue 67: −3.74 dB.
+- Both are Vivienne narration, not direct dialogue.
 
-### Quiet delivery
+Use these as neutral narration references, not evidence about direct conversational dialogue.
 
-- Mean RMS difference: **-4.56 dB**.
-- Cues 9, 10, 13, 15, 17, 18 and 19 are mostly around -3.1 to -4.8 dB.
-- Cue 11 is -6.91 dB and cue 12 is -12.83 dB.
-- Several cues show a very large reduction in the quietest 10% of frames. Examples: cue 9 p10 changes from -31.02 to -57.74 dBFS; cue 10 from -35.16 to -68.82 dBFS; cue 17 from -27.53 to -62.00 dBFS.
-- The approximate F0 tracker is unreliable for cues where values hit 400 Hz or show unusually large jumps (notably cues 9, 11, 12 and 16).
+### Emotional performance — cues 698–702
+- Mean RMS difference: **−3.31 dB**.
+- Cue 701 (direct angry/emphatic dialogue): RMS −3.94 dB; peak −3.35 dB.
+- Cue 701 approximate median F0: 163.8 Hz Original vs 176.5 Hz Speech; Speech p90 is 320.3 Hz vs 208.4 Hz Original.
 
-Interpretation: this is the clearest evidence of low-level detail suppression. The quiet/sad Original contains soft, breathy and subdued delivery noted in the Gemini analysis; Speech has a much lower noise/quiet-frame floor and a more consistently voiced-looking frame ratio. This may make it cleaner, but it can also remove breath, soft onset/offset, and fragile emotional texture.
+Cue 701 is the strongest emotional test. Gemini described Original as more forceful than Speech, but human A/B listening is required. The F0 estimate is approximate and does not establish a true pitch shift or emotional reduction.
 
-## What the measurements do and do not establish
+### Quiet / restrained performance — cues 9, 10, 13, 17–19
+- Mean RMS difference: **−3.56 dB**.
+- Cues 9–10 and 17–19 are Vivienne inner monologue.
+- Cue 13 is Vivienne narration and provides a neutral/clear contrast.
 
-Established by this A/B measurement:
-1. Speech RMS and peak are lower across all three groups.
-2. The largest level losses occur in selected quiet/soft cues, especially normal cue 68 and quiet cues 11–12.
-3. The quietest frame levels are often substantially lower in Speech.
-4. Median F0 is broadly similar in many cues, but several estimates are unreliable.
+Gemini describes Vivienne's inner-monologue cues as restrained, soft, breathy and slow. Speech is quieter in the measured windows. This supports listening for soft onsets, breath, low-level detail, and phrase tails; it does not prove those features were removed.
+
+## 3. Qualitative findings (speaker-filtered)
+
+- Vivienne's quiet inner monologue (9–10, 17–19) is described as soft, breathy, low-intensity and slow.
+- Vivienne narration cue 13 is described as neutral and clear, a useful contrast.
+- Cue 701 is Vivienne's emphatic angry line; Original is described as more forceful than Speech.
+- Normal cues 66–67 are Vivienne narration and are described as clear and conversational.
+- Do not use the soft/sad analysis for normal cue 68 as Vivienne evidence; it belongs to Mother.
+
+Automated emotion labels remain provisional. Short cue windows can be ambiguous; judge acting intent in scene context.
+
+## 4. What the measurements do and do not establish
+
+Established:
+1. Speech RMS is lower than Original in all three speaker-filtered Vivienne subsets.
+2. Mean differences are approximately −3.3 to −3.6 dB in these selected subsets.
+3. Cue 701 has lower RMS and peak in Speech than Original.
+4. Some quiet-frame values are substantially lower in Speech.
 
 Not established:
-1. Whether the lower level is caused by source separation, gain staging, denoising, gating, or a combination.
-2. Whether a measured F0 change is a true vocal pitch change. The estimator is approximate and capped at 400 Hz.
-3. Whether emotional performance is perceptually weaker in every cue. This requires direct listening and, ideally, waveform-aligned comparison.
+1. Whether lower levels are caused by source separation, gain staging, denoising, gating, or a combination.
+2. Whether breathiness, emotion, or phrase tails are perceptually lost in every cue.
+3. Whether measured F0 changes are genuine vocal pitch changes. The estimator is approximate and reaches a 400 Hz ceiling in some cues.
+4. Whether these findings generalize to all Vivienne lines in the film.
 
-## Production recommendations
+## 5. Production recommendations
 
-1. **Keep Original as the emotional ground truth.** Do not use the Speech stem alone to define Vivienne's sadness, anger, breathiness, or emotional intensity.
-2. **Use Speech as a speech-cleanliness / intelligibility reference.** It can help inspect words and voice detail, but do not copy its quieter tails or flattened delivery as the target performance.
-3. **For ElevenLabs voice direction, preserve contrast rather than applying one uniform emotion.**
-   - Neutral: stable, clear, conversational, moderate pace.
-   - Sad/quiet: softer intensity, lower/contained delivery, slower pace, gentle breathiness, natural phrase tails; avoid making it uniformly whispery.
-   - Anger (cue 701): stronger emphasis, firmer projection, more dynamic pitch movement and controlled strain; do not merely raise average loudness.
-4. **Do not normalize every cue independently before emotional review.** That could erase the intended contrast between quiet and emphatic lines.
-5. **Before final settings, listen to Original and Speech side by side for cues 68, 701, quiet 9, 11, 12 and 16.** These are the highest-priority review points.
+1. **Use Original as the emotional ground truth.** Do not define Vivienne's acting from Speech alone.
+2. **Use Speech as a secondary clarity reference.** It can help inspect words and articulation, but do not copy its lower level or quiet tails as the acting target.
+3. **Use speaker-filtered evidence only.** Exclude Mother cues 68–70 and Lucian cues 11–12 and 14–16 from Vivienne's voice profile.
+4. **Preserve emotional contrast.** Neutral narration, vulnerable inner monologue, and angry dialogue should not be flattened into one delivery.
+5. **Do not normalize every cue independently before emotional review.** First record natural dynamics, then optionally compare loudness-matched versions for timbre and intelligibility.
+6. **Do not set exact pitch or speed from this sample.** Finalize only after manual listening and controlled generated-voice auditions.
 
-## Measurement limitations
+## 6. Corrected priority listening set
+
+- Normal: cues 66 and 67 (Vivienne narration).
+- Emotional: cue 701 (Vivienne direct dialogue).
+- Quiet: cues 9, 10, 13, 17, 18 and 19 (Vivienne inner monologue / narration).
+
+Two passes:
+1. Natural playback level to understand actual dynamic contrast.
+2. Loudness-matched playback to compare timbre, breath, articulation, and phrase endings without loudness bias.
+
+## 7. Measurement limitations
 
 - Mono PCM 16-bit, source sample rate 16 kHz; analysis resampled to 8 kHz.
-- RMS/peak include all audio inside the cue window, including any residual background sound.
+- RMS/peak include all audio inside the cue window, including residual background sound.
 - F0 uses windowed autocorrelation and is approximate. Values at 400 Hz are ceiling hits, not reliable exact pitch values.
 - ZCR is sensitive to music, noise, and source-separation artifacts; do not use it as a voice-quality score.
-- This is a 20-cue test sample, not a full-film statistical validation.
-
-## Recommended next phase
-
-Proceed to **speaker-to-character validation and emotion/dubbing direction**, using the Original audio as the emotional reference and the Speech stem as a secondary clarity reference. Prioritize manual A/B listening on the six cues listed above before locking the Vivienne voice direction.
+- This is a small selected sample, not a full-film statistical validation.
