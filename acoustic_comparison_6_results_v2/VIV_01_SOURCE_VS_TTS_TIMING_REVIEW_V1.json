@@ -1,14 +1,16 @@
 {
   "title": "Husbands — VIV_01 English Source vs Mongolian TTS Timing Review",
   "version": "V1",
-  "status": "AUTOMATED_VAD_SCREENING_ONLY — NOT PERCEPTUAL OR FINAL SYNC APPROVAL",
+  "status": "SUPERSEDED_BY_VIV_01_CALIBRATION_ANALYSIS_V2 — AUTOMATED VAD SCREENING ONLY",
   "repository": "onlinec-coder/SRT-Translator",
   "source_audio": {
     "file": "Husbands_audio.wav",
-    "duration_seconds": 2440.997,
+    "duration_seconds": 2260.996625,
     "sample_rate_hz": 16000,
     "channels": 1,
-    "sample_format": "PCM signed 16-bit"
+    "sample_format": "PCM signed 16-bit",
+    "duration_hhmmss": "00:37:40.997",
+    "sha256": "6e1c1cfaad4867dcae717f38e0e636e0ec481c9e9c43d9454c59703b932b03a7"
   },
   "subtitle_sources": [
     "Husbands_ocr_en.srt",
@@ -55,7 +57,7 @@
       "cue_24": 0.209
     },
     "notable_internal_pause_gaps_seconds": {
-      "cue_5": 0.30,
+      "cue_5": 0.3,
       "cue_10": 0.33,
       "cue_24": 1.02
     }
@@ -68,9 +70,9 @@
       "source_vad_active_seconds": 1.98,
       "tts_vad_active_seconds": 2.61,
       "tts_speech_start_offset_seconds": 0.09,
-      "tts_speech_end_offset_seconds": 2.70,
+      "tts_speech_end_offset_seconds": 2.7,
       "next_srt_cue_start": "00:00:11,400",
-      "detected_overrun_seconds": 0.50
+      "detected_overrun_seconds": 0.5
     },
     {
       "cue_id": 5,
@@ -89,7 +91,7 @@
       "english": "His voice didn't waver.",
       "mongolian": "Түүний хоолой огт чичирсэнгүй.",
       "source_vad_active_seconds": 1.23,
-      "tts_vad_active_seconds": 2.40,
+      "tts_vad_active_seconds": 2.4,
       "tts_speech_start_offset_seconds": 0.06,
       "tts_speech_end_offset_seconds": 2.46,
       "next_srt_cue_start": "00:00:31,333",
@@ -101,7 +103,7 @@
       "mongolian": "Түүнийг тасчин хаямаар байлаа.",
       "source_vad_active_seconds": 1.62,
       "tts_vad_active_seconds": 1.83,
-      "tts_speech_start_offset_seconds": 0.00,
+      "tts_speech_start_offset_seconds": 0,
       "tts_speech_end_offset_seconds": 1.83,
       "next_srt_cue_start": "00:00:39,200",
       "detected_overrun_seconds": 0.13
@@ -110,7 +112,7 @@
       "cue_id": 23,
       "english": "My heartbeat slowed.",
       "mongolian": "Зүрхний минь цохилт удааширлаа.",
-      "source_vad_active_seconds": 1.20,
+      "source_vad_active_seconds": 1.2,
       "tts_vad_active_seconds": 2.13,
       "tts_speech_start_offset_seconds": 0.09,
       "tts_speech_end_offset_seconds": 2.22,
@@ -124,7 +126,7 @@
       "source_vad_active_seconds": 0.63,
       "tts_vad_active_seconds": 1.29,
       "tts_speech_start_offset_seconds": 0.09,
-      "tts_speech_end_offset_seconds": 2.40,
+      "tts_speech_end_offset_seconds": 2.4,
       "next_srt_cue_start": "00:00:52,791",
       "detected_overrun_seconds": 0.209,
       "note": "Generated speech contains an approximately 1.02 s internal VAD gap; source cue contains only an approximately 0.12 s internal gap. Highest priority for manual pacing/listening review."
@@ -133,9 +135,9 @@
       "cue_id": 28,
       "english": "I pressed my hands flat",
       "mongolian": "Би хоёр алгаа өвдөг дээрээ тавин",
-      "source_vad_active_seconds": 1.50,
+      "source_vad_active_seconds": 1.5,
       "tts_vad_active_seconds": 1.83,
-      "tts_speech_start_offset_seconds": 0.00,
+      "tts_speech_start_offset_seconds": 0,
       "tts_speech_end_offset_seconds": 1.83,
       "next_srt_cue_start": "00:01:03,500",
       "detected_overrun_seconds": 0.33
@@ -157,7 +159,7 @@
       "mongolian": "Лусиан ээжийн өөдөөс сууж байлаа.",
       "source_vad_active_seconds": 1.32,
       "tts_vad_active_seconds": 1.92,
-      "tts_speech_start_offset_seconds": 0.00,
+      "tts_speech_start_offset_seconds": 0,
       "tts_speech_end_offset_seconds": 1.92,
       "next_srt_cue_start": "00:01:21,200",
       "detected_overrun_seconds": 0.52
@@ -190,7 +192,7 @@
       "mongolian": "Юу ч ойлгодоггүй байлаа.",
       "source_vad_active_seconds": 0.84,
       "tts_vad_active_seconds": 1.44,
-      "tts_speech_start_offset_seconds": 0.00,
+      "tts_speech_start_offset_seconds": 0,
       "tts_speech_end_offset_seconds": 1.44,
       "next_srt_cue_start": "00:01:43,200",
       "detected_overrun_seconds": 0.573
@@ -199,7 +201,7 @@
   "internal_pause_flags": [
     {
       "cue_id": 5,
-      "generated_internal_gap_seconds": 0.30,
+      "generated_internal_gap_seconds": 0.3,
       "priority": "review"
     },
     {
@@ -219,5 +221,6 @@
     "generate_next_batch": false,
     "recommended_next_step": "Use these results to define per-cue timing budgets and phrase-group handling; manually listen to flagged cues before changing voice settings or regenerating any paid audio.",
     "no_new_tts_requests_made": true
-  }
+  },
+  "superseded_by": "acoustic_comparison_6_results_v2/VIV_01_CALIBRATION_ANALYSIS_V2.json"
 }
