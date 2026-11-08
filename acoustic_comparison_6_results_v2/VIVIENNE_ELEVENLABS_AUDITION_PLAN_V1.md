@@ -217,3 +217,23 @@ Listen to each complete sentence, not only its opening:
 6. Does D2 remain feminine and controlled while still conveying frustration?
 
 Do not adjust stability, similarity, style, speed, pitch, or other numerical settings during this round. First establish whether the accepted performance directions remain natural over longer text. Record the user's listening notes before numerical calibration.
+
+
+## 12. Longer-line listening results and D3 refinement (2026-11-08)
+
+The user listened to all four longer-line clips and reported:
+- Mongolian pronunciation and naturalness: yes.
+- Long-sentence breathing and rhythm: yes.
+- One consistent Vivienne identity across all four modes: yes.
+- Sentence endings are not cut off: yes.
+- D2 anger intensity: slightly too weak; the listener cannot clearly tell that the line is angry.
+
+### Decision
+
+The longer-line round passes for A, B, C, pronunciation, pacing, identity consistency, and phrase endings. Preserve the current accepted A/B/C directions and the same Vivienne voice ID/model. D2 remains a useful softer comparison, but is not yet strong enough as the final angry-dialogue direction.
+
+Next generate one D3 comparison for cue 736 using the `[angry]` delivery tag, while keeping the same saved voice defaults and exact subtitle wording. Target a clearly perceptible increase in anger relative to D2, without shouting, harshness, or losing the feminine controlled Vivienne identity. This is a performance-direction test only; do not change numerical voice settings.
+
+Generation script: `generate_vivienne_D3_controlled_angry.py`
+Output: `acoustic_comparison_6_results_v2/vivienne_elevenlabs_auditions/vivienne_D3_controlled_angry_cue736.mp3`
+One TTS request; may consume account credits. Existing output is reused. Keep D2 unchanged for A/B comparison.
