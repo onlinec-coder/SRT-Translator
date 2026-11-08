@@ -1,0 +1,448 @@
+{
+  "title": "Husbands — Non-Vivienne Clean Voice Audition Candidate Index",
+  "version": "V1",
+  "date": "2026-11-08",
+  "status": "CANDIDATE INDEX ONLY — not audio-isolated, not listened/approved, no TTS generated",
+  "repository": "onlinec-coder/SRT-Translator",
+  "source": "HUSBANDS_FULL_FILM_CUE_PACING_INDEX_V1.json",
+  "selection_method": "Select up to five longer subtitle windows per non-Vivienne speaker, spreading picks by at least 12 seconds where possible. These are audition candidates only; subtitle speaker labels do not guarantee the entire audio window contains only that speaker.",
+  "required_validation": [
+    "Listen to each candidate in the source scene and confirm the target character is audible throughout.",
+    "Reject cues with music/effects masking, overlap, off-screen cross-talk, or phrase spill from another speaker.",
+    "Keep 2–4 clean excerpts per character if available; very short roles may need all available lines.",
+    "Do not infer a final ElevenLabs voice ID from F0 or spectral centroid alone.",
+    "No paid TTS request is authorized by this candidate index."
+  ],
+  "candidates": [
+    {
+      "speaker_id": "C002",
+      "speaker_name": "Lucian",
+      "total_assigned_cues": 110,
+      "sample_coverage": "moderate_to_sufficient",
+      "candidates": [
+        {
+          "cue_id": 307,
+          "start": "00:09:55,400",
+          "end": "00:09:57,791",
+          "duration_ms": 2391,
+          "english_word_count": 8,
+          "subtitle_display_wpm_proxy": 200.8,
+          "gap_from_previous_cue_ms": 234,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        },
+        {
+          "cue_id": 288,
+          "start": "00:09:22,800",
+          "end": "00:09:25,166",
+          "duration_ms": 2366,
+          "english_word_count": 12,
+          "subtitle_display_wpm_proxy": 304.3,
+          "gap_from_previous_cue_ms": 634,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        },
+        {
+          "cue_id": 78,
+          "start": "00:02:26,500",
+          "end": "00:02:28,791",
+          "duration_ms": 2291,
+          "english_word_count": 9,
+          "subtitle_display_wpm_proxy": 235.7,
+          "gap_from_previous_cue_ms": 1000,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        },
+        {
+          "cue_id": 728,
+          "start": "00:23:05,500",
+          "end": "00:23:07,791",
+          "duration_ms": 2291,
+          "english_word_count": 7,
+          "subtitle_display_wpm_proxy": 183.3,
+          "gap_from_previous_cue_ms": 500,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        },
+        {
+          "cue_id": 92,
+          "start": "00:02:53,500",
+          "end": "00:02:55,749",
+          "duration_ms": 2249,
+          "english_word_count": 6,
+          "subtitle_display_wpm_proxy": 160.1,
+          "gap_from_previous_cue_ms": 0,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        }
+      ]
+    },
+    {
+      "speaker_id": "C004",
+      "speaker_name": "Mother",
+      "total_assigned_cues": 28,
+      "sample_coverage": "limited",
+      "candidates": [
+        {
+          "cue_id": 193,
+          "start": "00:06:31,166",
+          "end": "00:06:33,958",
+          "duration_ms": 2792,
+          "english_word_count": 9,
+          "subtitle_display_wpm_proxy": 193.4,
+          "gap_from_previous_cue_ms": 666,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        },
+        {
+          "cue_id": 35,
+          "start": "00:01:14,800",
+          "end": "00:01:17,000",
+          "duration_ms": 2200,
+          "english_word_count": 8,
+          "subtitle_display_wpm_proxy": 218.2,
+          "gap_from_previous_cue_ms": 842,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        },
+        {
+          "cue_id": 622,
+          "start": "00:19:17,000",
+          "end": "00:19:18,958",
+          "duration_ms": 1958,
+          "english_word_count": 7,
+          "subtitle_display_wpm_proxy": 214.5,
+          "gap_from_previous_cue_ms": 600,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        },
+        {
+          "cue_id": 169,
+          "start": "00:05:40,600",
+          "end": "00:05:42,500",
+          "duration_ms": 1900,
+          "english_word_count": 6,
+          "subtitle_display_wpm_proxy": 189.5,
+          "gap_from_previous_cue_ms": 600,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        },
+        {
+          "cue_id": 186,
+          "start": "00:06:16,800",
+          "end": "00:06:18,541",
+          "duration_ms": 1741,
+          "english_word_count": 4,
+          "subtitle_display_wpm_proxy": 137.9,
+          "gap_from_previous_cue_ms": 1259,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        }
+      ]
+    },
+    {
+      "speaker_id": "C003",
+      "speaker_name": "Aria",
+      "total_assigned_cues": 82,
+      "sample_coverage": "moderate_to_sufficient",
+      "candidates": [
+        {
+          "cue_id": 125,
+          "start": "00:04:03,200",
+          "end": "00:04:06,125",
+          "duration_ms": 2925,
+          "english_word_count": 7,
+          "subtitle_display_wpm_proxy": 143.6,
+          "gap_from_previous_cue_ms": 2600,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        },
+        {
+          "cue_id": 133,
+          "start": "00:04:23,333",
+          "end": "00:04:26,000",
+          "duration_ms": 2667,
+          "english_word_count": 10,
+          "subtitle_display_wpm_proxy": 225,
+          "gap_from_previous_cue_ms": 0,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        },
+        {
+          "cue_id": 60,
+          "start": "00:01:53,000",
+          "end": "00:01:55,600",
+          "duration_ms": 2600,
+          "english_word_count": 8,
+          "subtitle_display_wpm_proxy": 184.6,
+          "gap_from_previous_cue_ms": 0,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        },
+        {
+          "cue_id": 449,
+          "start": "00:13:56,400",
+          "end": "00:13:58,800",
+          "duration_ms": 2400,
+          "english_word_count": 10,
+          "subtitle_display_wpm_proxy": 250,
+          "gap_from_previous_cue_ms": 200,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        },
+        {
+          "cue_id": 1144,
+          "start": "00:35:32,600",
+          "end": "00:35:34,800",
+          "duration_ms": 2200,
+          "english_word_count": 5,
+          "subtitle_display_wpm_proxy": 136.4,
+          "gap_from_previous_cue_ms": 600,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        }
+      ]
+    },
+    {
+      "speaker_id": "C009",
+      "speaker_name": "Lance Laurent",
+      "total_assigned_cues": 7,
+      "sample_coverage": "very_limited",
+      "candidates": [
+        {
+          "cue_id": 1180,
+          "start": "00:36:39,583",
+          "end": "00:36:41,000",
+          "duration_ms": 1417,
+          "english_word_count": 4,
+          "subtitle_display_wpm_proxy": 169.4,
+          "gap_from_previous_cue_ms": 0,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        },
+        {
+          "cue_id": 490,
+          "start": "00:14:59,500",
+          "end": "00:15:00,500",
+          "duration_ms": 1000,
+          "english_word_count": 4,
+          "subtitle_display_wpm_proxy": 240,
+          "gap_from_previous_cue_ms": 334,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        }
+      ]
+    },
+    {
+      "speaker_id": "C008",
+      "speaker_name": "Morgana",
+      "total_assigned_cues": 20,
+      "sample_coverage": "limited",
+      "candidates": [
+        {
+          "cue_id": 598,
+          "start": "00:18:24,600",
+          "end": "00:18:26,800",
+          "duration_ms": 2200,
+          "english_word_count": 8,
+          "subtitle_display_wpm_proxy": 218.2,
+          "gap_from_previous_cue_ms": 0,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        },
+        {
+          "cue_id": 573,
+          "start": "00:17:31,400",
+          "end": "00:17:33,000",
+          "duration_ms": 1600,
+          "english_word_count": 8,
+          "subtitle_display_wpm_proxy": 300,
+          "gap_from_previous_cue_ms": 0,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        },
+        {
+          "cue_id": 567,
+          "start": "00:17:18,800",
+          "end": "00:17:20,333",
+          "duration_ms": 1533,
+          "english_word_count": 8,
+          "subtitle_display_wpm_proxy": 313.1,
+          "gap_from_previous_cue_ms": 0,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        },
+        {
+          "cue_id": 533,
+          "start": "00:16:16,333",
+          "end": "00:16:17,749",
+          "duration_ms": 1416,
+          "english_word_count": 3,
+          "subtitle_display_wpm_proxy": 127.1,
+          "gap_from_previous_cue_ms": 333,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        },
+        {
+          "cue_id": 581,
+          "start": "00:17:43,958",
+          "end": "00:17:45,200",
+          "duration_ms": 1242,
+          "english_word_count": 6,
+          "subtitle_display_wpm_proxy": 289.9,
+          "gap_from_previous_cue_ms": 0,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        }
+      ]
+    },
+    {
+      "speaker_id": "C013",
+      "speaker_name": "Luna Valerius",
+      "total_assigned_cues": 14,
+      "sample_coverage": "limited",
+      "candidates": [
+        {
+          "cue_id": 753,
+          "start": "00:23:42,800",
+          "end": "00:23:45,125",
+          "duration_ms": 2325,
+          "english_word_count": 9,
+          "subtitle_display_wpm_proxy": 232.3,
+          "gap_from_previous_cue_ms": 51,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        },
+        {
+          "cue_id": 781,
+          "start": "00:24:46,800",
+          "end": "00:24:49,125",
+          "duration_ms": 2325,
+          "english_word_count": 9,
+          "subtitle_display_wpm_proxy": 232.3,
+          "gap_from_previous_cue_ms": 51,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        },
+        {
+          "cue_id": 860,
+          "start": "00:27:16,374",
+          "end": "00:27:18,583",
+          "duration_ms": 2209,
+          "english_word_count": 5,
+          "subtitle_display_wpm_proxy": 135.8,
+          "gap_from_previous_cue_ms": 1041,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        },
+        {
+          "cue_id": 763,
+          "start": "00:24:07,800",
+          "end": "00:24:10,000",
+          "duration_ms": 2200,
+          "english_word_count": 8,
+          "subtitle_display_wpm_proxy": 218.2,
+          "gap_from_previous_cue_ms": 1675,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        }
+      ]
+    },
+    {
+      "speaker_id": "C012",
+      "speaker_name": "Alpha Valeris",
+      "total_assigned_cues": 13,
+      "sample_coverage": "limited",
+      "candidates": [
+        {
+          "cue_id": 847,
+          "start": "00:26:54,600",
+          "end": "00:26:56,791",
+          "duration_ms": 2191,
+          "english_word_count": 7,
+          "subtitle_display_wpm_proxy": 191.7,
+          "gap_from_previous_cue_ms": 600,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        },
+        {
+          "cue_id": 827,
+          "start": "00:26:24,000",
+          "end": "00:26:25,600",
+          "duration_ms": 1600,
+          "english_word_count": 8,
+          "subtitle_display_wpm_proxy": 300,
+          "gap_from_previous_cue_ms": 5042,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        },
+        {
+          "cue_id": 796,
+          "start": "00:25:16,400",
+          "end": "00:25:17,333",
+          "duration_ms": 933,
+          "english_word_count": 3,
+          "subtitle_display_wpm_proxy": 192.9,
+          "gap_from_previous_cue_ms": 1275,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        }
+      ]
+    },
+    {
+      "speaker_id": "C014",
+      "speaker_name": "Chief Elder Laurent",
+      "total_assigned_cues": 17,
+      "sample_coverage": "limited",
+      "candidates": [
+        {
+          "cue_id": 1021,
+          "start": "00:32:00,333",
+          "end": "00:32:03,125",
+          "duration_ms": 2792,
+          "english_word_count": 8,
+          "subtitle_display_wpm_proxy": 171.9,
+          "gap_from_previous_cue_ms": 584,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        },
+        {
+          "cue_id": 1034,
+          "start": "00:32:20,541",
+          "end": "00:32:22,583",
+          "duration_ms": 2042,
+          "english_word_count": 6,
+          "subtitle_display_wpm_proxy": 176.3,
+          "gap_from_previous_cue_ms": 0,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        },
+        {
+          "cue_id": 998,
+          "start": "00:31:19,000",
+          "end": "00:31:19,791",
+          "duration_ms": 791,
+          "english_word_count": 2,
+          "subtitle_display_wpm_proxy": 151.7,
+          "gap_from_previous_cue_ms": 459,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        }
+      ]
+    },
+    {
+      "speaker_id": "C019",
+      "speaker_name": "The royal seer",
+      "total_assigned_cues": 2,
+      "sample_coverage": "very_limited",
+      "candidates": [
+        {
+          "cue_id": 1054,
+          "start": "00:32:54,583",
+          "end": "00:32:56,800",
+          "duration_ms": 2217,
+          "english_word_count": 8,
+          "subtitle_display_wpm_proxy": 216.5,
+          "gap_from_previous_cue_ms": 0,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        }
+      ]
+    },
+    {
+      "speaker_id": "C010",
+      "speaker_name": "Luke Laurent",
+      "total_assigned_cues": 5,
+      "sample_coverage": "very_limited",
+      "candidates": [
+        {
+          "cue_id": 1191,
+          "start": "00:36:59,600",
+          "end": "00:37:01,583",
+          "duration_ms": 1983,
+          "english_word_count": 4,
+          "subtitle_display_wpm_proxy": 121,
+          "gap_from_previous_cue_ms": 3000,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        },
+        {
+          "cue_id": 1197,
+          "start": "00:37:13,400",
+          "end": "00:37:14,800",
+          "duration_ms": 1400,
+          "english_word_count": 4,
+          "subtitle_display_wpm_proxy": 171.4,
+          "gap_from_previous_cue_ms": 2026,
+          "audition_status": "CANDIDATE_ONLY — listen for single-speaker cleanliness before use"
+        }
+      ]
+    }
+  ]
+}
