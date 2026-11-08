@@ -115,3 +115,14 @@ Direction:
 - Use the standard Vivienne narration voice, neutral and natural.
 - Do not add a special emotion, dramatic emphasis, sadness, fear, or whispering unless the original performance clearly contains it.
 - Keep the narration consistent with the neutral delivery established for cues 17–19.
+
+
+## 13. User-confirmed clarification — group G, cues 775–789 (2026-11-08)
+
+The user compared cues 775–789 (approximately 00:24:35–00:25:02) against the original film and confirmed all three criteria:
+
+1. Vivienne is calm and self-confident — **yes**.
+2. She explains the facts clearly and decisively — **yes**.
+3. Anger, hurt, or sarcasm does not dominate; she retains an ordinary conversational tone — **yes**.
+
+Treat this passage as **calm, self-confident, clear factual explanation in Vivienne's natural conversational voice**. The decisiveness should come from clear articulation and intention, not added anger, bitterness, sarcasm, or theatrical emphasis.
