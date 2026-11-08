@@ -2,7 +2,7 @@
 
 Date: 2026-11-08  
 Project: Husbands  
-Status: **Provisional V1.2 — user has listened to all four generated auditions and rated each “боломжийн” (acceptable); detailed parameter calibration and final approval remain pending**
+Status: **Production direction V1.3 — integrated with the completed user-confirmed emotion map; numerical ElevenLabs settings and final full-film mix remain pending**
 
 ## 1. Purpose
 
@@ -185,3 +185,56 @@ A separate softer angry-dialogue audition was generated using the same Vivienne 
 - This is approval of the D2 performance direction, not a final lock of all ElevenLabs numerical settings or the complete film's voice mix.
 
 Update the anger performance baseline from the generic D direction in Section 5C to this more specific D2 direction for subsequent Vivienne angry-dialogue generation.
+
+
+
+## 13. Production direction update — integrated user-confirmed emotion map (2026-11-08)
+
+This section supersedes earlier generic emotional assumptions wherever they conflict with the completed original-film review. The cue-level source of truth is VIVIENNE_EMOTION_DELIVERY_MAP_V1.md.
+
+### 13.1 Locked identity and baseline
+
+- Speaker identity is always C001 Vivienne across direct dialogue, inner monologue, and narration.
+- Narration is Vivienne herself telling or recalling the story; it is not a separate narrator character or voice.
+- Voice ID remains 6Km4T9TrZXIhfMaxglHw; model remains eleven_v3.
+- Keep currently saved numerical voice settings unchanged during the first production preparation pass.
+- Default narration is ordinary, natural, restrained Vivienne speech. Do not automatically add reflective, sad, hopeful, fearful, or whispering delivery just because the narration describes dramatic events.
+- Confirmed natural narration examples include cues 17–19, 1153/1155, and ending cues 1203–1205.
+
+### 13.2 Cue-specific acting decisions now confirmed
+
+| Cue(s) | Confirmed acting direction | Production handling |
+|---|---|---|
+| 17–19; 1153/1155; 1203–1205 | Ordinary, natural Vivienne narration / inner narration | Neutral conversational baseline; no added dramatic emotion |
+| 427, 430–434 | Hurt, loss of trust, slight disgust; lowered, near-whisper tone | Soft, intimate, controlled; maintain clear Mongolian articulation |
+| 679–690 | Hurt, cold irony / bitter sarcasm, not anger | Cool, wounded, pointed irony; do not use [angry] |
+| 710 and 736 | Stronger angry confrontation; D3 [angry] validated against original | Use D3 only for these clearly angry peaks and genuinely equivalent moments |
+| 722–724 | Calm, decisive boundary-setting with slight hurt | Natural, self-possessed; no anger tag |
+| 758 | Calm, confident correction with slight displeasure | Firm and controlled; no sarcasm or anger tag |
+| 775–789; 812–819 | Calm, self-confident factual explanation; clear contrastive emphasis | Conversational and articulate; emphasize meaning, not emotion |
+| 913–915 | Displeasure, not anger or bitter sarcasm | Restrained displeasure; no [angry] |
+| 925–926; 963 | Disgust with slight controlled anger; cue 963 is decisive and firm | Preserve disgust and slight anger without shouting or aggression |
+
+### 13.3 Tag policy
+
+- Tags are performance aids, not labels to apply mechanically to every cue in a category.
+- Neutral narration: no emotion tag by default.
+- Reflective narration: do not apply [reflective] automatically; retain it only when the original performance is actually reflective.
+- Hurt / near-whisper passages: do not use a literal whisper tag by default. Reduce vocal force and keep words intelligible.
+- Bitter irony, displeasure, and calm firmness are not interchangeable with anger.
+- [angry] D3 is validated for cues 710 and 736. Do not extend it to cues 679–690, 722–724, 758, or 913–915.
+- D2 [frustrated] remains an accepted softer comparison direction, not a universal preset for every angry or displeased line.
+- Do not stack emotion tags or insert [pause] unless the source performance supports it.
+
+### 13.4 Production sequence
+
+1. Build a cue-level production ledger from the current speaker_assignments.json, Husbands_mn_v3.srt, and the confirmed emotion map. Include only C001 lines; retain narration / inner-monologue / dialogue as delivery-role metadata, not separate voices.
+2. Assign a delivery class to each C001 cue: neutral_natural, reflective, quiet_hurt, bitter_irony, controlled_displeasure, firm_boundary, factual_assertive, disgust_slight_anger, or strong_anger.
+3. Keep unreviewed cues conservative: use natural baseline and mark needs_scene_review rather than guessing emotion from subtitle text alone.
+4. Before full-film generation, validate complete cue coverage, no non-C001 assignments, no missing/duplicate cue IDs, and correct role metadata.
+5. Keep accepted voice ID, model, and numerical settings fixed during initial production preparation. Numerical parameter optimization is a separate later stage and must change one variable at a time.
+6. No paid ElevenLabs generation is authorized by this document. Generate production audio only after a specific batch is prepared and the user explicitly approves the credit-consuming run.
+
+### 13.5 Current completion boundary
+
+The original-film emotion review is complete. The next engineering deliverable is the cue-level production ledger, not another broad emotion audition round. This ledger must be auditable and reversible; it must not alter speaker_assignments.json or subtitle text. The full-film TTS production run is not yet authorized.
