@@ -1,0 +1,142 @@
+{
+  "Cue 9": {
+    "emotion": "sadness",
+    "emotion_intensity": "moderate",
+    "vocal_delivery": "restrained",
+    "loudness_and_pitch": "soft loudness, low pitch with a falling contour",
+    "voice_quality_and_rhythm": "breathy and slightly raspy, slow speaking rate",
+    "vocal_stability": "stable",
+    "clearly_audible_features": [
+      "soft loudness",
+      "low pitch",
+      "breathy quality"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 10": {
+    "emotion": "sadness",
+    "emotion_intensity": "moderate",
+    "vocal_delivery": "restrained",
+    "loudness_and_pitch": "soft loudness, low pitch with a level contour",
+    "voice_quality_and_rhythm": "breathy, slow speaking rate",
+    "vocal_stability": "stable",
+    "clearly_audible_features": [
+      "soft loudness",
+      "breathy quality"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 11": {
+    "emotion": "neutral",
+    "emotion_intensity": "low",
+    "vocal_delivery": "conversational",
+    "loudness_and_pitch": "moderate loudness, medium pitch with a falling contour",
+    "voice_quality_and_rhythm": "clear, moderate speaking rate",
+    "vocal_stability": "stable",
+    "clearly_audible_features": [
+      "moderate loudness",
+      "clear voice quality"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 12": {
+    "emotion": "neutral",
+    "emotion_intensity": "low",
+    "vocal_delivery": "conversational",
+    "loudness_and_pitch": "moderate loudness, medium pitch with a level contour",
+    "voice_quality_and_rhythm": "clear, moderate speaking rate",
+    "vocal_stability": "stable",
+    "clearly_audible_features": [
+      "moderate loudness",
+      "clear voice quality"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 13": {
+    "emotion": "neutral",
+    "emotion_intensity": "low",
+    "vocal_delivery": "conversational",
+    "loudness_and_pitch": "moderate loudness, medium pitch with a falling contour",
+    "voice_quality_and_rhythm": "clear, moderate speaking rate",
+    "vocal_stability": "stable",
+    "clearly_audible_features": [
+      "moderate loudness",
+      "clear voice quality"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 15": {
+    "emotion": "sadness",
+    "emotion_intensity": "moderate",
+    "vocal_delivery": "restrained",
+    "loudness_and_pitch": "soft loudness, low pitch with a rising contour",
+    "voice_quality_and_rhythm": "breathy, slow speaking rate",
+    "vocal_stability": "stable",
+    "clearly_audible_features": [
+      "soft loudness",
+      "breathy quality"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 16": {
+    "emotion": "sadness",
+    "emotion_intensity": "moderate",
+    "vocal_delivery": "restrained",
+    "loudness_and_pitch": "soft loudness, low pitch with a rising contour",
+    "voice_quality_and_rhythm": "breathy, slow speaking rate",
+    "vocal_stability": "stable",
+    "clearly_audible_features": [
+      "soft loudness",
+      "breathy quality"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 17": {
+    "emotion": "sadness",
+    "emotion_intensity": "moderate",
+    "vocal_delivery": "restrained",
+    "loudness_and_pitch": "soft loudness, low pitch with a falling contour",
+    "voice_quality_and_rhythm": "breathy, slow speaking rate",
+    "vocal_stability": "stable",
+    "clearly_audible_features": [
+      "soft loudness",
+      "breathy quality"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 18": {
+    "emotion": "sadness",
+    "emotion_intensity": "moderate",
+    "vocal_delivery": "restrained",
+    "loudness_and_pitch": "soft loudness, low pitch with a falling contour",
+    "voice_quality_and_rhythm": "breathy and slightly raspy, slow speaking rate",
+    "vocal_stability": "stable",
+    "clearly_audible_features": [
+      "soft loudness",
+      "breathy quality"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 19": {
+    "emotion": "sadness",
+    "emotion_intensity": "moderate",
+    "vocal_delivery": "restrained",
+    "loudness_and_pitch": "soft loudness, low pitch with a falling contour",
+    "voice_quality_and_rhythm": "breathy, slow speaking rate",
+    "vocal_stability": "stable",
+    "clearly_audible_features": [
+      "soft loudness",
+      "breathy quality"
+    ],
+    "uncertain_features": []
+  },
+  "comparison": {
+    "overall_voice_quality": "The speaker exhibits a consistent, soft, and breathy voice quality across the sadness-conveying cues, contrasting with a clearer and more moderate delivery in the neutral cues.",
+    "recording_limitations": [
+      "Background music is present throughout, which slightly masks lower vocal frequencies."
+    ],
+    "uncertain_observations": [
+      "Minor acoustic overlap from background sound effects in some cues."
+    ]
+  }
+}

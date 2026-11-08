@@ -1,0 +1,74 @@
+{
+  "Cue 66": {
+    "emotion": "neutral",
+    "emotion_intensity": "low",
+    "vocal_delivery": "conversational, controlled",
+    "loudness_and_pitch": "moderate loudness, variable pitch contour",
+    "voice_quality_and_rhythm": "clear voice quality, moderate and steady speaking rate",
+    "vocal_stability": "stable",
+    "clearly_audible_features": [
+      "clear phonation",
+      "controlled delivery"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 67": {
+    "emotion": "neutral",
+    "emotion_intensity": "low",
+    "vocal_delivery": "conversational, controlled",
+    "loudness_and_pitch": "moderate loudness, variable pitch contour with a slight fall at the end",
+    "voice_quality_and_rhythm": "clear voice quality, moderate speaking rate",
+    "vocal_stability": "stable",
+    "clearly_audible_features": [
+      "clear phonation",
+      "steady rhythm"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 68": {
+    "emotion": "sadness",
+    "emotion_intensity": "moderate",
+    "vocal_delivery": "restrained, subdued",
+    "loudness_and_pitch": "low to moderate loudness, falling pitch contour",
+    "voice_quality_and_rhythm": "slightly breathy and strained voice quality, slow and measured speaking rate",
+    "vocal_stability": "stable",
+    "clearly_audible_features": [
+      "soft vocal delivery",
+      "slowed pace"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 69": {
+    "emotion": "neutral",
+    "emotion_intensity": "low",
+    "vocal_delivery": "conversational, restrained",
+    "loudness_and_pitch": "moderate loudness, level pitch contour",
+    "voice_quality_and_rhythm": "clear voice quality, moderate speaking rate",
+    "vocal_stability": "stable",
+    "clearly_audible_features": [
+      "clear articulation",
+      "steady tone"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 70": {
+    "emotion": "neutral",
+    "emotion_intensity": "low",
+    "vocal_delivery": "conversational, measured",
+    "loudness_and_pitch": "moderate loudness, variable pitch contour",
+    "voice_quality_and_rhythm": "clear voice quality, moderate speaking rate",
+    "vocal_stability": "stable",
+    "clearly_audible_features": [
+      "clear tone",
+      "even rhythm"
+    ],
+    "uncertain_features": []
+  },
+  "comparison": {
+    "overall_voice_quality": "The speaker maintains a generally clear voice with a smooth, controlled tone across multiple cues, shifting from a slightly breathy and subdued quality in Cue 68 to a clearer, more neutral conversational delivery in the other cues.",
+    "recording_limitations": [
+      "minor background music present in some cues but does not obscure the voice"
+    ],
+    "uncertain_observations": []
+  }
+}
