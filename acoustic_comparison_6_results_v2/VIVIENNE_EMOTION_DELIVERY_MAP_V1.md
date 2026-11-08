@@ -137,3 +137,13 @@ The user compared cues 812–819 (approximately 00:25:45–00:26:06) against the
 3. The delivery remains naturally decisive and explanatory, not angry or hurt — **yes**.
 
 Treat this passage as **calm, self-confident factual explanation with clear contrastive emphasis**. Emphasize the key contrast through articulation, not through anger, bitterness, or theatrical emotion.
+
+
+## 15. User-confirmed clarification — group H, cues 913–915 (2026-11-08)
+
+The user compared cues 913–915 (approximately 00:28:47–00:28:51) against the original film and clarified that Vivienne is **expressing displeasure, not anger**. In particular, “Тэгвэл хүссэндээ хүрч дээ” should be delivered with displeasure rather than cold irony, bitter sarcasm, or contempt.
+
+Production direction:
+- Convey restrained, audible displeasure.
+- Do not turn the line into anger, aggression, cold sarcasm, or bitter resignation.
+- Keep the delivery natural and controlled, consistent with the original performance.
