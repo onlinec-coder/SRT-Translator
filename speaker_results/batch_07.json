@@ -1,0 +1,324 @@
+{
+    "results": [
+        {
+            "subtitle_id": 241,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's internal reflection on the past."
+        },
+        {
+            "subtitle_id": 242,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne is addressing Lucian directly."
+        },
+        {
+            "subtitle_id": 243,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne describing her own internal state and actions."
+        },
+        {
+            "subtitle_id": 244,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne narrating her own speech act."
+        },
+        {
+            "subtitle_id": 245,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Vivienne."
+        },
+        {
+            "subtitle_id": 246,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the external action of Lucian."
+        },
+        {
+            "subtitle_id": 247,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating Lucian's physical reaction."
+        },
+        {
+            "subtitle_id": 248,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the duration of the action."
+        },
+        {
+            "subtitle_id": 249,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal observation and realization."
+        },
+        {
+            "subtitle_id": 250,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating Lucian's physical movements."
+        },
+        {
+            "subtitle_id": 251,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describing Lucian's appearance."
+        },
+        {
+            "subtitle_id": 252,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describing Lucian's appearance."
+        },
+        {
+            "subtitle_id": 253,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian speaking to Vivienne."
+        },
+        {
+            "subtitle_id": 254,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating Lucian's speech."
+        },
+        {
+            "subtitle_id": 255,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian explaining his action."
+        },
+        {
+            "subtitle_id": 256,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian continuing his explanation."
+        },
+        {
+            "subtitle_id": 257,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne responding to Lucian."
+        },
+        {
+            "subtitle_id": 258,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne describing her own action and internal focus."
+        },
+        {
+            "subtitle_id": 259,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal cynical thought."
+        },
+        {
+            "subtitle_id": 260,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating Lucian's movement."
+        },
+        {
+            "subtitle_id": 261,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describing Lucian's state."
+        },
+        {
+            "subtitle_id": 262,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian addressing Vivienne."
+        },
+        {
+            "subtitle_id": 263,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian continuing his address."
+        },
+        {
+            "subtitle_id": 264,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian asking a rhetorical question."
+        },
+        {
+            "subtitle_id": 265,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne describing her own action."
+        },
+        {
+            "subtitle_id": 266,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal observation of the painting."
+        },
+        {
+            "subtitle_id": 267,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal observation."
+        },
+        {
+            "subtitle_id": 268,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal analysis."
+        },
+        {
+            "subtitle_id": 269,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal conclusion about Lucian."
+        },
+        {
+            "subtitle_id": 270,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating Lucian's action."
+        },
+        {
+            "subtitle_id": 271,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian asking Vivienne a question."
+        },
+        {
+            "subtitle_id": 272,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne describing her own physical reaction."
+        },
+        {
+            "subtitle_id": 273,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating Lucian's action."
+        },
+        {
+            "subtitle_id": 274,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal thought process."
+        },
+        {
+            "subtitle_id": 275,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating Lucian's action."
+        },
+        {
+            "subtitle_id": 276,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describing the smile."
+        },
+        {
+            "subtitle_id": 277,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian speaking to Vivienne."
+        },
+        {
+            "subtitle_id": 278,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian continuing his statement."
+        },
+        {
+            "subtitle_id": 279,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating Lucian's movement."
+        },
+        {
+            "subtitle_id": 280,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describing the pace of the movement."
+        }
+    ]
+}

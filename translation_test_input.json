@@ -1,0 +1,338 @@
+{
+  "translations_input": [
+    {
+      "index": 1,
+      "text": "The third bowl tasted like rot.\nI couldn't feel my hands anymore.",
+      "speaker": {
+        "id": "C001",
+        "name": "Vivienne",
+        "type": "inner_monologue",
+        "confidence": "high",
+        "gender": "female",
+        "speech_style": [
+          "calm",
+          "direct",
+          "defiant"
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "text": "The wolf bead had\nalready reached my chest.",
+      "speaker": {
+        "id": "C001",
+        "name": "Vivienne",
+        "type": "inner_monologue",
+        "confidence": "high",
+        "gender": "female",
+        "speech_style": [
+          "calm",
+          "direct",
+          "defiant"
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "text": "Lucian stood at the dend of\nthe bed and watched me go.",
+      "speaker": {
+        "id": "C005",
+        "name": "Narrator",
+        "type": "narrator",
+        "confidence": "high",
+        "gender": null,
+        "speech_style": [
+          "Direct",
+          "Analytical"
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "text": "Seven pups, whole high-ranking blood.\nThat's enough.",
+      "speaker": {
+        "id": "C002",
+        "name": "Lucian",
+        "type": "character",
+        "confidence": "high",
+        "gender": "male",
+        "speech_style": [
+          "authoritative",
+          "steady",
+          "calm",
+          "manipulative",
+          "persuasive",
+          "quiet",
+          "tense"
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "text": "I tried to speak. Nothing came out.",
+      "speaker": {
+        "id": "C001",
+        "name": "Vivienne",
+        "type": "inner_monologue",
+        "confidence": "high",
+        "gender": "female",
+        "speech_style": [
+          "calm",
+          "direct",
+          "defiant"
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "text": "You were never the one I wanted Vivienne.",
+      "speaker": {
+        "id": "C002",
+        "name": "Lucian",
+        "type": "character",
+        "confidence": "high",
+        "gender": "male",
+        "speech_style": [
+          "authoritative",
+          "steady",
+          "calm",
+          "manipulative",
+          "persuasive",
+          "quiet",
+          "tense"
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "text": "His voice didn't waver.",
+      "speaker": {
+        "id": "C005",
+        "name": "Narrator",
+        "type": "narrator",
+        "confidence": "high",
+        "gender": null,
+        "speech_style": [
+          "Direct",
+          "Analytical"
+        ]
+      }
+    },
+    {
+      "index": 8,
+      "text": "You threw yourself at me.\nI let it happen. That's all this ever was.",
+      "speaker": {
+        "id": "C002",
+        "name": "Lucian",
+        "type": "character",
+        "confidence": "high",
+        "gender": "male",
+        "speech_style": [
+          "authoritative",
+          "steady",
+          "calm",
+          "manipulative",
+          "persuasive",
+          "quiet",
+          "tense"
+        ]
+      }
+    },
+    {
+      "index": 9,
+      "text": "I wanted to scream.\nI wanted to tear him apart.",
+      "speaker": {
+        "id": "C001",
+        "name": "Vivienne",
+        "type": "inner_monologue",
+        "confidence": "high",
+        "gender": "female",
+        "speech_style": [
+          "calm",
+          "direct",
+          "defiant"
+        ]
+      }
+    },
+    {
+      "index": 10,
+      "text": "But my body was already gone.",
+      "speaker": {
+        "id": "C001",
+        "name": "Vivienne",
+        "type": "inner_monologue",
+        "confidence": "high",
+        "gender": "female",
+        "speech_style": [
+          "calm",
+          "direct",
+          "defiant"
+        ]
+      }
+    },
+    {
+      "index": 11,
+      "text": "You've served your purpose.",
+      "speaker": {
+        "id": "C002",
+        "name": "Lucian",
+        "type": "character",
+        "confidence": "high",
+        "gender": "male",
+        "speech_style": [
+          "authoritative",
+          "steady",
+          "calm",
+          "manipulative",
+          "persuasive",
+          "quiet",
+          "tense"
+        ]
+      }
+    },
+    {
+      "index": 12,
+      "text": "He set the empty bowl down.",
+      "speaker": {
+        "id": "C005",
+        "name": "Narrator",
+        "type": "narrator",
+        "confidence": "high",
+        "gender": null,
+        "speech_style": [
+          "Direct",
+          "Analytical"
+        ]
+      }
+    },
+    {
+      "index": 13,
+      "text": "Rest now.",
+      "speaker": {
+        "id": "C002",
+        "name": "Lucian",
+        "type": "character",
+        "confidence": "high",
+        "gender": "male",
+        "speech_style": [
+          "authoritative",
+          "steady",
+          "calm",
+          "manipulative",
+          "persuasive",
+          "quiet",
+          "tense"
+        ]
+      }
+    },
+    {
+      "index": 14,
+      "text": "My heartbeat slowed. Then nothing.",
+      "speaker": {
+        "id": "C001",
+        "name": "Vivienne",
+        "type": "inner_monologue",
+        "confidence": "high",
+        "gender": "female",
+        "speech_style": [
+          "calm",
+          "direct",
+          "defiant"
+        ]
+      }
+    },
+    {
+      "index": 15,
+      "text": "I opened my eyes. In my mother's\nsitting room at Coldwell Manor.",
+      "speaker": {
+        "id": "C001",
+        "name": "Vivienne",
+        "type": "inner_monologue",
+        "confidence": "high",
+        "gender": "female",
+        "speech_style": [
+          "calm",
+          "direct",
+          "defiant"
+        ]
+      }
+    },
+    {
+      "index": 16,
+      "text": "I came back.",
+      "speaker": {
+        "id": "C001",
+        "name": "Vivienne",
+        "type": "inner_monologue",
+        "confidence": "high",
+        "gender": "female",
+        "speech_style": [
+          "calm",
+          "direct",
+          "defiant"
+        ]
+      }
+    },
+    {
+      "index": 17,
+      "text": "I pressed my hands flat\nagainst my thighs and breathed.",
+      "speaker": {
+        "id": "C001",
+        "name": "Vivienne",
+        "type": "inner_monologue",
+        "confidence": "high",
+        "gender": "female",
+        "speech_style": [
+          "calm",
+          "direct",
+          "defiant"
+        ]
+      }
+    },
+    {
+      "index": 18,
+      "text": "My mother was holding a\ncontract across the room.",
+      "speaker": {
+        "id": "C005",
+        "name": "Narrator",
+        "type": "narrator",
+        "confidence": "high",
+        "gender": null,
+        "speech_style": [
+          "Direct",
+          "Analytical"
+        ]
+      }
+    },
+    {
+      "index": 19,
+      "text": "A mating bond contract, sealed\nwith the Blood Moon Pack crest.",
+      "speaker": {
+        "id": "C005",
+        "name": "Narrator",
+        "type": "narrator",
+        "confidence": "high",
+        "gender": null,
+        "speech_style": [
+          "Direct",
+          "Analytical"
+        ]
+      }
+    },
+    {
+      "index": 20,
+      "text": "The name line was blank.",
+      "speaker": {
+        "id": "C005",
+        "name": "Narrator",
+        "type": "narrator",
+        "confidence": "high",
+        "gender": null,
+        "speech_style": [
+          "Direct",
+          "Analytical"
+        ]
+      }
+    }
+  ]
+}

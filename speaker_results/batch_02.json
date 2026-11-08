@@ -1,0 +1,324 @@
+{
+    "results": [
+        {
+            "subtitle_id": 41,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's internal reflection on the past."
+        },
+        {
+            "subtitle_id": 42,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian is speaking about his intent to marry Vivienne."
+        },
+        {
+            "subtitle_id": 43,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Lucian's dialogue."
+        },
+        {
+            "subtitle_id": 44,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian listing conditions or history."
+        },
+        {
+            "subtitle_id": 45,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Lucian's list."
+        },
+        {
+            "subtitle_id": 46,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Lucian's list."
+        },
+        {
+            "subtitle_id": 47,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne's direct refusal."
+        },
+        {
+            "subtitle_id": 48,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian commanding silence."
+        },
+        {
+            "subtitle_id": 49,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian addressing Vivienne."
+        },
+        {
+            "subtitle_id": 50,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian reminding Vivienne of her past desires."
+        },
+        {
+            "subtitle_id": 51,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne responding to Lucian."
+        },
+        {
+            "subtitle_id": 52,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's response."
+        },
+        {
+            "subtitle_id": 53,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describing Lucian's action."
+        },
+        {
+            "subtitle_id": 54,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describing Lucian's expression."
+        },
+        {
+            "subtitle_id": 55,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of description."
+        },
+        {
+            "subtitle_id": 56,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal thought process regarding Lucian."
+        },
+        {
+            "subtitle_id": 57,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of internal thought."
+        },
+        {
+            "subtitle_id": 58,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's realization."
+        },
+        {
+            "subtitle_id": 59,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria interjecting that she has someone."
+        },
+        {
+            "subtitle_id": 60,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Aria's statement."
+        },
+        {
+            "subtitle_id": 61,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describing her mother's reaction."
+        },
+        {
+            "subtitle_id": 62,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describing Aria's state."
+        },
+        {
+            "subtitle_id": 63,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of description."
+        },
+        {
+            "subtitle_id": 64,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describing Aria's action."
+        },
+        {
+            "subtitle_id": 65,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria stating she is unavailable."
+        },
+        {
+            "subtitle_id": 66,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describing her mother's movement."
+        },
+        {
+            "subtitle_id": 67,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of description."
+        },
+        {
+            "subtitle_id": 68,
+            "speaker_id": "C004",
+            "speaker_name": "Mother",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Mother apologizing to Lucian."
+        },
+        {
+            "subtitle_id": 69,
+            "speaker_id": "C004",
+            "speaker_name": "Mother",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Mother explaining the situation."
+        },
+        {
+            "subtitle_id": 70,
+            "speaker_id": "C004",
+            "speaker_name": "Mother",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Mother's explanation."
+        },
+        {
+            "subtitle_id": 71,
+            "speaker_id": "C004",
+            "speaker_name": "Mother",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Mother suggesting another pack."
+        },
+        {
+            "subtitle_id": 72,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian refusing."
+        },
+        {
+            "subtitle_id": 73,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describing Lucian standing."
+        },
+        {
+            "subtitle_id": 74,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describing the Alpha aura."
+        },
+        {
+            "subtitle_id": 75,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of description."
+        },
+        {
+            "subtitle_id": 76,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of description."
+        },
+        {
+            "subtitle_id": 77,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of description."
+        },
+        {
+            "subtitle_id": 78,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian stating his requirement."
+        },
+        {
+            "subtitle_id": 79,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describing Lucian's tone."
+        },
+        {
+            "subtitle_id": 80,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian confirming his decision."
+        }
+    ]
+}

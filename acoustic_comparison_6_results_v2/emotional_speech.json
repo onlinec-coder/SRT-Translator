@@ -1,0 +1,79 @@
+{
+  "Cue 698": {
+    "emotion": "unclear",
+    "emotion_intensity": "unclear",
+    "vocal_delivery": "conversational",
+    "loudness_and_pitch": "moderate loudness, level pitch contour",
+    "voice_quality_and_rhythm": "clear voice quality, moderate speaking rate",
+    "vocal_stability": "stable",
+    "clearly_audible_features": [
+      "clear speech",
+      "moderate loudness"
+    ],
+    "uncertain_features": [
+      "emotion"
+    ]
+  },
+  "Cue 699": {
+    "emotion": "unclear",
+    "emotion_intensity": "unclear",
+    "vocal_delivery": "conversational",
+    "loudness_and_pitch": "moderate loudness, variable pitch contour",
+    "voice_quality_and_rhythm": "clear voice quality, moderate speaking rate",
+    "vocal_stability": "stable",
+    "clearly_audible_features": [
+      "clear speech",
+      "moderate loudness"
+    ],
+    "uncertain_features": [
+      "emotion"
+    ]
+  },
+  "Cue 700": {
+    "emotion": "unclear",
+    "emotion_intensity": "unclear",
+    "vocal_delivery": "conversational",
+    "loudness_and_pitch": "moderate loudness, falling pitch contour",
+    "voice_quality_and_rhythm": "clear voice quality, moderate speaking rate",
+    "vocal_stability": "stable",
+    "clearly_audible_features": [
+      "clear speech"
+    ],
+    "uncertain_features": [
+      "emotion"
+    ]
+  },
+  "Cue 701": {
+    "emotion": "anger",
+    "emotion_intensity": "moderate",
+    "vocal_delivery": "emphatic",
+    "loudness_and_pitch": "moderately loud, falling pitch contour",
+    "voice_quality_and_rhythm": "strained phonation, moderate speaking rate",
+    "vocal_stability": "stable",
+    "clearly_audible_features": [
+      "strained phonation",
+      "emphatic stress"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 702": {
+    "emotion": "neutral",
+    "emotion_intensity": "low",
+    "vocal_delivery": "controlled",
+    "loudness_and_pitch": "moderate loudness, level pitch contour",
+    "voice_quality_and_rhythm": "clear voice quality, measured rate",
+    "vocal_stability": "stable",
+    "clearly_audible_features": [
+      "clear voice",
+      "controlled delivery"
+    ],
+    "uncertain_features": []
+  },
+  "comparison": {
+    "overall_voice_quality": "The speaker maintains a generally clear and stable voice with varying degrees of emphasis and strain depending on the cue.",
+    "recording_limitations": [],
+    "uncertain_observations": [
+      "Emotional intent is difficult to categorize in the earlier cues due to neutral delivery."
+    ]
+  }
+}

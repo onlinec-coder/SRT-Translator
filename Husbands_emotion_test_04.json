@@ -1,0 +1,51 @@
+{
+  "cue_25": {
+    "emotion": "neutral",
+    "emotion_evidence": "Flat, matter-of-fact intonation without dynamic shifts or emotional coloring.",
+    "vocal_tone": "monotone, calm",
+    "delivery": "normal",
+    "intensity": "low",
+    "pace": "moderate",
+    "confidence": "high"
+  },
+  "cue_26": {
+    "emotion": "neutral",
+    "emotion_evidence": "Steady vocal projection without expressive markers or trembling.",
+    "vocal_tone": "even, measured",
+    "delivery": "normal",
+    "intensity": "low",
+    "pace": "moderate",
+    "confidence": "high"
+  },
+  "cue_27": {
+    "emotion": "neutral",
+    "emotion_evidence": "Simple declarative statement delivered with a flat, even pitch contour.",
+    "vocal_tone": "plain, steady",
+    "delivery": "normal",
+    "intensity": "low",
+    "pace": "moderate",
+    "confidence": "high"
+  },
+  "cue_28": {
+    "emotion": "neutral",
+    "emotion_evidence": "Evenly paced phrasing without emotive inflection.",
+    "vocal_tone": "calm, direct",
+    "delivery": "normal",
+    "intensity": "low",
+    "pace": "moderate",
+    "confidence": "high"
+  },
+  "cue_29": {
+    "emotion": "neutral",
+    "emotion_evidence": "Stable pitch and volume, maintaining a factual delivery style.",
+    "vocal_tone": "steady, clear",
+    "delivery": "normal",
+    "intensity": "low",
+    "pace": "moderate",
+    "confidence": "high"
+  },
+  "comparison": {
+    "summary": "Across all cues, the speaker maintains a consistent, calm, and neutral vocal profile characterized by steady pacing, even intonation, and low intensity.",
+    "consistency": "The emotional tone and delivery style remain uniform throughout the entire sequence."
+  }
+}

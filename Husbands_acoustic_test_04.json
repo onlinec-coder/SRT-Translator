@@ -1,0 +1,57 @@
+{
+  "cue_25": {
+    "loudness": "low",
+    "pitch": "medium-low range, descending slightly at the end",
+    "voice_quality": "breathy and soft",
+    "rate_and_rhythm": "slow and even",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no audible breaths or pauses within the cue",
+    "clearly_audible_features": "whispery, intimate tone",
+    "uncertain_features": "none"
+  },
+  "cue_26": {
+    "loudness": "low",
+    "pitch": "medium range, flat contour",
+    "voice_quality": "breathy and soft",
+    "rate_and_rhythm": "slow and measured",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "audible intake of breath at the end of the cue",
+    "clearly_audible_features": "soft vocalization ending in a clear inhalation",
+    "uncertain_features": "none"
+  },
+  "cue_27": {
+    "loudness": "low",
+    "pitch": "medium-low range, rising slightly",
+    "voice_quality": "clear with slight breathiness",
+    "rate_and_rhythm": "moderate, smooth",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no audible breaths or pauses",
+    "clearly_audible_features": "sustained vowel sound",
+    "uncertain_features": "none"
+  },
+  "cue_28": {
+    "loudness": "low",
+    "pitch": "medium-low range, falling contour",
+    "voice_quality": "clear and smooth",
+    "rate_and_rhythm": "moderate and even",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no audible breaths or pauses",
+    "clearly_audible_features": "gentle articulation",
+    "uncertain_features": "none"
+  },
+  "cue_29": {
+    "loudness": "low",
+    "pitch": "medium-low range, falling slightly at the end",
+    "voice_quality": "clear with subtle breathiness",
+    "rate_and_rhythm": "moderate, measured",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "audible release of breath at the end of the cue",
+    "clearly_audible_features": "fading final syllable followed by exhalation",
+    "uncertain_features": "none"
+  },
+  "comparison": {
+    "loudness_consistency": "Loudness remains consistently low across all cues.",
+    "pitch_trends": "Pitch stays generally in the medium-low range with minor contours depending on phrasing.",
+    "voice_quality_changes": "Voice quality shifts slightly between breathy/whispery and clear, maintaining a soft texture throughout."
+  }
+}

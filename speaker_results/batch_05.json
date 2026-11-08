@@ -1,0 +1,324 @@
+{
+    "results": [
+        {
+            "subtitle_id": 161,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of the first-person narrative perspective established in previous subtitles."
+        },
+        {
+            "subtitle_id": 162,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of the first-person narrative perspective."
+        },
+        {
+            "subtitle_id": 163,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Descriptive observation of the mother's state."
+        },
+        {
+            "subtitle_id": 164,
+            "speaker_id": "C004",
+            "speaker_name": "Mother",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by the mother."
+        },
+        {
+            "subtitle_id": 165,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative tag identifying the speaker."
+        },
+        {
+            "subtitle_id": 166,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative commentary on the dialogue."
+        },
+        {
+            "subtitle_id": 167,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Descriptive narrative of the scene."
+        },
+        {
+            "subtitle_id": 168,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Descriptive narrative of the mother's actions."
+        },
+        {
+            "subtitle_id": 169,
+            "speaker_id": "C004",
+            "speaker_name": "Mother",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue from the mother."
+        },
+        {
+            "subtitle_id": 170,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative observation of the mother's tone."
+        },
+        {
+            "subtitle_id": 171,
+            "speaker_id": "C004",
+            "speaker_name": "Mother",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue from the mother."
+        },
+        {
+            "subtitle_id": 172,
+            "speaker_id": "C004",
+            "speaker_name": "Mother",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue from the mother."
+        },
+        {
+            "subtitle_id": 173,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative action of the narrator."
+        },
+        {
+            "subtitle_id": 174,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue from Vivienne in response to the mother."
+        },
+        {
+            "subtitle_id": 175,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue from Vivienne."
+        },
+        {
+            "subtitle_id": 176,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative observation of the mother's action."
+        },
+        {
+            "subtitle_id": 177,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue from Aria."
+        },
+        {
+            "subtitle_id": 178,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue from Aria."
+        },
+        {
+            "subtitle_id": 179,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of the mother's action."
+        },
+        {
+            "subtitle_id": 180,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of the mother's action."
+        },
+        {
+            "subtitle_id": 181,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative observation of the mother's expression."
+        },
+        {
+            "subtitle_id": 182,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative observation of the mother's expression."
+        },
+        {
+            "subtitle_id": 183,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative observation of the mother's expression."
+        },
+        {
+            "subtitle_id": 184,
+            "speaker_id": "C004",
+            "speaker_name": "Mother",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue from the mother."
+        },
+        {
+            "subtitle_id": 185,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of the mother's action."
+        },
+        {
+            "subtitle_id": 186,
+            "speaker_id": "C004",
+            "speaker_name": "Mother",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue from the mother."
+        },
+        {
+            "subtitle_id": 187,
+            "speaker_id": "C004",
+            "speaker_name": "Mother",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue from the mother."
+        },
+        {
+            "subtitle_id": 188,
+            "speaker_id": "C004",
+            "speaker_name": "Mother",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue from the mother."
+        },
+        {
+            "subtitle_id": 189,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of the mother's action."
+        },
+        {
+            "subtitle_id": 190,
+            "speaker_id": "C004",
+            "speaker_name": "Mother",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue from the mother."
+        },
+        {
+            "subtitle_id": 191,
+            "speaker_id": "C004",
+            "speaker_name": "Mother",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue from the mother."
+        },
+        {
+            "subtitle_id": 192,
+            "speaker_id": "C004",
+            "speaker_name": "Mother",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue from the mother."
+        },
+        {
+            "subtitle_id": 193,
+            "speaker_id": "C004",
+            "speaker_name": "Mother",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue from the mother."
+        },
+        {
+            "subtitle_id": 194,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of Aria's reaction."
+        },
+        {
+            "subtitle_id": 195,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of the mother's action."
+        },
+        {
+            "subtitle_id": 196,
+            "speaker_id": "C004",
+            "speaker_name": "Mother",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue from the mother."
+        },
+        {
+            "subtitle_id": 197,
+            "speaker_id": "C004",
+            "speaker_name": "Mother",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue from the mother."
+        },
+        {
+            "subtitle_id": 198,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue from Vivienne."
+        },
+        {
+            "subtitle_id": 199,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal thought process regarding Lucian."
+        },
+        {
+            "subtitle_id": 200,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of the mother's action."
+        }
+    ]
+}

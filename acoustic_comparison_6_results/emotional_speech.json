@@ -1,0 +1,73 @@
+{
+  "Cue 698": {
+    "loudness": "moderate",
+    "pitch": "moderate range, falling slightly at the end",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate, measured pace",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "none audible",
+    "clearly_audible_features": [
+      "clear articulation",
+      "steady projection"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 699": {
+    "loudness": "moderate",
+    "pitch": "moderate range, slight rise",
+    "voice_quality": "clear with slight roughness",
+    "rate_and_rhythm": "moderate",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "none audible",
+    "clearly_audible_features": [
+      "slight emphasis on final word"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 700": {
+    "loudness": "moderate",
+    "pitch": "moderate range, even contour",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate and even",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "none audible",
+    "clearly_audible_features": [
+      "consistent projection"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 701": {
+    "loudness": "moderate-high",
+    "pitch": "higher range, rising contour",
+    "voice_quality": "strained, harsh",
+    "rate_and_rhythm": "measured with stress on initial syllables",
+    "vocal_stability": "mostly stable with slight tension",
+    "breathing_and_pauses": "none audible",
+    "clearly_audible_features": [
+      "increased vocal effort",
+      "accentuated consonants"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 702": {
+    "loudness": "moderate",
+    "pitch": "moderate range, falling contour",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate, ending with a slight drawl",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "none audible",
+    "clearly_audible_features": [
+      "gradual reduction in volume at the end"
+    ],
+    "uncertain_features": []
+  },
+  "comparison": {
+    "overall_voice_quality": "consistent male speaking voice, ranging from clear to slightly strained projection",
+    "recording_limitations": [
+      "some background sound masking extremely faint room acoustics"
+    ],
+    "uncertain_observations": [
+      "micro-fluctuations in pitch masked by speech style"
+    ]
+  }
+}

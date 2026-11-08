@@ -1,0 +1,324 @@
+{
+    "results": [
+        {
+            "subtitle_id": 1121,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne is reflecting on her past decisions and feelings regarding Morgana."
+        },
+        {
+            "subtitle_id": 1122,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's internal reflection on Morgana's actions."
+        },
+        {
+            "subtitle_id": 1123,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne continues her internal narrative about her father's household."
+        },
+        {
+            "subtitle_id": 1124,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's internal narrative."
+        },
+        {
+            "subtitle_id": 1125,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's internal narrative."
+        },
+        {
+            "subtitle_id": 1126,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's internal narrative."
+        },
+        {
+            "subtitle_id": 1127,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's internal narrative regarding the man who poisoned her."
+        },
+        {
+            "subtitle_id": 1128,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's internal narrative."
+        },
+        {
+            "subtitle_id": 1129,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's internal judgment of Morgana."
+        },
+        {
+            "subtitle_id": 1130,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's internal judgment."
+        },
+        {
+            "subtitle_id": 1131,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's internal judgment."
+        },
+        {
+            "subtitle_id": 1132,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne concludes her internal reflection on Morgana."
+        },
+        {
+            "subtitle_id": 1133,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal thought regarding her own lack of remorse."
+        },
+        {
+            "subtitle_id": 1134,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes the scene as a narrator."
+        },
+        {
+            "subtitle_id": 1135,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes Aria's action as a narrator."
+        },
+        {
+            "subtitle_id": 1136,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria is speaking to Vivienne about the Laurent brothers."
+        },
+        {
+            "subtitle_id": 1137,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria continues speaking."
+        },
+        {
+            "subtitle_id": 1138,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne responds to Aria."
+        },
+        {
+            "subtitle_id": 1139,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes Aria's action."
+        },
+        {
+            "subtitle_id": 1140,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes the failure of the action."
+        },
+        {
+            "subtitle_id": 1141,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria is speaking about Luke."
+        },
+        {
+            "subtitle_id": 1142,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria continues her story."
+        },
+        {
+            "subtitle_id": 1143,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria addresses Vivienne."
+        },
+        {
+            "subtitle_id": 1144,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria continues speaking about Luke."
+        },
+        {
+            "subtitle_id": 1145,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria continues speaking about Lance."
+        },
+        {
+            "subtitle_id": 1146,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria continues her story."
+        },
+        {
+            "subtitle_id": 1147,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria mentions Lucian."
+        },
+        {
+            "subtitle_id": 1148,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria continues her story."
+        },
+        {
+            "subtitle_id": 1149,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes her own action."
+        },
+        {
+            "subtitle_id": 1150,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria continues her story about what Lance said."
+        },
+        {
+            "subtitle_id": 1151,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes Aria's action."
+        },
+        {
+            "subtitle_id": 1152,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria asks Vivienne a question."
+        },
+        {
+            "subtitle_id": 1153,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne answers Aria."
+        },
+        {
+            "subtitle_id": 1154,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria responds to Vivienne."
+        },
+        {
+            "subtitle_id": 1155,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne repeats her statement."
+        },
+        {
+            "subtitle_id": 1156,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes her own action."
+        },
+        {
+            "subtitle_id": 1157,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes Aria's reaction."
+        },
+        {
+            "subtitle_id": 1158,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrates the arrival of the brothers."
+        },
+        {
+            "subtitle_id": 1159,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of the narration."
+        },
+        {
+            "subtitle_id": 1160,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of the narration."
+        }
+    ]
+}

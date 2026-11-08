@@ -1,0 +1,134 @@
+{
+  "Cue 9": {
+    "loudness": "moderate",
+    "pitch": "moderate range, falling slightly at the end",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate, evenly paced",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "none audible",
+    "clearly_audible_features": [
+      "clear articulation",
+      "moderate projection"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 10": {
+    "loudness": "moderate",
+    "pitch": "moderate range, falling contour",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate, slightly deliberate pace",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "none audible",
+    "clearly_audible_features": [
+      "clear speech onset"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 11": {
+    "loudness": "moderate",
+    "pitch": "moderate range, rising then falling contour",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate, measured",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "none audible",
+    "clearly_audible_features": [
+      "clear enunciation of names"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 12": {
+    "loudness": "moderate",
+    "pitch": "moderate range, descending contour",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "none audible",
+    "clearly_audible_features": [
+      "short utterance"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 13": {
+    "loudness": "moderate",
+    "pitch": "moderate range, relatively flat contour",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "none audible",
+    "clearly_audible_features": [
+      "steady projection"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 15": {
+    "loudness": "moderate-high",
+    "pitch": "moderately high range, rising contour",
+    "voice_quality": "strained, pressed",
+    "rate_and_rhythm": "fast",
+    "vocal_stability": "slightly unstable due to increased tension",
+    "breathing_and_pauses": "none audible",
+    "clearly_audible_features": [
+      "increased vocal effort",
+      "sharply projected syllables"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 16": {
+    "loudness": "moderate-high",
+    "pitch": "moderate range, rising contour",
+    "voice_quality": "strained, pressed",
+    "rate_and_rhythm": "fast, urgent",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "none audible",
+    "clearly_audible_features": [
+      "strong projection",
+      "emphatic articulation"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 17": {
+    "loudness": "moderate-high",
+    "pitch": "moderate range, falling contour at the end",
+    "voice_quality": "strained, pressed",
+    "rate_and_rhythm": "fast",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "none audible",
+    "clearly_audible_features": [
+      "consistent high-effort phonation"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 18": {
+    "loudness": "moderate",
+    "pitch": "moderate range, falling contour",
+    "voice_quality": "clear, slightly dry",
+    "rate_and_rhythm": "moderate, measured",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "none audible",
+    "clearly_audible_features": [
+      "transition from strained to more moderate voice quality"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 19": {
+    "loudness": "moderate",
+    "pitch": "moderate range, falling contour to the end",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate, measured",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "none audible",
+    "clearly_audible_features": [
+      "clear articulation of final words"
+    ],
+    "uncertain_features": []
+  },
+  "comparison": {
+    "overall_voice_quality": "Generally clear with shifts to strained and pressed quality during higher-effort dialogue segments.",
+    "recording_limitations": [
+      "Background musical score present throughout parts of the audio, slightly masking subtle acoustic details."
+    ],
+    "uncertain_observations": [
+      "Exact breath sounds are masked by overlapping cinematic music and sound effects."
+    ]
+  }
+}

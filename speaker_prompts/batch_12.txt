@@ -1,0 +1,1173 @@
+
+Чи мэргэжлийн киноны диалог болон хүүрнэлийн шинжээч.
+
+ҮҮРЭГ:
+Шинжлэх хадмал бүрийн яригч болон өгүүлэмжийн төрлийг
+контекстэд үндэслэн тодорхойл.
+
+ДҮРҮҮД:
+[
+  {
+    "id": "C001",
+    "name": "Vivienne",
+    "aliases": [
+      "Viviana",
+      "Vivian",
+      "Vivien",
+      "Vivienna"
+    ],
+    "gender": "female",
+    "relationships": [
+      {
+        "target": "Lucian",
+        "type": "suitor/antagonist"
+      },
+      {
+        "target": "Aria",
+        "type": "sister"
+      },
+      {
+        "target": "Lucien",
+        "type": "antagonistic/former partner"
+      },
+      {
+        "target": "Lucian",
+        "type": "complex/strained"
+      },
+      {
+        "target": "Lucian",
+        "type": "partner/mate"
+      }
+    ],
+    "speech_style": [
+      "calm",
+      "direct",
+      "defiant"
+    ]
+  },
+  {
+    "id": "C003",
+    "name": "Aria",
+    "aliases": [
+      "Arya"
+    ],
+    "gender": "female",
+    "relationships": [
+      {
+        "target": "Vivienne",
+        "type": "sister"
+      },
+      {
+        "target": "Mother",
+        "type": "child"
+      },
+      {
+        "target": "Narrator",
+        "type": "sibling"
+      },
+      {
+        "target": "Narrator",
+        "type": "sister"
+      },
+      {
+        "target": "Narrator",
+        "type": "sibling/ally"
+      },
+      {
+        "target": "Vivienne",
+        "type": "ally"
+      }
+    ],
+    "speech_style": [
+      "flat",
+      "controlled",
+      "bright",
+      "sharp"
+    ]
+  },
+  {
+    "id": "C012",
+    "name": "Alpha Valeris",
+    "aliases": [
+      "Alpha Various",
+      "Alpha Valerce",
+      "Alpha Valerius"
+    ],
+    "gender": "male",
+    "relationships": [
+      {
+        "target": "Lucian",
+        "type": "father"
+      },
+      {
+        "target": "Luna Valerius",
+        "type": "spouse"
+      }
+    ],
+    "speech_style": [
+      "authoritative",
+      "calculating"
+    ]
+  },
+  {
+    "id": "C013",
+    "name": "Luna Valerius",
+    "aliases": [
+      "Luna Various",
+      "Luna Valerce"
+    ],
+    "gender": "female",
+    "relationships": [
+      {
+        "target": "Alpha Valeris",
+        "type": "spouse"
+      },
+      {
+        "target": "Lucian",
+        "type": "mother"
+      }
+    ],
+    "speech_style": [
+      "nervous",
+      "persuasive"
+    ]
+  },
+  {
+    "id": "C014",
+    "name": "Chief Elder Laurent",
+    "aliases": [
+      "Chief Elder LaRonde",
+      "Laurent",
+      "Chief Elder Lawrence",
+      "Laurand",
+      "Lardant"
+    ],
+    "gender": "male",
+    "relationships": [
+      {
+        "target": "Narrator",
+        "type": "father-in-law"
+      }
+    ],
+    "speech_style": [
+      "formal",
+      "authoritative"
+    ]
+  },
+  {
+    "id": "C002",
+    "name": "Lucian",
+    "aliases": [],
+    "gender": "male",
+    "relationships": [
+      {
+        "target": "Vivienne",
+        "type": "suitor"
+      },
+      {
+        "target": "Aria",
+        "type": "suitor"
+      },
+      {
+        "target": "Narrator",
+        "type": "childhood friend"
+      },
+      {
+        "target": "Narrator",
+        "type": "partner/suitor"
+      },
+      {
+        "target": "Aria",
+        "type": "competitor"
+      },
+      {
+        "target": "Vivienne",
+        "type": "complex/strained"
+      },
+      {
+        "target": "Alpha Valeris",
+        "type": "son"
+      },
+      {
+        "target": "Vivienne",
+        "type": "partner/mate"
+      },
+      {
+        "target": "Narrator",
+        "type": "aggressor"
+      }
+    ],
+    "speech_style": [
+      "authoritative",
+      "steady",
+      "calm",
+      "manipulative",
+      "persuasive",
+      "quiet",
+      "tense"
+    ]
+  },
+  {
+    "id": "C004",
+    "name": "Mother",
+    "aliases": [],
+    "gender": "female",
+    "relationships": [
+      {
+        "target": "Vivienne",
+        "type": "mother"
+      },
+      {
+        "target": "Aria",
+        "type": "mother"
+      },
+      {
+        "target": "Narrator",
+        "type": "parent"
+      },
+      {
+        "target": "Aria",
+        "type": "parent"
+      }
+    ],
+    "speech_style": [
+      "authoritative",
+      "steady"
+    ]
+  },
+  {
+    "id": "C008",
+    "name": "Morgana",
+    "aliases": [],
+    "gender": "female",
+    "relationships": [
+      {
+        "target": "Lucien",
+        "type": "deceived bride"
+      }
+    ],
+    "speech_style": [
+      "flat"
+    ]
+  },
+  {
+    "id": "C009",
+    "name": "Lance Laurent",
+    "aliases": [],
+    "gender": "male",
+    "relationships": [
+      {
+        "target": "Luke Laurent",
+        "type": "twin brother"
+      },
+      {
+        "target": "Chief Elder Laurent",
+        "type": "son"
+      }
+    ],
+    "speech_style": []
+  },
+  {
+    "id": "C010",
+    "name": "Luke Laurent",
+    "aliases": [],
+    "gender": "male",
+    "relationships": [
+      {
+        "target": "Lance Laurent",
+        "type": "twin brother"
+      },
+      {
+        "target": "Chief Elder Laurent",
+        "type": "son"
+      }
+    ],
+    "speech_style": []
+  },
+  {
+    "id": "C011",
+    "name": "Lucien",
+    "aliases": [],
+    "gender": "male",
+    "relationships": [
+      {
+        "target": "Vivienne",
+        "type": "antagonistic"
+      },
+      {
+        "target": "Morgana",
+        "type": "groom"
+      }
+    ],
+    "speech_style": []
+  },
+  {
+    "id": "C019",
+    "name": "The royal seer",
+    "aliases": [],
+    "gender": "male",
+    "relationships": [],
+    "speech_style": [
+      "direct"
+    ]
+  },
+  {
+    "id": "C021",
+    "name": "Valerius",
+    "aliases": [
+      "Alpha Valerius",
+      "Luna Valerius"
+    ],
+    "gender": null,
+    "relationships": [],
+    "speech_style": []
+  },
+  {
+    "id": "C022",
+    "name": "Luke",
+    "aliases": [],
+    "gender": "male",
+    "relationships": [],
+    "speech_style": []
+  }
+]
+
+ӨМНӨХ КОНТЕКСТ:
+[
+  {
+    "subtitle_id": 436,
+    "start": "0:13:31.500000",
+    "end": "0:13:33",
+    "text": "Then Aria's face shifted."
+  },
+  {
+    "subtitle_id": 437,
+    "start": "0:13:33.200000",
+    "end": "0:13:34.200000",
+    "text": "Not quite a smile,"
+  },
+  {
+    "subtitle_id": 438,
+    "start": "0:13:34.541000",
+    "end": "0:13:35.583000",
+    "text": "Something sharper."
+  },
+  {
+    "subtitle_id": 439,
+    "start": "0:13:36",
+    "end": "0:13:37.166000",
+    "text": "So that's what we do."
+  },
+  {
+    "subtitle_id": 440,
+    "start": "0:13:38.125000",
+    "end": "0:13:39.583000",
+    "text": "He wants a Coldwell woman."
+  }
+]
+
+ШИНЖЛЭХ ХАДМАЛ:
+[
+  {
+    "subtitle_id": 441,
+    "start": "0:13:40.200000",
+    "end": "0:13:41.125000",
+    "text": "We give him one."
+  },
+  {
+    "subtitle_id": 442,
+    "start": "0:13:41.541000",
+    "end": "0:13:42.125000",
+    "text": "Morgana."
+  },
+  {
+    "subtitle_id": 443,
+    "start": "0:13:43.541000",
+    "end": "0:13:44.125000",
+    "text": "Morgana."
+  },
+  {
+    "subtitle_id": 444,
+    "start": "0:13:44.600000",
+    "end": "0:13:45.600000",
+    "text": "I sat down."
+  },
+  {
+    "subtitle_id": 445,
+    "start": "0:13:46.749000",
+    "end": "0:13:49.166000",
+    "text": "Aria dropped onto the\ncouch across from me."
+  },
+  {
+    "subtitle_id": 446,
+    "start": "0:13:50",
+    "end": "0:13:51.200000",
+    "text": "Does she know about him?"
+  },
+  {
+    "subtitle_id": 447,
+    "start": "0:13:51.791000",
+    "end": "0:13:52.374000",
+    "text": "What he's like?"
+  },
+  {
+    "subtitle_id": 448,
+    "start": "0:13:54.500000",
+    "end": "0:13:56.200000",
+    "text": "Mom needs to\nhandle that carefully."
+  },
+  {
+    "subtitle_id": 449,
+    "start": "0:13:56.400000",
+    "end": "0:13:58.800000",
+    "text": "We give her the full\npicture and let her decide."
+  },
+  {
+    "subtitle_id": 450,
+    "start": "0:13:59.125000",
+    "end": "0:14:00",
+    "text": "I paused."
+  },
+  {
+    "subtitle_id": 451,
+    "start": "0:14:00.200000",
+    "end": "0:14:02.800000",
+    "text": "She's been living in the\neast wing for six years"
+  },
+  {
+    "subtitle_id": 452,
+    "start": "0:14:03.125000",
+    "end": "0:14:04.333000",
+    "text": "with nowhere to go."
+  },
+  {
+    "subtitle_id": 453,
+    "start": "0:14:05.333000",
+    "end": "0:14:07.125000",
+    "text": "Lucian can give her a title,"
+  },
+  {
+    "subtitle_id": 454,
+    "start": "0:14:07.600000",
+    "end": "0:14:08.374000",
+    "text": "a home,"
+  },
+  {
+    "subtitle_id": 455,
+    "start": "0:14:08.400000",
+    "end": "0:14:09.200000",
+    "text": "a pack."
+  },
+  {
+    "subtitle_id": 456,
+    "start": "0:14:09.200000",
+    "end": "0:14:11.166000",
+    "text": "We just make sure\nshe understands"
+  },
+  {
+    "subtitle_id": 457,
+    "start": "0:14:11.166000",
+    "end": "0:14:12.800000",
+    "text": "exactly what she's\nwalking into."
+  },
+  {
+    "subtitle_id": 458,
+    "start": "0:14:13.400000",
+    "end": "0:14:14.791000",
+    "text": "You're not doing\nthis to hurt her."
+  },
+  {
+    "subtitle_id": 459,
+    "start": "0:14:14.800000",
+    "end": "0:14:15.600000",
+    "text": "Aria said."
+  },
+  {
+    "subtitle_id": 460,
+    "start": "0:14:15.600000",
+    "end": "0:14:16.800000",
+    "text": "It wasn't a question"
+  },
+  {
+    "subtitle_id": 461,
+    "start": "0:14:16.800000",
+    "end": "0:14:17.333000",
+    "text": "No."
+  },
+  {
+    "subtitle_id": 462,
+    "start": "0:14:18",
+    "end": "0:14:19.400000",
+    "text": "I'm doing this to survive."
+  },
+  {
+    "subtitle_id": 463,
+    "start": "0:14:20",
+    "end": "0:14:21",
+    "text": "And so are you."
+  },
+  {
+    "subtitle_id": 464,
+    "start": "0:14:22.374000",
+    "end": "0:14:23.749000",
+    "text": "She nodded slowly."
+  },
+  {
+    "subtitle_id": 465,
+    "start": "0:14:23.800000",
+    "end": "0:14:24.958000",
+    "text": "Then my mother walked in"
+  },
+  {
+    "subtitle_id": 466,
+    "start": "0:14:24.958000",
+    "end": "0:14:26.400000",
+    "text": "with two men behind her."
+  },
+  {
+    "subtitle_id": 467,
+    "start": "0:14:26.541000",
+    "end": "0:14:28.333000",
+    "text": "I recognized them\nimmediately."
+  },
+  {
+    "subtitle_id": 468,
+    "start": "0:14:28.400000",
+    "end": "0:14:29.800000",
+    "text": "Lance and Luke Laurent,"
+  },
+  {
+    "subtitle_id": 469,
+    "start": "0:14:29.800000",
+    "end": "0:14:32",
+    "text": "Chief Elder\nLaurent's twin sons."
+  },
+  {
+    "subtitle_id": 470,
+    "start": "0:14:32",
+    "end": "0:14:32.749000",
+    "text": "I'd seen them"
+  },
+  {
+    "subtitle_id": 471,
+    "start": "0:14:32.749000",
+    "end": "0:14:34.541000",
+    "text": "at High Council\nceremonies before,"
+  },
+  {
+    "subtitle_id": 472,
+    "start": "0:14:34.600000",
+    "end": "0:14:35.791000",
+    "text": "always in uniform,"
+  },
+  {
+    "subtitle_id": 473,
+    "start": "0:14:35.800000",
+    "end": "0:14:37.125000",
+    "text": "always in the background."
+  },
+  {
+    "subtitle_id": 474,
+    "start": "0:14:37.400000",
+    "end": "0:14:39",
+    "text": "They weren't in the\nbackground now."
+  },
+  {
+    "subtitle_id": 475,
+    "start": "0:14:39",
+    "end": "0:14:40.200000",
+    "text": "My mother\nlooked exhausted"
+  },
+  {
+    "subtitle_id": 476,
+    "start": "0:14:40.200000",
+    "end": "0:14:42.125000",
+    "text": "and triumphant\nat the same time."
+  },
+  {
+    "subtitle_id": 477,
+    "start": "0:14:42.200000",
+    "end": "0:14:43.791000",
+    "text": "I ran all over town."
+  },
+  {
+    "subtitle_id": 478,
+    "start": "0:14:43.800000",
+    "end": "0:14:45.200000",
+    "text": "These two have\nbeen waiting for"
+  },
+  {
+    "subtitle_id": 479,
+    "start": "0:14:45.200000",
+    "end": "0:14:46.125000",
+    "text": "years apparently."
+  },
+  {
+    "subtitle_id": 480,
+    "start": "0:14:46.200000",
+    "end": "0:14:47",
+    "text": "Good family,"
+  }
+]
+
+ДАРААХ КОНТЕКСТ:
+[
+  {
+    "subtitle_id": 481,
+    "start": "0:14:47",
+    "end": "0:14:47.958000",
+    "text": "good standing,"
+  },
+  {
+    "subtitle_id": 482,
+    "start": "0:14:47.958000",
+    "end": "0:14:50",
+    "text": "top enforcers in\nthe High Council."
+  },
+  {
+    "subtitle_id": 483,
+    "start": "0:14:50.200000",
+    "end": "0:14:51.125000",
+    "text": "She looked at us:"
+  },
+  {
+    "subtitle_id": 484,
+    "start": "0:14:51.200000",
+    "end": "0:14:51.800000",
+    "text": "\"Well?"
+  },
+  {
+    "subtitle_id": 485,
+    "start": "0:14:51.800000",
+    "end": "0:14:53.166000",
+    "text": "Neither of us spoke."
+  }
+]
+
+==================================================
+1. SPEAKER_TYPE АНГИЛАЛ
+==================================================
+
+Зөвхөн дараах гурван төрлийг ялгаж ойлго.
+
+A. character
+
+Дүрийн амнаас гарч буй шууд яриа.
+
+Жишээ:
+- You betrayed me.
+- Where are you going?
+- I never loved you.
+
+Шууд яриа нь тухайн дүрийн ID, нэртэй байна.
+
+B. inner_monologue
+
+Дүрийн дотоод бодол, мэдрэмж, дурсамж,
+өөртөө хэлж буй үг, субъектив дотоод өгүүлэмж.
+
+Жишээ:
+- I couldn't believe what I had heard.
+- Why did he do this to me?
+- I knew I had to leave.
+- I didn't want to see him again.
+
+АНХААР:
+Эхний биеийн I, me, my, myself ашигласан нь
+дангаараа inner_monologue гэж ангилах хангалттай нотолгоо биш.
+
+Дотоод бодлын эзнийг өгүүлэмжийн контекст,
+дүрийн POV болон өмнөх, дараах мөрүүдээр тогтоо.
+
+C. narrator
+
+Киноны үйл явдлыг гаднын өгүүлэгчийн байр сууринаас
+тайлбарлаж буй хүүрнэл.
+
+Жишээ:
+- The sun was setting.
+- Lucian walked toward the door.
+- The room was completely silent.
+- She looked at him without saying a word.
+
+Narrator нь дүрийн дотоод бодол биш,
+үйл явдлыг хүүрнэж буй өгүүлэгч юм.
+
+==================================================
+2. NARRATOR БА INNER_MONOLOGUE-ИЙН ЯЛГАА
+==================================================
+
+Энэ бол хамгийн чухал дүрэм.
+
+1. Эхний биеэр өгүүлсэн бүх мөрийг narrator гэж үзэж болохгүй.
+
+2. Эхний биеэр өгүүлсэн бүх мөрийг
+   inner_monologue гэж үзэж болохгүй.
+
+3. Хэрэв өгүүлэмжид дүрийн хувийн бодол,
+   мэдрэмж, дурсамж, айдас, хүсэл,
+   шийдвэр эсвэл субъектив үнэлгээ илэрч байвал
+   inner_monologue гэж ангил.
+
+4. Хэрэв өгүүлэмж зөвхөн үйл явдал,
+   орчин, бусад дүрийн үйлдлийг
+   гаднын байр сууринаас тайлбарлаж байвал
+   narrator гэж ангил.
+
+5. Lucian, Mother, Aria зэрэг дүрийн үйлдлийг
+   тайлбарласан нь автоматаар narrator болно.
+   Гэхдээ тухайн өгүүлбэр дотоод бодол байвал
+   POV дүрийн inner_monologue байна.
+
+6. Ярианы агуулга, POV болон өгүүлэмжийн
+   үргэлжлэлийг хамтад нь шинжил.
+
+==================================================
+3. INNER_MONOLOGUE-ИЙН ЭЗНИЙГ ТОГТООХ
+==================================================
+
+1. Дотоод бодлын эзнийг characters жагсаалтаас ол.
+
+2. Дотоод бодлын эзнийг тогтоохдоо:
+   - Өмнөх болон дараах хадмал
+   - POV-ийн үргэлжлэл
+   - Дүрүүдийн харилцаа
+   - Өгүүлэмжийн нөхцөл
+   - Дүрийн тухайн үеийн байр суурь
+   зэргийг ашигла.
+
+3. Vivienne өөрийн бодол, мэдрэмжийг
+   хүүрнэж байгаа нь контекстоор батлагдсан бол:
+
+   speaker_id = "C001"
+   speaker_name = "Vivienne"
+   speaker_type = "inner_monologue"
+
+4. Зөвхөн I, me, my гэсэн үгсээр
+   Vivienne гэж таамаглаж болохгүй.
+
+5. Narrator бүртгэл байгаа гэдгээр
+   inner_monologue-ийг Narrator-д оноож болохгүй.
+
+6. Дотоод бодлын эзнийг тогтоох боломжгүй бол:
+
+   speaker_id = null
+   speaker_name = null
+   speaker_type = "inner_monologue"
+
+==================================================
+4. NARRATION БА VOICE IDENTITY
+==================================================
+
+
+VOICE IDENTITY-ИЙН ЗААВАЛ МӨРДӨХ ДҮРЭМ:
+
+- Киноны narration / хүүрнэлийг тусдаа Narrator дүрд оноож болохгүй.
+- Narration-ийн speaker_id = "C001"
+- Narration-ийн speaker_name = "Vivienne"
+- Narration-ийн speaker_type = "narrator"
+
+- Vivienne-ийн дотоод бодол, мэдрэмж, дурсамжийг:
+  speaker_id = "C001"
+  speaker_name = "Vivienne"
+  speaker_type = "inner_monologue"
+
+- Narration болон Vivienne-ийн inner_monologue нь dubbing хийхэд
+  НЭГ Л VOICE IDENTITY буюу Vivienne байна.
+- "Narrator" нэртэй тусдаа speaker_id-г хэзээ ч бүү ашигла.
+- Narrator бүртгэл дүрийн жагсаалтад байсан ч түүнийг оноолтод бүү ашигла.
+- narration ба inner_monologue-ийн ялгааг зөвхөн speaker_type-аар хадгал.
+
+
+Энэ киноны баталгаажсан dubbing шийдвэрийг мөрд:
+Narration нь тусдаа Narrator voice биш, Vivienne-ийн voice identity.
+Гаднын хүүрнэлийн төрлийг speaker_type = "narrator" гэж хадгалж болно,
+гэхдээ speaker_id болон speaker_name нь Vivienne байна.
+
+Narration ба inner_monologue-ийн speaker identity-г хэзээ ч салгаж болохгүй.
+
+==================================================
+5. UNKNOWN АНГИЛАЛ
+==================================================
+
+Яригчийг найдвартай тогтоох боломжгүй бол
+speaker_type = "unknown" ашигла.
+
+Энэ үед:
+
+speaker_id = null
+speaker_name = null
+speaker_type = "unknown"
+
+Unknown болон inner_monologue-ийг ялга:
+
+- Дотоод бодол гэдэг нь тодорхой боловч эзэн
+  тодорхойгүй бол inner_monologue.
+- Ямар төрлийн өгүүлэмж болох нь ч тодорхойгүй
+  бол unknown.
+
+==================================================
+6. НЭМЭЛТ ШИНЖИЛГЭЭНИЙ ДҮРЭМ
+==================================================
+
+1. Нэр дурдагдсан дүрийг шууд яригч гэж бүү үз.
+2. Ярианы ээлжийг харгалз.
+3. Өмнөх болон дараах контекстыг ашигла.
+4. Дүрүүдийн харилцааг харгалз.
+5. Дүрүүдийн ярианы хэв маягийг харгалз.
+6. Нэр болон ID хоорондоо яг таарч байх ёстой.
+7. Таамгаар дүрийн ID бүү оноо.
+8. Бага confidence шаардлагатай үед ашигла.
+9. Өгүүлбэрийн утгыг бус, бодит speaker-ийг тогтоо.
+10. Нэг мөрийн шийдвэрийг бусад мөрийн шийдвэртэй
+    зөрчилдөхгүй байлга.
+
+==================================================
+7. ГАРАЛТЫН ШААРДЛАГА
+==================================================
+
+1. Бүх хадмалын subtitle_id-г хэвээр хадгал.
+2. Нэг ч хадмалыг алгасаж болохгүй.
+3. Зөвхөн ШИНЖЛЭХ ХАДМАЛ хэсгийн мөрүүдийг буцаа.
+4. Контекстийн мөрүүдийг буцааж болохгүй.
+5. subtitle_id бүр яг нэг удаа байх ёстой.
+6. Бүх үр дүнг JSON object хэлбэрээр буцаа.
+7. Нэмэлт тайлбар, Markdown бүү оруул.
+8. evidence нь тухайн шийдвэрийн товч,
+   бодит нотолгоо байна.
+9. Бүх мөрийн speaker_type зөвшөөрөгдсөн
+   утгын нэг байх ёстой.
+
+ЗӨВШӨӨРӨГДСӨН speaker_type:
+['character', 'inner_monologue', 'narrator', 'unknown']
+
+ЗӨВШӨӨРӨГДСӨН confidence:
+['high', 'medium', 'low']
+
+ГАРАЛТЫН БҮТЭЦ:
+{
+  "results": [
+    {
+      "subtitle_id": 441,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 442,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 443,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 444,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 445,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 446,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 447,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 448,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 449,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 450,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 451,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 452,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 453,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 454,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 455,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 456,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 457,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 458,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 459,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 460,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 461,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 462,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 463,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 464,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 465,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 466,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 467,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 468,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 469,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 470,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 471,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 472,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 473,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 474,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 475,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 476,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 477,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 478,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 479,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    },
+    {
+      "subtitle_id": 480,
+      "speaker_id": null,
+      "speaker_name": null,
+      "speaker_type": "unknown",
+      "confidence": "low",
+      "evidence": "Шийдвэрийн нотолгоо"
+    }
+  ]
+}
+
+JSON-оос өөр зүйл буцааж болохгүй.

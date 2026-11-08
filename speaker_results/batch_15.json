@@ -1,0 +1,324 @@
+{
+    "results": [
+        {
+            "subtitle_id": 561,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is narrating the actions of Morgana."
+        },
+        {
+            "subtitle_id": 562,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of the narrative description."
+        },
+        {
+            "subtitle_id": 563,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Vivienne to Morgana."
+        },
+        {
+            "subtitle_id": 564,
+            "speaker_id": "C008",
+            "speaker_name": "Morgana",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Morgana responds to Vivienne's question."
+        },
+        {
+            "subtitle_id": 565,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes Morgana's action."
+        },
+        {
+            "subtitle_id": 566,
+            "speaker_id": "C008",
+            "speaker_name": "Morgana",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Morgana continues speaking."
+        },
+        {
+            "subtitle_id": 567,
+            "speaker_id": "C008",
+            "speaker_name": "Morgana",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Morgana's dialogue."
+        },
+        {
+            "subtitle_id": 568,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne responds to Morgana."
+        },
+        {
+            "subtitle_id": 569,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's dialogue."
+        },
+        {
+            "subtitle_id": 570,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's dialogue."
+        },
+        {
+            "subtitle_id": 571,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes the scene."
+        },
+        {
+            "subtitle_id": 572,
+            "speaker_id": "C008",
+            "speaker_name": "Morgana",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Morgana speaks about Lucien."
+        },
+        {
+            "subtitle_id": 573,
+            "speaker_id": "C008",
+            "speaker_name": "Morgana",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Morgana's dialogue."
+        },
+        {
+            "subtitle_id": 574,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes Morgana's voice."
+        },
+        {
+            "subtitle_id": 575,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes Morgana's voice."
+        },
+        {
+            "subtitle_id": 576,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes Morgana's voice."
+        },
+        {
+            "subtitle_id": 577,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes Morgana's voice."
+        },
+        {
+            "subtitle_id": 578,
+            "speaker_id": "C008",
+            "speaker_name": "Morgana",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Morgana continues speaking about Lucien."
+        },
+        {
+            "subtitle_id": 579,
+            "speaker_id": "C008",
+            "speaker_name": "Morgana",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Morgana's dialogue."
+        },
+        {
+            "subtitle_id": 580,
+            "speaker_id": "C008",
+            "speaker_name": "Morgana",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Morgana's dialogue."
+        },
+        {
+            "subtitle_id": 581,
+            "speaker_id": "C008",
+            "speaker_name": "Morgana",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Morgana's dialogue."
+        },
+        {
+            "subtitle_id": 582,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes Aria's reaction."
+        },
+        {
+            "subtitle_id": 583,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes Morgana's action."
+        },
+        {
+            "subtitle_id": 584,
+            "speaker_id": "C008",
+            "speaker_name": "Morgana",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Morgana asks a question."
+        },
+        {
+            "subtitle_id": 585,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne answers Morgana."
+        },
+        {
+            "subtitle_id": 586,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's dialogue."
+        },
+        {
+            "subtitle_id": 587,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's dialogue."
+        },
+        {
+            "subtitle_id": 588,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's dialogue."
+        },
+        {
+            "subtitle_id": 589,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's dialogue."
+        },
+        {
+            "subtitle_id": 590,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's dialogue."
+        },
+        {
+            "subtitle_id": 591,
+            "speaker_id": "C008",
+            "speaker_name": "Morgana",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Morgana asks about Lucien."
+        },
+        {
+            "subtitle_id": 592,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria interjects."
+        },
+        {
+            "subtitle_id": 593,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne identifies the speaker."
+        },
+        {
+            "subtitle_id": 594,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes the scene."
+        },
+        {
+            "subtitle_id": 595,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes the scene."
+        },
+        {
+            "subtitle_id": 596,
+            "speaker_id": "C008",
+            "speaker_name": "Morgana",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Morgana speaks about her brother."
+        },
+        {
+            "subtitle_id": 597,
+            "speaker_id": "C008",
+            "speaker_name": "Morgana",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Morgana's dialogue."
+        },
+        {
+            "subtitle_id": 598,
+            "speaker_id": "C008",
+            "speaker_name": "Morgana",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Morgana's dialogue."
+        },
+        {
+            "subtitle_id": 599,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes the interaction."
+        },
+        {
+            "subtitle_id": 600,
+            "speaker_id": "C008",
+            "speaker_name": "Morgana",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Morgana continues speaking."
+        }
+    ]
+}

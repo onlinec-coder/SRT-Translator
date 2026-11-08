@@ -1,0 +1,324 @@
+{
+    "results": [
+        {
+            "subtitle_id": 401,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of the narrative description of past events."
+        },
+        {
+            "subtitle_id": 402,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative observation about Aria's voice."
+        },
+        {
+            "subtitle_id": 403,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of physical details."
+        },
+        {
+            "subtitle_id": 404,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of physical details."
+        },
+        {
+            "subtitle_id": 405,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of physical details."
+        },
+        {
+            "subtitle_id": 406,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative observation."
+        },
+        {
+            "subtitle_id": 407,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description."
+        },
+        {
+            "subtitle_id": 408,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description."
+        },
+        {
+            "subtitle_id": 409,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description."
+        },
+        {
+            "subtitle_id": 410,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description."
+        },
+        {
+            "subtitle_id": 411,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Vivienne."
+        },
+        {
+            "subtitle_id": 412,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative tag for the previous dialogue."
+        },
+        {
+            "subtitle_id": 413,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative observation of Aria."
+        },
+        {
+            "subtitle_id": 414,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Aria."
+        },
+        {
+            "subtitle_id": 415,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Vivienne."
+        },
+        {
+            "subtitle_id": 416,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Vivienne."
+        },
+        {
+            "subtitle_id": 417,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Vivienne."
+        },
+        {
+            "subtitle_id": 418,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Vivienne."
+        },
+        {
+            "subtitle_id": 419,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Vivienne."
+        },
+        {
+            "subtitle_id": 420,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative observation of Aria."
+        },
+        {
+            "subtitle_id": 421,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Vivienne."
+        },
+        {
+            "subtitle_id": 422,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of internal realization."
+        },
+        {
+            "subtitle_id": 423,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal thought process regarding Lucian's promise."
+        },
+        {
+            "subtitle_id": 424,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal thought process."
+        },
+        {
+            "subtitle_id": 425,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal thought process."
+        },
+        {
+            "subtitle_id": 426,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of the scene."
+        },
+        {
+            "subtitle_id": 427,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Vivienne."
+        },
+        {
+            "subtitle_id": 428,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Vivienne."
+        },
+        {
+            "subtitle_id": 429,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of action."
+        },
+        {
+            "subtitle_id": 430,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Vivienne."
+        },
+        {
+            "subtitle_id": 431,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Vivienne."
+        },
+        {
+            "subtitle_id": 432,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Vivienne."
+        },
+        {
+            "subtitle_id": 433,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Vivienne."
+        },
+        {
+            "subtitle_id": 434,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Vivienne."
+        },
+        {
+            "subtitle_id": 435,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of the scene."
+        },
+        {
+            "subtitle_id": 436,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative observation of Aria."
+        },
+        {
+            "subtitle_id": 437,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description."
+        },
+        {
+            "subtitle_id": 438,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description."
+        },
+        {
+            "subtitle_id": 439,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Aria."
+        },
+        {
+            "subtitle_id": 440,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Aria."
+        }
+    ]
+}

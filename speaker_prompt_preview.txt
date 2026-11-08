@@ -1,0 +1,730 @@
+
+Чи мэргэжлийн киноны диалог шинжээч.
+
+ҮҮРЭГ:
+Доорх хадмал бүрийн яригчийг тодорхойл.
+
+ДҮРҮҮД:
+[
+  {
+    "id": "C001",
+    "name": "Vivienne",
+    "aliases": [
+      "Viviana",
+      "Vivian"
+    ],
+    "gender": "female",
+    "relationships": [
+      {
+        "target": "Lucian",
+        "type": "suitor/antagonist"
+      },
+      {
+        "target": "Aria",
+        "type": "sister"
+      },
+      {
+        "target": "Lucien",
+        "type": "antagonistic/former partner"
+      },
+      {
+        "target": "Lucian",
+        "type": "complex/strained"
+      },
+      {
+        "target": "Lucian",
+        "type": "partner/mate"
+      }
+    ],
+    "speech_style": [
+      "calm",
+      "direct",
+      "defiant"
+    ]
+  },
+  {
+    "id": "C002",
+    "name": "Lucian",
+    "aliases": [
+      "Lucien"
+    ],
+    "gender": "male",
+    "relationships": [
+      {
+        "target": "Vivienne",
+        "type": "suitor"
+      },
+      {
+        "target": "Aria",
+        "type": "suitor"
+      },
+      {
+        "target": "Narrator",
+        "type": "childhood friend"
+      },
+      {
+        "target": "Narrator",
+        "type": "partner/suitor"
+      },
+      {
+        "target": "Arya",
+        "type": "competitor"
+      },
+      {
+        "target": "Vivian",
+        "type": "complex/strained"
+      },
+      {
+        "target": "Alpha Various",
+        "type": "son"
+      },
+      {
+        "target": "Vivian",
+        "type": "partner/mate"
+      },
+      {
+        "target": "Narrator",
+        "type": "aggressor"
+      },
+      {
+        "target": "Vivian",
+        "type": "antagonistic"
+      },
+      {
+        "target": "Morgana",
+        "type": "groom"
+      }
+    ],
+    "speech_style": [
+      "authoritative",
+      "steady",
+      "calm",
+      "manipulative",
+      "persuasive",
+      "quiet",
+      "tense"
+    ]
+  },
+  {
+    "id": "C003",
+    "name": "Aria",
+    "aliases": [],
+    "gender": "female",
+    "relationships": [
+      {
+        "target": "Vivienne",
+        "type": "sister"
+      }
+    ],
+    "speech_style": [
+      "flat",
+      "controlled"
+    ]
+  },
+  {
+    "id": "C004",
+    "name": "Mother",
+    "aliases": [],
+    "gender": "female",
+    "relationships": [
+      {
+        "target": "Vivienne",
+        "type": "mother"
+      },
+      {
+        "target": "Aria",
+        "type": "mother"
+      },
+      {
+        "target": "Narrator",
+        "type": "parent"
+      },
+      {
+        "target": "Arya",
+        "type": "parent"
+      }
+    ],
+    "speech_style": [
+      "authoritative",
+      "steady"
+    ]
+  },
+  {
+    "id": "C005",
+    "name": "Narrator",
+    "aliases": [],
+    "gender": null,
+    "relationships": [
+      {
+        "target": "Mother",
+        "type": "child"
+      },
+      {
+        "target": "Arya",
+        "type": "sibling"
+      },
+      {
+        "target": "Lucian",
+        "type": "childhood friend"
+      },
+      {
+        "target": "Arya",
+        "type": "sibling/ally"
+      },
+      {
+        "target": "Mother",
+        "type": "parent"
+      }
+    ],
+    "speech_style": [
+      "Direct",
+      "Analytical"
+    ]
+  },
+  {
+    "id": "C006",
+    "name": "Arya",
+    "aliases": [],
+    "gender": "female",
+    "relationships": [
+      {
+        "target": "Mother",
+        "type": "child"
+      },
+      {
+        "target": "Narrator",
+        "type": "sibling"
+      },
+      {
+        "target": "Narrator",
+        "type": "sister"
+      },
+      {
+        "target": "Narrator",
+        "type": "sibling/ally"
+      },
+      {
+        "target": "Vivian",
+        "type": "ally"
+      }
+    ],
+    "speech_style": [
+      "bright",
+      "sharp"
+    ]
+  },
+  {
+    "id": "C008",
+    "name": "Morgana",
+    "aliases": [],
+    "gender": "female",
+    "relationships": [
+      {
+        "target": "Lucien",
+        "type": "deceived bride"
+      }
+    ],
+    "speech_style": [
+      "flat"
+    ]
+  },
+  {
+    "id": "C009",
+    "name": "Lance Laurent",
+    "aliases": [],
+    "gender": "male",
+    "relationships": [
+      {
+        "target": "Luke Laurent",
+        "type": "twin brother"
+      },
+      {
+        "target": "Chief Elder Laurent",
+        "type": "son"
+      }
+    ],
+    "speech_style": []
+  },
+  {
+    "id": "C010",
+    "name": "Luke Laurent",
+    "aliases": [],
+    "gender": "male",
+    "relationships": [
+      {
+        "target": "Lance Laurent",
+        "type": "twin brother"
+      },
+      {
+        "target": "Chief Elder Laurent",
+        "type": "son"
+      }
+    ],
+    "speech_style": []
+  },
+  {
+    "id": "C012",
+    "name": "Alpha Various",
+    "aliases": [
+      "Alpha Valerce"
+    ],
+    "gender": "male",
+    "relationships": [
+      {
+        "target": "Lucian",
+        "type": "father"
+      },
+      {
+        "target": "Luna Various",
+        "type": "spouse"
+      }
+    ],
+    "speech_style": [
+      "authoritative",
+      "calculating"
+    ]
+  },
+  {
+    "id": "C013",
+    "name": "Luna Various",
+    "aliases": [],
+    "gender": "female",
+    "relationships": [
+      {
+        "target": "Alpha Various",
+        "type": "spouse"
+      }
+    ],
+    "speech_style": [
+      "nervous"
+    ]
+  },
+  {
+    "id": "C014",
+    "name": "Chief Elder LaRonde",
+    "aliases": [],
+    "gender": "male",
+    "relationships": [],
+    "speech_style": []
+  },
+  {
+    "id": "C015",
+    "name": "Chief Elder Laurent",
+    "aliases": [],
+    "gender": "male",
+    "relationships": [],
+    "speech_style": []
+  },
+  {
+    "id": "C016",
+    "name": "Luna Valerce",
+    "aliases": [],
+    "gender": "female",
+    "relationships": [
+      {
+        "target": "Lucian",
+        "type": "mother"
+      }
+    ],
+    "speech_style": [
+      "persuasive"
+    ]
+  },
+  {
+    "id": "C017",
+    "name": "Laurent",
+    "aliases": [],
+    "gender": "male",
+    "relationships": [
+      {
+        "target": "Narrator",
+        "type": "father-in-law"
+      }
+    ],
+    "speech_style": [
+      "formal",
+      "authoritative"
+    ]
+  },
+  {
+    "id": "C018",
+    "name": "Alpha Valeris",
+    "aliases": [],
+    "gender": "male",
+    "relationships": [
+      {
+        "target": "Lucian",
+        "type": "father"
+      }
+    ],
+    "speech_style": []
+  },
+  {
+    "id": "C019",
+    "name": "The royal seer",
+    "aliases": [],
+    "gender": "male",
+    "relationships": [],
+    "speech_style": [
+      "direct"
+    ]
+  },
+  {
+    "id": "C020",
+    "name": "Luna Valerius",
+    "aliases": [],
+    "gender": "female",
+    "relationships": [],
+    "speech_style": []
+  },
+  {
+    "id": "C021",
+    "name": "Valerius",
+    "aliases": [
+      "Alpha Valerius",
+      "Luna Valerius"
+    ],
+    "gender": null,
+    "relationships": [],
+    "speech_style": []
+  },
+  {
+    "id": "C022",
+    "name": "Luke",
+    "aliases": [],
+    "gender": "male",
+    "relationships": [],
+    "speech_style": []
+  }
+]
+
+ӨМНӨХ КОНТЕКСТ:
+[]
+
+ШИНЖЛЭХ ХАДМАЛ:
+[
+  {
+    "subtitle_id": 1,
+    "start": "0:00:09.070000",
+    "end": "0:00:13.470000",
+    "text": "The third bowl tasted like rot.\nI couldn't feel my hands anymore."
+  },
+  {
+    "subtitle_id": 2,
+    "start": "0:00:13.471000",
+    "end": "0:00:15.807000",
+    "text": "The wolf bead had\nalready reached my chest."
+  },
+  {
+    "subtitle_id": 3,
+    "start": "0:00:15.831000",
+    "end": "0:00:18.757000",
+    "text": "Lucian stood at the dend of\nthe bed and watched me go."
+  },
+  {
+    "subtitle_id": 4,
+    "start": "0:00:18.758000",
+    "end": "0:00:21.790000",
+    "text": "Seven pups, whole high-ranking blood.\nThat's enough."
+  },
+  {
+    "subtitle_id": 5,
+    "start": "0:00:21.791000",
+    "end": "0:00:24.270000",
+    "text": "I tried to speak. Nothing came out."
+  },
+  {
+    "subtitle_id": 6,
+    "start": "0:00:26.110000",
+    "end": "0:00:28.030000",
+    "text": "You were never the one I wanted Vivienne."
+  },
+  {
+    "subtitle_id": 7,
+    "start": "0:00:29.230000",
+    "end": "0:00:30.430000",
+    "text": "His voice didn't waver."
+  },
+  {
+    "subtitle_id": 8,
+    "start": "0:00:30.869000",
+    "end": "0:00:35.790000",
+    "text": "You threw yourself at me.\nI let it happen. That's all this ever was."
+  },
+  {
+    "subtitle_id": 9,
+    "start": "0:00:35.791000",
+    "end": "0:00:38.830000",
+    "text": "I wanted to scream.\nI wanted to tear him apart."
+  },
+  {
+    "subtitle_id": 10,
+    "start": "0:00:39.070000",
+    "end": "0:00:40.670000",
+    "text": "But my body was already gone."
+  },
+  {
+    "subtitle_id": 11,
+    "start": "0:00:41.870000",
+    "end": "0:00:43.230000",
+    "text": "You've served your purpose."
+  },
+  {
+    "subtitle_id": 12,
+    "start": "0:00:45.380000",
+    "end": "0:00:46.820000",
+    "text": "He set the empty bowl down."
+  },
+  {
+    "subtitle_id": 13,
+    "start": "0:00:47.460000",
+    "end": "0:00:48.420000",
+    "text": "Rest now."
+  },
+  {
+    "subtitle_id": 14,
+    "start": "0:00:48.421000",
+    "end": "0:00:51.060000",
+    "text": "My heartbeat slowed. Then nothing."
+  },
+  {
+    "subtitle_id": 15,
+    "start": "0:00:52.580000",
+    "end": "0:00:56.740000",
+    "text": "I opened my eyes. In my mother's\nsitting room at Coldwell Manor."
+  },
+  {
+    "subtitle_id": 16,
+    "start": "0:00:59.390000",
+    "end": "0:01:00.390000",
+    "text": "I came back."
+  },
+  {
+    "subtitle_id": 17,
+    "start": "0:01:01.765000",
+    "end": "0:01:05.390000",
+    "text": "I pressed my hands flat\nagainst my thighs and breathed."
+  },
+  {
+    "subtitle_id": 18,
+    "start": "0:01:05.391000",
+    "end": "0:01:08.270000",
+    "text": "My mother was holding a\ncontract across the room."
+  },
+  {
+    "subtitle_id": 19,
+    "start": "0:01:08.271000",
+    "end": "0:01:12.430000",
+    "text": "A mating bond contract, sealed\nwith the Blood Moon Pack crest."
+  },
+  {
+    "subtitle_id": 20,
+    "start": "0:01:12.431000",
+    "end": "0:01:13.550000",
+    "text": "The name line was blank."
+  },
+  {
+    "subtitle_id": 21,
+    "start": "0:01:14.510000",
+    "end": "0:01:17.870000",
+    "text": "The Velice's heir sent this\nearlier this morning, Vivienne."
+  },
+  {
+    "subtitle_id": 22,
+    "start": "0:01:17.871000",
+    "end": "0:01:19.470000",
+    "text": "Is it you he's asking for?"
+  },
+  {
+    "subtitle_id": 23,
+    "start": "0:01:19.471000",
+    "end": "0:01:23.470000",
+    "text": "Lucian sat across from her.\nSame face. Same steady eyes."
+  },
+  {
+    "subtitle_id": 24,
+    "start": "0:01:23.471000",
+    "end": "0:01:24.831000",
+    "text": "Like none of it had ever happened."
+  },
+  {
+    "subtitle_id": 25,
+    "start": "0:01:26.190000",
+    "end": "0:01:28.190000",
+    "text": "I can marry Vivienne. I don't mind."
+  },
+  {
+    "subtitle_id": 26,
+    "start": "0:01:28.191000",
+    "end": "0:01:30.910000",
+    "text": "I don't mind. Seven years. Seven children."
+  },
+  {
+    "subtitle_id": 27,
+    "start": "0:01:30.911000",
+    "end": "0:01:32.510000",
+    "text": "Three bowls of wolf's babe."
+  },
+  {
+    "subtitle_id": 28,
+    "start": "0:01:32.511000",
+    "end": "0:01:33.511000",
+    "text": "No."
+  },
+  {
+    "subtitle_id": 29,
+    "start": "0:01:34.190000",
+    "end": "0:01:35.190000",
+    "text": "Silence."
+  },
+  {
+    "subtitle_id": 30,
+    "start": "0:01:35.430000",
+    "end": "0:01:39.470000",
+    "text": "Viviana.\nYou've wanted this since you were 12."
+  },
+  {
+    "subtitle_id": 31,
+    "start": "0:01:41.390000",
+    "end": "0:01:42.990000",
+    "text": "I was a kid. I didn't know any better."
+  },
+  {
+    "subtitle_id": 32,
+    "start": "0:01:42.991000",
+    "end": "0:01:46.590000",
+    "text": "Lucian looked at me.\nThat calm, unerisval stare."
+  },
+  {
+    "subtitle_id": 33,
+    "start": "0:01:46.591000",
+    "end": "0:01:49.230000",
+    "text": "I used to think meant he\nwas hiding something tender."
+  },
+  {
+    "subtitle_id": 34,
+    "start": "0:01:49.231000",
+    "end": "0:01:50.231000",
+    "text": "Now I knew better."
+  },
+  {
+    "subtitle_id": 35,
+    "start": "0:01:51.699000",
+    "end": "0:01:54.830000",
+    "text": "I also have someone.\nHe'll be here soon with his own contract."
+  },
+  {
+    "subtitle_id": 36,
+    "start": "0:01:55.569000",
+    "end": "0:01:57.310000",
+    "text": "My mother's head snapped toward Aria."
+  },
+  {
+    "subtitle_id": 37,
+    "start": "0:01:57.870000",
+    "end": "0:02:00.670000",
+    "text": "Aria had been quiet in\nthe corner this whole time."
+  },
+  {
+    "subtitle_id": 38,
+    "start": "0:02:00.671000",
+    "end": "0:02:02.030000",
+    "text": "Now she shook her head hard."
+  },
+  {
+    "subtitle_id": 39,
+    "start": "0:02:02.830000",
+    "end": "0:02:04.350000",
+    "text": "Same. I'm not available either."
+  },
+  {
+    "subtitle_id": 40,
+    "start": "0:02:04.750000",
+    "end": "0:02:07.950000",
+    "text": "My mother turned back\nto Lucian with a tight smile."
+  }
+]
+
+ДАРААХ КОНТЕКСТ:
+[
+  {
+    "subtitle_id": 41,
+    "start": "0:02:07.951000",
+    "end": "0:02:13.810000",
+    "text": "I'm so sorry. It seems both my\ndaughters have prior commitments."
+  },
+  {
+    "subtitle_id": 42,
+    "start": "0:02:15.840000",
+    "end": "0:02:16.880000",
+    "text": "Perhaps another pack?"
+  },
+  {
+    "subtitle_id": 43,
+    "start": "0:02:17.520000",
+    "end": "0:02:19.760000",
+    "text": "No. Lucian stood."
+  },
+  {
+    "subtitle_id": 44,
+    "start": "0:02:19.761000",
+    "end": "0:02:23.200000",
+    "text": "The Alpha Aura rolled off\nhim slow and deliberate,"
+  },
+  {
+    "subtitle_id": 45,
+    "start": "0:02:23.201000",
+    "end": "0:02:25.200000",
+    "text": "pressing into every\ncorner of the room."
+  }
+]
+
+ШИНЖИЛГЭЭНИЙ ДҮРЭМ:
+
+1. Нэр дурдагдсан дүрийг шууд яригч гэж бүү үз.
+2. Ярианы ээлж, өгүүлбэрийн утга,
+   өмнөх болон дараах контекстыг ашигла.
+3. Дүрүүдийн харилцааг харгалз.
+4. Дүрийн ярианы хэв маягийг харгалз.
+5. Дотоод бодлыг inner_monologue гэж ангил.
+   Дотоод бодлын эзнийг контекст болон өгүүлэмжээр тогтоо.
+   Хэрэв Vivienne өөрийн бодлыг хүүрнэж байвал:
+   speaker_id = "C001"
+   speaker_name = "Vivienne"
+   speaker_type = "inner_monologue".
+   Зөвхөн эхний биеэр өгүүлсэн гэдгээр Vivienne гэж таамаглаж болохгүй.
+   Эзнийг тогтоох боломжгүй бол speaker_id болон
+   speaker_name-ийг null болго.
+6. Гаднын хүүрнэлийг narrator гэж ангил.
+7. Тодорхойлох боломжгүй бол unknown ашигла.
+8. Таамгаар дүрийн ID бүү оноо.
+9. Бүх хадмалын subtitle_id-г яг хэвээр хадгал.
+10. Нэг ч хадмалыг алгасаж болохгүй.
+
+ЗӨВШӨӨРӨГДСӨН speaker_type:
+['character', 'inner_monologue', 'narrator', 'unknown']
+
+ЗӨВШӨӨРӨГДСӨН confidence:
+['high', 'medium', 'low']
+
+ГАРАЛТ:
+Зөвхөн JSON буцаа.
+
+Бүтэц:
+{
+  "results": [
+    {
+      "subtitle_id": 1,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_type": "character",
+      "confidence": "high",
+      "evidence": "Контекст болон ярианы ээлжээр тогтоосон"
+    }
+  ]
+}
+
+speaker_id нь дүрийн бүртгэл дэх ID байна.
+speaker_name нь дүрийн canonical нэр байна.
+unknown үед speaker_id болон speaker_name хоёулаа null байна.
+evidence нь тухайн шийдвэрийн товч нотолгоо байна.

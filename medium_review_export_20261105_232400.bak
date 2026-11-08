@@ -1,0 +1,229 @@
+{
+  "count": 28,
+  "assignments": [
+    {
+      "subtitle_id": 28,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_type": "character",
+      "confidence": "medium",
+      "evidence": "Vivienne-ийн шууд татгалзан хэлсэн үг."
+    },
+    {
+      "subtitle_id": 31,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_type": "character",
+      "confidence": "medium",
+      "evidence": "Vivienne-ийн хариу хэлж буй үг."
+    },
+    {
+      "subtitle_id": 163,
+      "speaker_id": "C002",
+      "speaker_name": "Lucian",
+      "speaker_type": "character",
+      "confidence": "medium",
+      "evidence": "Дурсамж доторх Lucian-ийн хэлсэн үг."
+    },
+    {
+      "subtitle_id": 164,
+      "speaker_id": "C002",
+      "speaker_name": "Lucian",
+      "speaker_type": "character",
+      "confidence": "medium",
+      "evidence": "Lucian-ийн хэлсэн үгийн үргэлжлэл."
+    },
+    {
+      "subtitle_id": 199,
+      "speaker_id": "C002",
+      "speaker_name": "Lucian",
+      "speaker_type": "character",
+      "confidence": "medium",
+      "evidence": "Lucian-ийн давтаж хэлж буй үг."
+    },
+    {
+      "subtitle_id": 200,
+      "speaker_id": "C002",
+      "speaker_name": "Lucian",
+      "speaker_type": "character",
+      "confidence": "medium",
+      "evidence": "Lucian-ийн ярианы төгсгөл."
+    },
+    {
+      "subtitle_id": 349,
+      "speaker_id": "C009",
+      "speaker_name": "Lance Laurent",
+      "speaker_type": "character",
+      "confidence": "medium",
+      "evidence": "Ланс эсвэл Люкийн хэлж буй ярианы эхлэл."
+    },
+    {
+      "subtitle_id": 350,
+      "speaker_id": "C009",
+      "speaker_name": "Lance Laurent",
+      "speaker_type": "character",
+      "confidence": "medium",
+      "evidence": "Хоёр дүүгийн нэгнийх нь яриа."
+    },
+    {
+      "subtitle_id": 356,
+      "speaker_id": "C003",
+      "speaker_name": "Aria",
+      "speaker_type": "character",
+      "confidence": "medium",
+      "evidence": "Ариагийн хэлсэн үг."
+    },
+    {
+      "subtitle_id": 365,
+      "speaker_id": "C005",
+      "speaker_name": "Narrator",
+      "speaker_type": "narrator",
+      "confidence": "medium",
+      "evidence": "Өгүүлэгчийн тухайн үеийн сэтгэгдлийг илэрхийлсэн хүүрнэл."
+    },
+    {
+      "subtitle_id": 366,
+      "speaker_id": "C005",
+      "speaker_name": "Narrator",
+      "speaker_type": "narrator",
+      "confidence": "medium",
+      "evidence": "Үргэлжилсэн хүүрнэл."
+    },
+    {
+      "subtitle_id": 377,
+      "speaker_id": "C008",
+      "speaker_name": "Morgana",
+      "speaker_type": "character",
+      "confidence": "medium",
+      "evidence": "Morgana-гийн угтан авч хэлж буй шууд яриа."
+    },
+    {
+      "subtitle_id": 378,
+      "speaker_id": "C008",
+      "speaker_name": "Morgana",
+      "speaker_type": "character",
+      "confidence": "medium",
+      "evidence": "Morgana-гийн ярианы үргэлжлэл."
+    },
+    {
+      "subtitle_id": 379,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_type": "character",
+      "confidence": "medium",
+      "evidence": "Өрөө рүү орохыг зөвшөөрөл гуйж буй шууд яриа."
+    },
+    {
+      "subtitle_id": 387,
+      "speaker_id": "C008",
+      "speaker_name": "Morgana",
+      "speaker_type": "character",
+      "confidence": "medium",
+      "evidence": "Morgana-гийн хариу үйлдэл бүхий яриа."
+    },
+    {
+      "subtitle_id": 458,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_type": "character",
+      "confidence": "medium",
+      "evidence": "Spoken dialogue responding to Arya's previous question."
+    },
+    {
+      "subtitle_id": 459,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_type": "character",
+      "confidence": "medium",
+      "evidence": "Continuation of Vivienne's spoken dialogue."
+    },
+    {
+      "subtitle_id": 460,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_type": "inner_monologue",
+      "confidence": "medium",
+      "evidence": "First-person inner reflection on being grabbed."
+    },
+    {
+      "subtitle_id": 728,
+      "speaker_id": "C003",
+      "speaker_name": "Aria",
+      "speaker_type": "character",
+      "confidence": "medium",
+      "evidence": "Arya-ийн уруулаараа хэлж буй үг (mouthed)."
+    },
+    {
+      "subtitle_id": 770,
+      "speaker_id": "C017",
+      "speaker_name": "Laurent",
+      "speaker_type": "character",
+      "confidence": "medium",
+      "evidence": "Laurent-ийн яриа үргэлжилж байна."
+    },
+    {
+      "subtitle_id": 846,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_type": "character",
+      "confidence": "medium",
+      "evidence": "Өмнөх ярианд хариулж буй Vivienne-ийн реплик."
+    },
+    {
+      "subtitle_id": 850,
+      "speaker_id": "C003",
+      "speaker_name": "Aria",
+      "speaker_type": "character",
+      "confidence": "medium",
+      "evidence": "Arya-гийн Vivienne-д хандаж ярьж буй яриа."
+    },
+    {
+      "subtitle_id": 851,
+      "speaker_id": "C003",
+      "speaker_name": "Aria",
+      "speaker_type": "character",
+      "confidence": "medium",
+      "evidence": "Ярианы давталт."
+    },
+    {
+      "subtitle_id": 852,
+      "speaker_id": "C003",
+      "speaker_name": "Aria",
+      "speaker_type": "character",
+      "confidence": "medium",
+      "evidence": "Ярианы явцад нэрийг дуудаж буй байдал."
+    },
+    {
+      "subtitle_id": 853,
+      "speaker_id": "C003",
+      "speaker_name": "Aria",
+      "speaker_type": "character",
+      "confidence": "medium",
+      "evidence": "Ярианы үргэлжлэл."
+    },
+    {
+      "subtitle_id": 854,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_type": "character",
+      "confidence": "medium",
+      "evidence": "Vivienne өөрт тохиолдсоныг ярьж байна."
+    },
+    {
+      "subtitle_id": 855,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_type": "character",
+      "confidence": "medium",
+      "evidence": "Vivienne-ийн ярианы үргэлжлэл."
+    },
+    {
+      "subtitle_id": 857,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_type": "character",
+      "confidence": "medium",
+      "evidence": "Ярианы үргэлжлэл."
+    }
+  ]
+}

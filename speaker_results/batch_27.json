@@ -1,0 +1,324 @@
+{
+    "results": [
+        {
+            "subtitle_id": 1041,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of the scene environment."
+        },
+        {
+            "subtitle_id": 1042,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of the scene participants."
+        },
+        {
+            "subtitle_id": 1043,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative action description."
+        },
+        {
+            "subtitle_id": 1044,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of a character's role."
+        },
+        {
+            "subtitle_id": 1045,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative context of the scene."
+        },
+        {
+            "subtitle_id": 1046,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of character actions."
+        },
+        {
+            "subtitle_id": 1047,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of character actions."
+        },
+        {
+            "subtitle_id": 1048,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of character actions."
+        },
+        {
+            "subtitle_id": 1049,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative observation of a character."
+        },
+        {
+            "subtitle_id": 1050,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative observation of a character's internal state."
+        },
+        {
+            "subtitle_id": 1051,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative action description."
+        },
+        {
+            "subtitle_id": 1052,
+            "speaker_id": "C019",
+            "speaker_name": "The royal seer",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by the Seer."
+        },
+        {
+            "subtitle_id": 1053,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative tag for dialogue."
+        },
+        {
+            "subtitle_id": 1054,
+            "speaker_id": "C019",
+            "speaker_name": "The royal seer",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by the Seer."
+        },
+        {
+            "subtitle_id": 1055,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative action description."
+        },
+        {
+            "subtitle_id": 1056,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of character behavior."
+        },
+        {
+            "subtitle_id": 1057,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of character state."
+        },
+        {
+            "subtitle_id": 1058,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Lucian."
+        },
+        {
+            "subtitle_id": 1059,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative action description."
+        },
+        {
+            "subtitle_id": 1060,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Lucian."
+        },
+        {
+            "subtitle_id": 1061,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Lucian."
+        },
+        {
+            "subtitle_id": 1062,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Lucian."
+        },
+        {
+            "subtitle_id": 1063,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Lucian."
+        },
+        {
+            "subtitle_id": 1064,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative action description."
+        },
+        {
+            "subtitle_id": 1065,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal reflection on Lucian's actions."
+        },
+        {
+            "subtitle_id": 1066,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal reflection."
+        },
+        {
+            "subtitle_id": 1067,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal reflection."
+        },
+        {
+            "subtitle_id": 1068,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal reflection."
+        },
+        {
+            "subtitle_id": 1069,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal reflection."
+        },
+        {
+            "subtitle_id": 1070,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal reflection."
+        },
+        {
+            "subtitle_id": 1071,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal decision."
+        },
+        {
+            "subtitle_id": 1072,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative action description."
+        },
+        {
+            "subtitle_id": 1073,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative action description."
+        },
+        {
+            "subtitle_id": 1074,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative action description."
+        },
+        {
+            "subtitle_id": 1075,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative observation."
+        },
+        {
+            "subtitle_id": 1076,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative action description."
+        },
+        {
+            "subtitle_id": 1077,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative observation."
+        },
+        {
+            "subtitle_id": 1078,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative observation."
+        },
+        {
+            "subtitle_id": 1079,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative observation."
+        },
+        {
+            "subtitle_id": 1080,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative observation."
+        }
+    ]
+}

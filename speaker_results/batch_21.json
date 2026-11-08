@@ -1,0 +1,324 @@
+{
+    "results": [
+        {
+            "subtitle_id": 801,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne is confronting Lucian and Alpha Valeris."
+        },
+        {
+            "subtitle_id": 802,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian is struggling to answer the question."
+        },
+        {
+            "subtitle_id": 803,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing Lucian's actions."
+        },
+        {
+            "subtitle_id": 804,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing the sequence of events."
+        },
+        {
+            "subtitle_id": 805,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian is speaking about the Coldwell family."
+        },
+        {
+            "subtitle_id": 806,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Lucian's dialogue."
+        },
+        {
+            "subtitle_id": 807,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Lucian's dialogue."
+        },
+        {
+            "subtitle_id": 808,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne is challenging Lucian."
+        },
+        {
+            "subtitle_id": 809,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing Lucian's reaction."
+        },
+        {
+            "subtitle_id": 810,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing the look."
+        },
+        {
+            "subtitle_id": 811,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne is describing her own internal decision."
+        },
+        {
+            "subtitle_id": 812,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne is speaking to Alpha Valeris."
+        },
+        {
+            "subtitle_id": 813,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's dialogue."
+        },
+        {
+            "subtitle_id": 814,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's dialogue."
+        },
+        {
+            "subtitle_id": 815,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's dialogue."
+        },
+        {
+            "subtitle_id": 816,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing her action."
+        },
+        {
+            "subtitle_id": 817,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne is continuing her explanation to Alpha Valeris."
+        },
+        {
+            "subtitle_id": 818,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's dialogue."
+        },
+        {
+            "subtitle_id": 819,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's dialogue."
+        },
+        {
+            "subtitle_id": 820,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing Lucian's physical reaction."
+        },
+        {
+            "subtitle_id": 821,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian is addressing Vivienne."
+        },
+        {
+            "subtitle_id": 822,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing Lucian's tone."
+        },
+        {
+            "subtitle_id": 823,
+            "speaker_id": "C012",
+            "speaker_name": "Alpha Valeris",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Alpha Valeris is intervening."
+        },
+        {
+            "subtitle_id": 824,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is identifying the speaker."
+        },
+        {
+            "subtitle_id": 825,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing Alpha Valeris."
+        },
+        {
+            "subtitle_id": 826,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is providing commentary."
+        },
+        {
+            "subtitle_id": 827,
+            "speaker_id": "C012",
+            "speaker_name": "Alpha Valeris",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Alpha Valeris is giving an order."
+        },
+        {
+            "subtitle_id": 828,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing the scene."
+        },
+        {
+            "subtitle_id": 829,
+            "speaker_id": "C012",
+            "speaker_name": "Alpha Valeris",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Alpha Valeris is emphasizing the order."
+        },
+        {
+            "subtitle_id": 830,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing Luna Valeris."
+        },
+        {
+            "subtitle_id": 831,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing Lucian's movement."
+        },
+        {
+            "subtitle_id": 832,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing Lucian's state."
+        },
+        {
+            "subtitle_id": 833,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of description."
+        },
+        {
+            "subtitle_id": 834,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of description."
+        },
+        {
+            "subtitle_id": 835,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of description."
+        },
+        {
+            "subtitle_id": 836,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian is speaking to Vivienne."
+        },
+        {
+            "subtitle_id": 837,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing Lucian's tone."
+        },
+        {
+            "subtitle_id": 838,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne is responding to Lucian."
+        },
+        {
+            "subtitle_id": 839,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing Alpha Valeris's actions."
+        },
+        {
+            "subtitle_id": 840,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of description."
+        }
+    ]
+}

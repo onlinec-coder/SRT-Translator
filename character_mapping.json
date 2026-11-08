@@ -1,0 +1,90 @@
+{
+  "merge_candidates": [
+    {
+      "canonical_name": "Vivienne",
+      "character_ids": ["C001", "C007"],
+      "aliases": ["Vivien", "Vivienna", "Vivian", "Viviana"],
+      "status": "confirmed"
+    },
+    {
+      "canonical_name": "Aria",
+      "character_ids": ["C003", "C006"],
+      "aliases": ["Arya"],
+      "status": "confirmed"
+    },
+    {
+      "canonical_name": "Alpha Valeris",
+      "character_ids": ["C012", "C018"],
+      "aliases": ["Alpha Various", "Alpha Valerce", "Alpha Valerius"],
+      "status": "confirmed"
+    },
+    {
+      "canonical_name": "Luna Valerius",
+      "character_ids": ["C013", "C016", "C020"],
+      "aliases": ["Luna Various", "Luna Valerce"],
+      "status": "confirmed"
+    },
+    {
+      "canonical_name": "Chief Elder Laurent",
+      "character_ids": ["C014", "C015", "C017"],
+      "aliases": [
+        "Chief Elder LaRonde",
+        "Chief Elder Lawrence",
+        "Laurent",
+        "Laurand",
+        "Lardant"
+      ],
+      "status": "confirmed"
+    }
+  ],
+  "review_required": [
+    {
+      "suggested_name": "Valerius",
+      "character_ids": ["C021"],
+      "reason": "Alpha болон Luna хоёрын хамтарсан дурдлага; тусад нь салгах шаардлагатай"
+    },
+    {
+      "suggested_name": "Luke / Lance / Lawrence Brothers",
+      "character_ids": ["C022"],
+      "reason": "Хамтын дурдлага болон хувь хүний нэр холилдсон"
+    }
+  ],
+  "keep_separate": [
+    {
+      "character_ids": ["C002"],
+      "canonical_name": "Lucian",
+      "reason": "Lucien-ээс тусдаа хэвээр"
+    },
+    {
+      "character_ids": ["C008"],
+      "canonical_name": "Morgana",
+      "reason": "Vivienne-ээс тусдаа дүр"
+    },
+    {
+      "character_ids": ["C009", "C010"],
+      "canonical_names": ["Lance Laurent", "Luke Laurent"],
+      "reason": "Ихэр ах дүүс"
+    },
+    {
+      "character_ids": ["C011"],
+      "canonical_name": "Lucien",
+      "reason": "Lucian-тай нэгтгээгүй"
+    },
+    {
+      "character_ids": ["C019"],
+      "canonical_name": "The royal seer",
+      "reason": "Тусдаа дүр"
+    }
+  ],
+  "exclude_from_characters": [
+    {
+      "character_id": "C023",
+      "value": "She",
+      "reason": "Төлөөний үг"
+    }
+  ],
+  "unresolved": [
+    "C021: Alpha Valerius болон Luna Valerius хамтарсан дурдлага",
+    "C022: Luke, Lance, Lawrence Brothers хамтын дурдлага"
+  ]
+}

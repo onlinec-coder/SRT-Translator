@@ -1,0 +1,58 @@
+{
+  "cue_20": {
+    "loudness": "moderate",
+    "pitch": "medium, slightly descending contour",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "measured",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "none audible",
+    "clearly_audible_features": "projected and resonant delivery",
+    "uncertain_features": "none"
+  },
+  "cue_21": {
+    "loudness": "moderate",
+    "pitch": "medium-low, steady contour",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "steady and measured",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "none audible",
+    "clearly_audible_features": "even pacing",
+    "uncertain_features": "none"
+  },
+  "cue_22": {
+    "loudness": "moderate",
+    "pitch": "low, level contour",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "slow and deliberate",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "none audible",
+    "clearly_audible_features": "abrupt stop",
+    "uncertain_features": "none"
+  },
+  "cue_23": {
+    "loudness": "moderate-low",
+    "pitch": "low, slightly falling",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "none audible",
+    "clearly_audible_features": "smooth tone",
+    "uncertain_features": "none"
+  },
+  "cue_24": {
+    "loudness": "low",
+    "pitch": "low, falling",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "slow",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "none audible",
+    "clearly_audible_features": "soft ending",
+    "uncertain_features": "none"
+  },
+  "comparison": {
+    "loudness_trend": "Loudness starts at moderate in cue 20, remains consistent through cues 21 and 22, then decreases to low in cues 23 and 24.",
+    "pitch_trend": "Pitch gradually shifts from medium in the earlier cues down to lower registers in the later cues.",
+    "voice_quality_consistency": "Voice quality remains consistently clear throughout all cues.",
+    "rate_and_rhythm_changes": "Pacing transitions from measured and steady to slower and more deliberate towards the end."
+  }
+}

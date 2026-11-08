@@ -1,0 +1,74 @@
+{
+  "cue_20": {
+    "emotion": "neutral",
+    "vocal_tone": "deep, resonant, and formal",
+    "delivery": "monotone, steady, and measured",
+    "intensity": "medium",
+    "pace": "moderate",
+    "audible_evidence": [
+      "low pitch",
+      "even projection",
+      "controlled pacing"
+    ],
+    "alternative_interpretation": null,
+    "confidence": "high"
+  },
+  "cue_21": {
+    "emotion": "neutral",
+    "vocal_tone": "deep, resonant, and even",
+    "delivery": "declarative, calm, and steady",
+    "intensity": "medium",
+    "pace": "moderate",
+    "audible_evidence": [
+      "consistent pitch",
+      "clear articulation",
+      "no emotional inflection"
+    ],
+    "alternative_interpretation": null,
+    "confidence": "high"
+  },
+  "cue_22": {
+    "emotion": "neutral",
+    "vocal_tone": "deep and smooth",
+    "delivery": "soft, direct instruction",
+    "intensity": "low",
+    "pace": "moderate",
+    "audible_evidence": [
+      "reduced volume",
+      "steady pitch",
+      "no vocal tremor"
+    ],
+    "alternative_interpretation": null,
+    "confidence": "high"
+  },
+  "cue_23": {
+    "emotion": "neutral",
+    "vocal_tone": "deep and smooth",
+    "delivery": "measured and calm",
+    "intensity": "low",
+    "pace": "moderate",
+    "audible_evidence": [
+      "even tone",
+      "unflinching delivery",
+      "stable vocal folds"
+    ],
+    "alternative_interpretation": null,
+    "confidence": "high"
+  },
+  "cue_24": {
+    "emotion": "unclear",
+    "vocal_tone": "strained or phasing out",
+    "delivery": "fading in intensity",
+    "intensity": "low",
+    "pace": "slow",
+    "audible_evidence": [
+      "decreasing volume",
+      "descending pitch contour"
+    ],
+    "alternative_interpretation": "physical exhaustion or fading breath rather than a distinct emotion",
+    "confidence": "medium"
+  },
+  "comparison": {
+    "summary": "The voice maintains a consistent neutral, measured tone across cues 20 through 23, with a slight drop in volume and energy in cue 24."
+  }
+}

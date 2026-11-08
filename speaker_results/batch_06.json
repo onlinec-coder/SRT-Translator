@@ -1,0 +1,324 @@
+{
+    "results": [
+        {
+            "subtitle_id": 201,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct command given by Vivienne to her companion."
+        },
+        {
+            "subtitle_id": 202,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct command given by Vivienne to her companion."
+        },
+        {
+            "subtitle_id": 203,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating her arrival at the manor."
+        },
+        {
+            "subtitle_id": 204,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the description of the manor."
+        },
+        {
+            "subtitle_id": 205,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the description of the manor."
+        },
+        {
+            "subtitle_id": 206,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the description of the manor."
+        },
+        {
+            "subtitle_id": 207,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the description of the manor."
+        },
+        {
+            "subtitle_id": 208,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the context of her relationship with Lucian."
+        },
+        {
+            "subtitle_id": 209,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the context of her relationship with Lucian."
+        },
+        {
+            "subtitle_id": 210,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne reflecting on her strategic advantage."
+        },
+        {
+            "subtitle_id": 211,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating her actions."
+        },
+        {
+            "subtitle_id": 212,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the scene."
+        },
+        {
+            "subtitle_id": 213,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne reflecting on her lack of courtesy."
+        },
+        {
+            "subtitle_id": 214,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne reflecting on her lack of courtesy."
+        },
+        {
+            "subtitle_id": 215,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the scene."
+        },
+        {
+            "subtitle_id": 216,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the scene."
+        },
+        {
+            "subtitle_id": 217,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the scene."
+        },
+        {
+            "subtitle_id": 218,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the scene."
+        },
+        {
+            "subtitle_id": 219,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the scene."
+        },
+        {
+            "subtitle_id": 220,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the scene."
+        },
+        {
+            "subtitle_id": 221,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the scene."
+        },
+        {
+            "subtitle_id": 222,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian speaking to Vivienne."
+        },
+        {
+            "subtitle_id": 223,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne speaking to Lucian."
+        },
+        {
+            "subtitle_id": 224,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian responding to Vivienne."
+        },
+        {
+            "subtitle_id": 225,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating her actions."
+        },
+        {
+            "subtitle_id": 226,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the scene."
+        },
+        {
+            "subtitle_id": 227,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the scene."
+        },
+        {
+            "subtitle_id": 228,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the scene."
+        },
+        {
+            "subtitle_id": 229,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the scene."
+        },
+        {
+            "subtitle_id": 230,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the scene."
+        },
+        {
+            "subtitle_id": 231,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the scene."
+        },
+        {
+            "subtitle_id": 232,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the scene."
+        },
+        {
+            "subtitle_id": 233,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the scene."
+        },
+        {
+            "subtitle_id": 234,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne reflecting on the past."
+        },
+        {
+            "subtitle_id": 235,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne reflecting on the problem."
+        },
+        {
+            "subtitle_id": 236,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne reflecting on past conversations."
+        },
+        {
+            "subtitle_id": 237,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne reflecting on past conversations."
+        },
+        {
+            "subtitle_id": 238,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian's dialogue as recalled by Vivienne."
+        },
+        {
+            "subtitle_id": 239,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian's dialogue as recalled by Vivienne."
+        },
+        {
+            "subtitle_id": 240,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne reflecting on her past belief."
+        }
+    ]
+}

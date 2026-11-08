@@ -1,0 +1,97 @@
+{
+  "cue_13": {
+    "emotion": "neutral",
+    "vocal_tone": "low pitch and dry",
+    "delivery": "even and controlled",
+    "intensity": "low",
+    "pace": "moderate",
+    "audible_evidence": [
+      "flat pitch contour",
+      "steady volume"
+    ],
+    "confidence": "high"
+  },
+  "cue_14": {
+    "emotion": "neutral",
+    "vocal_tone": "smooth and resonant",
+    "delivery": "direct and measured",
+    "intensity": "medium",
+    "pace": "moderate",
+    "audible_evidence": [
+      "steady projection",
+      "even pacing across words"
+    ],
+    "confidence": "high"
+  },
+  "cue_15": {
+    "emotion": "neutral",
+    "vocal_tone": "calm and controlled",
+    "delivery": "deliberate and quiet",
+    "intensity": "low",
+    "pace": "moderate",
+    "audible_evidence": [
+      "lack of dynamic variation",
+      "restrained voice"
+    ],
+    "confidence": "medium"
+  },
+  "cue_16": {
+    "emotion": "neutral",
+    "vocal_tone": "subdued",
+    "delivery": "monotone and uninflected",
+    "intensity": "low",
+    "pace": "moderate",
+    "audible_evidence": [
+      "absence of expressive pitch movement"
+    ],
+    "confidence": "high"
+  },
+  "cue_17": {
+    "emotion": "neutral",
+    "vocal_tone": "steady",
+    "delivery": "even cadence",
+    "intensity": "medium",
+    "pace": "moderate",
+    "audible_evidence": [
+      "consistent volume",
+      "neutral intonation"
+    ],
+    "confidence": "high"
+  },
+  "cue_18": {
+    "emotion": "neutral",
+    "vocal_tone": "even and low",
+    "delivery": "controlled and measured",
+    "intensity": "medium",
+    "pace": "moderate",
+    "audible_evidence": [
+      "steady vocal projection",
+      "minimal pitch variation"
+    ],
+    "confidence": "high"
+  },
+  "cue_19": {
+    "emotion": "neutral",
+    "vocal_tone": "calm",
+    "delivery": "restrained",
+    "intensity": "low",
+    "pace": "moderate",
+    "audible_evidence": [
+      "fading volume at the end",
+      "flat overall delivery"
+    ],
+    "confidence": "high"
+  },
+  "comparison": {
+    "consistent_features": [
+      "the speaker maintains a consistently low, calm, and controlled vocal tone across all cues",
+      "delivery remains largely flat and uninflected throughout"
+    ],
+    "meaningful_changes": [
+      "slight variations in intensity from low to medium but no distinct shift in emotional expression"
+    ],
+    "limitations": [
+      "background ambiance or slight breathing sounds are present but do not obscure the voice"
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "cue_13": {
+    "loudness": "moderate",
+    "pitch": "medium-low, falling pitch contour",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "steady and measured speaking rate",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no audible inhalation or pauses",
+    "clearly_audible_features": [
+      "clear voice quality",
+      "steady rate"
+    ],
+    "uncertain_features": []
+  },
+  "cue_14": {
+    "loudness": "moderate-high",
+    "pitch": "medium-low with rising inflection",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "even pace",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no noticeable pauses",
+    "clearly_audible_features": [
+      "clear voice quality"
+    ],
+    "uncertain_features": []
+  },
+  "cue_15": {
+    "loudness": "moderate",
+    "pitch": "low and level",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "slightly quickened rate",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "brief pause after",
+    "clearly_audible_features": [
+      "steady rate"
+    ],
+    "uncertain_features": []
+  },
+  "cue_16": {
+    "loudness": "moderate-high",
+    "pitch": "medium-low, ending on a lower pitch",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "even and measured",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no audible breath sounds",
+    "clearly_audible_features": [
+      "clear voice quality"
+    ],
+    "uncertain_features": []
+  },
+  "cue_17": {
+    "loudness": "moderate-high",
+    "pitch": "medium-high, rising on the final word",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "quickened pace",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no pauses within the cue",
+    "clearly_audible_features": [
+      "rising pitch"
+    ],
+    "uncertain_features": []
+  },
+  "cue_18": {
+    "loudness": "moderate-high",
+    "pitch": "medium-high, falling slightly at the end",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "quick pace",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no pauses",
+    "clearly_audible_features": [
+      "clear articulation"
+    ],
+    "uncertain_features": []
+  },
+  "cue_19": {
+    "loudness": "moderate",
+    "pitch": "medium-low, falling contour",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "steady and deliberate pace",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "slight terminal fall",
+    "clearly_audible_features": [
+      "steady pitch contour"
+    ],
+    "uncertain_features": []
+  },
+  "comparison": {
+    "similarities": [
+      "consistent clear voice quality across all cues",
+      "stable vocal production throughout",
+      "absence of background noise or instrumental masking"
+    ],
+    "differences": [
+      "pitch variations include level, rising, and falling contours depending on the cue",
+      "speaking rate shifts slightly between measured and quickened tempos",
+      "loudness levels fluctuate between moderate and moderate-high"
+    ]
+  }
+}

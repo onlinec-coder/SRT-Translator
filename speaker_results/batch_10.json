@@ -1,0 +1,324 @@
+{
+    "results": [
+        {
+            "subtitle_id": 361,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne is repeating the phrase internally, reflecting her reaction to Lucian's words."
+        },
+        {
+            "subtitle_id": 362,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Descriptive narration of the impact of the words, consistent with Vivienne's POV."
+        },
+        {
+            "subtitle_id": 363,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of the descriptive narration."
+        },
+        {
+            "subtitle_id": 364,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne describes her own internal state and physical control."
+        },
+        {
+            "subtitle_id": 365,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of her internal description of her expression."
+        },
+        {
+            "subtitle_id": 366,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of her internal description."
+        },
+        {
+            "subtitle_id": 367,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of her internal description."
+        },
+        {
+            "subtitle_id": 368,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne describes her internal emotional shift."
+        },
+        {
+            "subtitle_id": 369,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of her internal emotional state."
+        },
+        {
+            "subtitle_id": 370,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal realization and personal feeling."
+        },
+        {
+            "subtitle_id": 371,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne reflecting on her past actions and memories."
+        },
+        {
+            "subtitle_id": 372,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of her memory."
+        },
+        {
+            "subtitle_id": 373,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne recalling Lucian's past behavior."
+        },
+        {
+            "subtitle_id": 374,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of her memory."
+        },
+        {
+            "subtitle_id": 375,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of her memory."
+        },
+        {
+            "subtitle_id": 376,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal conclusion about Lucian."
+        },
+        {
+            "subtitle_id": 377,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal analysis of Lucian's mistake."
+        },
+        {
+            "subtitle_id": 378,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of her internal analysis."
+        },
+        {
+            "subtitle_id": 379,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describing her physical action."
+        },
+        {
+            "subtitle_id": 380,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne speaking aloud to Lucian."
+        },
+        {
+            "subtitle_id": 381,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne speaking aloud."
+        },
+        {
+            "subtitle_id": 382,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describing Lucian's reaction."
+        },
+        {
+            "subtitle_id": 383,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal thought directed at Lucian."
+        },
+        {
+            "subtitle_id": 384,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal thought."
+        },
+        {
+            "subtitle_id": 385,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal resolve."
+        },
+        {
+            "subtitle_id": 386,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating her movement."
+        },
+        {
+            "subtitle_id": 387,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the scene."
+        },
+        {
+            "subtitle_id": 388,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating Aria's action."
+        },
+        {
+            "subtitle_id": 389,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the sequence of events."
+        },
+        {
+            "subtitle_id": 390,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria speaking to Vivienne about her actions."
+        },
+        {
+            "subtitle_id": 391,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria continuing her report to Vivienne."
+        },
+        {
+            "subtitle_id": 392,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria continuing her report."
+        },
+        {
+            "subtitle_id": 393,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria continuing her report."
+        },
+        {
+            "subtitle_id": 394,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria addressing Vivienne."
+        },
+        {
+            "subtitle_id": 395,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria revealing the name."
+        },
+        {
+            "subtitle_id": 396,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating her own reaction."
+        },
+        {
+            "subtitle_id": 397,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne asking a question aloud."
+        },
+        {
+            "subtitle_id": 398,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne speaking to Aria."
+        },
+        {
+            "subtitle_id": 399,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria responding to Vivienne."
+        },
+        {
+            "subtitle_id": 400,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria continuing her explanation."
+        }
+    ]
+}

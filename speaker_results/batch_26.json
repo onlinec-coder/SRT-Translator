@@ -1,0 +1,324 @@
+{
+    "results": [
+        {
+            "subtitle_id": 1001,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is narrating the scene from her perspective."
+        },
+        {
+            "subtitle_id": 1002,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of the scene description."
+        },
+        {
+            "subtitle_id": 1003,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of the scene description."
+        },
+        {
+            "subtitle_id": 1004,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of the scene description."
+        },
+        {
+            "subtitle_id": 1005,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of the scene description."
+        },
+        {
+            "subtitle_id": 1006,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes Laurent's actions."
+        },
+        {
+            "subtitle_id": 1007,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes the arrival of the older man."
+        },
+        {
+            "subtitle_id": 1008,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne is recalling her own recognition of the man."
+        },
+        {
+            "subtitle_id": 1009,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes the man's appearance."
+        },
+        {
+            "subtitle_id": 1010,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes the man's appearance."
+        },
+        {
+            "subtitle_id": 1011,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne identifies the character."
+        },
+        {
+            "subtitle_id": 1012,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne provides background information."
+        },
+        {
+            "subtitle_id": 1013,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne provides background information."
+        },
+        {
+            "subtitle_id": 1014,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes her own physical action."
+        },
+        {
+            "subtitle_id": 1015,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes Laurent's action."
+        },
+        {
+            "subtitle_id": 1016,
+            "speaker_id": "C014",
+            "speaker_name": "Chief Elder Laurent",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct speech by Laurent."
+        },
+        {
+            "subtitle_id": 1017,
+            "speaker_id": "C014",
+            "speaker_name": "Chief Elder Laurent",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct speech by Laurent."
+        },
+        {
+            "subtitle_id": 1018,
+            "speaker_id": "C014",
+            "speaker_name": "Chief Elder Laurent",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct speech by Laurent."
+        },
+        {
+            "subtitle_id": 1019,
+            "speaker_id": "C014",
+            "speaker_name": "Chief Elder Laurent",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct speech by Laurent."
+        },
+        {
+            "subtitle_id": 1020,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes Laurent's action."
+        },
+        {
+            "subtitle_id": 1021,
+            "speaker_id": "C014",
+            "speaker_name": "Chief Elder Laurent",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct speech by Laurent."
+        },
+        {
+            "subtitle_id": 1022,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes Laurent's action."
+        },
+        {
+            "subtitle_id": 1023,
+            "speaker_id": "C014",
+            "speaker_name": "Chief Elder Laurent",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct speech by Laurent."
+        },
+        {
+            "subtitle_id": 1024,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes Lucian's reaction."
+        },
+        {
+            "subtitle_id": 1025,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes Lucian's reaction."
+        },
+        {
+            "subtitle_id": 1026,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes Laurent's action."
+        },
+        {
+            "subtitle_id": 1027,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes Laurent's action."
+        },
+        {
+            "subtitle_id": 1028,
+            "speaker_id": "C014",
+            "speaker_name": "Chief Elder Laurent",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct speech by Laurent."
+        },
+        {
+            "subtitle_id": 1029,
+            "speaker_id": "C014",
+            "speaker_name": "Chief Elder Laurent",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct speech by Laurent."
+        },
+        {
+            "subtitle_id": 1030,
+            "speaker_id": "C014",
+            "speaker_name": "Chief Elder Laurent",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct speech by Laurent."
+        },
+        {
+            "subtitle_id": 1031,
+            "speaker_id": "C014",
+            "speaker_name": "Chief Elder Laurent",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct speech by Laurent."
+        },
+        {
+            "subtitle_id": 1032,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes Laurent's action."
+        },
+        {
+            "subtitle_id": 1033,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes Alpha Valeris's appearance."
+        },
+        {
+            "subtitle_id": 1034,
+            "speaker_id": "C014",
+            "speaker_name": "Chief Elder Laurent",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct speech by Laurent."
+        },
+        {
+            "subtitle_id": 1035,
+            "speaker_id": "C014",
+            "speaker_name": "Chief Elder Laurent",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct speech by Laurent."
+        },
+        {
+            "subtitle_id": 1036,
+            "speaker_id": "C014",
+            "speaker_name": "Chief Elder Laurent",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct speech by Laurent."
+        },
+        {
+            "subtitle_id": 1037,
+            "speaker_id": "C014",
+            "speaker_name": "Chief Elder Laurent",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct speech by Laurent."
+        },
+        {
+            "subtitle_id": 1038,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes the scene."
+        },
+        {
+            "subtitle_id": 1039,
+            "speaker_id": "C014",
+            "speaker_name": "Chief Elder Laurent",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct speech by Laurent."
+        },
+        {
+            "subtitle_id": 1040,
+            "speaker_id": "C014",
+            "speaker_name": "Chief Elder Laurent",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct speech by Laurent."
+        }
+    ]
+}

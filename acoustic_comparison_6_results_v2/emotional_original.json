@@ -1,0 +1,79 @@
+{
+  "Cue 698": {
+    "emotion": "unclear",
+    "emotion_intensity": "unclear",
+    "vocal_delivery": "conversational",
+    "loudness_and_pitch": "moderate loudness with a level pitch contour",
+    "voice_quality_and_rhythm": "clear voice quality with a moderate and measured speaking rate",
+    "vocal_stability": "stable",
+    "clearly_audible_features": [
+      "clear speech articulation",
+      "moderate vocal loudness"
+    ],
+    "uncertain_features": [
+      "emotion"
+    ]
+  },
+  "Cue 699": {
+    "emotion": "unclear",
+    "emotion_intensity": "unclear",
+    "vocal_delivery": "conversational",
+    "loudness_and_pitch": "moderate loudness with a level pitch contour",
+    "voice_quality_and_rhythm": "clear voice quality with a moderate speaking rate",
+    "vocal_stability": "stable",
+    "clearly_audible_features": [
+      "clear phonation"
+    ],
+    "uncertain_features": [
+      "emotion"
+    ]
+  },
+  "Cue 700": {
+    "emotion": "unclear",
+    "emotion_intensity": "unclear",
+    "vocal_delivery": "conversational",
+    "loudness_and_pitch": "moderate loudness with a falling pitch contour",
+    "voice_quality_and_rhythm": "clear voice quality with a moderate speaking rate",
+    "vocal_stability": "stable",
+    "clearly_audible_features": [
+      "clear articulation"
+    ],
+    "uncertain_features": [
+      "emotion"
+    ]
+  },
+  "Cue 701": {
+    "emotion": "anger",
+    "emotion_intensity": "high",
+    "vocal_delivery": "forceful and emphatic",
+    "loudness_and_pitch": "high loudness with a variable pitch contour",
+    "voice_quality_and_rhythm": "strained and slightly harsh voice quality with a deliberate, forceful rhythm",
+    "vocal_stability": "stable",
+    "clearly_audible_features": [
+      "high vocal loudness",
+      "strained phonation"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 702": {
+    "emotion": "unclear",
+    "emotion_intensity": "unclear",
+    "vocal_delivery": "controlled and conversational",
+    "loudness_and_pitch": "moderate loudness with a falling pitch contour",
+    "voice_quality_and_rhythm": "clear voice quality with a moderate speaking rate",
+    "vocal_stability": "stable",
+    "clearly_audible_features": [
+      "clear articulation"
+    ],
+    "uncertain_features": [
+      "emotion"
+    ]
+  },
+  "comparison": {
+    "overall_voice_quality": "The speaker maintains a generally clear and stable voice quality across cues, with a notable increase in loudness and vocal strain during Cue 701.",
+    "recording_limitations": [],
+    "uncertain_observations": [
+      "Emotional intent is difficult to determine from acoustic properties alone in shorter cues."
+    ]
+  }
+}

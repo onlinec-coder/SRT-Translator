@@ -1,0 +1,324 @@
+{
+    "results": [
+        {
+            "subtitle_id": 721,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing her physical action of pulling away."
+        },
+        {
+            "subtitle_id": 722,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Vivienne to Lucian."
+        },
+        {
+            "subtitle_id": 723,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Vivienne."
+        },
+        {
+            "subtitle_id": 724,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue spoken by Vivienne."
+        },
+        {
+            "subtitle_id": 725,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian is questioning Vivienne's previous statement."
+        },
+        {
+            "subtitle_id": 726,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is observing Lucian's reaction."
+        },
+        {
+            "subtitle_id": 727,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of the observation."
+        },
+        {
+            "subtitle_id": 728,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian is speaking to Vivienne about the contract."
+        },
+        {
+            "subtitle_id": 729,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne is questioning Lucian."
+        },
+        {
+            "subtitle_id": 730,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne is questioning Lucian."
+        },
+        {
+            "subtitle_id": 731,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian is attempting to speak."
+        },
+        {
+            "subtitle_id": 732,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is observing Lucian's behavior."
+        },
+        {
+            "subtitle_id": 733,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing her own action."
+        },
+        {
+            "subtitle_id": 734,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne is speaking to Lucian."
+        },
+        {
+            "subtitle_id": 735,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne is speaking to Lucian."
+        },
+        {
+            "subtitle_id": 736,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne is speaking to Lucian."
+        },
+        {
+            "subtitle_id": 737,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing her physical action."
+        },
+        {
+            "subtitle_id": 738,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne is speaking to Lucian."
+        },
+        {
+            "subtitle_id": 739,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne is speaking to Lucian."
+        },
+        {
+            "subtitle_id": 740,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is observing Lucian."
+        },
+        {
+            "subtitle_id": 741,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is observing Lucian."
+        },
+        {
+            "subtitle_id": 742,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is observing Lucian's expression."
+        },
+        {
+            "subtitle_id": 743,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne is interpreting Lucian's internal state."
+        },
+        {
+            "subtitle_id": 744,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne is interpreting Lucian's internal state."
+        },
+        {
+            "subtitle_id": 745,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing the arrival of others."
+        },
+        {
+            "subtitle_id": 746,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing the arrival of others."
+        },
+        {
+            "subtitle_id": 747,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing Luna's actions."
+        },
+        {
+            "subtitle_id": 748,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing Luna's actions."
+        },
+        {
+            "subtitle_id": 749,
+            "speaker_id": "C013",
+            "speaker_name": "Luna Valerius",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Luna is speaking to Vivienne."
+        },
+        {
+            "subtitle_id": 750,
+            "speaker_id": "C013",
+            "speaker_name": "Luna Valerius",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Luna is speaking to Vivienne."
+        },
+        {
+            "subtitle_id": 751,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing Luna's actions."
+        },
+        {
+            "subtitle_id": 752,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing Luna's actions."
+        },
+        {
+            "subtitle_id": 753,
+            "speaker_id": "C013",
+            "speaker_name": "Luna Valerius",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Luna is speaking to Vivienne."
+        },
+        {
+            "subtitle_id": 754,
+            "speaker_id": "C013",
+            "speaker_name": "Luna Valerius",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Luna is speaking to Vivienne."
+        },
+        {
+            "subtitle_id": 755,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing her own action."
+        },
+        {
+            "subtitle_id": 756,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne is speaking to Luna."
+        },
+        {
+            "subtitle_id": 757,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing her own speech."
+        },
+        {
+            "subtitle_id": 758,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne is speaking to Luna."
+        },
+        {
+            "subtitle_id": 759,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing Luna's reaction."
+        },
+        {
+            "subtitle_id": 760,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing Luna's reaction."
+        }
+    ]
+}

@@ -1,0 +1,324 @@
+{
+    "results": [
+        {
+            "subtitle_id": 1161,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of the narrative description of the Laurent brothers' arrival."
+        },
+        {
+            "subtitle_id": 1162,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of the brothers' actions."
+        },
+        {
+            "subtitle_id": 1163,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of the brothers' actions."
+        },
+        {
+            "subtitle_id": 1164,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of the mother opening the door."
+        },
+        {
+            "subtitle_id": 1165,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of Lance finding her."
+        },
+        {
+            "subtitle_id": 1166,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of Lance's action."
+        },
+        {
+            "subtitle_id": 1167,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of her reaction."
+        },
+        {
+            "subtitle_id": 1168,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of Lance's grip."
+        },
+        {
+            "subtitle_id": 1169,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Subjective assessment of the lack of Alpha aura."
+        },
+        {
+            "subtitle_id": 1170,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Subjective assessment of the lack of pressure."
+        },
+        {
+            "subtitle_id": 1171,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of the physical contact."
+        },
+        {
+            "subtitle_id": 1172,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Subjective interpretation of his intent."
+        },
+        {
+            "subtitle_id": 1173,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Subjective comparison of his behavior."
+        },
+        {
+            "subtitle_id": 1174,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Internal emotional reaction."
+        },
+        {
+            "subtitle_id": 1175,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Internal emotional comparison."
+        },
+        {
+            "subtitle_id": 1176,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Internal memory/comparison to Lucian."
+        },
+        {
+            "subtitle_id": 1177,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Internal emotional state."
+        },
+        {
+            "subtitle_id": 1178,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Internal emotional state."
+        },
+        {
+            "subtitle_id": 1179,
+            "speaker_id": "C009",
+            "speaker_name": "Lance Laurent",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue addressed to Vivienne."
+        },
+        {
+            "subtitle_id": 1180,
+            "speaker_id": "C009",
+            "speaker_name": "Lance Laurent",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue continued."
+        },
+        {
+            "subtitle_id": 1181,
+            "speaker_id": "C009",
+            "speaker_name": "Lance Laurent",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue continued."
+        },
+        {
+            "subtitle_id": 1182,
+            "speaker_id": "C009",
+            "speaker_name": "Lance Laurent",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue continued."
+        },
+        {
+            "subtitle_id": 1183,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct response to Lance."
+        },
+        {
+            "subtitle_id": 1184,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of her action."
+        },
+        {
+            "subtitle_id": 1185,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of hearing Aria."
+        },
+        {
+            "subtitle_id": 1186,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of Aria's voice."
+        },
+        {
+            "subtitle_id": 1187,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue from Aria."
+        },
+        {
+            "subtitle_id": 1188,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue continued."
+        },
+        {
+            "subtitle_id": 1189,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue continued."
+        },
+        {
+            "subtitle_id": 1190,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue continued."
+        },
+        {
+            "subtitle_id": 1191,
+            "speaker_id": "C022",
+            "speaker_name": "Luke",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct response to Aria."
+        },
+        {
+            "subtitle_id": 1192,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct response to Luke."
+        },
+        {
+            "subtitle_id": 1193,
+            "speaker_id": "C022",
+            "speaker_name": "Luke",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue continued."
+        },
+        {
+            "subtitle_id": 1194,
+            "speaker_id": "C022",
+            "speaker_name": "Luke",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue continued."
+        },
+        {
+            "subtitle_id": 1195,
+            "speaker_id": "C022",
+            "speaker_name": "Luke",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct dialogue continued."
+        },
+        {
+            "subtitle_id": 1196,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct response to Luke."
+        },
+        {
+            "subtitle_id": 1197,
+            "speaker_id": "C022",
+            "speaker_name": "Luke",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct response to Aria."
+        },
+        {
+            "subtitle_id": 1198,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of her action."
+        },
+        {
+            "subtitle_id": 1199,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of Lance."
+        },
+        {
+            "subtitle_id": 1200,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrative description of her movement."
+        }
+    ]
+}

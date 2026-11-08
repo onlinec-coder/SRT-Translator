@@ -1,0 +1,75 @@
+{
+  "Cue 698": {
+    "loudness": "moderate",
+    "pitch": "moderate range, falling slightly at the end",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate, measured cadence",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "none audible",
+    "clearly_audible_features": [
+      "clear articulation",
+      "steady projection"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 699": {
+    "loudness": "moderate-high",
+    "pitch": "moderate-high range, rising",
+    "voice_quality": "strained, harsh",
+    "rate_and_rhythm": "moderate, even",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "none audible",
+    "clearly_audible_features": [
+      "increased vocal effort",
+      "sharp consonant attacks"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 700": {
+    "loudness": "moderate",
+    "pitch": "moderate range, falling",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "none audible",
+    "clearly_audible_features": [
+      "measured delivery"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 701": {
+    "loudness": "high",
+    "pitch": "wide range, sharp rise and fall",
+    "voice_quality": "strained, pressed",
+    "rate_and_rhythm": "moderate-fast",
+    "vocal_stability": "unstable, slight wavering",
+    "breathing_and_pauses": "none audible",
+    "clearly_audible_features": [
+      "strong emphasis on initial syllable",
+      "high vocal intensity"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 702": {
+    "loudness": "moderate",
+    "pitch": "moderate range, falling contour",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate, slightly abrupt ending",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "none audible",
+    "clearly_audible_features": [
+      "clear speech onset",
+      "controlled projection"
+    ],
+    "uncertain_features": []
+  },
+  "comparison": {
+    "overall_voice_quality": "primarily clear with occasional strain and increased vocal effort on specific words",
+    "recording_limitations": [
+      "background music present throughout, potentially masking subtle vocal qualities"
+    ],
+    "uncertain_observations": [
+      "exact breath boundaries are obscured by underlying musical score"
+    ]
+  }
+}

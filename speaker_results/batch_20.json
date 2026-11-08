@@ -1,0 +1,324 @@
+{
+    "results": [
+        {
+            "subtitle_id": 761,
+            "speaker_id": "C013",
+            "speaker_name": "Luna Valerius",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Luna Valerius is questioning Vivienne's denial."
+        },
+        {
+            "subtitle_id": 762,
+            "speaker_id": "C013",
+            "speaker_name": "Luna Valerius",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Luna Valerius continues the dialogue addressing Vivienne."
+        },
+        {
+            "subtitle_id": 763,
+            "speaker_id": "C013",
+            "speaker_name": "Luna Valerius",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Luna Valerius continues the dialogue."
+        },
+        {
+            "subtitle_id": 764,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne responds to Luna's statement."
+        },
+        {
+            "subtitle_id": 765,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne continues her defense."
+        },
+        {
+            "subtitle_id": 766,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne continues her defense."
+        },
+        {
+            "subtitle_id": 767,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne continues her defense."
+        },
+        {
+            "subtitle_id": 768,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes the scene as the narrator."
+        },
+        {
+            "subtitle_id": 769,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes the scene as the narrator."
+        },
+        {
+            "subtitle_id": 770,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes the scene as the narrator."
+        },
+        {
+            "subtitle_id": 771,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne addresses the group."
+        },
+        {
+            "subtitle_id": 772,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne continues her statement."
+        },
+        {
+            "subtitle_id": 773,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne continues her statement."
+        },
+        {
+            "subtitle_id": 774,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne reflects on her own behavior."
+        },
+        {
+            "subtitle_id": 775,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne continues her defense."
+        },
+        {
+            "subtitle_id": 776,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne continues her defense."
+        },
+        {
+            "subtitle_id": 777,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne continues her defense."
+        },
+        {
+            "subtitle_id": 778,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne continues her defense."
+        },
+        {
+            "subtitle_id": 779,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes the scene as the narrator."
+        },
+        {
+            "subtitle_id": 780,
+            "speaker_id": "C013",
+            "speaker_name": "Luna Valerius",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Luna Valerius interrupts."
+        },
+        {
+            "subtitle_id": 781,
+            "speaker_id": "C013",
+            "speaker_name": "Luna Valerius",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Luna Valerius continues."
+        },
+        {
+            "subtitle_id": 782,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne confirms."
+        },
+        {
+            "subtitle_id": 783,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne identifies the person."
+        },
+        {
+            "subtitle_id": 784,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne repeats the identification."
+        },
+        {
+            "subtitle_id": 785,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne continues."
+        },
+        {
+            "subtitle_id": 786,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne continues."
+        },
+        {
+            "subtitle_id": 787,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne reflects on her own action."
+        },
+        {
+            "subtitle_id": 788,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne provides evidence."
+        },
+        {
+            "subtitle_id": 789,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne concludes her point."
+        },
+        {
+            "subtitle_id": 790,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes the scene as the narrator."
+        },
+        {
+            "subtitle_id": 791,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes the scene as the narrator."
+        },
+        {
+            "subtitle_id": 792,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes the scene as the narrator."
+        },
+        {
+            "subtitle_id": 793,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes the scene as the narrator."
+        },
+        {
+            "subtitle_id": 794,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes the scene as the narrator."
+        },
+        {
+            "subtitle_id": 795,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes the scene as the narrator."
+        },
+        {
+            "subtitle_id": 796,
+            "speaker_id": "C012",
+            "speaker_name": "Alpha Valeris",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Alpha Valeris asks the question."
+        },
+        {
+            "subtitle_id": 797,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes the scene as the narrator."
+        },
+        {
+            "subtitle_id": 798,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes the scene as the narrator."
+        },
+        {
+            "subtitle_id": 799,
+            "speaker_id": "C012",
+            "speaker_name": "Alpha Valeris",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Alpha Valeris calls out to Lucian."
+        },
+        {
+            "subtitle_id": 800,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne describes the scene as the narrator."
+        }
+    ]
+}

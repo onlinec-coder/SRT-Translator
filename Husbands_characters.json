@@ -1,0 +1,1089 @@
+{
+    "characters": [
+        {
+            "names": [
+                "Vivienne",
+                "Viviana"
+            ],
+            "aliases": [],
+            "gender": "female",
+            "relationships": [
+                {
+                    "target": "Lucian",
+                    "type": "suitor/antagonist"
+                },
+                {
+                    "target": "Aria",
+                    "type": "sister"
+                }
+            ],
+            "speech_style": [],
+            "evidence": [
+                "6",
+                "21",
+                "30",
+                "41"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Lucian"
+            ],
+            "aliases": [],
+            "gender": "male",
+            "relationships": [
+                {
+                    "target": "Vivienne",
+                    "type": "suitor"
+                },
+                {
+                    "target": "Aria",
+                    "type": "suitor"
+                }
+            ],
+            "speech_style": [
+                "authoritative",
+                "steady"
+            ],
+            "evidence": [
+                "3",
+                "23",
+                "44",
+                "47"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Aria"
+            ],
+            "aliases": [],
+            "gender": "female",
+            "relationships": [
+                {
+                    "target": "Vivienne",
+                    "type": "sister"
+                }
+            ],
+            "speech_style": [
+                "flat",
+                "controlled"
+            ],
+            "evidence": [
+                "37",
+                "41",
+                "74"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Mother"
+            ],
+            "aliases": [],
+            "gender": "female",
+            "relationships": [
+                {
+                    "target": "Vivienne",
+                    "type": "mother"
+                },
+                {
+                    "target": "Aria",
+                    "type": "mother"
+                }
+            ],
+            "speech_style": [],
+            "evidence": [
+                "18",
+                "41"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Narrator"
+            ],
+            "aliases": [],
+            "gender": null,
+            "relationships": [
+                {
+                    "target": "Mother",
+                    "type": "child"
+                },
+                {
+                    "target": "Arya",
+                    "type": "sibling"
+                },
+                {
+                    "target": "Lucian",
+                    "type": "childhood friend"
+                }
+            ],
+            "speech_style": [],
+            "evidence": [
+                "106",
+                "114",
+                "133",
+                "141",
+                "167"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Mother"
+            ],
+            "aliases": [],
+            "gender": "female",
+            "relationships": [
+                {
+                    "target": "Narrator",
+                    "type": "parent"
+                },
+                {
+                    "target": "Arya",
+                    "type": "parent"
+                }
+            ],
+            "speech_style": [
+                "authoritative",
+                "steady"
+            ],
+            "evidence": [
+                "102",
+                "104",
+                "106",
+                "111",
+                "120",
+                "125",
+                "132"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Arya"
+            ],
+            "aliases": [],
+            "gender": null,
+            "relationships": [
+                {
+                    "target": "Mother",
+                    "type": "child"
+                },
+                {
+                    "target": "Narrator",
+                    "type": "sibling"
+                }
+            ],
+            "speech_style": [],
+            "evidence": [
+                "101",
+                "117",
+                "127",
+                "131"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Lucian"
+            ],
+            "aliases": [],
+            "gender": "male",
+            "relationships": [
+                {
+                    "target": "Narrator",
+                    "type": "childhood friend"
+                }
+            ],
+            "speech_style": [
+                "calm",
+                "manipulative"
+            ],
+            "evidence": [
+                "101",
+                "130",
+                "141",
+                "147",
+                "175",
+                "180",
+                "191"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Vivian"
+            ],
+            "aliases": [],
+            "gender": "female",
+            "relationships": [],
+            "speech_style": [],
+            "evidence": [
+                "180"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Lucian"
+            ],
+            "aliases": [],
+            "gender": "male",
+            "relationships": [
+                {
+                    "target": "Narrator",
+                    "type": "partner/suitor"
+                },
+                {
+                    "target": "Arya",
+                    "type": "competitor"
+                }
+            ],
+            "speech_style": [
+                "persuasive",
+                "manipulative"
+            ],
+            "evidence": [
+                "264",
+                "266",
+                "216",
+                "253"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Arya"
+            ],
+            "aliases": [],
+            "gender": "female",
+            "relationships": [
+                {
+                    "target": "Narrator",
+                    "type": "sister"
+                }
+            ],
+            "speech_style": [],
+            "evidence": [
+                "218",
+                "272",
+                "274"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Morgana"
+            ],
+            "aliases": [
+                "Vivian"
+            ],
+            "gender": "female",
+            "relationships": [],
+            "speech_style": [],
+            "evidence": [
+                "275",
+                "278",
+                "279"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Narrator"
+            ],
+            "aliases": [],
+            "gender": null,
+            "relationships": [
+                {
+                    "target": "Arya",
+                    "type": "sibling/ally"
+                },
+                {
+                    "target": "Mother",
+                    "type": "parent"
+                }
+            ],
+            "speech_style": [
+                "Direct",
+                "Analytical"
+            ],
+            "evidence": [
+                "301",
+                "314",
+                "320",
+                "329",
+                "361",
+                "384"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Arya"
+            ],
+            "aliases": [],
+            "gender": "female",
+            "relationships": [
+                {
+                    "target": "Narrator",
+                    "type": "sibling/ally"
+                }
+            ],
+            "speech_style": [],
+            "evidence": [
+                "306",
+                "315",
+                "328",
+                "357"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Morgana"
+            ],
+            "aliases": [],
+            "gender": "female",
+            "relationships": [],
+            "speech_style": [],
+            "evidence": [
+                "312",
+                "369",
+                "370",
+                "371",
+                "372",
+                "374"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Lucian"
+            ],
+            "aliases": [],
+            "gender": "male",
+            "relationships": [],
+            "speech_style": [],
+            "evidence": [
+                "323",
+                "354",
+                "390"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Lance Laurent"
+            ],
+            "aliases": [],
+            "gender": "male",
+            "relationships": [
+                {
+                    "target": "Luke Laurent",
+                    "type": "twin brother"
+                },
+                {
+                    "target": "Chief Elder Laurent",
+                    "type": "son"
+                }
+            ],
+            "speech_style": [],
+            "evidence": [
+                "334",
+                "335",
+                "346"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Luke Laurent"
+            ],
+            "aliases": [],
+            "gender": "male",
+            "relationships": [
+                {
+                    "target": "Lance Laurent",
+                    "type": "twin brother"
+                },
+                {
+                    "target": "Chief Elder Laurent",
+                    "type": "son"
+                }
+            ],
+            "speech_style": [],
+            "evidence": [
+                "334",
+                "335",
+                "347"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Mother"
+            ],
+            "aliases": [],
+            "gender": "female",
+            "relationships": [
+                {
+                    "target": "Narrator",
+                    "type": "parent"
+                }
+            ],
+            "speech_style": [],
+            "evidence": [
+                "318",
+                "332",
+                "340",
+                "358"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Vivian"
+            ],
+            "aliases": [],
+            "gender": "female",
+            "relationships": [
+                {
+                    "target": "Lucien",
+                    "type": "antagonistic/former partner"
+                }
+            ],
+            "speech_style": [],
+            "evidence": [
+                "488",
+                "493",
+                "466"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Arya"
+            ],
+            "aliases": [],
+            "gender": "female",
+            "relationships": [
+                {
+                    "target": "Vivian",
+                    "type": "ally"
+                }
+            ],
+            "speech_style": [],
+            "evidence": [
+                "410",
+                "420",
+                "433",
+                "461"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Morgana"
+            ],
+            "aliases": [],
+            "gender": "female",
+            "relationships": [
+                {
+                    "target": "Lucien",
+                    "type": "deceived bride"
+                }
+            ],
+            "speech_style": [
+                "flat"
+            ],
+            "evidence": [
+                "411",
+                "421",
+                "433",
+                "445"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Lucien"
+            ],
+            "aliases": [],
+            "gender": "male",
+            "relationships": [
+                {
+                    "target": "Vivian",
+                    "type": "antagonistic"
+                },
+                {
+                    "target": "Morgana",
+                    "type": "groom"
+                }
+            ],
+            "speech_style": [],
+            "evidence": [
+                "425",
+                "439",
+                "470",
+                "482"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Vivian"
+            ],
+            "aliases": [],
+            "gender": "female",
+            "relationships": [
+                {
+                    "target": "Lucian",
+                    "type": "complex/strained"
+                }
+            ],
+            "speech_style": [
+                "calm",
+                "direct"
+            ],
+            "evidence": [
+                "518",
+                "547",
+                "559",
+                "572"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Lucian"
+            ],
+            "aliases": [],
+            "gender": "male",
+            "relationships": [
+                {
+                    "target": "Vivian",
+                    "type": "complex/strained"
+                },
+                {
+                    "target": "Alpha Various",
+                    "type": "son"
+                }
+            ],
+            "speech_style": [],
+            "evidence": [
+                "511",
+                "565",
+                "566",
+                "583"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Alpha Various"
+            ],
+            "aliases": [],
+            "gender": "male",
+            "relationships": [
+                {
+                    "target": "Lucian",
+                    "type": "father"
+                },
+                {
+                    "target": "Luna Various",
+                    "type": "spouse"
+                }
+            ],
+            "speech_style": [],
+            "evidence": [
+                "544",
+                "565",
+                "583"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Luna Various"
+            ],
+            "aliases": [],
+            "gender": "female",
+            "relationships": [
+                {
+                    "target": "Alpha Various",
+                    "type": "spouse"
+                }
+            ],
+            "speech_style": [
+                "nervous"
+            ],
+            "evidence": [
+                "545",
+                "546",
+                "556",
+                "582"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Morgana"
+            ],
+            "aliases": [],
+            "gender": "female",
+            "relationships": [],
+            "speech_style": [],
+            "evidence": [
+                "576"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Chief Elder LaRonde"
+            ],
+            "aliases": [],
+            "gender": "male",
+            "relationships": [],
+            "speech_style": [],
+            "evidence": [
+                "562",
+                "572"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Vivian"
+            ],
+            "aliases": [],
+            "gender": "female",
+            "relationships": [
+                {
+                    "target": "Lucian",
+                    "type": "partner/mate"
+                }
+            ],
+            "speech_style": [
+                "direct",
+                "defiant"
+            ],
+            "evidence": [
+                "607",
+                "626",
+                "637",
+                "659",
+                "674",
+                "681"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Lucian"
+            ],
+            "aliases": [],
+            "gender": "male",
+            "relationships": [
+                {
+                    "target": "Alpha Various",
+                    "type": "son"
+                },
+                {
+                    "target": "Vivian",
+                    "type": "partner/mate"
+                }
+            ],
+            "speech_style": [
+                "quiet",
+                "tense"
+            ],
+            "evidence": [
+                "606",
+                "615",
+                "621",
+                "629",
+                "662",
+                "666",
+                "676",
+                "682"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Alpha Various"
+            ],
+            "aliases": [
+                "Alpha Valerce"
+            ],
+            "gender": "male",
+            "relationships": [
+                {
+                    "target": "Lucian",
+                    "type": "father"
+                }
+            ],
+            "speech_style": [
+                "authoritative",
+                "calculating"
+            ],
+            "evidence": [
+                "603",
+                "610",
+                "620",
+                "627",
+                "651"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Chief Elder Laurent"
+            ],
+            "aliases": [],
+            "gender": "male",
+            "relationships": [],
+            "speech_style": [],
+            "evidence": [
+                "612",
+                "648",
+                "655",
+                "666",
+                "669"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Luna Valerce"
+            ],
+            "aliases": [],
+            "gender": "female",
+            "relationships": [
+                {
+                    "target": "Lucian",
+                    "type": "mother"
+                }
+            ],
+            "speech_style": [
+                "persuasive"
+            ],
+            "evidence": [
+                "634",
+                "637",
+                "679"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Lucian"
+            ],
+            "aliases": [],
+            "gender": "male",
+            "relationships": [
+                {
+                    "target": "Narrator",
+                    "type": "aggressor"
+                }
+            ],
+            "speech_style": [],
+            "evidence": [
+                "704",
+                "718",
+                "720",
+                "724",
+                "736",
+                "749",
+                "781"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Arya"
+            ],
+            "aliases": [],
+            "gender": "female",
+            "relationships": [
+                {
+                    "target": "Narrator",
+                    "type": "sister"
+                }
+            ],
+            "speech_style": [],
+            "evidence": [
+                "714",
+                "716",
+                "725",
+                "796"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Laurent",
+                "Chief Elder Lawrence"
+            ],
+            "aliases": [],
+            "gender": "male",
+            "relationships": [
+                {
+                    "target": "Narrator",
+                    "type": "father-in-law"
+                }
+            ],
+            "speech_style": [
+                "formal",
+                "authoritative"
+            ],
+            "evidence": [
+                "732",
+                "742",
+                "750",
+                "760"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Alpha Valeris"
+            ],
+            "aliases": [],
+            "gender": "male",
+            "relationships": [
+                {
+                    "target": "Lucian",
+                    "type": "father"
+                }
+            ],
+            "speech_style": [],
+            "evidence": [
+                "762",
+                "763",
+                "773",
+                "800"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "The royal seer"
+            ],
+            "aliases": [],
+            "gender": "male",
+            "relationships": [],
+            "speech_style": [
+                "direct"
+            ],
+            "evidence": [
+                "745",
+                "770",
+                "778"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Luna Valerius"
+            ],
+            "aliases": [],
+            "gender": "female",
+            "relationships": [],
+            "speech_style": [],
+            "evidence": [
+                "799"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Lucian"
+            ],
+            "aliases": [],
+            "gender": "male",
+            "relationships": [],
+            "speech_style": [],
+            "evidence": [
+                "802",
+                "807",
+                "810",
+                "855"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Valerius"
+            ],
+            "aliases": [
+                "Alpha Valerius",
+                "Luna Valerius"
+            ],
+            "gender": null,
+            "relationships": [],
+            "speech_style": [],
+            "evidence": [
+                "811",
+                "816"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Arya"
+            ],
+            "aliases": [],
+            "gender": "female",
+            "relationships": [],
+            "speech_style": [
+                "bright",
+                "sharp"
+            ],
+            "evidence": [
+                "818",
+                "819",
+                "843",
+                "886",
+                "887"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Morgana"
+            ],
+            "aliases": [],
+            "gender": "female",
+            "relationships": [],
+            "speech_style": [],
+            "evidence": [
+                "821",
+                "823",
+                "835"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Viviana",
+                "Vivian"
+            ],
+            "aliases": [],
+            "gender": "female",
+            "relationships": [],
+            "speech_style": [],
+            "evidence": [
+                "828",
+                "852"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Luke",
+                "Lawrence Brothers"
+            ],
+            "aliases": [],
+            "gender": "male",
+            "relationships": [],
+            "speech_style": [],
+            "evidence": [
+                "845",
+                "850",
+                "890"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Lance",
+                "Lawrence Brothers"
+            ],
+            "aliases": [],
+            "gender": "male",
+            "relationships": [],
+            "speech_style": [],
+            "evidence": [
+                "845",
+                "854",
+                "869",
+                "897"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [
+                "Luke"
+            ],
+            "aliases": [],
+            "gender": "male",
+            "relationships": [],
+            "speech_style": [],
+            "evidence": [
+                "906"
+            ],
+            "confidence": "high"
+        },
+        {
+            "names": [],
+            "aliases": [
+                "She"
+            ],
+            "gender": "female",
+            "relationships": [
+                {
+                    "target": "Luke",
+                    "type": "acquaintance",
+                    "evidence": [
+                        "906"
+                    ]
+                }
+            ],
+            "speech_style": [],
+            "evidence": [
+                "903",
+                "904",
+                "906",
+                "907"
+            ],
+            "confidence": "high"
+        }
+    ],
+    "notes": [
+        "Vivienne and Viviana are treated as the same character based on context [21, 30].",
+        "Aria is explicitly identified as a daughter [41].",
+        "Lucian is identified as an Alpha [44].",
+        "The narrator is addressed as Vivian by Lucian in line 180, confirming the narrator's name.",
+        "The mother's gender is identified through the use of 'mother' and 'she'.",
+        "Lucian's gender is identified through the use of 'he'.",
+        "Arya's gender is not explicitly stated in the text, though she is referred to as a woman in the context of staff/visitors.",
+        "The narrator is the primary perspective character but is not explicitly named in the provided text.",
+        "Lucian is identified as the male character interacting with the narrator and Arya.",
+        "Morgana is identified as the woman living in the staff quarters under the name Vivian.",
+        "The narrator's gender is not explicitly stated in the text, so it is marked as null.",
+        "The relationship between the narrator and Arya is implied as close allies/siblings based on their shared decision-making and planning.",
+        "Chief Elder Laurent is mentioned as the father of Lance and Luke, but does not appear in the scene.",
+        "The narrator is identified as Vivian based on line 488 where Lucien addresses her by name.",
+        "The speaker in lines 401-402 is the narrator (Vivian).",
+        "The 'mother' mentioned in 433 is a character but lacks a specific name.",
+        "The brother mentioned in 423 is a character but lacks a specific name.",
+        "Gender for Alpha Various and Luna Various inferred from titles and context of parental roles.",
+        "Relationships are based on explicit dialogue and character actions within the provided text.",
+        "Alpha Various and Alpha Valerce are identified as the same individual based on context in lines 651 and 634.",
+        "Lucian is identified as the son of Alpha Various in line 621.",
+        "Luna Valerce is identified as Lucian's mother in line 679.",
+        "The narrator is female, identified as the sister of Arya and daughter-in-law of Laurent.",
+        "The narrator's name is not explicitly stated in the provided text.",
+        "The narrator is referred to as 'Vivian' or 'Viviana' by other characters, but the narrator's own name is not explicitly stated in the provided text.",
+        "The narrator's father and sister are mentioned but not named.",
+        "The narrator's mother is mentioned as opening the door but is not named.",
+        "The speaker (narrator) is not identified by name or gender in the provided text.",
+        "The relationship between 'She' and 'Luke' is inferred as an acquaintance based on the physical interaction in index 906."
+    ]
+}

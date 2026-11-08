@@ -1,0 +1,324 @@
+{
+    "results": [
+        {
+            "subtitle_id": 441,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Aria's dialogue from the previous context regarding the plan."
+        },
+        {
+            "subtitle_id": 442,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria is proposing the candidate for the plan."
+        },
+        {
+            "subtitle_id": 443,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Repetition for emphasis by Aria."
+        },
+        {
+            "subtitle_id": 444,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne describing her own physical action."
+        },
+        {
+            "subtitle_id": 445,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the scene involving Aria."
+        },
+        {
+            "subtitle_id": 446,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria asking about the subject of their plan."
+        },
+        {
+            "subtitle_id": 447,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria continuing her inquiry."
+        },
+        {
+            "subtitle_id": 448,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria discussing the mother's role."
+        },
+        {
+            "subtitle_id": 449,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria suggesting the strategy."
+        },
+        {
+            "subtitle_id": 450,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne describing her own reaction."
+        },
+        {
+            "subtitle_id": 451,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne reflecting on the subject's history."
+        },
+        {
+            "subtitle_id": 452,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's reflection."
+        },
+        {
+            "subtitle_id": 453,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne evaluating the benefits Lucian can provide."
+        },
+        {
+            "subtitle_id": 454,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's list."
+        },
+        {
+            "subtitle_id": 455,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's list."
+        },
+        {
+            "subtitle_id": 456,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne planning the next steps."
+        },
+        {
+            "subtitle_id": 457,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of Vivienne's thought process."
+        },
+        {
+            "subtitle_id": 458,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria challenging Vivienne's intent."
+        },
+        {
+            "subtitle_id": 459,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating Aria's dialogue tag."
+        },
+        {
+            "subtitle_id": 460,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal observation of Aria's tone."
+        },
+        {
+            "subtitle_id": 461,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne answering Aria's statement."
+        },
+        {
+            "subtitle_id": 462,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne explaining her motivation."
+        },
+        {
+            "subtitle_id": 463,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne including Aria in the motivation."
+        },
+        {
+            "subtitle_id": 464,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating Aria's reaction."
+        },
+        {
+            "subtitle_id": 465,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne narrating the arrival of the mother."
+        },
+        {
+            "subtitle_id": 466,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of the scene narration."
+        },
+        {
+            "subtitle_id": 467,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's internal recognition of the men."
+        },
+        {
+            "subtitle_id": 468,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne identifying the characters."
+        },
+        {
+            "subtitle_id": 469,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of identification."
+        },
+        {
+            "subtitle_id": 470,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne's memory of seeing them."
+        },
+        {
+            "subtitle_id": 471,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of memory."
+        },
+        {
+            "subtitle_id": 472,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of memory."
+        },
+        {
+            "subtitle_id": 473,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Continuation of memory."
+        },
+        {
+            "subtitle_id": 474,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne observing the current situation."
+        },
+        {
+            "subtitle_id": 475,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne observing her mother."
+        },
+        {
+            "subtitle_id": 476,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of observation."
+        },
+        {
+            "subtitle_id": 477,
+            "speaker_id": "C004",
+            "speaker_name": "Mother",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Mother speaking about her actions."
+        },
+        {
+            "subtitle_id": 478,
+            "speaker_id": "C004",
+            "speaker_name": "Mother",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Mother explaining the men's history."
+        },
+        {
+            "subtitle_id": 479,
+            "speaker_id": "C004",
+            "speaker_name": "Mother",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of Mother's explanation."
+        },
+        {
+            "subtitle_id": 480,
+            "speaker_id": "C004",
+            "speaker_name": "Mother",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Mother praising the men."
+        }
+    ]
+}

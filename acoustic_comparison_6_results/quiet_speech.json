@@ -1,0 +1,132 @@
+{
+  "Cue 9": {
+    "loudness": "moderate",
+    "pitch": "mid range, moderate downward contour",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate speed, even rhythm",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no audible breaths or pauses within the cue",
+    "clearly_audible_features": [
+      "clear articulation",
+      "moderate projection"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 10": {
+    "loudness": "moderate-low",
+    "pitch": "low to mid range, falling contour",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "slow and measured",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "slight terminal sound release",
+    "clearly_audible_features": [
+      "soft projection",
+      "controlled pacing"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 11": {
+    "loudness": "moderate",
+    "pitch": "mid range, slight upward and then downward contour",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate, rhythmic",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no audible breaths or pauses",
+    "clearly_audible_features": [
+      "steady projection"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 12": {
+    "loudness": "moderate",
+    "pitch": "mid range, falling contour",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no audible breaths or pauses",
+    "clearly_audible_features": [
+      "clear enunciation"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 13": {
+    "loudness": "moderate",
+    "pitch": "mid range, slightly undulating contour",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no audible breaths or pauses",
+    "clearly_audible_features": [
+      "clear articulation"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 15": {
+    "loudness": "moderate",
+    "pitch": "mid range, rising contour",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no audible breaths or pauses",
+    "clearly_audible_features": [
+      "steady vocal projection"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 16": {
+    "loudness": "moderate",
+    "pitch": "mid range, slightly rising then falling contour",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no audible breaths or pauses",
+    "clearly_audible_features": [
+      "even cadence"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 17": {
+    "loudness": "moderate",
+    "pitch": "mid range, falling contour",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no audible breaths or pauses",
+    "clearly_audible_features": [
+      "controlled projection"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 18": {
+    "loudness": "moderate",
+    "pitch": "mid range, undulating contour",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no audible breaths or pauses",
+    "clearly_audible_features": [
+      "steady pacing"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 19": {
+    "loudness": "moderate",
+    "pitch": "mid range, falling contour towards the end",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate, measured",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no audible breaths or pauses",
+    "clearly_audible_features": [
+      "clear termination"
+    ],
+    "uncertain_features": []
+  },
+  "comparison": {
+    "overall_voice_quality": "Consistently clear and stable across all cues, with moderate loudness and controlled pacing.",
+    "recording_limitations": [
+      "Dry studio-like acoustic quality",
+      "Absence of significant background noise"
+    ],
+    "uncertain_observations": []
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "Cue 66": {
+    "loudness": "moderate",
+    "pitch": "medium range with a slight downward contour",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate and even",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no audible breathing or pauses within the interval",
+    "clearly_audible_features": [
+      "clear articulation",
+      "steady projection"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 67": {
+    "loudness": "moderate",
+    "pitch": "medium range, steady contour",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate and even",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no audible breathing or pauses within the interval",
+    "clearly_audible_features": [
+      "clear articulation",
+      "smooth phrasal transition"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 68": {
+    "loudness": "low to moderate",
+    "pitch": "medium-low range with a downward contour",
+    "voice_quality": "slight breathiness",
+    "rate_and_rhythm": "slow and measured",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no audible breathing or pauses within the interval",
+    "clearly_audible_features": [
+      "softer projection",
+      "slight vocal softening"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 69": {
+    "loudness": "moderate",
+    "pitch": "medium range with a moderate upward-downward contour",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate and steady",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no audible breathing or pauses within the interval",
+    "clearly_audible_features": [
+      "steady pitch contour",
+      "clear phrasing"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 70": {
+    "loudness": "moderate",
+    "pitch": "medium range, relatively flat contour",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate and steady",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no audible breathing or pauses within the interval",
+    "clearly_audible_features": [
+      "consistent articulation",
+      "even cadence"
+    ],
+    "uncertain_features": []
+  },
+  "comparison": {
+    "overall_voice_quality": "consistently clear with moderate projection and stable intonation across all cues",
+    "recording_limitations": [
+      "underlying musical score present throughout the audio clip, potentially masking minor acoustic details"
+    ],
+    "uncertain_observations": [
+      "minor breath sounds may be masked by background music"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+    "merge_candidates": [
+        {
+            "canonical_name": "Vivienne",
+            "character_ids": ["C001", "C007"],
+            "aliases": ["Vivian", "Viviana"],
+            "status": "high_confidence_candidate"
+        },
+        {
+            "canonical_name": "Lucian",
+            "character_ids": ["C002", "C011"],
+            "aliases": ["Lucien"],
+            "status": "high_confidence_candidate"
+        }
+    ],
+    "review_required": [
+        {
+            "suggested_name": "Aria",
+            "character_ids": ["C003", "C006"],
+            "aliases": ["Arya"],
+            "reason": "Нэг дүр эсэхийг нэмэлт нотолгоогоор шалгах"
+        },
+        {
+            "suggested_name": "Alpha (Lucian's father)",
+            "character_ids": ["C012", "C018"],
+            "aliases": [
+                "Alpha Various",
+                "Alpha Valerce",
+                "Alpha Valeris",
+                "Alpha Valerius"
+            ],
+            "reason": "Эцэг нь нэг дүр байх магадлалтай боловч нэрийн зөв бичлэг тодорхойгүй"
+        },
+        {
+            "suggested_name": "Luna (Lucian's mother)",
+            "character_ids": ["C013", "C016"],
+            "aliases": [
+                "Luna Various",
+                "Luna Valerce",
+                "Luna Valerius"
+            ],
+            "reason": "Нэг дүр байх магадлалтай боловч баталгаажуулах шаардлагатай"
+        }
+    ],
+    "keep_separate": [
+        {
+            "character_ids": ["C008"],
+            "canonical_name": "Morgana",
+            "reason": "Vivian-аас тусдаа дүр"
+        },
+        {
+            "character_ids": ["C009", "C010"],
+            "canonical_names": ["Lance Laurent", "Luke Laurent"],
+            "reason": "Ихэр ах дүүс"
+        }
+    ],
+    "exclude_from_characters": [
+        {
+            "character_id": "C023",
+            "value": "She",
+            "reason": "Төлөөний үг"
+        }
+    ],
+    "unresolved": [
+    "Chief Elder LaRonde / Chief Elder Laurent / Chief Elder Lawrence",
+    "Luke (C022)",
+    "Lawrence Brothers",
+    "C021: Alpha Valerius болон Luna Valerius хоёрын мэдээлэл холилдсон тул салгаж шалгах"
+]
+}

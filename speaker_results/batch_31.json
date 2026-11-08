@@ -1,0 +1,108 @@
+{
+    "results": [
+        {
+            "subtitle_id": 1201,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne is addressing Aria directly in the dialogue."
+        },
+        {
+            "subtitle_id": 1202,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing the action of another character from her perspective."
+        },
+        {
+            "subtitle_id": 1203,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct speech directed at Aria."
+        },
+        {
+            "subtitle_id": 1204,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of direct speech."
+        },
+        {
+            "subtitle_id": 1205,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Continuation of direct speech."
+        },
+        {
+            "subtitle_id": 1206,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing Aria's reaction."
+        },
+        {
+            "subtitle_id": 1207,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is narrating the physical change in Aria's expression."
+        },
+        {
+            "subtitle_id": 1208,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing the emotional quality of Aria's expression."
+        },
+        {
+            "subtitle_id": 1209,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of the description of Aria's expression."
+        },
+        {
+            "subtitle_id": 1210,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is narrating the physical actions of Aria."
+        },
+        {
+            "subtitle_id": 1211,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of the narration of Aria's actions."
+        },
+        {
+            "subtitle_id": 1212,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is interpreting Aria's behavior."
+        },
+        {
+            "subtitle_id": 1213,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is observing and narrating Aria's final reaction."
+        }
+    ]
+}

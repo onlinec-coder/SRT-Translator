@@ -1,0 +1,229 @@
+{
+  "count": 28,
+  "assignments": [
+    {
+      "subtitle_id": 28,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_type": "character",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 31,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_type": "character",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 163,
+      "speaker_id": "C002",
+      "speaker_name": "Lucian",
+      "speaker_type": "inner_monologue",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 164,
+      "speaker_id": "C002",
+      "speaker_name": "Lucian",
+      "speaker_type": "inner_monologue",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 199,
+      "speaker_id": "C002",
+      "speaker_name": "Lucian",
+      "speaker_type": "character",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 200,
+      "speaker_id": "C002",
+      "speaker_name": "Lucian",
+      "speaker_type": "character",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 349,
+      "speaker_id": "C009",
+      "speaker_name": "Lance Laurent",
+      "speaker_type": "character",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 350,
+      "speaker_id": "C009",
+      "speaker_name": "Lance Laurent",
+      "speaker_type": "character",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 356,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_type": "character",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 365,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_type": "inner_monologue",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 366,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_type": "inner_monologue",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 377,
+      "speaker_id": "C008",
+      "speaker_name": "Morgana",
+      "speaker_type": "character",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 378,
+      "speaker_id": "C008",
+      "speaker_name": "Morgana",
+      "speaker_type": "character",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 379,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_type": "character",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 387,
+      "speaker_id": "C008",
+      "speaker_name": "Morgana",
+      "speaker_type": "character",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 458,
+      "speaker_id": "C003",
+      "speaker_name": "Aria",
+      "speaker_type": "character",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 459,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_type": "character",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 460,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_type": "narration",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 728,
+      "speaker_id": "C005",
+      "speaker_name": "Narrator",
+      "speaker_type": "narrator",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 770,
+      "speaker_id": "C015",
+      "speaker_name": "Chief Elder Laurent",
+      "speaker_type": "character",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 846,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_type": "character",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 850,
+      "speaker_id": "C003",
+      "speaker_name": "Aria",
+      "speaker_type": "character",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 851,
+      "speaker_id": "C003",
+      "speaker_name": "Aria",
+      "speaker_type": "character",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 852,
+      "speaker_id": "C003",
+      "speaker_name": "Aria",
+      "speaker_type": "character",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 853,
+      "speaker_id": "C003",
+      "speaker_name": "Aria",
+      "speaker_type": "character",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 854,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_type": "character",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 855,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_type": "character",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    },
+    {
+      "subtitle_id": 857,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_type": "character",
+      "confidence": "high",
+      "evidence": "Видео шалгалтаар хэрэглэгч баталгаажуулсан."
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+    "results": [
+        {
+            "subtitle_id": 601,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne is negotiating the protection of her brother in exchange for her cooperation."
+        },
+        {
+            "subtitle_id": 602,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian is the one demanding the name to exert control."
+        },
+        {
+            "subtitle_id": 603,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian is promising to handle the matter before the wedding."
+        },
+        {
+            "subtitle_id": 604,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing the physical interaction with the other character."
+        },
+        {
+            "subtitle_id": 605,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is narrating the actions of the other character."
+        },
+        {
+            "subtitle_id": 606,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne is speaking directly about her requirements for the wedding."
+        },
+        {
+            "subtitle_id": 607,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is setting the scene for the wedding day."
+        },
+        {
+            "subtitle_id": 608,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is narrating the actions of Aria and her mother."
+        },
+        {
+            "subtitle_id": 609,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is continuing the narrative of the wedding preparations."
+        },
+        {
+            "subtitle_id": 610,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing her own location during the event."
+        },
+        {
+            "subtitle_id": 611,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing the visual details of the scene."
+        },
+        {
+            "subtitle_id": 612,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is detailing the appearance of the bride."
+        },
+        {
+            "subtitle_id": 613,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is continuing the description of the bride."
+        },
+        {
+            "subtitle_id": 614,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is continuing the description of the bride."
+        },
+        {
+            "subtitle_id": 615,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne is providing her subjective assessment of the bride's appearance."
+        },
+        {
+            "subtitle_id": 616,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is narrating the arrival of Lucian."
+        },
+        {
+            "subtitle_id": 617,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is narrating Lucian's actions."
+        },
+        {
+            "subtitle_id": 618,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is describing Lucian's expression."
+        },
+        {
+            "subtitle_id": 619,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is completing the description of Lucian's smile."
+        },
+        {
+            "subtitle_id": 620,
+            "speaker_id": "C002",
+            "speaker_name": "Lucian",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Lucian is asking about Vivienne's whereabouts."
+        },
+        {
+            "subtitle_id": 621,
+            "speaker_id": "C004",
+            "speaker_name": "Mother",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Mother is responding to Lucian's question."
+        },
+        {
+            "subtitle_id": 622,
+            "speaker_id": "C004",
+            "speaker_name": "Mother",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Mother is continuing her explanation to Lucian."
+        },
+        {
+            "subtitle_id": 623,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is narrating Lucian's reaction."
+        },
+        {
+            "subtitle_id": 624,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is narrating Lucian's movement."
+        },
+        {
+            "subtitle_id": 625,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is narrating the interaction between Lucian and Morgana."
+        },
+        {
+            "subtitle_id": 626,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is narrating Morgana's action."
+        },
+        {
+            "subtitle_id": 627,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is narrating Lucian's behavior."
+        },
+        {
+            "subtitle_id": 628,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is continuing the narrative of Lucian's actions."
+        },
+        {
+            "subtitle_id": 629,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne is observing and judging Lucian's lack of awareness."
+        },
+        {
+            "subtitle_id": 630,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is narrating the departure of the motorcade."
+        },
+        {
+            "subtitle_id": 631,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is narrating her own actions."
+        },
+        {
+            "subtitle_id": 632,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is continuing the narrative of watching the motorcade."
+        },
+        {
+            "subtitle_id": 633,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is narrating Aria's appearance."
+        },
+        {
+            "subtitle_id": 634,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is narrating Aria's silence."
+        },
+        {
+            "subtitle_id": 635,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria is asking Vivienne a question."
+        },
+        {
+            "subtitle_id": 636,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria is continuing her question."
+        },
+        {
+            "subtitle_id": 637,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne is answering Aria."
+        },
+        {
+            "subtitle_id": 638,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne is explaining her reasoning to Aria."
+        },
+        {
+            "subtitle_id": 639,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Vivienne is narrating Aria's reaction."
+        },
+        {
+            "subtitle_id": 640,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Aria is asking a follow-up question."
+        }
+    ]
+}

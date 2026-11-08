@@ -1,0 +1,69 @@
+{
+  "Cue 66": {
+    "loudness": "moderate",
+    "pitch": "medium range with a downward contour at the end",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate, measured pace",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no audible breaths or pauses within the interval",
+    "clearly_audible_features": [
+      "clear articulation",
+      "controlled vocal delivery"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 67": {
+    "loudness": "moderate",
+    "pitch": "medium range, undulating contour",
+    "voice_quality": "clear with slight vocal fry at the end",
+    "rate_and_rhythm": "moderate",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no audible breaths or pauses within the interval",
+    "clearly_audible_features": [
+      "slight vocal fry on the final word"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 68": {
+    "loudness": "low to moderate",
+    "pitch": "medium-low range, rising contour",
+    "voice_quality": "breathy and slightly raspy",
+    "rate_and_rhythm": "moderate, smooth flow",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no audible breaths or pauses within the interval",
+    "clearly_audible_features": [
+      "softer vocal projection",
+      "breathy texture"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 69": {
+    "loudness": "moderate",
+    "pitch": "medium range with moderate inflection",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate, even tempo",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no audible breaths or pauses within the interval",
+    "clearly_audible_features": [
+      "clear enunciation"
+    ],
+    "uncertain_features": []
+  },
+  "Cue 70": {
+    "loudness": "moderate",
+    "pitch": "medium range with a slight downward step at the end",
+    "voice_quality": "clear",
+    "rate_and_rhythm": "moderate, steady pace",
+    "vocal_stability": "stable",
+    "breathing_and_pauses": "no audible breaths or pauses within the interval",
+    "clearly_audible_features": [
+      "even tone"
+    ],
+    "uncertain_features": []
+  },
+  "comparison": {
+    "overall_voice_quality": "generally clear with occasional breathy or raspy variations",
+    "recording_limitations": [],
+    "uncertain_observations": []
+  }
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "subtitle_id": 850,
+    "speaker_id": "C006",
+    "speaker_name": "Arya",
+    "speaker_type": "character",
+    "confidence": "medium",
+    "evidence": "Arya-гийн Vivienne-д хандаж ярьж буй яриа."
+  },
+  {
+    "subtitle_id": 851,
+    "speaker_id": "C006",
+    "speaker_name": "Arya",
+    "speaker_type": "character",
+    "confidence": "medium",
+    "evidence": "Ярианы давталт."
+  },
+  {
+    "subtitle_id": 852,
+    "speaker_id": "C006",
+    "speaker_name": "Arya",
+    "speaker_type": "character",
+    "confidence": "medium",
+    "evidence": "Ярианы явцад нэрийг дуудаж буй байдал."
+  },
+  {
+    "subtitle_id": 853,
+    "speaker_id": "C006",
+    "speaker_name": "Arya",
+    "speaker_type": "character",
+    "confidence": "medium",
+    "evidence": "Ярианы үргэлжлэл."
+  },
+  {
+    "subtitle_id": 854,
+    "speaker_id": "C001",
+    "speaker_name": "Vivienne",
+    "speaker_type": "character",
+    "confidence": "medium",
+    "evidence": "Vivienne өөрт тохиолдсоныг ярьж байна."
+  },
+  {
+    "subtitle_id": 855,
+    "speaker_id": "C001",
+    "speaker_name": "Vivienne",
+    "speaker_type": "character",
+    "confidence": "medium",
+    "evidence": "Vivienne-ийн ярианы үргэлжлэл."
+  },
+  {
+    "subtitle_id": 856,
+    "speaker_id": "C001",
+    "speaker_name": "Vivienne",
+    "speaker_type": "inner_monologue",
+    "confidence": "high",
+    "evidence": "POV дүрийн дотоод завсарлага."
+  },
+  {
+    "subtitle_id": 857,
+    "speaker_id": "C001",
+    "speaker_name": "Vivienne",
+    "speaker_type": "character",
+    "confidence": "medium",
+    "evidence": "Ярианы үргэлжлэл."
+  },
+  {
+    "subtitle_id": 858,
+    "speaker_id": "C005",
+    "speaker_name": "Narrator",
+    "speaker_type": "narrator",
+    "confidence": "high",
+    "evidence": "Arya-гийн үйлдлийг харуулсан хүүрнэл."
+  },
+  {
+    "subtitle_id": 859,
+    "speaker_id": "C006",
+    "speaker_name": "Arya",
+    "speaker_type": "character",
+    "confidence": "high",
+    "evidence": "Arya-гийн асууж буй шууд яриа."
+  },
+  {
+    "subtitle_id": 860,
+    "speaker_id": "C001",
+    "speaker_name": "Vivienne",
+    "speaker_type": "character",
+    "confidence": "high",
+    "evidence": "Vivienne-ийн хариулт."
+  },
+  {
+    "subtitle_id": 871,
+    "speaker_id": "C001",
+    "speaker_name": "Vivienne",
+    "speaker_type": "inner_monologue",
+    "confidence": "high",
+    "evidence": "POV дүрийн дотоод мэдрэмж, үйлдэл."
+  },
+  {
+    "subtitle_id": 872,
+    "speaker_id": "C001",
+    "speaker_name": "Vivienne",
+    "speaker_type": "inner_monologue",
+    "confidence": "high",
+    "evidence": "Vivienne-ийн дотоод ажиглалт."
+  },
+  {
+    "subtitle_id": 873,
+    "speaker_id": "C001",
+    "speaker_name": "Vivienne",
+    "speaker_type": "inner_monologue",
+    "confidence": "high",
+    "evidence": "Vivienne-ийн дотоод бодол."
+  },
+  {
+    "subtitle_id": 874,
+    "speaker_id": "C001",
+    "speaker_name": "Vivienne",
+    "speaker_type": "inner_monologue",
+    "confidence": "high",
+    "evidence": "Vivienne-ийн дотоод бодол."
+  },
+  {
+    "subtitle_id": 875,
+    "speaker_id": "C001",
+    "speaker_name": "Vivienne",
+    "speaker_type": "inner_monologue",
+    "confidence": "high",
+    "evidence": "Vivienne-ийн дотоод мэдрэмжийн үнэлгээ."
+  },
+  {
+    "subtitle_id": 876,
+    "speaker_id": "C001",
+    "speaker_name": "Vivienne",
+    "speaker_type": "inner_monologue",
+    "confidence": "high",
+    "evidence": "Vivienne-ийн дотоод бодол."
+  },
+  {
+    "subtitle_id": 877,
+    "speaker_id": "C001",
+    "speaker_name": "Vivienne",
+    "speaker_type": "inner_monologue",
+    "confidence": "high",
+    "evidence": "Зүрхний цохилт болон мэдрэмжийг дүрсэлсэн дотоод өгүүлэмж."
+  },
+  {
+    "subtitle_id": 878,
+    "speaker_id": "C001",
+    "speaker_name": "Vivienne",
+    "speaker_type": "inner_monologue",
+    "confidence": "high",
+    "evidence": "Lucian-тай харьцуулсан дотоод бодол."
+  },
+  {
+    "subtitle_id": 879,
+    "speaker_id": "C001",
+    "speaker_name": "Vivienne",
+    "speaker_type": "inner_monologue",
+    "confidence": "high",
+    "evidence": "Дотоод мэдрэмжийн илэрхийлэл."
+  },
+  {
+    "subtitle_id": 880,
+    "speaker_id": "C001",
+    "speaker_name": "Vivienne",
+    "speaker_type": "inner_monologue",
+    "confidence": "high",
+    "evidence": "Vivienne-ийн дотоод дүгнэлт."
+  },
+  {
+    "subtitle_id": 900,
+    "speaker_id": "C005",
+    "speaker_name": "Narrator",
+    "speaker_type": "narrator",
+    "confidence": "high",
+    "evidence": "Arya-ийн үйлдэл болон POV дүрийн харцыг хүүрнэж байна."
+  },
+  {
+    "subtitle_id": 901,
+    "speaker_id": "C001",
+    "speaker_name": "Vivienne",
+    "speaker_type": "character",
+    "confidence": "high",
+    "evidence": "Vivienne-ийн Arya руу хандан хэлж буй шууд яриа."
+  },
+  {
+    "subtitle_id": 902,
+    "speaker_id": "C001",
+    "speaker_name": "Vivienne",
+    "speaker_type": "character",
+    "confidence": "high",
+    "evidence": "Vivienne-ийн ярианы үргэлжлэл."
+  }
+]

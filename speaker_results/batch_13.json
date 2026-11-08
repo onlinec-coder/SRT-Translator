@@ -1,0 +1,324 @@
+{
+    "results": [
+        {
+            "subtitle_id": 481,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of the narrator's description of the family background."
+        },
+        {
+            "subtitle_id": 482,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Continuation of the narrator's description of the family background."
+        },
+        {
+            "subtitle_id": 483,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrator describing an action taken by another character."
+        },
+        {
+            "subtitle_id": 484,
+            "speaker_id": "C004",
+            "speaker_name": "Mother",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Direct speech quote attributed to the mother figure."
+        },
+        {
+            "subtitle_id": 485,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrator describing the reaction of the characters."
+        },
+        {
+            "subtitle_id": 486,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrator describing the actions of Lance."
+        },
+        {
+            "subtitle_id": 487,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrator describing the actions of Luke."
+        },
+        {
+            "subtitle_id": 488,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrator describing the behavior of the characters."
+        },
+        {
+            "subtitle_id": 489,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrator describing the behavior of the characters."
+        },
+        {
+            "subtitle_id": 490,
+            "speaker_id": "C009",
+            "speaker_name": "Lance Laurent",
+            "speaker_type": "character",
+            "confidence": "medium",
+            "evidence": "Direct speech directed at the narrator/Vivienne."
+        },
+        {
+            "subtitle_id": 491,
+            "speaker_id": "C009",
+            "speaker_name": "Lance Laurent",
+            "speaker_type": "character",
+            "confidence": "medium",
+            "evidence": "Continuation of the direct speech."
+        },
+        {
+            "subtitle_id": 492,
+            "speaker_id": "C009",
+            "speaker_name": "Lance Laurent",
+            "speaker_type": "character",
+            "confidence": "medium",
+            "evidence": "Continuation of the direct speech."
+        },
+        {
+            "subtitle_id": 493,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrator describing her own actions."
+        },
+        {
+            "subtitle_id": 494,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrator describing her own actions."
+        },
+        {
+            "subtitle_id": 495,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne reflecting on their lack of time and internal pressure."
+        },
+        {
+            "subtitle_id": 496,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne reflecting on their lack of time and internal pressure."
+        },
+        {
+            "subtitle_id": 497,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne reflecting on the threat posed by Lucian."
+        },
+        {
+            "subtitle_id": 498,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne reflecting on the threat posed by Lucian."
+        },
+        {
+            "subtitle_id": 499,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne reflecting on the need for a plan."
+        },
+        {
+            "subtitle_id": 500,
+            "speaker_id": "C003",
+            "speaker_name": "Aria",
+            "speaker_type": "character",
+            "confidence": "medium",
+            "evidence": "Aria agreeing to the plan."
+        },
+        {
+            "subtitle_id": 501,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrator describing Aria's action."
+        },
+        {
+            "subtitle_id": 502,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrator describing the mother's action."
+        },
+        {
+            "subtitle_id": 503,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrator describing the mother's action."
+        },
+        {
+            "subtitle_id": 504,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrator describing their collective action."
+        },
+        {
+            "subtitle_id": 505,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrator describing their collective action."
+        },
+        {
+            "subtitle_id": 506,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrator describing the signing process."
+        },
+        {
+            "subtitle_id": 507,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrator describing the signing process."
+        },
+        {
+            "subtitle_id": 508,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrator describing her own action."
+        },
+        {
+            "subtitle_id": 509,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne reflecting on the contract details."
+        },
+        {
+            "subtitle_id": 510,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne reflecting on the significance of the name."
+        },
+        {
+            "subtitle_id": 511,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne reflecting on the significance of the name."
+        },
+        {
+            "subtitle_id": 512,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne reflecting on the significance of the name."
+        },
+        {
+            "subtitle_id": 513,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne reflecting on the significance of the name."
+        },
+        {
+            "subtitle_id": 514,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne reflecting on her feelings."
+        },
+        {
+            "subtitle_id": 515,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne reflecting on her feelings."
+        },
+        {
+            "subtitle_id": 516,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrator describing her own action."
+        },
+        {
+            "subtitle_id": 517,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne speaking to Aria."
+        },
+        {
+            "subtitle_id": 518,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "character",
+            "confidence": "high",
+            "evidence": "Vivienne speaking to Aria."
+        },
+        {
+            "subtitle_id": 519,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "narrator",
+            "confidence": "high",
+            "evidence": "Narrator describing the arrival at Morgana's."
+        },
+        {
+            "subtitle_id": 520,
+            "speaker_id": "C001",
+            "speaker_name": "Vivienne",
+            "speaker_type": "inner_monologue",
+            "confidence": "high",
+            "evidence": "Vivienne reflecting on Morgana's appearance."
+        }
+    ]
+}
