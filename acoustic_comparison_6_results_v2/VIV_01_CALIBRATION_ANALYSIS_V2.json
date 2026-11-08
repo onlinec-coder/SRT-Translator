@@ -256,7 +256,7 @@
     "Before paid retest, approve the exact cue IDs and request count.",
     "First test the speed-control implementation on one explicitly approved cue, then compare audio quality and timing."
   ],
-  "next_step": "Prepare the generator to accept optional per-cue speed in its request payload while preserving all other stored voice settings; do not execute paid requests until the user approves the exact test cue and credit use.",
+  "next_step": "Implement a reviewed optional per-cue speed override in the generator, preserving stored voice settings for all other parameters. Validate request construction without sending TTS. Then request explicit approval for one named paid test cue before any API generation.",
   "cue_metrics": [
     {
       "cue_id": 1,
@@ -790,5 +790,25 @@
       "overlap_after_next_srt_cue_start_s": 0,
       "tts_to_source_active_duration_ratio": 1.18
     }
-  ]
+  ],
+  "tts_control_capability": {
+    "provider": "ElevenLabs Text-to-Speech API",
+    "per_request_speed_override": {
+      "supported": true,
+      "parameter": "voice_settings.speed",
+      "documented_range": {
+        "minimum": 0.7,
+        "maximum": 1.2
+      },
+      "effect": "Values below 1 slow speech; values above 1 speed it up.",
+      "persistence": "Per-request override; does not require changing persistent voice settings.",
+      "documentation": "https://elevenlabs.io/docs/help-center/product/core-capabilities/text-to-speech/can-i-change-the-pace-of-the-voice"
+    },
+    "current_project_generator": {
+      "path": "scripts/generate_vivienne_viv01.py",
+      "sends_voice_settings": false,
+      "supports_per_cue_speed": false,
+      "note": "The current VIV_01 generator sends only text and model_id. A future generator update is needed to apply per-cue speed overrides. Do not assume the generated VIV_01 files used speed=1.0 because no effective speed setting was recorded."
+    }
+  }
 }
