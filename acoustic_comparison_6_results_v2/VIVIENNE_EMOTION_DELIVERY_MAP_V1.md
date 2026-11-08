@@ -61,3 +61,14 @@ The candidate cue IDs, text, timestamps, speaker IDs, and speaker roles in this 
 
 The user explicitly confirms that the scene at cues 679–690 (approximately 00:21:35–00:22:05) is **hurt, cold irony / bitter sarcasm, not anger**. Keep this distinction firm: do not use the D3 `[angry]` direction for this passage. The delivery should feel wounded, cool, and pointed, with restrained ironic emphasis. This is a user-confirmed acting interpretation and takes precedence over any broad text-based inference.
 
+
+
+## 8. User-confirmed clarification — group F, cues 722–724 (2026-11-08)
+
+The user compared cues 722–724 (00:22:57.200–00:23:00.791) against the original film and confirmed all three delivery criteria:
+
+1. Calm but decisive — **yes**.
+2. A slight trace of hurt / emotional injury remains audible — **yes**.
+3. Does not lean into anger or become excessively cold — **yes**.
+
+Treat this passage as **calm, self-possessed boundary-setting with restrained hurt**. Do not use the D3 `[angry]` direction. The strength comes from the certainty of her decision, not raised intensity. This is a user-confirmed interpretation, not merely a text-based hypothesis.
