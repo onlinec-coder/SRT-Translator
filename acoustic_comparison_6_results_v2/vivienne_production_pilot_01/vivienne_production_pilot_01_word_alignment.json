@@ -1,0 +1,1130 @@
+{
+  "project": "Husbands",
+  "pilot": "Vivienne production pilot 01",
+  "generated_at": "2026-11-08T12:42:04.110502+00:00",
+  "model": "tiny",
+  "device": "cpu",
+  "compute_type": "int8",
+  "audio_source": "existing local MP3s only",
+  "network_audio_uploads": 0,
+  "tts_requests": 0,
+  "audio_edits": 0,
+  "clips_analyzed": 6,
+  "errors": [],
+  "clips": [
+    {
+      "file": "pilot_01_cue427_hurt_disappointed.mp3",
+      "cue_ids": [
+        427
+      ],
+      "audio_duration_seconds": 1.84,
+      "language_detected": "mn",
+      "language_probability": 1.0,
+      "subtitle_text": "Тэр чамайг огт мэддэггүй юм байна.",
+      "cue_windows_relative_to_audio": [
+        {
+          "cue_id": 427,
+          "start": 0.0,
+          "end": 1.417,
+          "text": "Тэр чамайг огт мэддэггүй юм байна."
+        }
+      ],
+      "asr_words_relative_to_audio": [
+        {
+          "word": "tis",
+          "start": 0.28,
+          "end": 0.4,
+          "probability": 0.143
+        },
+        {
+          "word": "c",
+          "start": 0.4,
+          "end": 0.46,
+          "probability": 0.028
+        },
+        {
+          "word": "'est",
+          "start": 0.46,
+          "end": 0.5,
+          "probability": 0.142
+        },
+        {
+          "word": "t",
+          "start": 0.5,
+          "end": 0.5,
+          "probability": 0.072
+        },
+        {
+          "word": "'est",
+          "start": 0.5,
+          "end": 0.5,
+          "probability": 0.136
+        },
+        {
+          "word": "t",
+          "start": 0.5,
+          "end": 0.56,
+          "probability": 0.077
+        },
+        {
+          "word": "'est",
+          "start": 0.56,
+          "end": 0.56,
+          "probability": 0.662
+        },
+        {
+          "word": "t",
+          "start": 0.56,
+          "end": 0.6,
+          "probability": 0.108
+        },
+        {
+          "word": "'est",
+          "start": 0.6,
+          "end": 0.6,
+          "probability": 0.686
+        },
+        {
+          "word": "t",
+          "start": 0.6,
+          "end": 0.6,
+          "probability": 0.22
+        },
+        {
+          "word": "'est",
+          "start": 0.6,
+          "end": 0.6,
+          "probability": 0.659
+        },
+        {
+          "word": "t",
+          "start": 0.6,
+          "end": 0.6,
+          "probability": 0.262
+        },
+        {
+          "word": "'est",
+          "start": 0.6,
+          "end": 0.6,
+          "probability": 0.731
+        },
+        {
+          "word": "t",
+          "start": 0.6,
+          "end": 0.62,
+          "probability": 0.323
+        },
+        {
+          "word": "'est",
+          "start": 0.62,
+          "end": 0.62,
+          "probability": 0.746
+        },
+        {
+          "word": "t",
+          "start": 0.62,
+          "end": 0.62,
+          "probability": 0.471
+        },
+        {
+          "word": "'est",
+          "start": 0.62,
+          "end": 0.62,
+          "probability": 0.778
+        },
+        {
+          "word": "t",
+          "start": 0.62,
+          "end": 0.62,
+          "probability": 0.546
+        },
+        {
+          "word": "'est",
+          "start": 0.62,
+          "end": 0.62,
+          "probability": 0.81
+        },
+        {
+          "word": "t",
+          "start": 0.62,
+          "end": 0.62,
+          "probability": 0.612
+        },
+        {
+          "word": "'est",
+          "start": 0.62,
+          "end": 0.62,
+          "probability": 0.803
+        },
+        {
+          "word": "t",
+          "start": 0.62,
+          "end": 0.62,
+          "probability": 0.625
+        },
+        {
+          "word": "'est",
+          "start": 0.62,
+          "end": 0.62,
+          "probability": 0.817
+        },
+        {
+          "word": "m",
+          "start": 0.62,
+          "end": 0.62,
+          "probability": 0.027
+        },
+        {
+          "word": "'a",
+          "start": 0.62,
+          "end": 0.7,
+          "probability": 0.717
+        },
+        {
+          "word": "gacht",
+          "start": 0.7,
+          "end": 0.98,
+          "probability": 0.226
+        },
+        {
+          "word": "mette",
+          "start": 0.98,
+          "end": 1.44,
+          "probability": 0.242
+        },
+        {
+          "word": "-t",
+          "start": 1.44,
+          "end": 1.48,
+          "probability": 0.292
+        },
+        {
+          "word": "-t",
+          "start": 1.48,
+          "end": 1.5,
+          "probability": 0.463
+        },
+        {
+          "word": "-t",
+          "start": 1.5,
+          "end": 1.52,
+          "probability": 0.504
+        },
+        {
+          "word": "-gumben",
+          "start": 1.52,
+          "end": 1.82,
+          "probability": 0.379
+        }
+      ],
+      "cue_level_overlap_diagnostic": [
+        {
+          "cue_id": 427,
+          "start": 0.0,
+          "end": 1.417,
+          "text": "Тэр чамайг огт мэддэггүй юм байна.",
+          "recognized_words": [
+            {
+              "word": "tis",
+              "start": 0.28,
+              "end": 0.4,
+              "probability": 0.143,
+              "overlap_seconds": 0.12
+            },
+            {
+              "word": "c",
+              "start": 0.4,
+              "end": 0.46,
+              "probability": 0.028,
+              "overlap_seconds": 0.06
+            },
+            {
+              "word": "'est",
+              "start": 0.46,
+              "end": 0.5,
+              "probability": 0.142,
+              "overlap_seconds": 0.04
+            },
+            {
+              "word": "t",
+              "start": 0.5,
+              "end": 0.56,
+              "probability": 0.077,
+              "overlap_seconds": 0.06
+            },
+            {
+              "word": "t",
+              "start": 0.56,
+              "end": 0.6,
+              "probability": 0.108,
+              "overlap_seconds": 0.04
+            },
+            {
+              "word": "t",
+              "start": 0.6,
+              "end": 0.62,
+              "probability": 0.323,
+              "overlap_seconds": 0.02
+            },
+            {
+              "word": "'a",
+              "start": 0.62,
+              "end": 0.7,
+              "probability": 0.717,
+              "overlap_seconds": 0.08
+            },
+            {
+              "word": "gacht",
+              "start": 0.7,
+              "end": 0.98,
+              "probability": 0.226,
+              "overlap_seconds": 0.28
+            },
+            {
+              "word": "mette",
+              "start": 0.98,
+              "end": 1.44,
+              "probability": 0.242,
+              "overlap_seconds": 0.437
+            }
+          ],
+          "recognized_text": "tis c 'est t t t 'a gacht mette"
+        }
+      ],
+      "warning": "Whisper ASR word timestamps are approximate. Low-confidence or missing words require listening; this is not forced alignment."
+    },
+    {
+      "file": "pilot_02_cues430-434_hurt_realization.mp3",
+      "cue_ids": [
+        430,
+        431,
+        432,
+        433,
+        434
+      ],
+      "audio_duration_seconds": 10.32,
+      "language_detected": "mn",
+      "language_probability": 1.0,
+      "subtitle_text": "Тэр ерөөсөө мэддэггүй байсан юм. Тэгэхээр энэ олон жилийн турш, баяр ёслол бүрээр, сүргийн найр бүрээр тэр надтай уулзахаар ирдэггүй байжээ.",
+      "cue_windows_relative_to_audio": [
+        {
+          "cue_id": 430,
+          "start": 0.0,
+          "end": 0.6,
+          "text": "Тэр ерөөсөө мэддэггүй байсан юм."
+        },
+        {
+          "cue_id": 431,
+          "start": 0.941,
+          "end": 2.2,
+          "text": "Тэгэхээр энэ олон жилийн турш,"
+        },
+        {
+          "cue_id": 432,
+          "start": 2.2,
+          "end": 3.2,
+          "text": "баяр ёслол бүрээр,"
+        },
+        {
+          "cue_id": 433,
+          "start": 3.2,
+          "end": 4.2,
+          "text": "сүргийн найр бүрээр"
+        },
+        {
+          "cue_id": 434,
+          "start": 4.358,
+          "end": 5.4,
+          "text": "тэр надтай уулзахаар ирдэггүй байжээ."
+        }
+      ],
+      "asr_words_relative_to_audio": [
+        {
+          "word": "Tiriuruso",
+          "start": 0.0,
+          "end": 0.82,
+          "probability": 0.417
+        },
+        {
+          "word": "mittuosim.",
+          "start": 0.82,
+          "end": 2.42,
+          "probability": 0.412
+        },
+        {
+          "word": "Tihir",
+          "start": 3.6,
+          "end": 3.92,
+          "probability": 0.528
+        },
+        {
+          "word": "inosin",
+          "start": 3.92,
+          "end": 4.54,
+          "probability": 0.219
+        },
+        {
+          "word": "gilintors",
+          "start": 4.54,
+          "end": 5.28,
+          "probability": 0.531
+        },
+        {
+          "word": "Bayeriasla",
+          "start": 5.28,
+          "end": 6.16,
+          "probability": 0.381
+        },
+        {
+          "word": "spurir",
+          "start": 6.16,
+          "end": 6.62,
+          "probability": 0.527
+        },
+        {
+          "word": "surgien",
+          "start": 6.62,
+          "end": 7.3,
+          "probability": 0.429
+        },
+        {
+          "word": "nairburir",
+          "start": 7.3,
+          "end": 8.1,
+          "probability": 0.571
+        },
+        {
+          "word": "ternatta",
+          "start": 8.1,
+          "end": 8.9,
+          "probability": 0.508
+        },
+        {
+          "word": "orcair",
+          "start": 8.9,
+          "end": 9.64,
+          "probability": 0.401
+        },
+        {
+          "word": "tuku",
+          "start": 9.64,
+          "end": 9.98,
+          "probability": 0.385
+        },
+        {
+          "word": "peche.",
+          "start": 9.98,
+          "end": 10.3,
+          "probability": 0.296
+        }
+      ],
+      "cue_level_overlap_diagnostic": [
+        {
+          "cue_id": 430,
+          "start": 0.0,
+          "end": 0.6,
+          "text": "Тэр ерөөсөө мэддэггүй байсан юм.",
+          "recognized_words": [
+            {
+              "word": "Tiriuruso",
+              "start": 0.0,
+              "end": 0.82,
+              "probability": 0.417,
+              "overlap_seconds": 0.6
+            }
+          ],
+          "recognized_text": "Tiriuruso"
+        },
+        {
+          "cue_id": 431,
+          "start": 0.941,
+          "end": 2.2,
+          "text": "Тэгэхээр энэ олон жилийн турш,",
+          "recognized_words": [
+            {
+              "word": "mittuosim.",
+              "start": 0.82,
+              "end": 2.42,
+              "probability": 0.412,
+              "overlap_seconds": 1.259
+            }
+          ],
+          "recognized_text": "mittuosim."
+        },
+        {
+          "cue_id": 432,
+          "start": 2.2,
+          "end": 3.2,
+          "text": "баяр ёслол бүрээр,",
+          "recognized_words": [
+            {
+              "word": "mittuosim.",
+              "start": 0.82,
+              "end": 2.42,
+              "probability": 0.412,
+              "overlap_seconds": 0.22
+            }
+          ],
+          "recognized_text": "mittuosim."
+        },
+        {
+          "cue_id": 433,
+          "start": 3.2,
+          "end": 4.2,
+          "text": "сүргийн найр бүрээр",
+          "recognized_words": [
+            {
+              "word": "Tihir",
+              "start": 3.6,
+              "end": 3.92,
+              "probability": 0.528,
+              "overlap_seconds": 0.32
+            },
+            {
+              "word": "inosin",
+              "start": 3.92,
+              "end": 4.54,
+              "probability": 0.219,
+              "overlap_seconds": 0.28
+            }
+          ],
+          "recognized_text": "Tihir inosin"
+        },
+        {
+          "cue_id": 434,
+          "start": 4.358,
+          "end": 5.4,
+          "text": "тэр надтай уулзахаар ирдэггүй байжээ.",
+          "recognized_words": [
+            {
+              "word": "inosin",
+              "start": 3.92,
+              "end": 4.54,
+              "probability": 0.219,
+              "overlap_seconds": 0.182
+            },
+            {
+              "word": "gilintors",
+              "start": 4.54,
+              "end": 5.28,
+              "probability": 0.531,
+              "overlap_seconds": 0.74
+            },
+            {
+              "word": "Bayeriasla",
+              "start": 5.28,
+              "end": 6.16,
+              "probability": 0.381,
+              "overlap_seconds": 0.12
+            }
+          ],
+          "recognized_text": "inosin gilintors Bayeriasla"
+        }
+      ],
+      "warning": "Whisper ASR word timestamps are approximate. Low-confidence or missing words require listening; this is not forced alignment."
+    },
+    {
+      "file": "pilot_03_cues776-778_assertive_explanation.mp3",
+      "cue_ids": [
+        776,
+        777,
+        778
+      ],
+      "audio_duration_seconds": 10.24,
+      "language_detected": "mn",
+      "language_probability": 1.0,
+      "subtitle_text": "Хоёр хоногийн өмнө энэ гэрт ирсэн эмэгтэй би биш. Тэр үед би Колдвеллийн харшид оройн хоол идэж байсан. Ахлах ахлагч Лорант эхнэрийнхээ хамт байсан юм.",
+      "cue_windows_relative_to_audio": [
+        {
+          "cue_id": 776,
+          "start": 0.0,
+          "end": 1.209,
+          "text": "Хоёр хоногийн өмнө энэ гэрт ирсэн эмэгтэй би биш."
+        },
+        {
+          "cue_id": 777,
+          "start": 1.209,
+          "end": 3.209,
+          "text": "Тэр үед би Колдвеллийн харшид оройн хоол идэж байсан."
+        },
+        {
+          "cue_id": 778,
+          "start": 3.209,
+          "end": 5.334,
+          "text": "Ахлах ахлагч Лорант эхнэрийнхээ хамт байсан юм."
+        }
+      ],
+      "asr_words_relative_to_audio": [
+        {
+          "word": "university",
+          "start": 0.0,
+          "end": 0.4,
+          "probability": 0.0
+        },
+        {
+          "word": "team",
+          "start": 0.4,
+          "end": 0.82,
+          "probability": 0.0
+        },
+        {
+          "word": "of",
+          "start": 0.82,
+          "end": 0.84,
+          "probability": 0.045
+        },
+        {
+          "word": "change",
+          "start": 0.84,
+          "end": 1.08,
+          "probability": 0.001
+        },
+        {
+          "word": "in",
+          "start": 1.08,
+          "end": 1.78,
+          "probability": 0.122
+        },
+        {
+          "word": "the",
+          "start": 1.78,
+          "end": 1.78,
+          "probability": 0.211
+        },
+        {
+          "word": "loft",
+          "start": 1.78,
+          "end": 1.82,
+          "probability": 0.0
+        },
+        {
+          "word": "sector",
+          "start": 1.82,
+          "end": 2.32,
+          "probability": 0.001
+        },
+        {
+          "word": "however",
+          "start": 2.76,
+          "end": 3.26,
+          "probability": 0.0
+        },
+        {
+          "word": "they",
+          "start": 3.26,
+          "end": 3.84,
+          "probability": 0.026
+        },
+        {
+          "word": "thought",
+          "start": 3.84,
+          "end": 3.92,
+          "probability": 0.001
+        },
+        {
+          "word": "they",
+          "start": 3.92,
+          "end": 3.92,
+          "probability": 0.175
+        },
+        {
+          "word": "would",
+          "start": 3.92,
+          "end": 3.92,
+          "probability": 0.366
+        },
+        {
+          "word": "roll",
+          "start": 3.92,
+          "end": 4.76,
+          "probability": 0.0
+        },
+        {
+          "word": "it",
+          "start": 4.76,
+          "end": 5.68,
+          "probability": 0.062
+        },
+        {
+          "word": "upon",
+          "start": 5.68,
+          "end": 6.46,
+          "probability": 0.001
+        },
+        {
+          "word": "doing",
+          "start": 6.46,
+          "end": 6.46,
+          "probability": 0.003
+        },
+        {
+          "word": "it",
+          "start": 6.46,
+          "end": 6.46,
+          "probability": 0.071
+        },
+        {
+          "word": "last",
+          "start": 6.46,
+          "end": 6.46,
+          "probability": 0.001
+        },
+        {
+          "word": "time",
+          "start": 6.46,
+          "end": 7.96,
+          "probability": 0.177
+        },
+        {
+          "word": "I",
+          "start": 7.96,
+          "end": 8.14,
+          "probability": 0.083
+        },
+        {
+          "word": "had",
+          "start": 8.14,
+          "end": 8.14,
+          "probability": 0.035
+        },
+        {
+          "word": "a",
+          "start": 8.14,
+          "end": 8.72,
+          "probability": 0.237
+        },
+        {
+          "word": "bike",
+          "start": 8.72,
+          "end": 9.22,
+          "probability": 0.0
+        }
+      ],
+      "cue_level_overlap_diagnostic": [
+        {
+          "cue_id": 776,
+          "start": 0.0,
+          "end": 1.209,
+          "text": "Хоёр хоногийн өмнө энэ гэрт ирсэн эмэгтэй би биш.",
+          "recognized_words": [
+            {
+              "word": "university",
+              "start": 0.0,
+              "end": 0.4,
+              "probability": 0.0,
+              "overlap_seconds": 0.4
+            },
+            {
+              "word": "team",
+              "start": 0.4,
+              "end": 0.82,
+              "probability": 0.0,
+              "overlap_seconds": 0.42
+            },
+            {
+              "word": "of",
+              "start": 0.82,
+              "end": 0.84,
+              "probability": 0.045,
+              "overlap_seconds": 0.02
+            },
+            {
+              "word": "change",
+              "start": 0.84,
+              "end": 1.08,
+              "probability": 0.001,
+              "overlap_seconds": 0.24
+            },
+            {
+              "word": "in",
+              "start": 1.08,
+              "end": 1.78,
+              "probability": 0.122,
+              "overlap_seconds": 0.129
+            }
+          ],
+          "recognized_text": "university team of change in"
+        },
+        {
+          "cue_id": 777,
+          "start": 1.209,
+          "end": 3.209,
+          "text": "Тэр үед би Колдвеллийн харшид оройн хоол идэж байсан.",
+          "recognized_words": [
+            {
+              "word": "in",
+              "start": 1.08,
+              "end": 1.78,
+              "probability": 0.122,
+              "overlap_seconds": 0.571
+            },
+            {
+              "word": "loft",
+              "start": 1.78,
+              "end": 1.82,
+              "probability": 0.0,
+              "overlap_seconds": 0.04
+            },
+            {
+              "word": "sector",
+              "start": 1.82,
+              "end": 2.32,
+              "probability": 0.001,
+              "overlap_seconds": 0.5
+            },
+            {
+              "word": "however",
+              "start": 2.76,
+              "end": 3.26,
+              "probability": 0.0,
+              "overlap_seconds": 0.449
+            }
+          ],
+          "recognized_text": "in loft sector however"
+        },
+        {
+          "cue_id": 778,
+          "start": 3.209,
+          "end": 5.334,
+          "text": "Ахлах ахлагч Лорант эхнэрийнхээ хамт байсан юм.",
+          "recognized_words": [
+            {
+              "word": "however",
+              "start": 2.76,
+              "end": 3.26,
+              "probability": 0.0,
+              "overlap_seconds": 0.051
+            },
+            {
+              "word": "they",
+              "start": 3.26,
+              "end": 3.84,
+              "probability": 0.026,
+              "overlap_seconds": 0.58
+            },
+            {
+              "word": "thought",
+              "start": 3.84,
+              "end": 3.92,
+              "probability": 0.001,
+              "overlap_seconds": 0.08
+            },
+            {
+              "word": "roll",
+              "start": 3.92,
+              "end": 4.76,
+              "probability": 0.0,
+              "overlap_seconds": 0.84
+            },
+            {
+              "word": "it",
+              "start": 4.76,
+              "end": 5.68,
+              "probability": 0.062,
+              "overlap_seconds": 0.574
+            }
+          ],
+          "recognized_text": "however they thought roll it"
+        }
+      ],
+      "warning": "Whisper ASR word timestamps are approximate. Low-confidence or missing words require listening; this is not forced alignment."
+    },
+    {
+      "file": "pilot_04_cue758_firm_correction.mp3",
+      "cue_ids": [
+        758
+      ],
+      "audio_duration_seconds": 1.36,
+      "language_detected": "mn",
+      "language_probability": 1.0,
+      "subtitle_text": "Та хүнээ андуурчээ.",
+      "cue_windows_relative_to_audio": [
+        {
+          "cue_id": 758,
+          "start": 0.0,
+          "end": 1.158,
+          "text": "Та хүнээ андуурчээ."
+        }
+      ],
+      "asr_words_relative_to_audio": [
+        {
+          "word": "Tahune",
+          "start": 0.0,
+          "end": 0.6,
+          "probability": 0.523
+        },
+        {
+          "word": "Andosce",
+          "start": 0.6,
+          "end": 1.34,
+          "probability": 0.356
+        }
+      ],
+      "cue_level_overlap_diagnostic": [
+        {
+          "cue_id": 758,
+          "start": 0.0,
+          "end": 1.158,
+          "text": "Та хүнээ андуурчээ.",
+          "recognized_words": [
+            {
+              "word": "Tahune",
+              "start": 0.0,
+              "end": 0.6,
+              "probability": 0.523,
+              "overlap_seconds": 0.6
+            },
+            {
+              "word": "Andosce",
+              "start": 0.6,
+              "end": 1.34,
+              "probability": 0.356,
+              "overlap_seconds": 0.558
+            }
+          ],
+          "recognized_text": "Tahune Andosce"
+        }
+      ],
+      "warning": "Whisper ASR word timestamps are approximate. Low-confidence or missing words require listening; this is not forced alignment."
+    },
+    {
+      "file": "pilot_05_cue963_disgusted_refusal.mp3",
+      "cue_ids": [
+        963
+      ],
+      "audio_duration_seconds": 2.56,
+      "language_detected": "mn",
+      "language_probability": 1.0,
+      "subtitle_text": "Ингэж болохгүй.",
+      "cue_windows_relative_to_audio": [
+        {
+          "cue_id": 963,
+          "start": 0.0,
+          "end": 0.991,
+          "text": "Ингэж болохгүй."
+        }
+      ],
+      "asr_words_relative_to_audio": [
+        {
+          "word": "Inget",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.297
+        },
+        {
+          "word": "it",
+          "start": 0.5,
+          "end": 0.74,
+          "probability": 0.109
+        },
+        {
+          "word": "by",
+          "start": 0.74,
+          "end": 0.84,
+          "probability": 0.388
+        },
+        {
+          "word": "so",
+          "start": 0.84,
+          "end": 1.02,
+          "probability": 0.22
+        },
+        {
+          "word": "quick.",
+          "start": 1.02,
+          "end": 1.4,
+          "probability": 0.07
+        }
+      ],
+      "cue_level_overlap_diagnostic": [
+        {
+          "cue_id": 963,
+          "start": 0.0,
+          "end": 0.991,
+          "text": "Ингэж болохгүй.",
+          "recognized_words": [
+            {
+              "word": "Inget",
+              "start": 0.0,
+              "end": 0.5,
+              "probability": 0.297,
+              "overlap_seconds": 0.5
+            },
+            {
+              "word": "it",
+              "start": 0.5,
+              "end": 0.74,
+              "probability": 0.109,
+              "overlap_seconds": 0.24
+            },
+            {
+              "word": "by",
+              "start": 0.74,
+              "end": 0.84,
+              "probability": 0.388,
+              "overlap_seconds": 0.1
+            },
+            {
+              "word": "so",
+              "start": 0.84,
+              "end": 1.02,
+              "probability": 0.22,
+              "overlap_seconds": 0.151
+            }
+          ],
+          "recognized_text": "Inget it by so"
+        }
+      ],
+      "warning": "Whisper ASR word timestamps are approximate. Low-confidence or missing words require listening; this is not forced alignment."
+    },
+    {
+      "file": "pilot_06_cues1203-1205_natural_resolution.mp3",
+      "cue_ids": [
+        1203,
+        1204,
+        1205
+      ],
+      "audio_duration_seconds": 3.6,
+      "language_detected": "mn",
+      "language_probability": 1.0,
+      "subtitle_text": "Тохирлоо. Гэхдээ энэ удаа бид хоёулаа аз жаргалтай болно.",
+      "cue_windows_relative_to_audio": [
+        {
+          "cue_id": 1203,
+          "start": 0.0,
+          "end": 0.459,
+          "text": "Тохирлоо."
+        },
+        {
+          "cue_id": 1204,
+          "start": 0.833,
+          "end": 2.042,
+          "text": "Гэхдээ энэ удаа"
+        },
+        {
+          "cue_id": 1205,
+          "start": 2.042,
+          "end": 3.042,
+          "text": "бид хоёулаа аз жаргалтай болно."
+        }
+      ],
+      "asr_words_relative_to_audio": [
+        {
+          "word": "Fahursa,",
+          "start": 0.0,
+          "end": 0.94,
+          "probability": 0.489
+        },
+        {
+          "word": "gichtein",
+          "start": 1.34,
+          "end": 1.82,
+          "probability": 0.231
+        },
+        {
+          "word": "odabit",
+          "start": 1.82,
+          "end": 2.28,
+          "probability": 0.336
+        },
+        {
+          "word": "hoyolatscha",
+          "start": 2.28,
+          "end": 2.98,
+          "probability": 0.276
+        },
+        {
+          "word": "ralta",
+          "start": 2.98,
+          "end": 3.34,
+          "probability": 0.24
+        },
+        {
+          "word": "basan",
+          "start": 3.34,
+          "end": 3.58,
+          "probability": 0.292
+        }
+      ],
+      "cue_level_overlap_diagnostic": [
+        {
+          "cue_id": 1203,
+          "start": 0.0,
+          "end": 0.459,
+          "text": "Тохирлоо.",
+          "recognized_words": [
+            {
+              "word": "Fahursa,",
+              "start": 0.0,
+              "end": 0.94,
+              "probability": 0.489,
+              "overlap_seconds": 0.459
+            }
+          ],
+          "recognized_text": "Fahursa,"
+        },
+        {
+          "cue_id": 1204,
+          "start": 0.833,
+          "end": 2.042,
+          "text": "Гэхдээ энэ удаа",
+          "recognized_words": [
+            {
+              "word": "Fahursa,",
+              "start": 0.0,
+              "end": 0.94,
+              "probability": 0.489,
+              "overlap_seconds": 0.107
+            },
+            {
+              "word": "gichtein",
+              "start": 1.34,
+              "end": 1.82,
+              "probability": 0.231,
+              "overlap_seconds": 0.48
+            },
+            {
+              "word": "odabit",
+              "start": 1.82,
+              "end": 2.28,
+              "probability": 0.336,
+              "overlap_seconds": 0.222
+            }
+          ],
+          "recognized_text": "Fahursa, gichtein odabit"
+        },
+        {
+          "cue_id": 1205,
+          "start": 2.042,
+          "end": 3.042,
+          "text": "бид хоёулаа аз жаргалтай болно.",
+          "recognized_words": [
+            {
+              "word": "odabit",
+              "start": 1.82,
+              "end": 2.28,
+              "probability": 0.336,
+              "overlap_seconds": 0.238
+            },
+            {
+              "word": "hoyolatscha",
+              "start": 2.28,
+              "end": 2.98,
+              "probability": 0.276,
+              "overlap_seconds": 0.7
+            },
+            {
+              "word": "ralta",
+              "start": 2.98,
+              "end": 3.34,
+              "probability": 0.24,
+              "overlap_seconds": 0.062
+            }
+          ],
+          "recognized_text": "odabit hoyolatscha ralta"
+        }
+      ],
+      "warning": "Whisper ASR word timestamps are approximate. Low-confidence or missing words require listening; this is not forced alignment."
+    }
+  ]
+}
