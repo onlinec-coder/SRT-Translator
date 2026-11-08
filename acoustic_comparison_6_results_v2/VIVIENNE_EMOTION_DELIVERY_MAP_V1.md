@@ -96,3 +96,10 @@ Preserve all of these elements together:
 - Maintain continuity across cues 427 and 430–434 so the realization unfolds as one connected emotional thought.
 
 This is the user's confirmed interpretation of the original performance and supersedes the initial generic “restrained hurt and disbelief” hypothesis for this passage.
+
+
+## 11. User-confirmed clarification — group C, cues 17–19 (2026-11-08)
+
+For cues 17–19 (approximately 00:00:36–00:00:41), the user specifies **ordinary Vivienne narration delivery**, with no strong emotional leaning in either direction. Do not impose fear, shock, anger, trauma, or whispering merely because of the subtitle wording.
+
+Use the established natural Vivienne narration voice: balanced, steady, and matter-of-fact. Preserve the meaning and clarity without adding an emotional performance that is not present in the original.
