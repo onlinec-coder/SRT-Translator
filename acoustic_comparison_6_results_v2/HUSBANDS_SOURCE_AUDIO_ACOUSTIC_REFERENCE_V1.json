@@ -15,7 +15,7 @@
     "encoding": "PCM WAV",
     "peak_normalized_sample": 1,
     "whole_file_rms_dbfs": -18.34,
-    "note": "The uploaded WAV is retained here by its derived acoustic reference and SHA-256 identity; the original binary audio itself is not stored in this JSON."
+    "note": "The original binary WAV is not stored in this JSON. The SHA-256 identifies the exact uploaded source. Derived full-cast aggregate profiles and compressed cue-level timing/voice features are stored in the two linked JSON references; these support future baseline and cue-window screening without re-uploading the WAV. Re-listening for nuanced emotion, breath, scene acting, or phoneme-level alignment would still require the audio itself."
   },
   "source_alignment": {
     "english_subtitles": "Husbands_ocr_en.srt",
@@ -439,5 +439,11 @@
     },
     "exact_phonetic_alignment": "not performed",
     "emotion_annotation": "not automatically inferred; keep emotion review separate from acoustic measurements"
+  },
+  "cue_level_feature_file": {
+    "path": "acoustic_comparison_6_results_v2/HUSBANDS_SOURCE_AUDIO_CUE_FEATURES_V1.json",
+    "blob_sha": "7e3f97832ee76e8a06c35b9796c61b0975e63a3b",
+    "cue_records": 1213,
+    "description": "Compressed per-cue source timing, conservative VAD active duration, rough F0 median, and RMS; join by cue order to the English/Mongolian SRT and speaker_assignments.json."
   }
 }
