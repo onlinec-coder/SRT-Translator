@@ -65,11 +65,15 @@ Only the text and the intended acting direction vary. If the current project con
 
 ## 4. Text and tag handling
 
-- Use only the exact Mongolian subtitle text shown above.
-- Keep `[reflective]` only on Variant B as the existing project convention.
-- Do not add `[pause]` unless a real pause is required by the source performance and the text is split at that pause.
-- Do not invent new emotion tags during this first comparison.
-- Keep acting directions in the production notes; do not paste the prose direction into the spoken text field.
+The local generator uses Eleven v3 audio tags to make the acting comparison reproducible:
+- Variant A: no tag (neutral baseline).
+- Variant B: retain the project's existing `[reflective]` tag.
+- Variant C: `[sad]` for a restrained vulnerable reading; do not use a whisper tag.
+- Variant D: `[angry]` for firm anger; do not add a shout tag.
+
+Use only the exact Mongolian subtitle wording shown above. Do not paste the prose acting directions into the spoken text field. Do not add `[pause]` unless the source performance contains a meaningful natural pause and the text is deliberately segmented there.
+
+The emotional tags are a first-pass test, not a final decision. If a tag overacts or changes the character identity, record that and remove or replace it in the next audition round.
 
 ## 5. Output naming
 
@@ -114,6 +118,19 @@ Record each item as **pass / partial / fail**, with a short note and timestamp i
 - Existing tag baseline: narration `[reflective]`; natural pause `[pause]`; direct dialogue untagged by default.
 - No numerical ElevenLabs settings are finalized by this document.
 
-## 9. Next step after generation
+## 9. Local generation script
 
-Add the four output files and the completed evaluation notes to the authorized `SRT-Translator` repository. Then compare the human listening results with the corrected speaker-filtered acoustic findings before making V2 decisions.
+The repository includes `generate_vivienne_auditions.py`. It:
+- Uses only Python standard-library modules.
+- Reads `ELEVENLABS_API_KEY` from the process environment or the project's local `.env`.
+- Uses the fixed voice ID, `eleven_v3`, and `mp3_44100_128`.
+- Omits per-request voice settings so all four requests use the same saved voice defaults.
+- Saves MP3s and an `audition_manifest.json` under `acoustic_comparison_6_results_v2/vivienne_elevenlabs_auditions/`.
+- Does not overwrite existing clips; it can resume by reusing files already generated.
+- Stops after an API error to avoid repeated unexpected credit use.
+
+The script makes four paid/credit-consuming API requests if none of the output clips already exists. It never prints or modifies the API key. Do not commit `.env`.
+
+## 10. Next step after generation
+
+Listen to all four clips and complete the manual evaluation. Add the four output files and the completed evaluation notes to the authorized `SRT-Translator` repository if desired. Then compare the human listening results with the corrected speaker-filtered acoustic findings before making V2 decisions.
