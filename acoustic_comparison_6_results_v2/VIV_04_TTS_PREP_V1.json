@@ -1,0 +1,1016 @@
+{
+  "title": "Husbands — Vivienne VIV_04 TTS Preparation",
+  "version": "V1",
+  "status": "PREPARED FOR REVIEW ONLY — no ElevenLabs requests sent",
+  "batch_id": "VIV_04",
+  "cue_range": {
+    "first": 159,
+    "last": 207,
+    "first_start": "00:05:25,333",
+    "last_end": "00:06:57,583"
+  },
+  "voice": {
+    "speaker_id": "C001",
+    "voice_id": "6Km4T9TrZXIhfMaxglHw",
+    "model_id": "eleven_v3",
+    "voice_settings": "Use saved current settings unchanged."
+  },
+  "generation_policy": [
+    "One audio asset per subtitle cue; do not concatenate cues into one request.",
+    "Flatten SRT line breaks to spaces for TTS only; preserve exact source_text and timestamps.",
+    "Only insert [angry] for user-validated strong_anger cues 710 and 736. Other emotional classes are acting directions, not automatic tags.",
+    "For needs_scene_review cues, use natural restrained baseline; do not infer emotion from text.",
+    "Adjacent Vivienne cues are continuity context only; do not include context text in TTS request.",
+    "No paid TTS request is authorized by this preparation file."
+  ],
+  "counts": {
+    "cue_count": 33,
+    "user_confirmed": 0,
+    "needs_scene_review": 33,
+    "tagged": 0
+  },
+  "cues": [
+    {
+      "sequence": 1,
+      "cue_id": 159,
+      "timestamp": "00:05:25,333 --> 00:05:26,333",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "Биднийг ярьж дуусахад",
+      "tts_text": "Биднийг ярьж дуусахад",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": null,
+      "following_vivienne_cue": {
+        "cue_id": 160,
+        "text": "өрөөнд нам гүм ноёрхов.",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 2,
+      "cue_id": 160,
+      "timestamp": "00:05:26,500 --> 00:05:27,600",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "өрөөнд нам гүм ноёрхов.",
+      "tts_text": "өрөөнд нам гүм ноёрхов.",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 159,
+        "text": "Биднийг ярьж дуусахад",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 161,
+        "text": "Тэгтэл ээж бид хоёрыг",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 3,
+      "cue_id": 161,
+      "timestamp": "00:05:27,749 --> 00:05:29,000",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "Тэгтэл ээж бид хоёрыг",
+      "tts_text": "Тэгтэл ээж бид хоёрыг",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 160,
+        "text": "өрөөнд нам гүм ноёрхов.",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 162,
+        "text": "өөр лүүгээ татан чанга тэврэв.",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 4,
+      "cue_id": 162,
+      "timestamp": "00:05:29,000 --> 00:05:30,541",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "өөр лүүгээ татан чанга тэврэв.",
+      "tts_text": "өөр лүүгээ татан чанга тэврэв.",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 161,
+        "text": "Тэгтэл ээж бид хоёрыг",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 163,
+        "text": "Тэр чичирч байлаа.",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 5,
+      "cue_id": 163,
+      "timestamp": "00:05:31,000 --> 00:05:32,400",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "Тэр чичирч байлаа.",
+      "tts_text": "Тэр чичирч байлаа.",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 162,
+        "text": "өөр лүүгээ татан чанга тэврэв.",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 165,
+        "text": "гэж тэр хэлэв.",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 6,
+      "cue_id": 165,
+      "timestamp": "00:05:33,800 --> 00:05:34,333",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "гэж тэр хэлэв.",
+      "tts_text": "гэж тэр хэлэв.",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 163,
+        "text": "Тэр чичирч байлаа.",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 166,
+        "text": "Өөр юу ч хэлсэнгүй.",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 7,
+      "cue_id": 166,
+      "timestamp": "00:05:34,600 --> 00:05:35,400",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "Өөр юу ч хэлсэнгүй.",
+      "tts_text": "Өөр юу ч хэлсэнгүй.",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 165,
+        "text": "гэж тэр хэлэв.",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 167,
+        "text": "Бид хэсэг зуур тэгж суулаа.",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 8,
+      "cue_id": 167,
+      "timestamp": "00:05:35,958 --> 00:05:37,200",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "Бид хэсэг зуур тэгж суулаа.",
+      "tts_text": "Бид хэсэг зуур тэгж суулаа.",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 166,
+        "text": "Өөр юу ч хэлсэнгүй.",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 168,
+        "text": "Дараа нь тэр биднийг тавьж, нүүрээ арчив.",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 9,
+      "cue_id": 168,
+      "timestamp": "00:05:38,000 --> 00:05:40,000",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "Дараа нь тэр биднийг тавьж,\nнүүрээ арчив.",
+      "tts_text": "Дараа нь тэр биднийг тавьж, нүүрээ арчив.",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 167,
+        "text": "Бид хэсэг зуур тэгж суулаа.",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 170,
+        "text": "хэнийг хүсээд байгаа юм бол?",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 10,
+      "cue_id": 170,
+      "timestamp": "00:05:43,200 --> 00:05:44,958",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "хэнийг хүсээд байгаа юм бол?",
+      "tts_text": "хэнийг хүсээд байгаа юм бол?",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 168,
+        "text": "Дараа нь тэр биднийг тавьж, нүүрээ арчив.",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 173,
+        "text": "Би толгой сэгсрэв.",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 11,
+      "cue_id": 173,
+      "timestamp": "00:05:51,166 --> 00:05:52,200",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "Би толгой сэгсрэв.",
+      "tts_text": "Би толгой сэгсрэв.",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 170,
+        "text": "хэнийг хүсээд байгаа юм бол?",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 174,
+        "text": "Би хэтэрхий хурдан үхсэн.",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 12,
+      "cue_id": 174,
+      "timestamp": "00:05:52,583 --> 00:05:53,800",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "character",
+      "performance_role": "character",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "Би хэтэрхий хурдан үхсэн.",
+      "tts_text": "Би хэтэрхий хурдан үхсэн.",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 173,
+        "text": "Би толгой сэгсрэв.",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 175,
+        "text": "Тэр нэрийг нь ч сонсож амжаагүй.",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 13,
+      "cue_id": 175,
+      "timestamp": "00:05:54,400 --> 00:05:55,600",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "character",
+      "performance_role": "character",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "Тэр нэрийг нь ч сонсож амжаагүй.",
+      "tts_text": "Тэр нэрийг нь ч сонсож амжаагүй.",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 174,
+        "text": "Би хэтэрхий хурдан үхсэн.",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 176,
+        "text": "Ээж Ария руу харав.",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 14,
+      "cue_id": 176,
+      "timestamp": "00:05:56,400 --> 00:05:57,749",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "Ээж Ария руу харав.",
+      "tts_text": "Ээж Ария руу харав.",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 175,
+        "text": "Тэр нэрийг нь ч сонсож амжаагүй.",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 179,
+        "text": "Ээж босож ирэв.",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 15,
+      "cue_id": 179,
+      "timestamp": "00:06:01,541 --> 00:06:02,791",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "Ээж босож ирэв.",
+      "tts_text": "Ээж босож ирэв.",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 176,
+        "text": "Ээж Ария руу харав.",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 180,
+        "text": "Хүрмээ засав.",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 16,
+      "cue_id": 180,
+      "timestamp": "00:06:03,400 --> 00:06:04,791",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "Хүрмээ засав.",
+      "tts_text": "Хүрмээ засав.",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 179,
+        "text": "Ээж босож ирэв.",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 181,
+        "text": "Ээжийн царайд нэгэн төрх тодров.",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 17,
+      "cue_id": 181,
+      "timestamp": "00:06:05,600 --> 00:06:07,500",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "Ээжийн царайд нэгэн төрх тодров.",
+      "tts_text": "Ээжийн царайд нэгэн төрх тодров.",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 180,
+        "text": "Хүрмээ засав.",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 182,
+        "text": "Ямар нэгэн шийдвэр",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 18,
+      "cue_id": 182,
+      "timestamp": "00:06:08,200 --> 00:06:09,000",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "Ямар нэгэн шийдвэр",
+      "tts_text": "Ямар нэгэн шийдвэр",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 181,
+        "text": "Ээжийн царайд нэгэн төрх тодров.",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 183,
+        "text": "аль хэдийн гаргасныг нь илтгэх тэр төрх.",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 19,
+      "cue_id": 183,
+      "timestamp": "00:06:09,000 --> 00:06:10,400",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "аль хэдийн гаргасныг нь илтгэх тэр төрх.",
+      "tts_text": "аль хэдийн гаргасныг нь илтгэх тэр төрх.",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 182,
+        "text": "Ямар нэгэн шийдвэр",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 185,
+        "text": "Тэр утсаа авлаа.",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 20,
+      "cue_id": 185,
+      "timestamp": "00:06:14,400 --> 00:06:15,541",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "Тэр утсаа авлаа.",
+      "tts_text": "Тэр утсаа авлаа.",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 183,
+        "text": "аль хэдийн гаргасныг нь илтгэх тэр төрх.",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 189,
+        "text": "Тэр Ария руу заав.",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 21,
+      "cue_id": 189,
+      "timestamp": "00:06:24,000 --> 00:06:25,200",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "Тэр Ария руу заав.",
+      "tts_text": "Тэр Ария руу заав.",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 185,
+        "text": "Тэр утсаа авлаа.",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 194,
+        "text": "Ария толгой дохив.",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 22,
+      "cue_id": 194,
+      "timestamp": "00:06:34,400 --> 00:06:35,500",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "Ария толгой дохив.",
+      "tts_text": "Ария толгой дохив.",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 189,
+        "text": "Тэр Ария руу заав.",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 195,
+        "text": "Ээж хамгийн сүүлд над руу эргэв.",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 23,
+      "cue_id": 195,
+      "timestamp": "00:06:35,600 --> 00:06:37,200",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "Ээж хамгийн сүүлд над руу эргэв.",
+      "tts_text": "Ээж хамгийн сүүлд над руу эргэв.",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 194,
+        "text": "Ария толгой дохив.",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 198,
+        "text": "Мэдэж байна.",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 24,
+      "cue_id": 198,
+      "timestamp": "00:06:41,400 --> 00:06:42,125",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "character",
+      "performance_role": "character",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "Мэдэж байна.",
+      "tts_text": "Мэдэж байна.",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 195,
+        "text": "Ээж хамгийн сүүлд над руу эргэв.",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 199,
+        "text": "Тэр юмаа хаана нуудаг талаар би аль хэдийн бодож эхэлсэн.",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 25,
+      "cue_id": 199,
+      "timestamp": "00:06:42,166 --> 00:06:44,333",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "inner_monologue",
+      "performance_role": "inner_monologue",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "Тэр юмаа хаана нуудаг талаар\nби аль хэдийн бодож эхэлсэн.",
+      "tts_text": "Тэр юмаа хаана нуудаг талаар би аль хэдийн бодож эхэлсэн.",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 198,
+        "text": "Мэдэж байна.",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 200,
+        "text": "Ээж бид хоёр руу ээлжлэн харав.",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 26,
+      "cue_id": 200,
+      "timestamp": "00:06:44,583 --> 00:06:46,333",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "Ээж бид хоёр руу ээлжлэн харав.",
+      "tts_text": "Ээж бид хоёр руу ээлжлэн харав.",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 199,
+        "text": "Тэр юмаа хаана нуудаг талаар би аль хэдийн бодож эхэлсэн.",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 201,
+        "text": "Гуравхан өдөр.",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 27,
+      "cue_id": 201,
+      "timestamp": "00:06:46,400 --> 00:06:47,166",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "character",
+      "performance_role": "character",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "Гуравхан өдөр.",
+      "tts_text": "Гуравхан өдөр.",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 200,
+        "text": "Ээж бид хоёр руу ээлжлэн харав.",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 202,
+        "text": "Хөдлөх цаг боллоо.",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 28,
+      "cue_id": 202,
+      "timestamp": "00:06:47,500 --> 00:06:48,333",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "character",
+      "performance_role": "character",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "Хөдлөх цаг боллоо.",
+      "tts_text": "Хөдлөх цаг боллоо.",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 201,
+        "text": "Гуравхан өдөр.",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 203,
+        "text": "Цуст Сарны харш миний санаж байснаар яг хэвээрээ байлаа.",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 29,
+      "cue_id": 203,
+      "timestamp": "00:06:48,600 --> 00:06:51,200",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "Цуст Сарны харш миний санаж байснаар\nяг хэвээрээ байлаа.",
+      "tts_text": "Цуст Сарны харш миний санаж байснаар яг хэвээрээ байлаа.",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 202,
+        "text": "Хөдлөх цаг боллоо.",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 204,
+        "text": "Өнөөх урт зам,",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 30,
+      "cue_id": 204,
+      "timestamp": "00:06:51,583 --> 00:06:53,000",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "Өнөөх урт зам,",
+      "tts_text": "Өнөөх урт зам,",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 203,
+        "text": "Цуст Сарны харш миний санаж байснаар яг хэвээрээ байлаа.",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 205,
+        "text": "өнөөх төмөр хаалга,",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 31,
+      "cue_id": 205,
+      "timestamp": "00:06:53,000 --> 00:06:54,500",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "өнөөх төмөр хаалга,",
+      "tts_text": "өнөөх төмөр хаалга,",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 204,
+        "text": "Өнөөх урт зам,",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 206,
+        "text": "үүдэнд зогсдог өнөөх харуул",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 32,
+      "cue_id": 206,
+      "timestamp": "00:06:54,600 --> 00:06:55,600",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "үүдэнд зогсдог өнөөх харуул",
+      "tts_text": "үүдэнд зогсдог өнөөх харуул",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 205,
+        "text": "өнөөх төмөр хаалга,",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": {
+        "cue_id": 207,
+        "text": "намайг юу ч асуулгүй нэвтрүүлэв.",
+        "delivery_class": "neutral_natural"
+      },
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    },
+    {
+      "sequence": 33,
+      "cue_id": 207,
+      "timestamp": "00:06:55,600 --> 00:06:57,583",
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "assignment_role": "narrator",
+      "performance_role": "narrator",
+      "delivery_class": "neutral_natural",
+      "review_status": "needs_scene_review",
+      "source_text": "намайг юу ч асуулгүй нэвтрүүлэв.",
+      "tts_text": "намайг юу ч асуулгүй нэвтрүүлэв.",
+      "emotion_tag": null,
+      "direction": "Use natural, restrained Vivienne baseline. Do not infer emotion from subtitle text alone; review the original scene if stronger delivery is suspected.",
+      "preceding_vivienne_cue": {
+        "cue_id": 206,
+        "text": "үүдэнд зогсдог өнөөх харуул",
+        "delivery_class": "neutral_natural"
+      },
+      "following_vivienne_cue": null,
+      "continuity_instruction": "Preserve phrase connection where this cue continues a thought; retain original subtitle timing; do not force a pause at cue boundary.",
+      "qa_flags": [
+        "scene emotion not individually reviewed",
+        "use conservative natural baseline; do not infer emotion from text"
+      ]
+    }
+  ]
+}
