@@ -103,3 +103,15 @@ This is the user's confirmed interpretation of the original performance and supe
 For cues 17–19 (approximately 00:00:36–00:00:41), the user specifies **ordinary Vivienne narration delivery**, with no strong emotional leaning in either direction. Do not impose fear, shock, anger, trauma, or whispering merely because of the subtitle wording.
 
 Use the established natural Vivienne narration voice: balanced, steady, and matter-of-fact. Preserve the meaning and clarity without adding an emotional performance that is not present in the original.
+
+
+## 12. User-confirmed clarification — narration baseline and cues 1153/1155 (2026-11-08)
+
+The user clarifies a general production principle: **Vivienne narration passages generally carry little to no added emotion**. Do not assume narration should be emotionally performed simply because the content describes a painful or dramatic event.
+
+For cues 1153/1155 (approximately 00:35:50–00:35:54), “Би арван долоотой байсан.”, the user confirms that Vivienne herself speaks in her **ordinary, natural voice**.
+
+Direction:
+- Use the standard Vivienne narration voice, neutral and natural.
+- Do not add a special emotion, dramatic emphasis, sadness, fear, or whispering unless the original performance clearly contains it.
+- Keep the narration consistent with the neutral delivery established for cues 17–19.
