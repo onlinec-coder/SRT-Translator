@@ -61,7 +61,6 @@
         154,
         175
       ],
-      "f0_samples": 866,
       "median_rms_dbfs": -17.1,
       "median_spectral_centroid_hz": 744,
       "coverage": "sufficient",
@@ -75,7 +74,8 @@
       "vad3_near_full_slot_cues": 77,
       "median_vad3_lead_silence_ms": 30,
       "median_vad3_tail_silence_ms": 310,
-      "srt_overlapping_cues": 62
+      "srt_overlapping_cues": 62,
+      "f0_valid_cues": 866
     },
     "C003": {
       "name": "Aria",
@@ -89,12 +89,11 @@
         185.2,
         219
       ],
-      "f0_samples": 80,
       "median_rms_dbfs": -20.7,
       "median_spectral_centroid_hz": 919,
       "coverage": "sufficient",
       "production_reference": "Higher median pitch and brighter spectral profile than Vivienne in this first pass; preserve a distinct, lighter/brighter identity without exaggerating pitch.",
-      "voice_sample_coverage": "very_limited",
+      "voice_sample_coverage": "sufficient",
       "english_words_per_subtitle_slot_minute": 209.9,
       "vad_mode2_active_s": 110.04,
       "vad_mode3_active_s": 74.25,
@@ -103,7 +102,8 @@
       "vad3_near_full_slot_cues": 18,
       "median_vad3_lead_silence_ms": 0,
       "median_vad3_tail_silence_ms": 140,
-      "srt_overlapping_cues": 4
+      "srt_overlapping_cues": 4,
+      "f0_valid_cues": 80
     },
     "C012": {
       "name": "Alpha Valeris",
@@ -117,12 +117,11 @@
         113,
         260.8
       ],
-      "f0_samples": 8,
       "median_rms_dbfs": -21.8,
       "median_spectral_centroid_hz": 946,
       "coverage": "limited",
       "production_reference": "Short sample. Do not lock final voice casting or pitch from this profile alone.",
-      "voice_sample_coverage": "very_limited",
+      "voice_sample_coverage": "limited",
       "english_words_per_subtitle_slot_minute": 206.2,
       "vad_mode2_active_s": 15.27,
       "vad_mode3_active_s": 4.26,
@@ -131,7 +130,8 @@
       "vad3_near_full_slot_cues": 0,
       "median_vad3_lead_silence_ms": 240,
       "median_vad3_tail_silence_ms": 350,
-      "srt_overlapping_cues": 2
+      "srt_overlapping_cues": 2,
+      "f0_valid_cues": 8
     },
     "C013": {
       "name": "Luna Valerius",
@@ -145,12 +145,11 @@
         147.5,
         209.5
       ],
-      "f0_samples": 11,
       "median_rms_dbfs": -19.4,
       "median_spectral_centroid_hz": 895.5,
       "coverage": "limited",
       "production_reference": "Short sample; brighter spectral centroid in this sample, but voice identity needs direct audition.",
-      "voice_sample_coverage": "very_limited",
+      "voice_sample_coverage": "limited",
       "english_words_per_subtitle_slot_minute": 190.8,
       "vad_mode2_active_s": 22.32,
       "vad_mode3_active_s": 6.27,
@@ -159,7 +158,8 @@
       "vad3_near_full_slot_cues": 0,
       "median_vad3_lead_silence_ms": 120,
       "median_vad3_tail_silence_ms": 405,
-      "srt_overlapping_cues": 0
+      "srt_overlapping_cues": 0,
+      "f0_valid_cues": 11
     },
     "C014": {
       "name": "Chief Elder Laurent",
@@ -173,12 +173,11 @@
         98.8,
         141.2
       ],
-      "f0_samples": 14,
       "median_rms_dbfs": -16.9,
       "median_spectral_centroid_hz": 818,
       "coverage": "limited",
       "production_reference": "Lowest stable median F0 in the cast sample; likely lower-register voice reference, but verify against isolated dialogue.",
-      "voice_sample_coverage": "very_limited",
+      "voice_sample_coverage": "limited",
       "english_words_per_subtitle_slot_minute": 207.7,
       "vad_mode2_active_s": 23.28,
       "vad_mode3_active_s": 5.25,
@@ -187,7 +186,8 @@
       "vad3_near_full_slot_cues": 0,
       "median_vad3_lead_silence_ms": 120,
       "median_vad3_tail_silence_ms": 400,
-      "srt_overlapping_cues": 2
+      "srt_overlapping_cues": 2,
+      "f0_valid_cues": 14
     },
     "C002": {
       "name": "Lucian",
@@ -201,12 +201,11 @@
         104.5,
         175.8
       ],
-      "f0_samples": 96,
       "median_rms_dbfs": -19.9,
       "median_spectral_centroid_hz": 913,
       "coverage": "sufficient",
       "production_reference": "Low-mid median pitch with broad expressive range in this sample; preserve controlled masculine register and allow cue-level dynamic variation.",
-      "voice_sample_coverage": "very_limited",
+      "voice_sample_coverage": "sufficient",
       "english_words_per_subtitle_slot_minute": 220.9,
       "vad_mode2_active_s": 125.22,
       "vad_mode3_active_s": 69.87,
@@ -215,7 +214,8 @@
       "vad3_near_full_slot_cues": 22,
       "median_vad3_lead_silence_ms": 0,
       "median_vad3_tail_silence_ms": 180,
-      "srt_overlapping_cues": 2
+      "srt_overlapping_cues": 2,
+      "f0_valid_cues": 96
     },
     "C004": {
       "name": "Mother",
@@ -229,12 +229,11 @@
         153.5,
         188.5
       ],
-      "f0_samples": 28,
       "median_rms_dbfs": -20.4,
       "median_spectral_centroid_hz": 776,
       "coverage": "limited",
       "production_reference": "Moderate sample; timbre appears less bright than Aria/Morgana in aggregate. Confirm with listening before final voice selection.",
-      "voice_sample_coverage": "very_limited",
+      "voice_sample_coverage": "limited",
       "english_words_per_subtitle_slot_minute": 179.2,
       "vad_mode2_active_s": 37.71,
       "vad_mode3_active_s": 28.62,
@@ -243,7 +242,8 @@
       "vad3_near_full_slot_cues": 7,
       "median_vad3_lead_silence_ms": 0,
       "median_vad3_tail_silence_ms": 30,
-      "srt_overlapping_cues": 0
+      "srt_overlapping_cues": 0,
+      "f0_valid_cues": 28
     },
     "C005": {
       "name": "Narrator",
@@ -254,7 +254,6 @@
       "english_wpm_est": null,
       "median_f0_hz_est": null,
       "f0_iqr_hz_est": null,
-      "f0_samples": 0,
       "median_rms_dbfs": null,
       "median_spectral_centroid_hz": null,
       "coverage": "none",
@@ -268,7 +267,8 @@
       "vad3_near_full_slot_cues": 0,
       "median_vad3_lead_silence_ms": null,
       "median_vad3_tail_silence_ms": null,
-      "srt_overlapping_cues": 0
+      "srt_overlapping_cues": 0,
+      "f0_valid_cues": 0
     },
     "C008": {
       "name": "Morgana",
@@ -282,12 +282,11 @@
         174.8,
         195
       ],
-      "f0_samples": 20,
       "median_rms_dbfs": -19.9,
       "median_spectral_centroid_hz": 966.5,
       "coverage": "limited",
       "production_reference": "Bright spectral profile and upper-mid median pitch in this short sample; the WPM estimate is especially sensitive to the small sample and must not be treated as a fixed target.",
-      "voice_sample_coverage": "very_limited",
+      "voice_sample_coverage": "limited",
       "english_words_per_subtitle_slot_minute": 256.2,
       "vad_mode2_active_s": 21.48,
       "vad_mode3_active_s": 8.61,
@@ -296,7 +295,8 @@
       "vad3_near_full_slot_cues": 1,
       "median_vad3_lead_silence_ms": 45,
       "median_vad3_tail_silence_ms": 190,
-      "srt_overlapping_cues": 3
+      "srt_overlapping_cues": 3,
+      "f0_valid_cues": 20
     },
     "C009": {
       "name": "Lance Laurent",
@@ -310,7 +310,6 @@
         98.5,
         116.5
       ],
-      "f0_samples": 7,
       "median_rms_dbfs": -18.7,
       "median_spectral_centroid_hz": 760,
       "coverage": "very_limited",
@@ -324,7 +323,8 @@
       "vad3_near_full_slot_cues": 0,
       "median_vad3_lead_silence_ms": 60,
       "median_vad3_tail_silence_ms": 320,
-      "srt_overlapping_cues": 0
+      "srt_overlapping_cues": 0,
+      "f0_valid_cues": 7
     },
     "C010": {
       "name": "Luke Laurent",
@@ -338,7 +338,6 @@
         88,
         113
       ],
-      "f0_samples": 5,
       "median_rms_dbfs": -15.6,
       "median_spectral_centroid_hz": 660,
       "coverage": "very_limited",
@@ -352,7 +351,8 @@
       "vad3_near_full_slot_cues": 0,
       "median_vad3_lead_silence_ms": 0,
       "median_vad3_tail_silence_ms": 400,
-      "srt_overlapping_cues": 0
+      "srt_overlapping_cues": 0,
+      "f0_valid_cues": 5
     },
     "C019": {
       "name": "The royal seer",
@@ -366,7 +366,6 @@
         143,
         161
       ],
-      "f0_samples": 2,
       "median_rms_dbfs": -20.2,
       "median_spectral_centroid_hz": 1498,
       "coverage": "very_limited",
@@ -380,7 +379,8 @@
       "vad3_near_full_slot_cues": 0,
       "median_vad3_lead_silence_ms": 0,
       "median_vad3_tail_silence_ms": 445,
-      "srt_overlapping_cues": 0
+      "srt_overlapping_cues": 0,
+      "f0_valid_cues": 2
     }
   },
   "emotion_and_acting": {
