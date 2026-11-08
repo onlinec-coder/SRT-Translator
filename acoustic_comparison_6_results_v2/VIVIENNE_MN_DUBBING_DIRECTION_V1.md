@@ -2,7 +2,7 @@
 
 Date: 2026-11-08  
 Project: Husbands  
-Status: **Provisional — corrected for speaker identity; pending manual A/B listening and generated-voice audition**
+Status: **Provisional V1.2 — user has listened to all four generated auditions and rated each “боломжийн” (acceptable); detailed parameter calibration and final approval remain pending**
 
 ## 1. Purpose
 
@@ -140,7 +140,27 @@ Evaluate each render for:
 
 Do not finalize numerical ElevenLabs settings (stability, similarity, style, speed, pitch) from this small sample. Keep the voice ID/model and generation settings fixed during the first controlled comparison; record the exact settings used.
 
-## 9. Provisional production decisions
+## 9. User evaluation of the first generated audition set (2026-11-08)
+
+The user listened to all four ElevenLabs renders generated with model `eleven_v3` and voice **Vivienne (6Km4T9TrZXIhfMaxglHw)**. All four were rated **“боломжийн” (acceptable / reasonable)**:
+
+| Variant | Intended performance | User evaluation |
+|---|---|---|
+| A — Neutral | Everyday narration | Боломжийн |
+| B — Reflective | Thoughtful, restrained narration | Боломжийн |
+| C — Quiet | Vulnerable inner monologue, not over-whispered | Боломжийн |
+| D — Angry | Angry dialogue without excessive shouting or theatricality | Боломжийн |
+
+### Interpretation and limits
+
+- The candidate voice is acceptable as the **working Vivienne voice** for the next calibration stage.
+- No variant was identified as a clear winner; the four variants represent different delivery modes, not four competing voice identities.
+- “Боломжийн” is an initial acceptability judgment, not final sign-off for the full film.
+- The user has not yet provided detailed comments on pronunciation, timbre, phrase endings, or whether one mode needs adjustment.
+- Keep the same voice ID and model for the next comparison. Do not change multiple generation parameters at once.
+- Do not infer that the four performances have identical timbre or that the voice is production-final based only on this brief evaluation.
+
+## 10. Provisional production decisions
 
 1. Keep Original as the emotional-performance reference.
 2. Use Speech as a secondary clarity/intelligibility reference.
@@ -149,6 +169,6 @@ Do not finalize numerical ElevenLabs settings (stability, similarity, style, spe
 5. Do not apply uniform emotion or loudness normalization.
 6. Do not finalize pitch, speed, stability, similarity, or style settings until the manual A/B review and four audition variants are evaluated.
 
-## 10. Next action
+## 11. Next action
 
-Complete the corrected A/B listening set and record observations in a separate listening log. After that, select the best of the four controlled ElevenLabs performances and refine the voice direction based on actual listening, not only automated analysis.
+Treat the current voice ID as the working Vivienne candidate. Next, perform a controlled parameter-calibration round while keeping the voice ID and model fixed. Change one setting at a time, compare the resulting clips against this accepted baseline, and record the exact settings and user preference before locking a production preset. Do not select one of A–D as the sole winner: all four are accepted as usable delivery modes.
