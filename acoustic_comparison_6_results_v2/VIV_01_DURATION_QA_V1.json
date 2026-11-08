@@ -1,0 +1,363 @@
+{
+  "title": "Husbands — Vivienne VIV_01 MP3 Duration Screening",
+  "version": "V1",
+  "status": "INITIAL_TECHNICAL_SCREENING — not final audio-sync approval",
+  "repository": "onlinec-coder/SRT-Translator",
+  "source_files": [
+    "acoustic_comparison_6_results_v2/VIVIENNE_BATCH_01_TTS_PREP_V1.json",
+    "Husbands_mn_v3.srt"
+  ],
+  "workflow_run_id": 42467728883,
+  "artifact_id": 13611673758,
+  "artifact_name": "vivienne-VIV_01-audio",
+  "voice_id": "6Km4T9TrZXIhfMaxglHw",
+  "model_id": "eleven_v3",
+  "output_format": "mp3_44100_128",
+  "generated_cue_count": 32,
+  "emotion_tagged_cue_count": 0,
+  "measurement": "MP3 container duration measured from the downloaded GitHub Actions artifact. Available time is measured from each Vivienne cue start to the next Vivienne cue start, rather than only to the current subtitle end, because cue audio may continue after the displayed subtitle interval.",
+  "thresholds": {
+    "review_required_overrun_seconds": 0.1,
+    "note": "A duration overrun is a conservative scheduling flag, not proof of audible speech collision. MP3 container duration can include codec padding and intentional silence; final synchronization requires waveform-aware speech-boundary review and listening."
+  },
+  "summary": {
+    "cues_total": 32,
+    "cues_over_0_1s": 11,
+    "cues_with_any_positive_overrun": 14,
+    "longest_overrun_cue_ids": [
+      52,
+      1,
+      38,
+      28,
+      51,
+      23,
+      24,
+      40,
+      18,
+      32,
+      3
+    ]
+  },
+  "cues": [
+    {
+      "cue_id": 1,
+      "start": "00:00:09,200",
+      "end": "00:00:11,200",
+      "subtitle_slot_s": 2,
+      "available_until_next_vivienne_start_s": 2.2,
+      "mp3_duration_s": 2.769,
+      "overrun_vs_next_start_s": 0.569,
+      "status": "review_required"
+    },
+    {
+      "cue_id": 2,
+      "start": "00:00:11,400",
+      "end": "00:00:13,200",
+      "subtitle_slot_s": 1.8,
+      "available_until_next_vivienne_start_s": 2.391,
+      "mp3_duration_s": 1.802,
+      "overrun_vs_next_start_s": 0,
+      "status": "within_screening_tolerance"
+    },
+    {
+      "cue_id": 3,
+      "start": "00:00:13,791",
+      "end": "00:00:16,000",
+      "subtitle_slot_s": 2.209,
+      "available_until_next_vivienne_start_s": 2.409,
+      "mp3_duration_s": 2.508,
+      "overrun_vs_next_start_s": 0.099,
+      "status": "within_screening_tolerance"
+    },
+    {
+      "cue_id": 4,
+      "start": "00:00:16,200",
+      "end": "00:00:17,958",
+      "subtitle_slot_s": 1.758,
+      "available_until_next_vivienne_start_s": 1.8,
+      "mp3_duration_s": 1.802,
+      "overrun_vs_next_start_s": 0.002,
+      "status": "within_screening_tolerance"
+    },
+    {
+      "cue_id": 5,
+      "start": "00:00:18,000",
+      "end": "00:00:18,800",
+      "subtitle_slot_s": 0.8,
+      "available_until_next_vivienne_start_s": 4,
+      "mp3_duration_s": 2.194,
+      "overrun_vs_next_start_s": 0,
+      "status": "within_screening_tolerance"
+    },
+    {
+      "cue_id": 9,
+      "start": "00:00:22,000",
+      "end": "00:00:23,125",
+      "subtitle_slot_s": 1.125,
+      "available_until_next_vivienne_start_s": 1.583,
+      "mp3_duration_s": 1.489,
+      "overrun_vs_next_start_s": 0,
+      "status": "within_screening_tolerance"
+    },
+    {
+      "cue_id": 10,
+      "start": "00:00:23,583",
+      "end": "00:00:24,600",
+      "subtitle_slot_s": 1.017,
+      "available_until_next_vivienne_start_s": 5.958,
+      "mp3_duration_s": 2.273,
+      "overrun_vs_next_start_s": 0,
+      "status": "within_screening_tolerance"
+    },
+    {
+      "cue_id": 13,
+      "start": "00:00:29,541",
+      "end": "00:00:30,800",
+      "subtitle_slot_s": 1.259,
+      "available_until_next_vivienne_start_s": 6.459,
+      "mp3_duration_s": 2.508,
+      "overrun_vs_next_start_s": 0,
+      "status": "within_screening_tolerance"
+    },
+    {
+      "cue_id": 17,
+      "start": "00:00:36,000",
+      "end": "00:00:37,374",
+      "subtitle_slot_s": 1.374,
+      "available_until_next_vivienne_start_s": 1.5,
+      "mp3_duration_s": 1.071,
+      "overrun_vs_next_start_s": 0,
+      "status": "within_screening_tolerance"
+    },
+    {
+      "cue_id": 18,
+      "start": "00:00:37,500",
+      "end": "00:00:39,166",
+      "subtitle_slot_s": 1.666,
+      "available_until_next_vivienne_start_s": 1.7,
+      "mp3_duration_s": 1.881,
+      "overrun_vs_next_start_s": 0.181,
+      "status": "review_required"
+    },
+    {
+      "cue_id": 19,
+      "start": "00:00:39,200",
+      "end": "00:00:41,000",
+      "subtitle_slot_s": 1.8,
+      "available_until_next_vivienne_start_s": 6.4,
+      "mp3_duration_s": 2.691,
+      "overrun_vs_next_start_s": 0,
+      "status": "within_screening_tolerance"
+    },
+    {
+      "cue_id": 21,
+      "start": "00:00:45,600",
+      "end": "00:00:47,166",
+      "subtitle_slot_s": 1.566,
+      "available_until_next_vivienne_start_s": 3,
+      "mp3_duration_s": 1.959,
+      "overrun_vs_next_start_s": 0,
+      "status": "within_screening_tolerance"
+    },
+    {
+      "cue_id": 23,
+      "start": "00:00:48,600",
+      "end": "00:00:49,800",
+      "subtitle_slot_s": 1.2,
+      "available_until_next_vivienne_start_s": 2,
+      "mp3_duration_s": 2.273,
+      "overrun_vs_next_start_s": 0.273,
+      "status": "review_required"
+    },
+    {
+      "cue_id": 24,
+      "start": "00:00:50,600",
+      "end": "00:00:51,400",
+      "subtitle_slot_s": 0.8,
+      "available_until_next_vivienne_start_s": 2.191,
+      "mp3_duration_s": 2.429,
+      "overrun_vs_next_start_s": 0.238,
+      "status": "review_required"
+    },
+    {
+      "cue_id": 25,
+      "start": "00:00:52,791",
+      "end": "00:00:54,166",
+      "subtitle_slot_s": 1.375,
+      "available_until_next_vivienne_start_s": 2,
+      "mp3_duration_s": 1.071,
+      "overrun_vs_next_start_s": 0,
+      "status": "within_screening_tolerance"
+    },
+    {
+      "cue_id": 26,
+      "start": "00:00:54,791",
+      "end": "00:00:57,000",
+      "subtitle_slot_s": 2.209,
+      "available_until_next_vivienne_start_s": 4.809,
+      "mp3_duration_s": 3.239,
+      "overrun_vs_next_start_s": 0,
+      "status": "within_screening_tolerance"
+    },
+    {
+      "cue_id": 27,
+      "start": "00:00:59,600",
+      "end": "00:01:00,541",
+      "subtitle_slot_s": 0.941,
+      "available_until_next_vivienne_start_s": 2.4,
+      "mp3_duration_s": 1.071,
+      "overrun_vs_next_start_s": 0,
+      "status": "within_screening_tolerance"
+    },
+    {
+      "cue_id": 28,
+      "start": "00:01:02,000",
+      "end": "00:01:03,500",
+      "subtitle_slot_s": 1.5,
+      "available_until_next_vivienne_start_s": 1.5,
+      "mp3_duration_s": 1.881,
+      "overrun_vs_next_start_s": 0.381,
+      "status": "review_required"
+    },
+    {
+      "cue_id": 29,
+      "start": "00:01:03,500",
+      "end": "00:01:05,374",
+      "subtitle_slot_s": 1.874,
+      "available_until_next_vivienne_start_s": 2.1,
+      "mp3_duration_s": 1.228,
+      "overrun_vs_next_start_s": 0,
+      "status": "within_screening_tolerance"
+    },
+    {
+      "cue_id": 30,
+      "start": "00:01:05,600",
+      "end": "00:01:07,200",
+      "subtitle_slot_s": 1.6,
+      "available_until_next_vivienne_start_s": 1.6,
+      "mp3_duration_s": 1.567,
+      "overrun_vs_next_start_s": 0,
+      "status": "within_screening_tolerance"
+    },
+    {
+      "cue_id": 31,
+      "start": "00:01:07,200",
+      "end": "00:01:08,200",
+      "subtitle_slot_s": 1,
+      "available_until_next_vivienne_start_s": 1.341,
+      "mp3_duration_s": 1.411,
+      "overrun_vs_next_start_s": 0.07,
+      "status": "within_screening_tolerance"
+    },
+    {
+      "cue_id": 32,
+      "start": "00:01:08,541",
+      "end": "00:01:10,000",
+      "subtitle_slot_s": 1.459,
+      "available_until_next_vivienne_start_s": 1.659,
+      "mp3_duration_s": 1.881,
+      "overrun_vs_next_start_s": 0.222,
+      "status": "review_required"
+    },
+    {
+      "cue_id": 33,
+      "start": "00:01:10,200",
+      "end": "00:01:12,200",
+      "subtitle_slot_s": 2,
+      "available_until_next_vivienne_start_s": 2.591,
+      "mp3_duration_s": 2.586,
+      "overrun_vs_next_start_s": 0,
+      "status": "within_screening_tolerance"
+    },
+    {
+      "cue_id": 34,
+      "start": "00:01:12,791",
+      "end": "00:01:13,958",
+      "subtitle_slot_s": 1.167,
+      "available_until_next_vivienne_start_s": 7.009,
+      "mp3_duration_s": 1.646,
+      "overrun_vs_next_start_s": 0,
+      "status": "within_screening_tolerance"
+    },
+    {
+      "cue_id": 38,
+      "start": "00:01:19,800",
+      "end": "00:01:21,125",
+      "subtitle_slot_s": 1.325,
+      "available_until_next_vivienne_start_s": 1.4,
+      "mp3_duration_s": 1.959,
+      "overrun_vs_next_start_s": 0.559,
+      "status": "review_required"
+    },
+    {
+      "cue_id": 39,
+      "start": "00:01:21,200",
+      "end": "00:01:22,125",
+      "subtitle_slot_s": 0.925,
+      "available_until_next_vivienne_start_s": 1,
+      "mp3_duration_s": 0.993,
+      "overrun_vs_next_start_s": 0,
+      "status": "within_screening_tolerance"
+    },
+    {
+      "cue_id": 40,
+      "start": "00:01:22,200",
+      "end": "00:01:23,400",
+      "subtitle_slot_s": 1.2,
+      "available_until_next_vivienne_start_s": 1.549,
+      "mp3_duration_s": 1.802,
+      "overrun_vs_next_start_s": 0.253,
+      "status": "review_required"
+    },
+    {
+      "cue_id": 41,
+      "start": "00:01:23,749",
+      "end": "00:01:25,200",
+      "subtitle_slot_s": 1.451,
+      "available_until_next_vivienne_start_s": 9.042,
+      "mp3_duration_s": 1.959,
+      "overrun_vs_next_start_s": 0,
+      "status": "within_screening_tolerance"
+    },
+    {
+      "cue_id": 47,
+      "start": "00:01:32,791",
+      "end": "00:01:33,200",
+      "subtitle_slot_s": 0.409,
+      "available_until_next_vivienne_start_s": 8.809,
+      "mp3_duration_s": 1.724,
+      "overrun_vs_next_start_s": 0,
+      "status": "within_screening_tolerance"
+    },
+    {
+      "cue_id": 51,
+      "start": "00:01:41,600",
+      "end": "00:01:42,333",
+      "subtitle_slot_s": 0.733,
+      "available_until_next_vivienne_start_s": 0.733,
+      "mp3_duration_s": 1.149,
+      "overrun_vs_next_start_s": 0.416,
+      "status": "review_required"
+    },
+    {
+      "cue_id": 52,
+      "start": "00:01:42,333",
+      "end": "00:01:43,200",
+      "subtitle_slot_s": 0.867,
+      "available_until_next_vivienne_start_s": 0.867,
+      "mp3_duration_s": 1.489,
+      "overrun_vs_next_start_s": 0.622,
+      "status": "review_required"
+    },
+    {
+      "cue_id": 53,
+      "start": "00:01:43,200",
+      "end": "00:01:44,400",
+      "subtitle_slot_s": 1.2,
+      "available_until_next_vivienne_start_s": 1.2,
+      "mp3_duration_s": 1.411,
+      "overrun_vs_next_start_s": 0.211,
+      "status": "review_required"
+    }
+  ]
+}
