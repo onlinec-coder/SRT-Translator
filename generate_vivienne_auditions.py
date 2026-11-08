@@ -124,9 +124,18 @@ def main() -> int:
     for index, item in enumerate(AUDITIONS, start=1):
         output_path = OUTPUT_DIR / f"vivienne_{item['name']}.mp3"
         if output_path.exists():
-            print(f"\nSKIP {index}/4: {output_path.name} already exists.")
-            print("Rename or move the existing file if you intentionally want to regenerate it.")
-            return 3
+            existing_bytes = output_path.stat().st_size
+            print(f"\nSKIP {index}/4: reusing existing {output_path.name} ({existing_bytes:,} bytes)")
+            manifest["clips"].append(
+                {
+                    "file": output_path.name,
+                    "purpose": item["purpose"],
+                    "text": item["text"],
+                    "bytes": existing_bytes,
+                    "status": "reused_existing_file",
+                }
+            )
+            continue
 
         print(f"\nGenerating {index}/4: {item['name']} ...")
         try:
