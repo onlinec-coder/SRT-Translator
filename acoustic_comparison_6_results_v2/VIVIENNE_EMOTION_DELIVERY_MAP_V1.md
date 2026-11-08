@@ -72,3 +72,14 @@ The user compared cues 722–724 (00:22:57.200–00:23:00.791) against the origi
 3. Does not lean into anger or become excessively cold — **yes**.
 
 Treat this passage as **calm, self-possessed boundary-setting with restrained hurt**. Do not use the D3 `[angry]` direction. The strength comes from the certainty of her decision, not raised intensity. This is a user-confirmed interpretation, not merely a text-based hypothesis.
+
+
+## 9. User-confirmed clarification — group F, cue 758 (2026-11-08)
+
+The user compared cue 758 (00:23:55.800–00:23:56.958), “Та хүнээ андуурчээ.”, against the original film and confirmed:
+
+1. Calm and self-confident — **yes**.
+2. A firm position is clearly conveyed — **yes**.
+3. Not angry or sarcastic — **yes**, with a slight trace of displeasure.
+
+Treat this line as **calm, confident correction with firm resolve and slight displeasure**. Do not use D3 `[angry]`; do not add sarcasm. This is a user-confirmed acting interpretation.
