@@ -83,3 +83,16 @@ The user compared cue 758 (00:23:55.800–00:23:56.958), “Та хүнээ ан
 3. Not angry or sarcastic — **yes**, with a slight trace of displeasure.
 
 Treat this line as **calm, confident correction with firm resolve and slight displeasure**. Do not use D3 `[angry]`; do not add sarcasm. This is a user-confirmed acting interpretation.
+
+
+## 10. User-confirmed clarification — group B, cues 427 and 430–434 (2026-11-08)
+
+The user compared this passage (approximately 00:13:19–00:13:30) against the original film and identified the emotional delivery as a combination of **hurt, loss of trust, and slight disgust at discovering the truth**. The speaking tone is **slightly lowered, close to a whisper**.
+
+Preserve all of these elements together:
+- The hurt and broken trust are the emotional core.
+- The slight disgust comes from the truth becoming clear; do not turn it into overt anger or an aggressive outburst.
+- Keep the voice somewhat low and softly delivered, almost whispering, while preserving clear Mongolian articulation.
+- Maintain continuity across cues 427 and 430–434 so the realization unfolds as one connected emotional thought.
+
+This is the user's confirmed interpretation of the original performance and supersedes the initial generic “restrained hurt and disbelief” hypothesis for this passage.
