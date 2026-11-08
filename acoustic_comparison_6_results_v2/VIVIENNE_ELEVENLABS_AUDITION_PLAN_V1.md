@@ -248,3 +248,20 @@ The user compared the D3 controlled-angry audition for cue 736 against the corre
 D3 is accepted as the current angry-delivery direction for Vivienne, based on the user's direct comparison with the original video. It is preferred over D2 for this cue because D3 was judged to work in the real-film comparison after D2 had been reported as too weak. Keep D2 as a softer comparison/reference, not the primary angry baseline.
 
 This is a provisional performance-direction approval for Vivienne's controlled-angry mode, not approval to alter numerical voice settings or to apply the angry tag indiscriminately to every emotional line. Keep the same voice ID and eleven_v3 model. Preserve A/B/C directions. For future angry cues, adapt intensity to scene context and validate representative lines before applying the direction broadly.
+
+
+## 14. Second-scene D3 validation — confrontation (2026-11-08)
+
+After the user's approval of D3 against the original film for cue 736, the next validation is a distinct confrontation line, not another take of the same sentence. The verified cue is:
+
+| Cue | Time in film | Role | Exact Mongolian line | Intended test |
+|---:|---|---|---|---|
+| 710 | 00:22:34.800–00:22:36.791 | C001 Vivienne, direct dialogue | Одоо бүр надаас тайлбар нэхэж байна уу? | Angry rhetorical confrontation; controlled feminine force, clear emphasis, no shouting |
+
+This cue is part of the same confrontation sequence as cues 701 and 705–709. Cue 710 is selected first because it is a complete, self-contained rhetorical question and allows a focused comparison without joining multiple subtitle cues into one TTS request.
+
+Generation script: `generate_vivienne_D3_confrontation_cue710.py`
+Output: `acoustic_comparison_6_results_v2/vivienne_elevenlabs_auditions/vivienne_D3_confrontation_cue710.mp3`
+One TTS request; it may consume account credits. The script reuses an existing output, checks voice access first, and reads the API key from the local environment or `.env` without printing or changing it.
+
+Keep Voice ID `6Km4T9TrZXIhfMaxglHw`, model `eleven_v3`, and saved voice defaults unchanged. Use the same approved D3 `[angry]` tag. This is a second-scene validation only; do not apply the result to all angry lines until the user compares it against the original film.
