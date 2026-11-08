@@ -83,3 +83,23 @@ These are working descriptions from short source-audio auditions plus the measur
 - Cue-level emotion, emphasis, breath, pause, and vocal-texture annotation for every speaking character.
 - Clean non-overlapping voice samples for each character, particularly Lance, Luke, Alpha, Luna, and the royal seer.
 - Per-cue Mongolian delivery-rate targets using natural localization, not literal English duration matching.
+
+## Full-film source-audio extraction — 2026-11-08
+
+The original WAV was processed across its full **00:37:40.997** duration. The WAV itself is intentionally not stored; its SHA-256 is retained in the acoustic reference.
+
+Persisted companion datasets (all cue IDs join by `cue_id`; speaker labels join by `speaker_id`):
+
+1. `HUSBANDS_SOURCE_AUDIO_CUE_FEATURES_V1.json` — all 1,213 cue windows; conservative 30 ms VAD onset/end/active-duration estimates, rough median F0 and median RMS.
+2. `HUSBANDS_FULL_FILM_AUDIO_DYNAMICS_V1.json` — complete 2,260-frame, one-second RMS/peak timeline for the whole soundtrack, compressed in three parts.
+3. `HUSBANDS_FULL_FILM_CUE_PACING_INDEX_V1.json` — all 1,213 cue start/end/duration values, speaker assignment, English word count, subtitle-gap-to-next-cue timing and display-WPM proxy.
+4. `HUSBANDS_SOURCE_AUDIO_ACOUSTIC_REFERENCE_V1.json` — source fingerprint, cast-level reference, join keys, outputs and limitations.
+
+### Important interpretation rules
+
+- Cue display-WPM is only a subtitle pacing proxy. It is not measured spoken WPM and must not be used alone to set TTS speed.
+- Inter-cue subtitle gaps are not guaranteed speech pauses. Phrase continuity can cross cue boundaries; silence can also occur inside a cue.
+- VAD onset/end and active duration are conservative estimates, not word or phoneme alignment.
+- Full-mix RMS/peak/spectral measurements include music and effects and are not isolated character voice measurements.
+- Emotion, breath, emphasis, detailed intonation contours and nuanced acting direction are not fully human-verified for every cue and every character. Preserve explicit human-confirmed emotion decisions separately; do not invent labels from signal features.
+- Word-level forced alignment, phoneme durations and fully verified character-isolated prosody profiles remain future work.
