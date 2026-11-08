@@ -56,3 +56,8 @@ For each group, first listen to the original film and existing generated clips i
 ## 6. Evidence and scope
 
 The candidate cue IDs, text, timestamps, speaker IDs, and speaker roles in this inventory were checked against `Husbands_mn_v3.srt` and `speaker_assignments.json` in this repository. Only C001 Vivienne character lines are used for the dialogue inventory; inner-monologue cues are included where explicitly identified. No other repository was consulted.
+
+## 7. User-confirmed clarification — group D (2026-11-08)
+
+The user explicitly confirms that the scene at cues 679–690 (approximately 00:21:35–00:22:05) is **hurt, cold irony / bitter sarcasm, not anger**. Keep this distinction firm: do not use the D3 `[angry]` direction for this passage. The delivery should feel wounded, cool, and pointed, with restrained ironic emphasis. This is a user-confirmed acting interpretation and takes precedence over any broad text-based inference.
+
