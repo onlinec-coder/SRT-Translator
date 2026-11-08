@@ -172,3 +172,16 @@ The user listened to all four ElevenLabs renders generated with model `eleven_v3
 ## 11. Next action
 
 Treat the current voice ID as the working Vivienne candidate. Next, perform a controlled parameter-calibration round while keeping the voice ID and model fixed. Change one setting at a time, compare the resulting clips against this accepted baseline, and record the exact settings and user preference before locking a production preset. Do not select one of A–D as the sole winner: all four are accepted as usable delivery modes.
+
+
+## 12. User evaluation of the softer angry-dialogue audition D2 (2026-11-08)
+
+A separate softer angry-dialogue audition was generated using the same Vivienne voice ID **6Km4T9TrZXIhfMaxglHw** and model **eleven_v3**. The acting direction was controlled frustration: softer attack, less harshness, and no shouting. The user listened to the D2 render and confirmed **“болж байна” (works / acceptable)**.
+
+- Keep D2 as the accepted working direction for Vivienne's angry dialogue.
+- Preferred acting quality: feminine and softer in attack, but still clearly frustrated, firm, and intentional.
+- Avoid harshness, shouting, or excessive aggression unless a particular scene explicitly requires it.
+- Retain the original D version as a comparison reference; do not delete or overwrite it.
+- This is approval of the D2 performance direction, not a final lock of all ElevenLabs numerical settings or the complete film's voice mix.
+
+Update the anger performance baseline from the generic D direction in Section 5C to this more specific D2 direction for subsequent Vivienne angry-dialogue generation.
