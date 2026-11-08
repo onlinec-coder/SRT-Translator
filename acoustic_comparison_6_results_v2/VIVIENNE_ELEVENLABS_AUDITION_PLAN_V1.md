@@ -265,3 +265,18 @@ Output: `acoustic_comparison_6_results_v2/vivienne_elevenlabs_auditions/vivienne
 One TTS request; it may consume account credits. The script reuses an existing output, checks voice access first, and reads the API key from the local environment or `.env` without printing or changing it.
 
 Keep Voice ID `6Km4T9TrZXIhfMaxglHw`, model `eleven_v3`, and saved voice defaults unchanged. Use the same approved D3 `[angry]` tag. This is a second-scene validation only; do not apply the result to all angry lines until the user compares it against the original film.
+
+## 15. D3 acting-quality checklist — cue 736 (2026-11-08)
+
+After comparing D3 against the original film performance, the user explicitly confirmed all three criteria:
+1. Anger and resentment are clearly perceptible: **pass**.
+2. Vivienne remains feminine and controlled: **pass**.
+3. The delivery matches the original character's acting: **pass**.
+
+### Decision
+
+D3 passes the scene-level acting check for cue 736. Treat the `[angry]` D3 direction as the validated starting point for Vivienne's controlled-angry dialogue, while still adapting intensity to each scene. This does not authorize changing numerical voice settings or applying the same intensity indiscriminately to every angry line.
+
+### Next validation
+
+Proceed to the distinct confrontation cue 710 (00:22:34.800–00:22:36.791), using the already prepared `generate_vivienne_D3_confrontation_cue710.py`. Keep the same Voice ID, `eleven_v3` model, saved voice defaults, and `[angry]` tag. Compare the generated line against the original video before deciding whether this direction generalizes to another confrontation beat.
