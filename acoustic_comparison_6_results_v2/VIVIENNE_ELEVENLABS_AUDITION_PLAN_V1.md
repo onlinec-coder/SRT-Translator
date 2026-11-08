@@ -120,16 +120,22 @@ Record each item as **pass / partial / fail**, with a short note and timestamp i
 
 ## 9. Local generation script
 
-The repository includes `generate_vivienne_auditions.py`. It:
+The repository includes two local diagnostic/generation scripts:
+- `list_elevenlabs_voices.py`: lists the voices accessible to the API key in the local `.env`, including exact voice IDs.
+- `generate_vivienne_auditions.py`: generates the four audition clips.
+
+The generator:
 - Uses only Python standard-library modules.
 - Reads `ELEVENLABS_API_KEY` from the process environment or the project's local `.env`.
-- Uses the fixed voice ID, `eleven_v3`, and `mp3_44100_128`.
+- Reads optional `ELEVENLABS_VOICE_ID` from the environment or `.env`; if absent, it tries the historical ID `t9cfscnpanqv8SAN8rHS`.
+- Checks that the selected voice is accessible before sending any text-to-speech requests. If the ID is inaccessible, it stops before generating audio.
+- Uses `eleven_v3` and `mp3_44100_128`.
 - Omits per-request voice settings so all four requests use the same saved voice defaults.
 - Saves MP3s and an `audition_manifest.json` under `acoustic_comparison_6_results_v2/vivienne_elevenlabs_auditions/`.
 - Does not overwrite existing clips; it can resume by reusing files already generated.
 - Stops after an API error to avoid repeated unexpected credit use.
 
-The script makes four paid/credit-consuming API requests if none of the output clips already exists. It never prints or modifies the API key. Do not commit `.env`.
+The script makes four paid/credit-consuming API requests if none of the output clips already exists. If the historical voice ID returns 404, first run `list_elevenlabs_voices.py`, identify the intended Vivienne voice in the returned list, and set `ELEVENLABS_VOICE_ID` in the local `.env`. Never guess or silently substitute a different voice. It never prints or modifies the API key. Do not commit `.env`.
 
 ## 10. Next step after generation
 
