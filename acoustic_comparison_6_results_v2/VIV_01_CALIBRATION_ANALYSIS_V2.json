@@ -1,0 +1,260 @@
+{
+  "title": "Husbands — VIV_01 Source-to-TTS Calibration Analysis",
+  "version": "V2",
+  "status": "QUANTITATIVE_CALIBRATION_COMPLETE — PERCEPTUAL LISTENING AND PAID RETEST NOT YET APPROVED",
+  "repository": "onlinec-coder/SRT-Translator",
+  "source_audio": {
+    "file": "Husbands_audio(1).wav",
+    "duration_seconds": 2260.996625,
+    "duration_hhmmss": "00:37:40.997",
+    "sample_rate_hz": 16000,
+    "channels": 1,
+    "format": "WAV PCM signed 16-bit",
+    "sha256": "6e1c1cfaad4867dcae717f38e0e636e0ec481c9e9c43d9454c59703b932b03a7",
+    "subtitle_alignment_check": "English SRT final cue ends at 00:37:38.583; source audio continues to 00:37:40.997."
+  },
+  "tts_artifact": {
+    "batch_id": "VIV_01",
+    "workflow_run_id": 42467728883,
+    "artifact_id": 13611673758,
+    "generated_cue_count": 32,
+    "voice_id": "6Km4T9TrZXIhfMaxglHw",
+    "model_id": "eleven_v3",
+    "request_voice_settings": "No per-request voice_settings object was sent; effective stored speed value was not captured. Do not assume speed=1.0."
+  },
+  "inputs": {
+    "english_srt": "Husbands_ocr_en.srt",
+    "mongolian_tts_prep": "acoustic_comparison_6_results_v2/VIVIENNE_BATCH_01_TTS_PREP_V1.json",
+    "timing_profile_v1": "acoustic_comparison_6_results_v2/VIV_01_TIMING_AND_PHRASE_PROFILE_V1.json",
+    "previous_vad_review": "acoustic_comparison_6_results_v2/VIV_01_SOURCE_VS_TTS_TIMING_REVIEW_V1.json"
+  },
+  "method": {
+    "source_vad": "WebRTC VAD mode 3, 30 ms frames, 16 kHz mono PCM, speech regions merged across gaps <=120 ms, measured only inside each English SRT cue window.",
+    "tts_vad": "Each VIV_01 MP3 decoded to 16 kHz mono PCM and measured with the same VAD settings.",
+    "word_rate": "English subtitle token count divided by source VAD active duration.",
+    "mongolian_syllables": "Approximate vowel-nucleus count; heuristic only, not phonetic syllabification.",
+    "overlap": "TTS speech-end offset placed at the English SRT cue start, compared with the next subtitle cue start of any speaker.",
+    "limitations": [
+      "VAD is not phoneme alignment or human listening.",
+      "Source music, breaths, effects, and overlapping voices can affect VAD.",
+      "Duration ratios are diagnostic only, not direct speed multipliers.",
+      "A subtitle-slot overrun is not automatically an audible collision; use actual next dialogue onset and final edit.",
+      "No subjective emotion or acting approval is claimed."
+    ]
+  },
+  "summary": {
+    "cues_screened": 32,
+    "cues_with_tts_end_after_next_srt_start_gt_0_1s": 12,
+    "cues_with_tts_end_after_next_srt_start_gt_0_2s": 9,
+    "highest_overlap_risks": [
+      {
+        "cue_id": 5,
+        "overlap_s": 1.16
+      },
+      {
+        "cue_id": 13,
+        "overlap_s": 0.668
+      },
+      {
+        "cue_id": 52,
+        "overlap_s": 0.573
+      },
+      {
+        "cue_id": 38,
+        "overlap_s": 0.52
+      },
+      {
+        "cue_id": 1,
+        "overlap_s": 0.5
+      },
+      {
+        "cue_id": 51,
+        "overlap_s": 0.377
+      },
+      {
+        "cue_id": 28,
+        "overlap_s": 0.33
+      },
+      {
+        "cue_id": 23,
+        "overlap_s": 0.22
+      },
+      {
+        "cue_id": 24,
+        "overlap_s": 0.209
+      }
+    ],
+    "tts_internal_pause_flags": [
+      {
+        "cue_id": 5,
+        "gap_s": 0.3,
+        "source_gap_s": 0
+      },
+      {
+        "cue_id": 10,
+        "gap_s": 0.33,
+        "source_gap_s": 0
+      },
+      {
+        "cue_id": 24,
+        "gap_s": 1.02,
+        "source_gap_s": 0.12
+      }
+    ],
+    "phrase_groups_to_preserve": [
+      {
+        "group_id": "PG02",
+        "cue_ids": [
+          4,
+          5
+        ],
+        "instruction": "One continuous narration sentence; do not create a reset at the cue boundary."
+      },
+      {
+        "group_id": "PG05",
+        "cue_ids": [
+          23,
+          24,
+          25,
+          26
+        ],
+        "instruction": "Heartbeat slows → nothing → waking; preserve the short source transition and avoid the generated 1.02 s pause in cue 24."
+      },
+      {
+        "group_id": "PG06",
+        "cue_ids": [
+          28,
+          29
+        ],
+        "instruction": "One sentence split across two cues; maintain syntax and breath continuity, and shift the second asset if needed."
+      },
+      {
+        "group_id": "PG09",
+        "cue_ids": [
+          51,
+          52,
+          53
+        ],
+        "instruction": "Cues 51–52 are Vivienne direct dialogue, cue 53 is narration; do not apply narration pacing to the dialogue."
+      }
+    ]
+  },
+  "candidate_speed_tests": {
+    "note": "These are untested per-request speed candidates, not approved production settings. They must be tested on representative cues and judged for voice quality before adoption. Text compression or timeline adjustment is required where noted.",
+    "candidates": [
+      {
+        "cue_id": 1,
+        "speed": 1.2,
+        "action": "Test maximum modest acceleration; still borderline for the available window, consider a shorter natural Mongolian wording."
+      },
+      {
+        "cue_id": 3,
+        "speed": 1.05,
+        "action": "Small acceleration to clear the next cue with margin."
+      },
+      {
+        "cue_id": 5,
+        "speed": 1.2,
+        "action": "Speed alone cannot solve the 1.16 s overlap; shorten the Mongolian line and coordinate with cue 4 as one phrase."
+      },
+      {
+        "cue_id": 10,
+        "speed": 1,
+        "action": "Keep baseline speed; remove or reduce the unsupported 0.33 s internal pause."
+      },
+      {
+        "cue_id": 13,
+        "speed": 1.2,
+        "action": "Speed alone cannot fit the available window; test a more compact natural translation."
+      },
+      {
+        "cue_id": 17,
+        "speed": 0.85,
+        "action": "Test slightly slower delivery to approach source duration while retaining the user-approved ordinary natural voice."
+      },
+      {
+        "cue_id": 18,
+        "speed": 1.1,
+        "action": "Test a small acceleration to avoid the next cue overlap."
+      },
+      {
+        "cue_id": 23,
+        "speed": 1.17,
+        "action": "Test moderate acceleration to fit before the next cue without flattening the reflective delivery."
+      },
+      {
+        "cue_id": 24,
+        "speed": 1,
+        "action": "Do not accelerate first; remove the unsupported 1.02 s internal pause and keep the concise transition."
+      },
+      {
+        "cue_id": 25,
+        "speed": 0.7,
+        "action": "Test slower delivery; current TTS is substantially shorter than source active speech."
+      },
+      {
+        "cue_id": 28,
+        "speed": 1.2,
+        "action": "Test maximum modest acceleration; shift cue 29 start slightly later to preserve one continuous phrase."
+      },
+      {
+        "cue_id": 29,
+        "speed": 0.7,
+        "action": "Test slower delivery to approach source timing; maintain continuity with cue 28."
+      },
+      {
+        "cue_id": 30,
+        "speed": 0.9,
+        "action": "Test a small slowdown to approach source pacing; current timing has enough room."
+      },
+      {
+        "cue_id": 31,
+        "speed": 1.05,
+        "action": "Small acceleration to clear the following cue."
+      },
+      {
+        "cue_id": 32,
+        "speed": 1.1,
+        "action": "Small acceleration to create a safer gap before cue 33."
+      },
+      {
+        "cue_id": 33,
+        "speed": 1.05,
+        "action": "Small acceleration to increase clearance before cue 34."
+      },
+      {
+        "cue_id": 38,
+        "speed": 1.2,
+        "action": "Speed alone cannot fully solve the overlap; consider a shorter natural Mongolian wording."
+      },
+      {
+        "cue_id": 40,
+        "speed": 1.15,
+        "action": "Test moderate acceleration to fit before cue 41."
+      },
+      {
+        "cue_id": 51,
+        "speed": 1.2,
+        "action": "Speed alone cannot solve the overlap; compact the direct-dialogue wording and coordinate with cue 52."
+      },
+      {
+        "cue_id": 52,
+        "speed": 1.2,
+        "action": "Speed alone cannot solve the overlap; compact the direct-dialogue wording and coordinate with cue 51."
+      },
+      {
+        "cue_id": 53,
+        "speed": 1.05,
+        "action": "Small acceleration to leave a safer gap before the next subtitle cue."
+      }
+    ]
+  },
+  "production_decisions": [
+    "Do not change Vivienne's global voice settings based on this batch.",
+    "Use cue-specific speed only as a per-request override; do not edit persistent voice settings.",
+    "Do not regenerate any VIV_01 cue or start VIV_02 from this analysis alone.",
+    "Before paid retest, approve the exact cue IDs and request count.",
+    "First test the speed-control implementation on one explicitly approved cue, then compare audio quality and timing."
+  ],
+  "next_step": "Prepare the generator to accept optional per-cue speed in its request payload while preserving all other stored voice settings; do not execute paid requests until the user approves the exact test cue and credit use."
+}
