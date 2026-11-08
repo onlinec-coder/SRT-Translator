@@ -1,0 +1,14 @@
+{
+  "file": "vivienne_D3_confrontation_cue710.mp3",
+  "cue_id": 710,
+  "start_end": "00:22:34.800–00:22:36.791",
+  "speaker_id": "C001",
+  "speaker_name": "Vivienne",
+  "speaker_role": "character",
+  "text": "[angry] Одоо бүр надаас тайлбар нэхэж байна уу?",
+  "voice_id": "6Km4T9TrZXIhfMaxglHw",
+  "model_id": "eleven_v3",
+  "voice_settings": "Same saved defaults as accepted D3; no numerical settings overridden.",
+  "direction": "Clearly angry and confrontational, with controlled feminine timbre and intelligible articulation; no shouting, harshness, or loss of Vivienne identity.",
+  "bytes": 33061
+}

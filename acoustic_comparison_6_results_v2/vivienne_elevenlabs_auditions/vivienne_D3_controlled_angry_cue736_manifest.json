@@ -1,0 +1,13 @@
+{
+  "file": "vivienne_D3_controlled_angry_cue736.mp3",
+  "cue_id": 736,
+  "speaker_id": "C001",
+  "speaker_name": "Vivienne",
+  "speaker_role": "character",
+  "text": "[angry] Чиний надад өгөхөөр шийдсэн юуг ч хамаагүй хүлээн авах ёстой байсан уу?",
+  "voice_id": "6Km4T9TrZXIhfMaxglHw",
+  "model_id": "eleven_v3",
+  "voice_settings": "Same saved defaults as accepted D2; no numerical settings overridden.",
+  "direction": "Stronger anger than D2, but keep feminine timbre, controlled delivery, intelligibility; no shouting, harshness, or loss of identity.",
+  "bytes": 56049
+}

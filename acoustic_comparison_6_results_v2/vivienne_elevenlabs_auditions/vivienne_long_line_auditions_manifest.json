@@ -1,0 +1,45 @@
+{
+  "voice_id": "6Km4T9TrZXIhfMaxglHw",
+  "voice_name": "Vivienne",
+  "model_id": "eleven_v3",
+  "output_format": "mp3_44100_128",
+  "voice_settings": "Omitted; same saved voice defaults as accepted A/B/C/D2 auditions.",
+  "clips": [
+    {
+      "file": "vivienne_long_A_neutral_narration_cue153.mp3",
+      "cue_id": 153,
+      "speaker_role": "narrator",
+      "text": "Тэр гараа өвдгөн дээрээ зөрүүлэн тавьж, огт хөдөлгөөнгүй суусаар байв.",
+      "direction": "Neutral conversational narration; calm, clear, natural pace; no added sadness or theatrical emphasis.",
+      "bytes": 58557,
+      "status": "generated"
+    },
+    {
+      "file": "vivienne_long_B_reflective_narration_cue502.mp3",
+      "cue_id": 502,
+      "speaker_role": "narrator",
+      "text": "[reflective] Бид үгээ гүйцээж амжаагүй байхад ээж гэрээнүүдийг гаргаж ирсэн байлаа.",
+      "direction": "Reflective narration; thoughtful and measured, but not artificially slow; same recognizable voice as neutral.",
+      "bytes": 61065,
+      "status": "generated"
+    },
+    {
+      "file": "vivienne_long_C_quiet_inner_monologue_cue293.mp3",
+      "cue_id": 293,
+      "speaker_role": "inner_monologue",
+      "text": "[sad] Эсвэл би тодорхой зааж хэлж чадахаар ямар нэгэн зүйл хийгээгүй.",
+      "direction": "Quiet, vulnerable inner monologue; contained emotion, softer vocal force, subtle breathiness; not whispered.",
+      "bytes": 62318,
+      "status": "generated"
+    },
+    {
+      "file": "vivienne_long_D2_soft_angry_dialogue_cue736.mp3",
+      "cue_id": 736,
+      "speaker_role": "character",
+      "text": "[frustrated] Чиний надад өгөхөөр шийдсэн юуг ч хамаагүй хүлээн авах ёстой байсан уу?",
+      "direction": "Feminine controlled frustration; softer attack, firm intention and clear articulation; no harshness or shouting.",
+      "bytes": 59811,
+      "status": "generated"
+    }
+  ]
+}

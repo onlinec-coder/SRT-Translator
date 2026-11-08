@@ -1,0 +1,116 @@
+{
+  "project": "Husbands",
+  "pilot": "Vivienne production pilot 01",
+  "voice_id": "6Km4T9TrZXIhfMaxglHw",
+  "voice_name": "Vivienne",
+  "model_id": "eleven_v3",
+  "output_format": "mp3_44100_128",
+  "voice_settings": "Not supplied; use the existing saved voice defaults.",
+  "speed_pitch_stability_similarity_style": "No overrides.",
+  "clips": [
+    {
+      "file": "pilot_01_cue427_hurt_disappointed.mp3",
+      "cue_ids": [
+        427
+      ],
+      "source_time": "00:13:19.166–00:13:20.583",
+      "target_subtitle_window_ms": 1417,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_role": "direct_dialogue",
+      "text_sent_to_tts": "[whispers] Тэр чамайг огт мэддэггүй юм байна.",
+      "subtitle_text_without_delivery_tags": "Тэр чамайг огт мэддэггүй юм байна.",
+      "delivery_direction": "Hurt and broken trust with slight disgust; lowered, close to a whisper but still clearly articulated. Do not turn it into anger.",
+      "status": "generated",
+      "bytes": 30554
+    },
+    {
+      "file": "pilot_02_cues430-434_hurt_realization.mp3",
+      "cue_ids": [
+        430,
+        431,
+        432,
+        433,
+        434
+      ],
+      "source_time": "00:13:24.600–00:13:30.000",
+      "target_subtitle_window_ms": 5400,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_role": "direct_dialogue",
+      "text_sent_to_tts": "[whispers] Тэр ерөөсөө мэддэггүй байсан юм. Тэгэхээр энэ олон жилийн турш, баяр ёслол бүрээр, сүргийн найр бүрээр тэр надтай уулзахаар ирдэггүй байжээ.",
+      "subtitle_text_without_delivery_tags": "Тэр ерөөсөө мэддэггүй байсан юм. Тэгэхээр энэ олон жилийн турш, баяр ёслол бүрээр, сүргийн найр бүрээр тэр надтай уулзахаар ирдэггүй байжээ.",
+      "delivery_direction": "Continue the same hurt, loss of trust, and slight disgust as cue 427. Low, intimate, near-whisper delivery, but keep words intelligible. Treat all five cues as one connected thought; do not insert artificial pauses at the subtitle boundaries.",
+      "status": "generated",
+      "bytes": 166390
+    },
+    {
+      "file": "pilot_03_cues776-778_assertive_explanation.mp3",
+      "cue_ids": [
+        776,
+        777,
+        778
+      ],
+      "source_time": "00:24:36.791–00:24:42.125",
+      "target_subtitle_window_ms": 5334,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_role": "direct_dialogue",
+      "text_sent_to_tts": "Хоёр хоногийн өмнө энэ гэрт ирсэн эмэгтэй би биш. Тэр үед би Колдвеллийн харшид оройн хоол идэж байсан. Ахлах ахлагч Лорант эхнэрийнхээ хамт байсан юм.",
+      "subtitle_text_without_delivery_tags": "Хоёр хоногийн өмнө энэ гэрт ирсэн эмэгтэй би биш. Тэр үед би Колдвеллийн харшид оройн хоол идэж байсан. Ахлах ахлагч Лорант эхнэрийнхээ хамт байсан юм.",
+      "delivery_direction": "Calm, self-confident, evidence-led explanation. Clear factual articulation and contrastive emphasis only where meaning requires it. No anger, sarcasm, or theatrical force.",
+      "status": "generated",
+      "bytes": 164718
+    },
+    {
+      "file": "pilot_04_cue758_firm_correction.mp3",
+      "cue_ids": [
+        758
+      ],
+      "source_time": "00:23:55.800–00:23:56.958",
+      "target_subtitle_window_ms": 1158,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_role": "direct_dialogue",
+      "text_sent_to_tts": "Та хүнээ андуурчээ.",
+      "subtitle_text_without_delivery_tags": "Та хүнээ андуурчээ.",
+      "delivery_direction": "Calm and self-confident correction, firm resolve with slight displeasure. Not angry and not sarcastic.",
+      "status": "generated",
+      "bytes": 23030
+    },
+    {
+      "file": "pilot_05_cue963_disgusted_refusal.mp3",
+      "cue_ids": [
+        963
+      ],
+      "source_time": "00:30:08.800–00:30:09.791",
+      "target_subtitle_window_ms": 991,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_role": "direct_dialogue",
+      "text_sent_to_tts": "[disgusted] Ингэж болохгүй.",
+      "subtitle_text_without_delivery_tags": "Ингэж болохгүй.",
+      "delivery_direction": "Disgust with slight controlled anger; decisive refusal. Keep the voice feminine and controlled. No shouting or harsh aggression.",
+      "status": "generated",
+      "bytes": 41838
+    },
+    {
+      "file": "pilot_06_cues1203-1205_natural_resolution.mp3",
+      "cue_ids": [
+        1203,
+        1204,
+        1205
+      ],
+      "source_time": "00:37:24.541–00:37:27.583",
+      "target_subtitle_window_ms": 3042,
+      "speaker_id": "C001",
+      "speaker_name": "Vivienne",
+      "speaker_role": "direct_dialogue",
+      "text_sent_to_tts": "Тохирлоо. Гэхдээ энэ удаа бид хоёулаа аз жаргалтай болно.",
+      "subtitle_text_without_delivery_tags": "Тохирлоо. Гэхдээ энэ удаа бид хоёулаа аз жаргалтай болно.",
+      "delivery_direction": "Ordinary, natural Vivienne voice. Calm and sincere; do not add conspicuous joy, heightened hope, uncertainty, or theatrical happiness.",
+      "status": "generated",
+      "bytes": 58557
+    }
+  ]
+}

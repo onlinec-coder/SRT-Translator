@@ -1,0 +1,11 @@
+{
+  "voice_id": "6Km4T9TrZXIhfMaxglHw",
+  "voice_name": "Vivienne",
+  "model_id": "eleven_v3",
+  "output_format": "mp3_44100_128",
+  "voice_settings": "Same saved voice defaults as the original D audition.",
+  "text": "[frustrated] Новшийн амьтан!",
+  "purpose": "Softer, more feminine-sounding and restrained angry delivery; frustration rather than explosive anger.",
+  "bytes": 35569,
+  "file": "vivienne_D2_soft_feminine_angry.mp3"
+}
