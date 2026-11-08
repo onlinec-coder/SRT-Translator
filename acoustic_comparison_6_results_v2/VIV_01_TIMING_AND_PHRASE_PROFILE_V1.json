@@ -2,11 +2,11 @@
   "title": "Husbands — Vivienne VIV_01 Timing Budget & Phrase Continuity Profile",
   "version": "V1",
   "date": "2026-11-08",
-  "status": "QUANTITATIVE_TIMING_REVIEW_COMPLETE — HUMAN LISTENING REQUIRED; NO NEW TTS GENERATED",
+  "status": "SUPERSEDED_BY_VIV_01_CALIBRATION_ANALYSIS_V2 — LEGACY TIMING AND PHRASE NOTES RETAINED",
   "repository": "onlinec-coder/SRT-Translator",
   "source_evidence": {
     "source_audio": "Husbands_audio.wav",
-    "duration_seconds": 2440.997,
+    "duration_seconds": 2260.996625,
     "sample_rate_hz": 16000,
     "channels": 1,
     "english_subtitles": "Husbands_ocr_en.srt",
@@ -14,7 +14,9 @@
     "timing_review": "acoustic_comparison_6_results_v2/VIV_01_SOURCE_VS_TTS_TIMING_REVIEW_V1.json",
     "batch_prep": "acoustic_comparison_6_results_v2/VIVIENNE_BATCH_01_TTS_PREP_V1.json",
     "tts_artifact_id": 13611673758,
-    "workflow_run_id": 42467728883
+    "workflow_run_id": 42467728883,
+    "duration_hhmmss": "00:37:40.997",
+    "source_audio_sha256": "6e1c1cfaad4867dcae717f38e0e636e0ec481c9e9c43d9454c59703b932b03a7"
   },
   "purpose": "Turn VIV_01 source-vs-TTS speech-boundary screening into cue-level timing review and phrase-continuity instructions. This is not a claim of human listening approval.",
   "principles": [
@@ -716,5 +718,6 @@
     "critical_gap_note": "Cue 24's 1.02 s internal VAD gap is a machine-detected candidate pause, not confirmed silence or a confirmed unnatural acting pause. Human listening is required.",
     "listening_status": "Not completed in this pass: the source WAV is not available as a mounted file in the current working session, and no human/perceptual listening claim is made.",
     "next_action": "Use the exact P1/P2 order for human audition against the original source; then adjust only cue-level performance direction or placement. Do not change global voice settings or regenerate paid TTS yet."
-  }
+  },
+  "superseded_by": "acoustic_comparison_6_results_v2/VIV_01_CALIBRATION_ANALYSIS_V2.json"
 }
