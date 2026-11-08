@@ -1,0 +1,45 @@
+name: Vivienne VIV_01 ElevenLabs TTS
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirmation:
+        description: "Type exactly GENERATE VIV_01 to authorize this paid batch"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: vivienne-viv-01-tts
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: ${{ inputs.confirmation == 'GENERATE VIV_01' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout approved repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate cue-level audio
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          GENERATE_CONFIRMATION: ${{ inputs.confirmation }}
+        run: python scripts/generate_vivienne_viv01.py
+
+      - name: Upload generated audio and manifest
+        if: success() || failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: vivienne-VIV_01-audio
+          path: vivienne_tts_output/VIV_01/
+          if-no-files-found: warn
+          retention-days: 14
