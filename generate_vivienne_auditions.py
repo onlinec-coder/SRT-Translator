@@ -18,7 +18,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 OUTPUT_DIR = ROOT / "acoustic_comparison_6_results_v2" / "vivienne_elevenlabs_auditions"
-DEFAULT_VOICE_ID = "t9cfscnpanqv8SAN8rHS"
+DEFAULT_VOICE_ID = "6Km4T9TrZXIhfMaxglHw"
 MODEL_ID = "eleven_v3"
 OUTPUT_FORMAT = "mp3_44100_128"
 
