@@ -280,3 +280,18 @@ D3 passes the scene-level acting check for cue 736. Treat the `[angry]` D3 direc
 ### Next validation
 
 Proceed to the distinct confrontation cue 710 (00:22:34.800–00:22:36.791), using the already prepared `generate_vivienne_D3_confrontation_cue710.py`. Keep the same Voice ID, `eleven_v3` model, saved voice defaults, and `[angry]` tag. Compare the generated line against the original video before deciding whether this direction generalizes to another confrontation beat.
+
+## 16. Second-scene D3 validation — cue 710 (2026-11-08)
+
+The user listened to the existing `vivienne_D3_confrontation_cue710.mp3` (33,061 bytes); the local generator correctly skipped the file, so no new ElevenLabs request was made. The user compared the generated line against the original film around 00:22:30–00:22:42 and confirmed:
+1. Anger and confrontational pressure are clear: **pass**.
+2. Vivienne remains feminine and controlled: **pass**.
+3. Delivery matches the original character's acting: **pass**.
+
+### Decision
+
+D3 `[angry]` is now validated by the user against two distinct original-film lines/scenes: cue 736 and cue 710. Accept it as the working controlled-angry performance direction for Vivienne. Do not spend additional ElevenLabs credits on more D3 audition generations at this stage. Keep Voice ID, `eleven_v3`, and saved numerical defaults unchanged. Apply the direction contextually during production; do not assume every frustrated, hurt, sarcastic, or mildly annoyed line requires the same anger intensity.
+
+### Credit-conscious next step
+
+Pause new TTS audition generation. Continue with repository-based review and planning using existing SRT, speaker assignments, and already generated audio. Collect and group representative Vivienne lines by emotional intensity first; generate new audio only when a specific unresolved decision cannot be answered from existing clips or the original film. If further validation becomes essential, request approval before any paid TTS call.
