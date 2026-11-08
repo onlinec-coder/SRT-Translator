@@ -18,7 +18,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 OUTPUT_DIR = ROOT / "acoustic_comparison_6_results_v2" / "vivienne_elevenlabs_auditions"
-VOICE_ID = "t9cfscnpanqv8SAN8rHS"
+DEFAULT_VOICE_ID = "t9cfscnpanqv8SAN8rHS"
 MODEL_ID = "eleven_v3"
 OUTPUT_FORMAT = "mp3_44100_128"
 
@@ -63,9 +63,30 @@ def load_env_file(path: Path) -> None:
             os.environ[key] = value
 
 
-def request_audio(api_key: str, text: str) -> bytes:
+def verify_voice(api_key: str, voice_id: str) -> str:
+    url = f"https://api.elevenlabs.io/v1/voices/{urllib.parse.quote(voice_id, safe='')}"
+    request = urllib.request.Request(
+        url,
+        headers={"xi-api-key": api_key, "Accept": "application/json"},
+        method="GET",
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=60) as response:
+            data = json.loads(response.read().decode("utf-8"))
+            return data.get("name", "(name unavailable)")
+    except urllib.error.HTTPError as exc:
+        detail = exc.read(3000).decode("utf-8", errors="replace")
+        if exc.code == 404:
+            raise RuntimeError(
+                f"Voice ID '{voice_id}' is not accessible to this API key. "
+                "Run list_elevenlabs_voices.py and set ELEVENLABS_VOICE_ID in .env."
+            ) from exc
+        raise RuntimeError(f"ElevenLabs voice check HTTP {exc.code}: {detail}") from exc
+
+
+def request_audio(api_key: str, voice_id: str, text: str) -> bytes:
     query = urllib.parse.urlencode({"output_format": OUTPUT_FORMAT})
-    url = f"https://api.elevenlabs.io/v1/text-to-speech/{VOICE_ID}?{query}"
+    url = f"https://api.elevenlabs.io/v1/text-to-speech/{urllib.parse.quote(voice_id, safe='')}?{query}"
     payload = json.dumps(
         {"text": text, "model_id": MODEL_ID},
         ensure_ascii=False,
@@ -100,14 +121,23 @@ def request_audio(api_key: str, text: str) -> bytes:
 def main() -> int:
     load_env_file(ROOT / ".env")
     api_key = os.environ.get("ELEVENLABS_API_KEY", "").strip()
+    voice_id = os.environ.get("ELEVENLABS_VOICE_ID", DEFAULT_VOICE_ID).strip()
     if not api_key:
         print("ERROR: ELEVENLABS_API_KEY was not found in environment or project .env")
         print("The script does not create, print, or modify API keys.")
         return 2
 
+    try:
+        voice_name = verify_voice(api_key, voice_id)
+    except Exception as exc:
+        print(f"VOICE CHECK FAILED: {exc}")
+        print("No text-to-speech requests were sent; no generation credits should be consumed.")
+        return 1
+
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     manifest = {
-        "voice_id": VOICE_ID,
+        "voice_id": voice_id,
+        "voice_name": voice_name,
         "model_id": MODEL_ID,
         "output_format": OUTPUT_FORMAT,
         "voice_settings": "Omitted: use the same saved voice defaults for all four requests.",
@@ -117,7 +147,7 @@ def main() -> int:
 
     print("Vivienne controlled audition generation")
     print(f"Model: {MODEL_ID}")
-    print(f"Voice ID: {VOICE_ID}")
+    print(f"Voice: {voice_name} ({voice_id})")
     print(f"Output: {OUTPUT_DIR}")
     print("Four API requests will be made. Each request may consume account credits.")
 
@@ -139,7 +169,7 @@ def main() -> int:
 
         print(f"\nGenerating {index}/4: {item['name']} ...")
         try:
-            audio = request_audio(api_key, item["text"])
+            audio = request_audio(api_key, voice_id, item["text"])
         except Exception as exc:
             print(f"ERROR: {exc}")
             print("Stopped to avoid repeated requests and unexpected credit use.")
