@@ -12,6 +12,8 @@ MANIFEST = PILOT / "vivienne_production_pilot_01_manifest.json"
 OUT_JSON = PILOT / "vivienne_production_pilot_01_qa_report.json"
 OUT_MD = PILOT / "vivienne_production_pilot_01_qa_report.md"
 RATE, FRAME_MS = 16000, 20
+FFMPEG = shutil.which("ffmpeg") or shutil.which("ffmpeg.exe") or "ffmpeg.exe"
+FFPROBE = shutil.which("ffprobe") or shutil.which("ffprobe.exe") or "ffprobe.exe"
 
 def run(args):
     try:
@@ -26,9 +28,9 @@ def dbfs(x):
     return round(20 * math.log10(x), 2) if x > 0 else None
 
 def analyze(path, clip):
-    probe = json.loads(run(["ffprobe","-v","error","-show_entries","format=duration,size,bit_rate:stream=codec_name,sample_rate,channels","-of","json",str(path)]))
+    probe = json.loads(run([FFPROBE,"-v","error","-show_entries","format=duration,size,bit_rate:stream=codec_name,sample_rate,channels","-of","json",str(path)]))
     fmt, stream = probe.get("format",{}), (probe.get("streams") or [{}])[0]
-    raw = run(["ffmpeg","-v","error","-i",str(path),"-f","s16le","-acodec","pcm_s16le","-ac","1","-ar",str(RATE),"pipe:1"])
+    raw = run([FFMPEG,"-v","error","-i",str(path),"-f","s16le","-acodec","pcm_s16le","-ac","1","-ar",str(RATE),"pipe:1"])
     samples = array("h"); samples.frombytes(raw)
     if not samples: raise RuntimeError("No decoded audio samples")
     frame_n = RATE * FRAME_MS // 1000
@@ -98,7 +100,8 @@ def make_md(report):
 
 def main():
     if not MANIFEST.is_file(): print(f"Missing manifest: {MANIFEST}"); return 2
-    if not shutil.which("ffmpeg") or not shutil.which("ffprobe"): print("ffmpeg and ffprobe must be on PATH."); return 2
+    if FFMPEG == "ffmpeg.exe" and not (shutil.which("ffmpeg") or shutil.which("ffmpeg.exe")): print("ffmpeg.exe was not found. Add it to PATH."); return 2
+    if FFPROBE == "ffprobe.exe" and not (shutil.which("ffprobe") or shutil.which("ffprobe.exe")): print("ffprobe.exe was not found. Add it to PATH."); return 2
     manifest=json.loads(MANIFEST.read_text(encoding="utf-8")); results=[]; errors=[]
     for clip in manifest.get("clips",[]):
         name=clip.get("file",""); path=(PILOT/name).resolve()
