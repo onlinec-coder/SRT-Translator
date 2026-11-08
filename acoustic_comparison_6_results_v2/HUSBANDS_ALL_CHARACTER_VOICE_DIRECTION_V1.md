@@ -14,7 +14,8 @@ Status: **PROVISIONAL CAST / VOICE-DIRECTION REFERENCE — not final emotion map
 - Character registry: `Husbands_characters_reconciled.json`
 - Cue coverage: **1,213 / 1,213** cue assignments; 11 characters have dialogue assignments. The registry also contains Narrator, but Narrator has zero independent assignments because narration is mapped to Vivienne/C001.
 
-Machine-readable acoustic measurements: [HUSBANDS_SOURCE_AUDIO_ACOUSTIC_REFERENCE_V1.json](HUSBANDS_SOURCE_AUDIO_ACOUSTIC_REFERENCE_V1.json)
+Machine-readable acoustic measurements: [HUSBANDS_SOURCE_AUDIO_ACOUSTIC_REFERENCE_V1.json](HUSBANDS_SOURCE_AUDIO_ACOUSTIC_REFERENCE_V1.json)  
+Compressed cue-level source timing and voice features for all 1,213 cues: [HUSBANDS_SOURCE_AUDIO_CUE_FEATURES_V1.json](HUSBANDS_SOURCE_AUDIO_CUE_FEATURES_V1.json)
 
 ## How to read the measurements
 
