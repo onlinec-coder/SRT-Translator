@@ -1,7 +1,7 @@
 # Vivienne — ElevenLabs Controlled Audition Plan V1
 
 Date: 2026-11-08  
-Status: **Prepared — generation and human evaluation pending**
+Status: **Generated and initially evaluated — A, B, C, and D2 accepted as working delivery modes; numerical voice-setting calibration remains pending**
 
 ## 1. Objective
 
@@ -12,7 +12,7 @@ This is a performance-direction test, not a final voice-setting optimization. Th
 ## 2. Fixed generation conditions
 
 Keep these unchanged for all four auditions:
-- Voice ID: `t9cfscnpanqv8SAN8rHS`
+- Voice ID: `6Km4T9TrZXIhfMaxglHw` (verified working Vivienne candidate used for the generated auditions)
 - Model: `eleven_v3`
 - Same output format and generation configuration.
 - Do not change stability, similarity, style, speed, or any other numerical setting between variants.
@@ -69,7 +69,7 @@ The local generator uses Eleven v3 audio tags to make the acting comparison repr
 - Variant A: no tag (neutral baseline).
 - Variant B: retain the project's existing `[reflective]` tag.
 - Variant C: `[sad]` for a restrained vulnerable reading; do not use a whisper tag.
-- Variant D: `[angry]` for firm anger; do not add a shout tag.
+- Original Variant D: `[angry]` for firm anger; retained only as a comparison reference. The accepted D2 follow-up uses `[frustrated]` for softer, controlled frustration; do not add a shout tag.
 
 Use only the exact Mongolian subtitle wording shown above. Do not paste the prose acting directions into the spoken text field. Do not add `[pause]` unless the source performance contains a meaningful natural pause and the text is deliberately segmented there.
 
@@ -140,3 +140,32 @@ The script makes four paid/credit-consuming API requests if none of the output c
 ## 10. Next step after generation
 
 Listen to all four clips and complete the manual evaluation. Add the four output files and the completed evaluation notes to the authorized `SRT-Translator` repository if desired. Then compare the human listening results with the corrected speaker-filtered acoustic findings before making V2 decisions.
+
+
+## 10. Actual generation and user evaluation (2026-11-08)
+
+The four auditions were generated locally with:
+- Voice ID: `6Km4T9TrZXIhfMaxglHw`
+- Model: `eleven_v3`
+- Output: `mp3_44100_128`
+- Saved voice defaults; no numerical voice settings were overridden.
+
+The user listened to A, B, C, and original D. All four were judged **“боломжийн”** (acceptable). A separate softer angry-dialogue D2 was then generated using the same voice ID/model and the tag `[frustrated]`, with text `Новшийн амьтан!`. The user listened to D2 and confirmed **“болж байна”**.
+
+### Accepted working performance directions
+
+| Mode | Working direction | Status |
+|---|---|---|
+| A — Neutral narration | Calm, conversational, clear | Accepted |
+| B — Reflective narration | Intimate, measured, thoughtful | Accepted |
+| C — Quiet inner monologue | Restrained, softer force, subtle breathiness; not whispering | Accepted |
+| D2 — Angry dialogue | Feminine, softer attack, controlled frustration, firm intention, no shouting | Accepted |
+| Original D — Angry | Stronger `[angry]` version | Comparison reference only; D2 is preferred working direction |
+
+### Unified voice consistency rule
+
+Keep the same recognizable Vivienne voice identity across all modes. Emotional contrast should come from phrasing, emphasis, pacing, and vocal force—not from making her sound like a different person. Even when angry, preserve a feminine, controlled, intelligible delivery. Do not make neutral or reflective lines artificially soft, and do not make quiet lines uniformly whispered.
+
+### Next stage
+
+Use these accepted delivery modes as the baseline for a broader, representative line sample. Calibrate numerical ElevenLabs settings only after confirming the same voice identity and natural Mongolian pronunciation across longer lines. Change one numerical setting at a time; record the exact value and compare against the current accepted baseline. No numerical setting is approved or locked by the present auditions.
