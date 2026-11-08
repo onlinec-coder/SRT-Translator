@@ -31,7 +31,7 @@ def load_env():
         line=line.strip()
         if not line or line.startswith("#") or "=" not in line: continue
         k,v=line.split("=",1); k=k.strip(); v=v.strip()
-        if len(v)>1 and v[0]==v[-1] and v[0] in "'\\"": v=v[1:-1]
+        if (v.startswith("'") and v.endswith("'")) or (v.startswith('"') and v.endswith('"')): v=v[1:-1]
         if k and k not in os.environ: os.environ[k]=v
 
 def find_ffmpeg():
