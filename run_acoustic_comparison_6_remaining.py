@@ -66,7 +66,13 @@ def main():
             output_path.unlink()
 
         success = acoustic.process_audio(item)
-        results.append((name, success, "processed" if success else "failed"))
+        complete = result_is_complete(output_path, item) if success else False
+
+        if success and not complete:
+            print("[ERROR] Gemini хүсэлт амжилттай болсон ч JSON-д шаардлагатай бүх cue эсвэл comparison алга байна.")
+            success = False
+
+        results.append((name, success, "processed and validated" if success else "failed or incomplete"))
 
         if index < len(TARGET_NAMES):
             time.sleep(3)
