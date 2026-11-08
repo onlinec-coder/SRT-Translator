@@ -13,7 +13,7 @@ The Speech versions are consistently quieter than the Original versions in the m
 - Normal: **-5.25 dB** (5 cues)
 - Emotional: **-3.31 dB** (5 cues)
 - Quiet: **-4.56 dB** (10 cues)
-- All measured cues: **-4.40 dB** (20 cues)
+- All measured cues: **-4.42 dB** (20 cues)
 
 Peak level is also lower in Speech. The most important pattern is not simply lower overall level: the lower-tail frame RMS values (p10) are often much lower in Speech, consistent with reduced quiet details, breaths, tails, or low-level ambience. This supports the qualitative Gemini observation that quiet/sad delivery may sound less breathy and less emotionally nuanced after speech extraction/processing.
 
