@@ -2,7 +2,7 @@
   "title": "Husbands — Vivienne VIV_01 Timing Budget & Phrase Continuity Profile",
   "version": "V1",
   "date": "2026-11-08",
-  "status": "ENGINEERING_REVIEW_PROFILE — no new TTS generated; VIV_01 not approved for final mix",
+  "status": "QUANTITATIVE_TIMING_REVIEW_COMPLETE — HUMAN LISTENING REQUIRED; NO NEW TTS GENERATED",
   "repository": "onlinec-coder/SRT-Translator",
   "source_evidence": {
     "source_audio": "Husbands_audio.wav",
@@ -187,7 +187,10 @@
       "next_srt_cue_start": "00:00:11,400",
       "detected_overrun_seconds": 0.5,
       "review_priority": "high",
-      "production_note": "Check phrase rate and placement against original; do not change voice settings globally."
+      "production_note": "Check phrase rate and placement against original; do not change voice settings globally.",
+      "tts_to_source_active_duration_ratio": 1.32,
+      "active_duration_difference_seconds": 0.63,
+      "review_order": "P1 — inspect before any VIV_02 generation"
     },
     {
       "sequence": 2,
@@ -240,7 +243,10 @@
         "generated_internal_gap_seconds": 0.3,
         "priority": "review"
       },
-      "production_note": "Critical: shorten/reshape delivery or re-time after verifying scene; this clip must not spill into following Lucian dialogue."
+      "production_note": "Critical: shorten/reshape delivery or re-time after verifying scene; this clip must not spill into following Lucian dialogue.",
+      "tts_to_source_active_duration_ratio": 2.27,
+      "active_duration_difference_seconds": 0.99,
+      "review_order": "P1 — inspect before any VIV_02 generation"
     },
     {
       "sequence": 6,
@@ -283,7 +289,10 @@
       "next_srt_cue_start": "00:00:31,333",
       "detected_overrun_seconds": 0.668,
       "review_priority": "high",
-      "production_note": "Check phrase rate and placement against original; do not change voice settings globally."
+      "production_note": "Check phrase rate and placement against original; do not change voice settings globally.",
+      "tts_to_source_active_duration_ratio": 1.95,
+      "active_duration_difference_seconds": 1.17,
+      "review_order": "P1 — inspect before any VIV_02 generation"
     },
     {
       "sequence": 9,
@@ -311,7 +320,10 @@
       "next_srt_cue_start": "00:00:39,200",
       "detected_overrun_seconds": 0.13,
       "review_priority": "medium",
-      "production_note": "Check phrase rate and placement against original; do not change voice settings globally."
+      "production_note": "Check phrase rate and placement against original; do not change voice settings globally.",
+      "tts_to_source_active_duration_ratio": 1.13,
+      "active_duration_difference_seconds": 0.21,
+      "review_order": "P2 — inspect during VIV_01 listening pass"
     },
     {
       "sequence": 11,
@@ -349,7 +361,10 @@
       "next_srt_cue_start": "00:00:50,600",
       "detected_overrun_seconds": 0.22,
       "review_priority": "medium",
-      "production_note": "Check phrase rate and placement against original; do not change voice settings globally."
+      "production_note": "Check phrase rate and placement against original; do not change voice settings globally.",
+      "tts_to_source_active_duration_ratio": 1.77,
+      "active_duration_difference_seconds": 0.93,
+      "review_order": "P2 — inspect during VIV_01 listening pass"
     },
     {
       "sequence": 14,
@@ -373,7 +388,10 @@
         "source_internal_gap_seconds": 0.12,
         "priority": "high"
       },
-      "production_note": "Critical: inspect the 1.02 s internal pause; likely unnatural relative to 0.12 s source gap."
+      "production_note": "Critical: inspect the 1.02 s internal pause; likely unnatural relative to 0.12 s source gap.",
+      "tts_to_source_active_duration_ratio": 2.05,
+      "active_duration_difference_seconds": 0.66,
+      "review_order": "P2 — inspect during VIV_01 listening pass"
     },
     {
       "sequence": 15,
@@ -421,7 +439,10 @@
       "next_srt_cue_start": "00:01:03,500",
       "detected_overrun_seconds": 0.33,
       "review_priority": "medium",
-      "production_note": "Check phrase rate and placement against original; do not change voice settings globally."
+      "production_note": "Check phrase rate and placement against original; do not change voice settings globally.",
+      "tts_to_source_active_duration_ratio": 1.22,
+      "active_duration_difference_seconds": 0.33,
+      "review_order": "P2 — inspect during VIV_01 listening pass"
     },
     {
       "sequence": 19,
@@ -469,7 +490,10 @@
       "next_srt_cue_start": "00:01:10,200",
       "detected_overrun_seconds": 0.171,
       "review_priority": "medium",
-      "production_note": "Check phrase rate and placement against original; do not change voice settings globally."
+      "production_note": "Check phrase rate and placement against original; do not change voice settings globally.",
+      "tts_to_source_active_duration_ratio": 1.23,
+      "active_duration_difference_seconds": 0.33,
+      "review_order": "P2 — inspect during VIV_01 listening pass"
     },
     {
       "sequence": 23,
@@ -507,7 +531,10 @@
       "next_srt_cue_start": "00:01:21,200",
       "detected_overrun_seconds": 0.52,
       "review_priority": "high",
-      "production_note": "Check phrase rate and placement against original; do not change voice settings globally."
+      "production_note": "Check phrase rate and placement against original; do not change voice settings globally.",
+      "tts_to_source_active_duration_ratio": 1.45,
+      "active_duration_difference_seconds": 0.6,
+      "review_order": "P1 — inspect before any VIV_02 generation"
     },
     {
       "sequence": 26,
@@ -535,7 +562,10 @@
       "next_srt_cue_start": "00:01:23,749",
       "detected_overrun_seconds": 0.191,
       "review_priority": "medium",
-      "production_note": "Check phrase rate and placement against original; do not change voice settings globally."
+      "production_note": "Check phrase rate and placement against original; do not change voice settings globally.",
+      "tts_to_source_active_duration_ratio": 1.41,
+      "active_duration_difference_seconds": 0.48,
+      "review_order": "P2 — inspect during VIV_01 listening pass"
     },
     {
       "sequence": 28,
@@ -573,7 +603,10 @@
       "next_srt_cue_start": "00:01:42,333",
       "detected_overrun_seconds": 0.377,
       "review_priority": "medium",
-      "production_note": "Check phrase rate and placement against original; do not change voice settings globally."
+      "production_note": "Check phrase rate and placement against original; do not change voice settings globally.",
+      "tts_to_source_active_duration_ratio": 1.38,
+      "active_duration_difference_seconds": 0.27,
+      "review_order": "P2 — inspect during VIV_01 listening pass"
     },
     {
       "sequence": 31,
@@ -591,7 +624,10 @@
       "next_srt_cue_start": "00:01:43,200",
       "detected_overrun_seconds": 0.573,
       "review_priority": "high",
-      "production_note": "Check phrase rate and placement against original; do not change voice settings globally."
+      "production_note": "Check phrase rate and placement against original; do not change voice settings globally.",
+      "tts_to_source_active_duration_ratio": 1.71,
+      "active_duration_difference_seconds": 0.6,
+      "review_order": "P1 — inspect before any VIV_02 generation"
     },
     {
       "sequence": 32,
@@ -610,5 +646,75 @@
     "voice_settings_change_authorized": false,
     "paid_tts_authorized": false,
     "required_before_next_batch": "Complete flagged-cue listening/acting review and validate the phrase-continuity timing method."
+  },
+  "review_pass_update": {
+    "date": "2026-11-08",
+    "status": "QUANTITATIVE_PRIORITY_REFINED — human perceptual review still pending",
+    "priority_order": [
+      {
+        "cue_id": 5,
+        "priority": "P1",
+        "reason": "1.160 s speech-end overrun; next subtitle cue is Lucian dialogue; only 0.8 s subtitle slot."
+      },
+      {
+        "cue_id": 13,
+        "priority": "P1",
+        "reason": "0.668 s overrun; TTS active speech is 2.40 s vs English source VAD 1.23 s."
+      },
+      {
+        "cue_id": 52,
+        "priority": "P1",
+        "reason": "0.573 s overrun; short character line has only 0.867 s until next SRT cue."
+      },
+      {
+        "cue_id": 38,
+        "priority": "P1",
+        "reason": "0.520 s overrun; descriptive narration risks carrying into next cue."
+      },
+      {
+        "cue_id": 1,
+        "priority": "P1",
+        "reason": "0.500 s overrun; first narration line TTS active speech exceeds source VAD duration."
+      },
+      {
+        "cue_id": 51,
+        "priority": "P2",
+        "reason": "0.377 s overrun; character line is followed immediately by another Vivienne character line."
+      },
+      {
+        "cue_id": 28,
+        "priority": "P2",
+        "reason": "0.330 s overrun; sentence continues into cue 29; treat as one phrase."
+      },
+      {
+        "cue_id": 23,
+        "priority": "P2",
+        "reason": "0.220 s overrun; reflective narration transition."
+      },
+      {
+        "cue_id": 24,
+        "priority": "P1",
+        "reason": "0.209 s overrun plus 1.02 s internal VAD gap vs 0.12 s in source."
+      },
+      {
+        "cue_id": 32,
+        "priority": "P2",
+        "reason": "0.171 s overrun; explanatory narration sequence."
+      },
+      {
+        "cue_id": 40,
+        "priority": "P2",
+        "reason": "0.191 s overrun; short descriptive phrase."
+      },
+      {
+        "cue_id": 18,
+        "priority": "P2",
+        "reason": "0.130 s overrun; inner-monologue emotional progression."
+      }
+    ],
+    "duration_ratio_caution": "The TTS/source active-duration ratio is diagnostic only. It must not be used as a direct speed multiplier because Mongolian wording length, syllable density, articulation, acting pauses, and available scene time differ from English.",
+    "critical_gap_note": "Cue 24's 1.02 s internal VAD gap is a machine-detected candidate pause, not confirmed silence or a confirmed unnatural acting pause. Human listening is required.",
+    "listening_status": "Not completed in this pass: the source WAV is not available as a mounted file in the current working session, and no human/perceptual listening claim is made.",
+    "next_action": "Use the exact P1/P2 order for human audition against the original source; then adjust only cue-level performance direction or placement. Do not change global voice settings or regenerate paid TTS yet."
   }
 }
