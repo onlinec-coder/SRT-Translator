@@ -2,7 +2,7 @@
   "title": "Husbands — Full-Film Source Audio Acoustic Reference",
   "version": "V1",
   "date": "2026-11-08",
-  "status": "INITIAL_FULL_FILM_ACOUSTIC_REFERENCE — all 1213 cue windows screened; VAD sensitivity and human-review limits documented",
+  "status": "FULL_FILM_DERIVED_AUDIO_AND_CUE_DATA_PRESERVED — source WAV processed; 1,213 cue index, 1,213 cue acoustic screening records, 2,260-second dynamics timeline, and cast voice reference stored",
   "repository": "onlinec-coder/SRT-Translator",
   "source_audio": {
     "original_uploaded_name": "Husbands_audio(1).wav",
@@ -445,5 +445,40 @@
     "blob_sha": "7e3f97832ee76e8a06c35b9796c61b0975e63a3b",
     "cue_records": 1213,
     "description": "Compressed per-cue source timing, conservative VAD active duration, rough F0 median, and RMS; join by cue order to the English/Mongolian SRT and speaker_assignments.json."
+  },
+  "derived_analysis_v1": {
+    "processed_from_source_wav_sha256": "6e1c1cfaad4867dcae717f38e0e6363e2d39c9e9c43d9454c59703b932b03a7",
+    "completed_on": "2026-11-08",
+    "outputs": [
+      {
+        "path": "acoustic_comparison_6_results_v2/HUSBANDS_SOURCE_AUDIO_CUE_FEATURES_V1.json",
+        "scope": "All 1,213 cue windows; conservative VAD onset/end/active duration, rough median F0, median RMS; compressed binary records."
+      },
+      {
+        "path": "acoustic_comparison_6_results_v2/HUSBANDS_FULL_FILM_AUDIO_DYNAMICS_V1.json",
+        "scope": "2,260 one-second windows across full 37:40.997 source; RMS, peak, zero-crossing rate and spectral centroid; includes whole-film signal summary."
+      },
+      {
+        "path": "acoustic_comparison_6_results_v2/HUSBANDS_FULL_FILM_CUE_PACING_INDEX_V1.json",
+        "scope": "All 1,213 cue IDs with start/end/duration, assigned speaker, English word count, inter-cue subtitle gap and display-WPM proxy; speaker aggregates."
+      },
+      {
+        "path": "acoustic_comparison_6_results_v2/HUSBANDS_ALL_CHARACTER_VOICE_DIRECTION_V1.md",
+        "scope": "Provisional all-character voice direction and existing aggregate acoustic profile notes."
+      }
+    ],
+    "join_keys": [
+      "cue_id",
+      "source_audio_sha256",
+      "speaker_id"
+    ],
+    "limitations": [
+      "Original WAV is intentionally not stored; its SHA-256 and technical metadata are retained.",
+      "One-second signal timeline is full mix and includes music/effects, not isolated character speech.",
+      "Cue VAD, F0 and RMS are screening estimates; not phoneme/word alignment or final TTS speed targets.",
+      "Cue display WPM and subtitle gaps are timing proxies, not verified spoken rate or true silence.",
+      "Emotion, breath, emphasis, phrase-level intonation and nuanced acting choices are not fully human-verified for every character/cue.",
+      "Word-level forced alignment and reliable phoneme durations have not been completed."
+    ]
   }
 }
