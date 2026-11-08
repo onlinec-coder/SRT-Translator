@@ -126,3 +126,14 @@ The user compared cues 775–789 (approximately 00:24:35–00:25:02) against the
 3. Anger, hurt, or sarcasm does not dominate; she retains an ordinary conversational tone — **yes**.
 
 Treat this passage as **calm, self-confident, clear factual explanation in Vivienne's natural conversational voice**. The decisiveness should come from clear articulation and intention, not added anger, bitterness, sarcasm, or theatrical emphasis.
+
+
+## 14. User-confirmed clarification — group G, cues 812–819 (2026-11-08)
+
+The user compared cues 812–819 (approximately 00:25:45–00:26:06) against the original film and confirmed all three criteria:
+
+1. Vivienne remains calm and self-confident — **yes**.
+2. She clearly articulates and emphasizes the contrast in phrases such as “Надтай уулзах гэж биш. Түүнтэй уулзах гэж.” — **yes**.
+3. The delivery remains naturally decisive and explanatory, not angry or hurt — **yes**.
+
+Treat this passage as **calm, self-confident factual explanation with clear contrastive emphasis**. Emphasize the key contrast through articulation, not through anger, bitterness, or theatrical emotion.
