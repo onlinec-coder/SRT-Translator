@@ -169,3 +169,51 @@ Keep the same recognizable Vivienne voice identity across all modes. Emotional c
 ### Next stage
 
 Use these accepted delivery modes as the baseline for a broader, representative line sample. Calibrate numerical ElevenLabs settings only after confirming the same voice identity and natural Mongolian pronunciation across longer lines. Change one numerical setting at a time; record the exact value and compare against the current accepted baseline. No numerical setting is approved or locked by the present auditions.
+
+
+## 11. Longer-line consistency round — prepared (2026-11-08)
+
+The next audition uses four longer, verified Mongolian subtitle cues assigned to C001 Vivienne in the repository's current `speaker_assignments.json`. The intent is to test phrase flow and naturalness beyond the short initial audition lines. The same voice ID, model, output format, and saved voice defaults are retained.
+
+| Mode | Cue | Verified role | Exact audition text | Direction |
+|---|---:|---|---|---|
+| A — Neutral | 153 | Narration | Тэр гараа өвдгөн дээрээ зөрүүлэн тавьж, огт хөдөлгөөнгүй суусаар байв. | Calm, conversational, clear |
+| B — Reflective | 502 | Narration | Бид үгээ гүйцээж амжаагүй байхад ээж гэрээнүүдийг гаргаж ирсэн байлаа. | Thoughtful, measured, not artificially slow |
+| C — Quiet | 293 | Inner monologue | Эсвэл би тодорхой зааж хэлж чадахаар ямар нэгэн зүйл хийгээгүй. | Contained vulnerability, softer force, not whispered |
+| D2 — Soft angry | 736 | Direct dialogue | Чиний надад өгөхөөр шийдсэн юуг ч хамаагүй хүлээн авах ёстой байсан уу? | Feminine controlled frustration, softer attack, firm intention, no shouting |
+
+Cue IDs, speaker roles, and text were checked against `Husbands_mn_v3.srt` and `speaker_assignments.json` in this repository. Do not change the wording for this audition.
+
+### Local generation
+
+New script: `generate_vivienne_long_line_auditions.py`
+
+Run after pulling the repository:
+
+```powershell
+git pull
+.\.venv\Scripts\python.exe generate_vivienne_long_line_auditions.py
+```
+
+The script can make up to four TTS requests, one per missing clip. It reuses any output clip that already exists, checks voice access before generation, and never prints or modifies the API key or `.env`.
+
+Output folder: `acoustic_comparison_6_results_v2\vivienne_elevenlabs_auditions\`
+
+Expected files:
+- `vivienne_long_A_neutral_narration_cue153.mp3`
+- `vivienne_long_B_reflective_narration_cue502.mp3`
+- `vivienne_long_C_quiet_inner_monologue_cue293.mp3`
+- `vivienne_long_D2_soft_angry_dialogue_cue736.mp3`
+- `vivienne_long_line_auditions_manifest.json`
+
+### Human listening checklist
+
+Listen to each complete sentence, not only its opening:
+1. Are Mongolian consonants, vowel lengths, and word stress natural?
+2. Does the voice maintain one recognizable Vivienne identity across all four modes?
+3. Are pauses and phrase endings natural, without abrupt cuts or excessive slowing?
+4. Does B sound reflective without becoming sleepy or overacted?
+5. Does C communicate vulnerability while remaining intelligible and not whispery?
+6. Does D2 remain feminine and controlled while still conveying frustration?
+
+Do not adjust stability, similarity, style, speed, pitch, or other numerical settings during this round. First establish whether the accepted performance directions remain natural over longer text. Record the user's listening notes before numerical calibration.
