@@ -1,0 +1,69 @@
+{
+  "title": "Husbands — Full-Film Audio Dynamics Timeline",
+  "version": "V1",
+  "date": "2026-11-08",
+  "status": "PROCESSED_FROM_FULL_SOURCE_WAV — full-film one-second signal timeline; joins to 1,213 cue records and speaker assignments",
+  "repository": "onlinec-coder/SRT-Translator",
+  "source_audio": {
+    "sha256": "6e1c1cfaad4867dcae717f38e0e636e0ec481c9e9c43d9454c59703b932b03a7",
+    "duration_seconds": 2260.996625,
+    "duration_timecode": "00:37:40.997",
+    "sample_rate_hz": 16000,
+    "channels": 1,
+    "bit_depth": 16,
+    "stored_original_audio": false
+  },
+  "timeline": {
+    "frame_duration_ms": 1000,
+    "frame_count": 2260,
+    "record_size_bytes": 8,
+    "record_encoding": "little-endian <hhHH>: rms_dbfs_x10:int16, peak_dbfs_x10:int16, zero_crossing_rate_x10000:uint16, spectral_centroid_hz:uint16",
+    "compression": "base64(zlib(binary_records))",
+    "scales": {
+      "rms_dbfs_x10": "divide by 10 for dBFS",
+      "peak_dbfs_x10": "divide by 10 for dBFS",
+      "zero_crossing_rate_x10000": "divide by 10000",
+      "spectral_centroid_hz": "Hz"
+    },
+    "data_base64": "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",
+    "notes": [
+      "Record i covers [i,i+1) seconds of the full mix; last 0.996625s is not in the grid.",
+      "Full-mix metrics include dialogue, music and effects; they are not speaker-isolated voice measurements.",
+      "Join cue-level VAD/F0/RMS by cue order from HUSBANDS_SOURCE_AUDIO_CUE_FEATURES_V1.json; cue times and text from Husbands_ocr_en.srt; speaker labels from speaker_assignments.json.",
+      "One-second grid complements but does not replace the conservative 30ms VAD cue estimates."
+    ]
+  },
+  "whole_film_signal_summary": {
+    "duration_seconds": 2260.996625,
+    "frame_seconds": 1,
+    "frames": 2260,
+    "active_seconds_at_rms_gt_minus45_dbfs": 2248,
+    "low_energy_seconds": 12,
+    "long_low_energy_runs_ge_1s": 10,
+    "longest_low_energy_run_seconds": 2,
+    "rms_dbfs_percentiles": {
+      "0": -120,
+      "10": -26.3,
+      "25": -22.1,
+      "50": -19.2,
+      "75": -17.1,
+      "90": -15.2,
+      "100": -10.7
+    },
+    "peak_dbfs_percentiles": {
+      "0": -120,
+      "10": -12.1,
+      "50": -5.5,
+      "90": -2.2,
+      "100": 0
+    },
+    "clipped_sample_count": 1,
+    "clipped_sample_fraction": 2.7642677264058277e-8
+  },
+  "analysis_limits": [
+    "Not phoneme or word forced alignment.",
+    "One-second windows cannot resolve short intra-phrase pauses; use the existing 30ms cue VAD data for candidate onset/end and active duration.",
+    "Do not infer emotion, breath, emphasis, or character identity from this full-mix timeline alone.",
+    "Subtitle cue boundaries may differ from actual spoken-word boundaries."
+  ]
+}
