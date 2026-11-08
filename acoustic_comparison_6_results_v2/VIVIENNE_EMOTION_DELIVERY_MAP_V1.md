@@ -147,3 +147,13 @@ Production direction:
 - Convey restrained, audible displeasure.
 - Do not turn the line into anger, aggression, cold sarcasm, or bitter resignation.
 - Keep the delivery natural and controlled, consistent with the original performance.
+
+
+## 16. User-confirmed clarification — group I, cues 925–926 (2026-11-08)
+
+The user compared cues 925–926 (approximately 00:29:07–00:29:12) against the original film and clarified that Vivienne delivers the refusal with **disgust and a slight degree of anger**.
+
+Production direction:
+- The emotional color is disgust, with a restrained trace of anger.
+- Do not recast this as quiet sadness, wounded vulnerability, or purely calm refusal.
+- Keep the anger slight and controlled; do not escalate into shouting or an aggressive outburst unless the original performance clearly does so.
