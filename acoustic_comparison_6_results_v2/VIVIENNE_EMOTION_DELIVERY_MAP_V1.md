@@ -31,7 +31,7 @@ This map groups existing C001 lines by likely acting function so production can 
 | F. Firm boundary / calm defiance | 712–713, 722–724 (00:22:40–00:23:01); 758 (00:23:55); 765–789 (00:24:12–00:25:02) | “Би явлаа.” / “Шийдэх ямар ч асуудал байхгүй.” / “Чи өөрийнхөө сонголтыг хийсэн. Би ч бас өөрийнхийгөө хийсэн.” / “Та хүнээ андуурчээ.” | Firm, self-possessed, decisive. Strength comes from clear intention and emphasis, not necessarily anger. |
 | G. Evidence-led, assertive explanation | 775–789, 812–819 (00:24:35–00:26:06) | “Хоёр хоногийн өмнө энэ гэрт ирсэн эмэгтэй би биш.” / “Түүний нэрийг Моргана гэдэг.” / “Надтай уулзах гэж биш. Түүнтэй уулзах гэж.” | Controlled confidence; articulate facts cleanly. Emphasize contrast only where the meaning requires it. |
 | H. Sarcasm / dry resignation | 913–915 (00:28:47–00:28:51) | “Тэгвэл хүссэндээ хүрч дээ. Намайг гэрт минь явуул.” | Dry, tired, possibly bitter; verify the film's exact emotional temperature before adding sarcasm. |
-| I. Vulnerable refusal / emotional limit | 925–926, 963 (00:29:07–00:30:10) | “Чи намайг дүр эсгээд чиний хань болохыг хүсэж байна уу?” / “Ингэж болохгүй.” | Painful boundary, not necessarily anger. Keep the line human and controlled. |
+| I. Disgusted, decisive refusal | 925–926, 963 (00:29:07–00:30:10) | “Чи намайг дүр эсгээд чиний хань болохыг хүсэж байна уу?” / “Ингэж болохгүй.” | Disgust with slight, controlled anger; firm and decisive, without shouting or aggression. |
 | J. Hopeful resolution / cautious warmth | 1203–1205 (00:37:24–00:37:28) | “Тохирлоо. Гэхдээ энэ удаа бид хоёулаа аз жаргалтай болно.” | Gentle resolve and cautious optimism; avoid turning it into an overly bright or theatrical happy voice. |
 
 ## 4. Recommended validation order — no new TTS yet
@@ -157,3 +157,18 @@ Production direction:
 - The emotional color is disgust, with a restrained trace of anger.
 - Do not recast this as quiet sadness, wounded vulnerability, or purely calm refusal.
 - Keep the anger slight and controlled; do not escalate into shouting or an aggressive outburst unless the original performance clearly does so.
+
+
+## 17. User-confirmed clarification — group I, cue 963 (2026-11-08)
+
+The user compared cue 963 (approximately 00:30:08–00:30:10) against the original film and confirmed:
+
+- Vivienne speaks with **disgust**.
+- A **slight degree of anger** is audible.
+- Her voice is **decisive and firm**; she states her position with resolve.
+
+Production direction:
+- Preserve the combination of disgust, slight controlled anger, and decisiveness.
+- Do not soften the line into sadness or a merely vulnerable refusal.
+- Do not exaggerate the anger into shouting or aggression.
+- Keep the delivery natural and faithful to the original performance.
