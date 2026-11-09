@@ -89,60 +89,83 @@ def load_clips(manifest_path: Path, audio_dir: Path, duration: float) -> list[di
     return sorted(prepared, key=lambda clip: (clip["start"], clip["cue_id"]))
 
 
-def build_command(
+def run_ffmpeg(command: list[str]) -> None:
+    result = subprocess.run(command, check=False)
+    if result.returncode != 0:
+        raise RuntimeError(f"FFmpeg exited with code {result.returncode}.")
+
+
+def render_audio_batch(
     ffmpeg: str,
-    video: Path,
     clips: list[dict[str, Any]],
-    output: Path,
+    batch_output: Path,
     duration: float,
-    filter_script: Path,
-) -> list[str]:
-    command = [ffmpeg, "-hide_banner", "-y", "-i", str(video)]
-    filter_lines: list[str] = []
+) -> None:
+    """Render a small batch; absolute timeline delays are retained in every batch."""
+    command = [ffmpeg, "-hide_banner", "-y"]
+    filters: list[str] = []
     labels: list[str] = []
 
     for index, clip in enumerate(clips):
         command.extend(["-i", str(clip["path"])])
         label = f"clip{index}"
         delay_ms = round(clip["start"] * 1000)
-        filter_lines.append(
-            f"[{index + 1}:a]"
+        filters.append(
+            f"[{index}:a]"
             f"aformat=sample_rates=44100:channel_layouts=stereo,"
             f"adelay={delay_ms}:all=1"
             f"[{label}]"
         )
         labels.append(f"[{label}]")
 
-    filter_lines.append(
+    filters.append(
         "".join(labels)
         + f"amix=inputs={len(clips)}:duration=longest:dropout_transition=0:normalize=0,"
         + "alimiter=limit=0.95,"
         + f"atrim=duration={duration:g},asetpts=PTS-STARTPTS[mix]"
     )
-    filter_script.write_text(";\n".join(filter_lines) + "\n", encoding="utf-8")
-
     command.extend(
         [
-            "-filter_complex_script",
-            str(filter_script),
-            "-map",
-            "0:v:0",
-            "-map",
-            "[mix]",
-            "-t",
-            str(duration),
-            "-c:v",
-            "copy",
-            "-c:a",
-            "aac",
-            "-b:a",
-            "192k",
-            "-ar",
-            "44100",
-            "-ac",
-            "2",
-            "-movflags",
-            "+faststart",
+            "-filter_complex", ";".join(filters),
+            "-map", "[mix]",
+            "-t", str(duration),
+            "-c:a", "aac", "-b:a", "192k",
+            "-ar", "44100", "-ac", "2",
+            "-movflags", "+faststart",
+            str(batch_output),
+        ]
+    )
+    run_ffmpeg(command)
+
+
+def build_final_command(
+    ffmpeg: str,
+    video: Path,
+    batch_files: list[Path],
+    output: Path,
+    duration: float,
+) -> list[str]:
+    """Mix temporary batch tracks with video; source audio is deliberately unmapped."""
+    command = [ffmpeg, "-hide_banner", "-y", "-i", str(video)]
+    for batch_file in batch_files:
+        command.extend(["-i", str(batch_file)])
+
+    labels = "".join(f"[{index + 1}:a]" for index in range(len(batch_files)))
+    graph = (
+        labels
+        + f"amix=inputs={len(batch_files)}:duration=longest:dropout_transition=0:normalize=0,"
+        + "alimiter=limit=0.95,"
+        + f"atrim=duration={duration:g},asetpts=PTS-STARTPTS[mix]"
+    )
+    command.extend(
+        [
+            "-filter_complex", graph,
+            "-map", "0:v:0", "-map", "[mix]",
+            "-t", str(duration),
+            "-c:v", "copy",
+            "-c:a", "aac", "-b:a", "192k",
+            "-ar", "44100", "-ac", "2",
+            "-movflags", "+faststart",
             str(output),
         ]
     )
@@ -193,27 +216,43 @@ def main() -> int:
         output.parent.mkdir(parents=True, exist_ok=True)
 
         with tempfile.TemporaryDirectory(prefix="vivienne_preview_") as temp_dir:
-            filter_script = Path(temp_dir) / "audio_mix_filter.txt"
-            command = build_command(
-                ffmpeg, video, clips, output, args.duration, filter_script
-            )
+            temp_path = Path(temp_dir)
+            temporary_output = temp_path / "preview_output.mp4"
+            batch_size = 20
+            batches = [
+                clips[index:index + batch_size]
+                for index in range(0, len(clips), batch_size)
+            ]
+            batch_files: list[Path] = []
+
             print(f"Source video : {video}")
             print(f"Audio folder : {audio_dir}")
             print(f"Manifest     : {manifest}")
             print(f"Existing MP3 : {len(clips)}")
             print(f"Duration     : {args.duration:g} seconds")
+            print(f"Audio batches: {len(batches)} (up to {batch_size} clips each)")
             print("Source audio : excluded")
             print("Video stream : copied (not re-encoded)")
             print("Overlaps     : mixed, not truncated")
-            print("\nStarting FFmpeg...")
+            print("\nRendering audio batches...")
 
-            result = subprocess.run(command, check=False)
-            if result.returncode != 0:
-                print(
-                    f"ERROR: FFmpeg exited with code {result.returncode}.",
-                    file=sys.stderr,
+            for batch_number, batch in enumerate(batches, start=1):
+                batch_output = temp_path / f"vivienne_batch_{batch_number:02d}.m4a"
+                print(f"  Batch {batch_number}/{len(batches)}: {len(batch)} clips")
+                render_audio_batch(ffmpeg, batch, batch_output, args.duration)
+                batch_files.append(batch_output)
+
+            print("\nCombining batches with source video...")
+            run_ffmpeg(
+                build_final_command(
+                    ffmpeg, video, batch_files, temporary_output, args.duration
                 )
-                return result.returncode or 1
+            )
+
+            if not temporary_output.is_file() or temporary_output.stat().st_size == 0:
+                raise RuntimeError("FFmpeg completed but the temporary output is missing or empty.")
+            # Move into place only after the complete MP4 has been produced successfully.
+            shutil.move(str(temporary_output), str(output))
 
         if not output.is_file() or output.stat().st_size == 0:
             print("ERROR: FFmpeg returned success but output is missing/empty.", file=sys.stderr)
