@@ -239,61 +239,87 @@ def main():
         print("\n[4/7] Starting Gemini Agentic Video Analysis", flush=True)
         print(f"  Model: {model}", flush=True)
         print("  Task: inspect the timeline, identify voices, transcribe utterances, and track continuity.", flush=True)
-        interaction = client.interactions.create(
-            model=model,
-            input=[
-                {
-                    "type": "video",
-                    "uri": uploaded.uri,
-                    "mime_type": getattr(uploaded, "mime_type", None) or "video/mp4",
-                    "processing": "agentic",
-                },
-                {"type": "text", "text": PROMPT},
-            ],
-            background=True,
-        )
+        interaction_input = [
+            {
+                "type": "video",
+                "uri": uploaded.uri,
+                "mime_type": getattr(uploaded, "mime_type", None) or "video/mp4",
+                "processing": "agentic",
+            },
+            {"type": "text", "text": PROMPT},
+        ]
+        try:
+            interaction = client.interactions.create(
+                model=model,
+                input=interaction_input,
+                background=True,
+            )
+            background_mode = True
+        except Exception as background_error:
+            # Some model/API combinations may not accept background execution.
+            # Fall back to a synchronous request, but keep the console alive with
+            # an elapsed-time heartbeat instead of appearing frozen.
+            print(
+                f"  Background mode unavailable ({background_error}). "
+                "Falling back to monitored synchronous mode.",
+                flush=True,
+            )
+            interaction = run_with_heartbeat(
+                "  Gemini is running Agentic Analysis synchronously...",
+                lambda: client.interactions.create(
+                    model=model,
+                    input=interaction_input,
+                ),
+                interval=a.poll_interval,
+            )
+            background_mode = False
+
         interaction_id = getattr(interaction, "id", None)
-        if not interaction_id:
-            raise RuntimeError("Gemini did not return an interaction ID.")
-        print(f"  Background analysis started. Interaction ID: {interaction_id}", flush=True)
+        if not interaction_id and not getattr(interaction, "output_text", None):
+            raise RuntimeError("Gemini returned neither an interaction ID nor output_text.")
+        if background_mode:
+            print(f"  Background analysis started. Interaction ID: {interaction_id}", flush=True)
 
         print("\n[5/7] Monitoring Agentic Analysis", flush=True)
-        analysis_started = time.monotonic()
-        analysis_deadline = analysis_started + a.analysis_timeout
-        last_status = None
-        while True:
-            interaction = client.interactions.get(id=interaction_id)
-            status = str(getattr(interaction, "status", "unknown")).lower()
-            elapsed = time.monotonic() - analysis_started
+        if background_mode and not getattr(interaction, "output_text", None):
+            analysis_started = time.monotonic()
+            analysis_deadline = analysis_started + a.analysis_timeout
+            last_status = None
+            while True:
+                interaction = client.interactions.get(id=interaction_id)
+                status = str(getattr(interaction, "status", "unknown")).lower()
+                elapsed = time.monotonic() - analysis_started
 
-            if status == "completed":
-                print(
-                    f"  Agentic Analysis completed | elapsed {elapsed_text(elapsed)}",
-                    flush=True,
-                )
-                break
-            if status in {"failed", "cancelled", "canceled", "requires_action"}:
-                detail = getattr(interaction, "error", None)
-                raise RuntimeError(
-                    f"Agentic Analysis ended with status '{status}': "
-                    f"{detail or 'No additional error details'}"
-                )
-            if time.monotonic() >= analysis_deadline:
-                raise TimeoutError(
-                    f"Agentic Analysis timed out after {elapsed_text(elapsed)}. "
-                    f"Interaction ID: {interaction_id}"
-                )
-            if status != last_status:
-                print(f"  Analysis status: {status} | elapsed {elapsed_text(elapsed)}", flush=True)
-                last_status = status
-            else:
-                print(
-                    f"  Gemini is still analyzing the video | status={status} "
-                    f"| elapsed {elapsed_text(elapsed)} "
-                    f"| next update in {a.poll_interval:g}s",
-                    flush=True,
-                )
-            time.sleep(a.poll_interval)
+                if status == "completed":
+                    print(
+                        f"  Agentic Analysis completed | elapsed {elapsed_text(elapsed)}",
+                        flush=True,
+                    )
+                    break
+                if status in {"failed", "cancelled", "canceled", "requires_action"}:
+                    detail = getattr(interaction, "error", None)
+                    raise RuntimeError(
+                        f"Agentic Analysis ended with status '{status}': "
+                        f"{detail or 'No additional error details'}"
+                    )
+                if time.monotonic() >= analysis_deadline:
+                    raise TimeoutError(
+                        f"Agentic Analysis timed out after {elapsed_text(elapsed)}. "
+                        f"Interaction ID: {interaction_id}"
+                    )
+                if status != last_status:
+                    print(f"  Analysis status: {status} | elapsed {elapsed_text(elapsed)}", flush=True)
+                    last_status = status
+                else:
+                    print(
+                        f"  Gemini is still analyzing the video | status={status} "
+                        f"| elapsed {elapsed_text(elapsed)} "
+                        f"| next update in {a.poll_interval:g}s",
+                        flush=True,
+                    )
+                time.sleep(a.poll_interval)
+        else:
+            print("  Synchronous Agentic Analysis returned its result.", flush=True)
 
         print("\n[6/7] Retrieving and validating Gemini's result", flush=True)
         raw = getattr(interaction, "output_text", None)
