@@ -287,7 +287,12 @@ def main():
             last_status = None
             while True:
                 interaction = client.interactions.get(id=interaction_id)
-                status = str(getattr(interaction, "status", "unknown")).lower()
+                status_value = getattr(interaction, "status", "unknown")
+                status = str(
+                    getattr(status_value, "value", None)
+                    or getattr(status_value, "name", None)
+                    or status_value
+                ).lower()
                 elapsed = time.monotonic() - analysis_started
 
                 if status == "completed":
