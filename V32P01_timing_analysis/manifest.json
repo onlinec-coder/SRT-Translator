@@ -1,0 +1,255 @@
+{
+  "pilot": {
+    "film_window": "00:00:09.200–00:00:57.500",
+    "purpose": "Test V3.2-informed emotion and delivery direction, connected-utterance grouping, natural Mongolian intelligibility, and timing before expanding to the full 10-minute Vivienne track.",
+    "tts_request_count": 13,
+    "speaker_id": "C001",
+    "speaker_name": "Vivienne",
+    "voice_id": "6Km4T9TrZXIhfMaxglHw",
+    "model_id": "eleven_v3",
+    "output_format": "mp3_44100_128",
+    "voice_settings": "Use existing saved voice settings unchanged; no numerical overrides."
+  },
+  "voice_name": "Vivienne",
+  "preparation_file": "acoustic_comparison_6_results_v2/VIVIENNE_V3_2_PILOT_01_PREP.json",
+  "generation_confirmation": "GENERATE V32P01",
+  "clips": [
+    {
+      "sequence": 1,
+      "clip_id": "V32P01_CUE_0001",
+      "cue_ids": [
+        1
+      ],
+      "utterance_ids": [
+        "UTT_00001"
+      ],
+      "source_time": "00:00:09,200 --> 00:00:11,200",
+      "target_window_ms": 2000,
+      "tts_text": "Гурав дахь аяганы амт ялзарсан зүйл шиг байлаа.",
+      "delivery_class": "disgust_reflective",
+      "delivery_direction": "Clear, reflective inner voice. Keep the texture neutral and measured; convey the unpleasant realization subtly, without theatrical disgust.",
+      "status": "generated",
+      "bytes": 46018,
+      "duration_seconds": 2.8
+    },
+    {
+      "sequence": 2,
+      "clip_id": "V32P01_CUE_0002",
+      "cue_ids": [
+        2
+      ],
+      "utterance_ids": [
+        "UTT_00002"
+      ],
+      "source_time": "00:00:11,400 --> 00:00:13,200",
+      "target_window_ms": 1800,
+      "tts_text": "Би гараа мэдрэхээ больчихсон байв.",
+      "delivery_class": "fear_breathless",
+      "delivery_direction": "Measured inner voice with slight breathiness and restrained panic. Keep every Mongolian word clear; do not whisper or overact.",
+      "status": "generated",
+      "bytes": 33061,
+      "duration_seconds": 2.0
+    },
+    {
+      "sequence": 3,
+      "clip_id": "V32P01_CUE_0003",
+      "cue_ids": [
+        3
+      ],
+      "utterance_ids": [
+        "UTT_00003"
+      ],
+      "source_time": "00:00:13,791 --> 00:00:16,000",
+      "target_window_ms": 2209,
+      "tts_text": "Чонын хор аль хэдийн цээжинд минь хүрчээ.",
+      "delivery_class": "fear_strained",
+      "delivery_direction": "Restrained strained inner voice reflecting physical pain. Keep pace measured and articulation clean; no exaggerated gasping.",
+      "status": "generated",
+      "bytes": 38077,
+      "duration_seconds": 2.32
+    },
+    {
+      "sequence": 4,
+      "clip_id": "V32P01_CUES_0004_0005",
+      "cue_ids": [
+        4,
+        5
+      ],
+      "utterance_ids": [
+        "UTT_00004"
+      ],
+      "source_time": "00:00:16,200 --> 00:00:18,800",
+      "target_window_ms": 2600,
+      "tts_text": "Лусиан орны хөлд зогсоод амьсгал хураахыг минь харж байлаа.",
+      "delivery_class": "quiet_resentment",
+      "delivery_direction": "Quiet resentment in Vivienne's inner narration. One connected sentence across both subtitle cues; avoid an artificial pause at the cue boundary.",
+      "status": "generated",
+      "bytes": 49780,
+      "duration_seconds": 3.04
+    },
+    {
+      "sequence": 5,
+      "clip_id": "V32P01_CUES_0009_0010",
+      "cue_ids": [
+        9,
+        10
+      ],
+      "utterance_ids": [
+        "UTT_00006"
+      ],
+      "source_time": "00:00:22,000 --> 00:00:24,600",
+      "target_window_ms": 2600,
+      "tts_text": "Би юм хэлэхийг оролдсон ч амнаас минь ганц ч үг гарсангүй.",
+      "delivery_class": "fear_breathless",
+      "delivery_direction": "One connected breathless inner thought. Preserve a natural slight hesitation after 'ч' if needed, but do not split it into two unrelated statements.",
+      "status": "generated",
+      "bytes": 61065,
+      "duration_seconds": 3.76
+    },
+    {
+      "sequence": 6,
+      "clip_id": "V32P01_CUE_0013",
+      "cue_ids": [
+        13
+      ],
+      "utterance_ids": [
+        "UTT_00008"
+      ],
+      "source_time": "00:00:29,541 --> 00:00:30,800",
+      "target_window_ms": 1259,
+      "tts_text": "Түүний хоолой огт чичирсэнгүй.",
+      "delivery_class": "bitter_inner_reflection",
+      "delivery_direction": "Bitter inner reflection, restrained and matter-of-fact. Avoid audible anger; keep the line compact and natural.",
+      "status": "generated",
+      "bytes": 38077,
+      "duration_seconds": 2.32
+    },
+    {
+      "sequence": 7,
+      "clip_id": "V32P01_CUE_0017",
+      "cue_ids": [
+        17
+      ],
+      "utterance_ids": [
+        "UTT_00010"
+      ],
+      "source_time": "00:00:36,000 --> 00:00:37,374",
+      "target_window_ms": 1374,
+      "tts_text": "Би орилмоор байлаа.",
+      "delivery_class": "neutral_natural_user_confirmed",
+      "delivery_direction": "User-confirmed ordinary, natural Vivienne inner voice. No added dramatic anger, shouting, or strained acting.",
+      "status": "generated",
+      "bytes": 17597,
+      "duration_seconds": 1.04
+    },
+    {
+      "sequence": 8,
+      "clip_id": "V32P01_CUE_0018",
+      "cue_ids": [
+        18
+      ],
+      "utterance_ids": [
+        "UTT_00011"
+      ],
+      "source_time": "00:00:37,500 --> 00:00:39,166",
+      "target_window_ms": 1666,
+      "tts_text": "Түүнийг тасчин хаямаар байлаа.",
+      "delivery_class": "neutral_natural_user_confirmed",
+      "delivery_direction": "User-confirmed ordinary, natural Vivienne inner voice. Do not inject rage or theatrical intensity despite the subtitle wording.",
+      "status": "generated",
+      "bytes": 31807,
+      "duration_seconds": 1.92
+    },
+    {
+      "sequence": 9,
+      "clip_id": "V32P01_CUE_0019",
+      "cue_ids": [
+        19
+      ],
+      "utterance_ids": [
+        "UTT_00012"
+      ],
+      "source_time": "00:00:39,200 --> 00:00:41,000",
+      "target_window_ms": 1800,
+      "tts_text": "Гэвч миний бие аль хэдийн амьгүй болж байв.",
+      "delivery_class": "neutral_natural_user_confirmed",
+      "delivery_direction": "User-confirmed ordinary, natural Vivienne inner voice. Keep the delivery calm and intelligible; do not add defeated sadness or breathless drama.",
+      "status": "generated",
+      "bytes": 41838,
+      "duration_seconds": 2.56
+    },
+    {
+      "sequence": 10,
+      "clip_id": "V32P01_CUE_0021",
+      "cue_ids": [
+        21
+      ],
+      "utterance_ids": [
+        "UTT_00014"
+      ],
+      "source_time": "00:00:45,600 --> 00:00:47,166",
+      "target_window_ms": 1566,
+      "tts_text": "Тэр хоосон аягыг ширээн дээр тавив.",
+      "delivery_class": "matter_of_fact_narration",
+      "delivery_direction": "Matter-of-fact narration in Vivienne's normal voice. Measured, clear, and unforced.",
+      "status": "generated",
+      "bytes": 30554,
+      "duration_seconds": 1.84
+    },
+    {
+      "sequence": 11,
+      "clip_id": "V32P01_CUE_0023",
+      "cue_ids": [
+        23
+      ],
+      "utterance_ids": [
+        "UTT_00016"
+      ],
+      "source_time": "00:00:48,600 --> 00:00:49,800",
+      "target_window_ms": 1200,
+      "tts_text": "Зүрхний минь цохилт удааширлаа.",
+      "delivery_class": "fading_fear",
+      "delivery_direction": "Soft, fading inner voice with a slightly slower pace. Keep the words understandable; avoid a melodramatic fade or trailing off too early.",
+      "status": "generated",
+      "bytes": 33061,
+      "duration_seconds": 2.0
+    },
+    {
+      "sequence": 12,
+      "clip_id": "V32P01_CUE_0024",
+      "cue_ids": [
+        24
+      ],
+      "utterance_ids": [
+        "UTT_00017"
+      ],
+      "source_time": "00:00:50,600 --> 00:00:51,400",
+      "target_window_ms": 800,
+      "tts_text": "Тэгээд бүх зүйл тасрав.",
+      "delivery_class": "quiet_flat",
+      "delivery_direction": "Quiet, flat, concise delivery. Preserve a natural sentence ending; do not force a dramatic whisper.",
+      "status": "generated",
+      "bytes": 31807,
+      "duration_seconds": 1.92
+    },
+    {
+      "sequence": 13,
+      "clip_id": "V32P01_CUES_0025_0026",
+      "cue_ids": [
+        25,
+        26
+      ],
+      "utterance_ids": [
+        "UTT_00018"
+      ],
+      "source_time": "00:00:52,791 --> 00:00:57,000",
+      "target_window_ms": 4209,
+      "tts_text": "Би нүдээ нээхэд ээжийнхээ Коулдвелл эдлэн дэх зочны өрөөнд байлаа.",
+      "delivery_class": "surprised_awakening",
+      "delivery_direction": "A sudden but natural awakening: mild surprise and uncertainty, with a slight lift in energy. Keep the Mongolian place name clear and do not overplay shock.",
+      "status": "generated",
+      "bytes": 72767,
+      "duration_seconds": 4.48
+    }
+  ]
+}
