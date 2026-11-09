@@ -190,6 +190,35 @@ def get_interaction_status(interaction):
     return str(getattr(value, "value", None) or getattr(value, "name", None) or value).lower()
 
 
+def interaction_debug_details(interaction):
+    """Return useful provider diagnostics without assuming one SDK response shape."""
+    details = {}
+    for name in ("error", "failure", "message", "status", "id", "model"):
+        value = getattr(interaction, name, None)
+        if value is not None:
+            details[name] = str(value)
+    for method_name in ("model_dump", "to_dict"):
+        method = getattr(interaction, method_name, None)
+        if callable(method):
+            try:
+                payload = method(mode="json") if method_name == "model_dump" else method()
+                if isinstance(payload, dict):
+                    details["response_payload"] = payload
+                    break
+            except Exception as exc:
+                details[f"{method_name}_error"] = repr(exc)
+    if "response_payload" not in details:
+        raw_dict = getattr(interaction, "__dict__", None)
+        if isinstance(raw_dict, dict):
+            details["response_payload"] = {
+                str(key): str(value)[:2000] for key, value in raw_dict.items()
+                if not str(key).startswith("_")
+            }
+    if not details:
+        details["response_repr"] = repr(interaction)[:8000]
+    return details
+
+
 def get_media_tools():
     ffmpeg = shutil.which("ffmpeg") or (str(Path("ffmpeg.exe").resolve()) if Path("ffmpeg.exe").exists() else None)
     ffprobe = shutil.which("ffprobe") or (str(Path("ffprobe.exe").resolve()) if Path("ffprobe.exe").exists() else None)
@@ -306,7 +335,13 @@ def run_agentic_for_chunk(client, source, model, prompt, args, chunk_index, tota
                     print(f"    Analysis completed | {elapsed_text(elapsed)}", flush=True)
                     break
                 if status in {"failed", "cancelled", "canceled", "requires_action"}:
-                    raise RuntimeError(f"Agentic Analysis status={status}; error={getattr(interaction, 'error', None)}")
+                    details = interaction_debug_details(interaction)
+                    print("    Gemini interaction failure details:", flush=True)
+                    print(json.dumps(details, ensure_ascii=False, indent=2, default=str), flush=True)
+                    raise RuntimeError(
+                        f"Agentic Analysis status={status}; "
+                        f"details={json.dumps(details, ensure_ascii=False, default=str)}"
+                    )
                 if elapsed >= args.analysis_timeout:
                     raise TimeoutError(f"Agentic Analysis timed out after {elapsed_text(elapsed)}")
                 if status != last_status:
