@@ -563,8 +563,11 @@ def main():
                     )
                     break
                 except RuntimeError as error:
-                    is_internal = '"code": "INTERNAL"' in str(error) or
-                                  '"code":"INTERNAL"' in str(error)
+                    error_text = str(error)
+                    is_internal = (
+                        '"code": "INTERNAL"' in error_text
+                        or '"code":"INTERNAL"' in error_text
+                    )
                     if not is_internal or attempt >= args.internal_retries:
                         raise
                     attempt += 1
