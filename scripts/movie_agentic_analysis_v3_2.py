@@ -493,6 +493,10 @@ def run_quality_checks(report, known_character_ids):
         "invalid_character_ids": 0,
         "missing_speaker_references": 0,
         "missing_scene_references": 0,
+        "invalid_emotion_labels": 0,
+        "invalid_utterance_notes_shape": 0,
+        "invalid_utterance_questions_shape": 0,
+        "invalid_audio_event_timestamps": 0,
     }
     for item in utterances:
         uid = item.get("utterance_id", "UNKNOWN")
@@ -519,12 +523,35 @@ def run_quality_checks(report, known_character_ids):
         elif char_id and speaker.get("character_id") and char_id != speaker.get("character_id"):
             counts["speaker_character_mismatches"] += 1
             warnings.append(f"{uid}: utterance character_id {char_id} conflicts with speaker profile {speaker_id} ({speaker.get('character_id')}); review identity.")
+        emotion = item.get("emotion")
+        allowed_emotions = {"neutral", "sadness", "anger", "fear", "joy", "disgust",
+                            "surprise", "affection", "embarrassment", "confidence",
+                            "uncertainty", "sarcasm", "suspense", "frustration",
+                            "regret", "determination"}
+        if not isinstance(emotion, dict) or emotion.get("primary") not in allowed_emotions:
+            counts["invalid_emotion_labels"] += 1
+            warnings.append(f"{uid}: emotion.primary is not in the V3.2 controlled vocabulary.")
+        if not isinstance(item.get("localization_notes"), list) or any(
+            not isinstance(x, dict) for x in item.get("localization_notes", [])
+        ):
+            counts["invalid_utterance_notes_shape"] += 1
+            warnings.append(f"{uid}: localization_notes must be an array of objects.")
+        if not isinstance(item.get("unresolved_questions"), list) or any(
+            not isinstance(x, dict) for x in item.get("unresolved_questions", [])
+        ):
+            counts["invalid_utterance_questions_shape"] += 1
+            warnings.append(f"{uid}: unresolved_questions must be an array of objects.")
         visual = item.get("visual_context")
         if not isinstance(visual, dict) or not visual.get("scene_id"):
             counts["missing_visual_context"] += 1
         elif visual.get("scene_id") not in scene_ids:
             counts["missing_scene_references"] += 1
             warnings.append(f"{uid}: visual_context references a scene absent from the report.")
+    for event in report.get("audio_events", []):
+        start, end = event.get("start_time"), event.get("end_time")
+        if not isinstance(start, (int, float)) or not isinstance(end, (int, float)) or end < start:
+            counts["invalid_audio_event_timestamps"] += 1
+            warnings.append(f"{event.get('event_id', 'AUDIO_EVENT')}: invalid audio-event timestamps.")
     report["quality_checks"]["summary"] = counts
     report["quality_checks"]["warnings"] = list(dict.fromkeys(warnings))
     return report
