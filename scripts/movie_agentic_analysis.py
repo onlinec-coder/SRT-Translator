@@ -40,6 +40,8 @@ def main():
     a = p.parse_args()
     video = a.video.resolve()
     output = a.output.resolve()
+    if a.start < 0 or (a.duration is not None and a.duration <= 0):
+        raise SystemExit("--start must be >= 0 and --duration must be > 0.")
     if not video.is_file():
         raise SystemExit(f"Video not found: {video}")
     if output.exists() and not a.overwrite:
