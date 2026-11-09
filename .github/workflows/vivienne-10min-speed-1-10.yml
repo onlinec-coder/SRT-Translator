@@ -1,0 +1,50 @@
+name: Vivienne first 10-minute ElevenLabs 1.10x test
+
+on:
+  push:
+    branches:
+      - vivienne-v3-2-pilot-01
+    paths:
+      - acoustic_comparison_6_results_v2/VIVIENNE_10MIN_SPEED_1_10_PREP_V1.json
+
+permissions:
+  contents: read
+
+concurrency:
+  group: vivienne-10min-speed-1-10
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: contains(github.event.head_commit.message, 'AUTHORIZE 10MIN VIVIENNE TTS 214 REQUESTS')
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout approved experiment branch
+        uses: actions/checkout@v4
+        with:
+          ref: vivienne-v3-2-pilot-01
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install ffmpeg for duration QA
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Generate approved 10-minute Vivienne audio
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: python scripts/generate_vivienne_10min_speed_1_10.py
+
+      - name: Upload audio and manifest
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: vivienne-10min-speed-1.10
+          path: vivienne_tts_output/VIVIENNE_10MIN_SPEED_1_10/
+          if-no-files-found: warn
+          retention-days: 14
