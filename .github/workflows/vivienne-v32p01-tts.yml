@@ -1,0 +1,52 @@
+name: Vivienne V3.2 representative pilot — ElevenLabs
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirmation:
+        description: "Type exactly GENERATE V32P01 to authorize up to 13 paid TTS requests"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: vivienne-v32p01-tts
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: ${{ inputs.confirmation == 'GENERATE V32P01' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout pilot branch
+        uses: actions/checkout@v4
+        with:
+          ref: vivienne-v3-2-pilot-01
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install ffmpeg for duration QA
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Generate approved V3.2 pilot clips
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          GENERATE_CONFIRMATION: ${{ inputs.confirmation }}
+        run: python scripts/generate_vivienne_v32_pilot_01.py
+
+      - name: Upload pilot audio and manifest
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: vivienne-V32P01-audio
+          path: vivienne_tts_output/V32P01/
+          if-no-files-found: warn
+          retention-days: 14
