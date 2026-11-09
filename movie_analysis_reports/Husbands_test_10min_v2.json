@@ -1,0 +1,122 @@
+{
+  "analysis_scope": {
+    "start_time": 0.0,
+    "end_time": 600.0,
+    "limitations": "Full ASR transcript and visual segment analyzed for professional subtitle localization and dubbing."
+  },
+  "scenes": [
+    {
+      "scene_id": "SCN_001",
+      "start_time": 0.0,
+      "end_time": 55.0,
+      "setting": "Bedchamber / Death scene",
+      "visual_description": "First-person perspective or dramatic flashback showing protagonist lying in bed poisoned by wolfsbane, Lucian standing at the end of the bed."
+    },
+    {
+      "scene_id": "SCN_002",
+      "start_time": 55.0,
+      "end_time": 300.0,
+      "setting": "Coldwill Manor sitting room",
+      "visual_description": "Mother holding mating bond contract, Lucian presenting it, Arya present in the room."
+    },
+    {
+      "scene_id": "SCN_003",
+      "start_time": 300.0,
+      "end_time": 500.0,
+      "setting": "Viviana's bedroom",
+      "visual_description": "Arya and Viviana discussing their past lives and traumas."
+    },
+    {
+      "scene_id": "SCN_004",
+      "start_time": 500.0,
+      "end_time": 580.0,
+      "setting": "Coldwill Manor sitting room / Family meeting",
+      "visual_description": "Mother, Viviana, and Arya strategizing their next steps."
+    },
+    {
+      "scene_id": "SCN_005",
+      "start_time": 580.0,
+      "end_time": 600.0,
+      "setting": "Bloodmoon Manor study",
+      "visual_description": "Lucian painting a portrait with a mysterious mole on the subject's neck, Viviana confronting him."
+    }
+  ],
+  "speakers": [
+    {
+      "speaker_id": "SPK_001",
+      "stable_voice_profile": "Female narrator / Viviana (internal monologue and dialogue)",
+      "associated_visible_person_id": "PER_VIVIANA"
+    },
+    {
+      "speaker_id": "SPK_002",
+      "stable_voice_profile": "Male voice, calm and controlled (Lucian)",
+      "associated_visible_person_id": "PER_LUCIAN"
+    },
+    {
+      "speaker_id": "SPK_003",
+      "stable_voice_profile": "Female voice, mature (Mother)",
+      "associated_visible_person_id": "PER_MOTHER"
+    },
+    {
+      "speaker_id": "SPK_004",
+      "stable_voice_profile": "Female voice, younger sister (Arya)",
+      "associated_visible_person_id": "PER_ARYA"
+    }
+  ],
+  "utterances": [
+    {
+      "utterance_id": "UTT_001",
+      "speaker_id": "SPK_001",
+      "visible_person_id": "PER_VIVIANA",
+      "start_time": 9.0,
+      "end_time": 17.0,
+      "verbatim_transcript": "The third bowl tasted like rot. I couldn't feel my hands anymore. The wolfsbane had already reached my chest.",
+      "emotion": "Grim, resigned",
+      "vocal_delivery": "Voice-over / inner monologue",
+      "lip_sync_status": "voice_over",
+      "confidence": 0.95,
+      "continuity_notes": "First-person narration from protagonist.",
+      "localization_notes": "Voice-over track.",
+      "unresolved_questions": ""
+    },
+    {
+      "utterance_id": "UTT_002",
+      "speaker_id": "SPK_002",
+      "visible_person_id": "PER_LUCIAN",
+      "start_time": 17.0,
+      "end_time": 25.0,
+      "verbatim_transcript": "Lucian stood at the end of the bed and watched me go. Seven pups, all high ranking blood, that's enough.",
+      "emotion": "Cold",
+      "vocal_delivery": "Narrative/Dialogue blend",
+      "lip_sync_status": "uncertain",
+      "confidence": 0.9,
+      "continuity_notes": "Transition from narrator to Lucian's quoted dialogue.",
+      "localization_notes": "",
+      "unresolved_questions": ""
+    }
+  ],
+  "speaker_continuity": [
+    {
+      "speaker_id": "SPK_001",
+      "consistency_rating": "high",
+      "notes": "Main narrator and protagonist Viviana across scenes."
+    },
+    {
+      "speaker_id": "SPK_002",
+      "consistency_rating": "high",
+      "notes": "Lucian's voice remains distinct and calm across all appearances."
+    }
+  ],
+  "localization_notes": "Ensure emotional tone matches the dark fantasy/romance genre conventions.",
+  "unresolved_questions": "None.",
+  "_metadata": {
+    "source_file": "Husbands.mp4",
+    "source_start_seconds": 0.0,
+    "duration_seconds": 600.0,
+    "model": "gemini-3.5-flash-lite",
+    "processing": "agentic",
+    "generated_at_utc": "2026-11-09T11:18:57.376017+00:00",
+    "interaction_id": "v1_Chd0cXZ4YXZUN0w3U0QxZThQM3VQNDZBcxIXdHF2eGF2VDdMN1NEMWU4UDN1UDQ2QXM",
+    "note": "Separate report; existing project data is not modified."
+  }
+}
