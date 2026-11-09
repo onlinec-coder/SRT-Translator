@@ -28,7 +28,7 @@ TARGET_CLIPS = {
     "V32P01_CUES_0004_0005",
     "V32P01_CUES_0009_0010",
 }
-VARIANTS = ("A_1.10x", "B_1.20x")
+VARIANTS = ("A_1.10x",)
 
 
 def fail(message: str) -> None:
@@ -256,7 +256,7 @@ def main() -> int:
             args.output_dir, original_manifest, speed_manifest,
             ffmpeg, ffprobe, args.cue2_start,
         )
-    print("\nBOTH A/B PREVIEWS BUILT SUCCESSFULLY.")
+    print("\nSELECTED A_1.10x PREVIEW BUILT SUCCESSFULLY.")
     return 0
 
 
