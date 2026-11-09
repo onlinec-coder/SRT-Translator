@@ -48,10 +48,20 @@ localization_notes, unresolved_questions.
 - Include dialogue, narration, inner monologue, off-screen speech, interjections,
   short reactions, and overlapping speech when intelligible.
 - Never merge two different speakers into one utterance. Split at speaker changes.
+- STRICT ATOMIC UTTERANCE RULE: one utterance contains ONE speaker and ONE speech
+  function only. Never combine a character's spoken dialogue with narration or
+  inner monologue, even when the words occur in one continuous audio passage.
+- Split at every speaker change and at every transition between dialogue,
+  narration, and inner_monologue. Attribute each resulting span independently.
+- Prefer sentence-level or naturally complete thought units suitable for dubbing.
+  Flag unusually long spans; do not merge several sentences into one utterance.
 - Keep consecutive lines separate when there is a meaningful pause, speaker change,
-  emotion change, or dubbing-relevant delivery change.
+  speech-role change, emotion change, or dubbing-relevant delivery change.
 - Preserve exact audible wording. Do not use on-screen subtitles as a substitute
   for listening. If a word is unclear, mark only that span as [unclear].
+- Never include visual/action descriptions such as "she looked at me" in a spoken
+  dialogue transcript unless those exact words are audibly spoken; classify narration
+  separately when it is actually heard.
 - Do not invent speech during silence, music, or sound effects.
 - Use utterance-level start_time and end_time in seconds relative to this segment.
   Do not fabricate word-level timestamps.
@@ -76,6 +86,10 @@ localization_notes, unresolved_questions.
 3) EACH UTTERANCE — REQUIRED STRUCTURE
 Every utterance object must contain:
 utterance_id, speaker_id, character_id, character_name, speech_role,
+speech_role MUST be exactly one of: dialogue, narration, inner_monologue.
+Use dialogue for audible character speech, narration for voiced narrative
+description, and inner_monologue for a character's internal thoughts.
+Do not use spoken_dialogue, conversational, or other variants as speech_role.
 start_time, end_time, verbatim_transcript,
 emotion, vocal_delivery, lip_sync, visual_context, dubbing_direction,
 pause_before_ms, pause_after_ms, confidence, continuity_notes,
@@ -129,6 +143,8 @@ dubbing_direction object:
 
 6) CONTINUITY AND UNCERTAINTY
 - speaker_continuity should describe repeated voice evidence WITHIN this segment.
+- Every continuity record must reference the speaker_id used in this chunk's speakers
+  array. Do not refer to speakers from another chunk.
 - Do not claim cross-segment identity; this is a short segment of a longer film.
 - Clearly list unresolved speaker/character/lip-sync/transcription questions.
 - Confidence must reflect evidence, not certainty of the story.
@@ -328,6 +344,77 @@ def offset_time(value, offset):
     return value
 
 
+def normalize_speech_role(value):
+    """Normalize model variants to the project's three canonical speech roles."""
+    if not isinstance(value, str):
+        return "unknown"
+    role = value.strip().lower().replace("-", "_").replace(" ", "_")
+    aliases = {
+        "spoken_dialogue": "dialogue",
+        "character_dialogue": "dialogue",
+        "speech": "dialogue",
+        "voiceover_narration": "narration",
+        "voice_over_narration": "narration",
+        "internal_monologue": "inner_monologue",
+        "inner_thought": "inner_monologue",
+        "thought": "inner_monologue",
+    }
+    role = aliases.get(role, role)
+    return role if role in {"dialogue", "narration", "inner_monologue"} else "unknown"
+
+
+def run_quality_checks(report, known_character_ids):
+    """Add deterministic structural warnings without rewriting uncertain content."""
+    warnings = report.setdefault("quality_checks", {}).setdefault("warnings", [])
+    utterances = report.get("utterances", [])
+    speakers = {item.get("speaker_id"): item for item in report.get("speakers", [])}
+    scene_ids = {item.get("scene_id") for item in report.get("scenes", [])}
+    counts = {
+        "long_utterances_over_8_seconds": 0,
+        "unknown_speech_roles": 0,
+        "missing_visual_context": 0,
+        "speaker_character_mismatches": 0,
+        "invalid_timestamps": 0,
+        "invalid_character_ids": 0,
+        "missing_speaker_references": 0,
+        "missing_scene_references": 0,
+    }
+    for item in utterances:
+        uid = item.get("utterance_id", "UNKNOWN")
+        start, end = item.get("start_time"), item.get("end_time")
+        if not isinstance(start, (int, float)) or not isinstance(end, (int, float)) or end <= start:
+            counts["invalid_timestamps"] += 1
+            warnings.append(f"{uid}: invalid or reversed utterance timestamps.")
+        elif end - start > 8:
+            counts["long_utterances_over_8_seconds"] += 1
+            warnings.append(f"{uid}: utterance lasts {end - start:.1f}s; review whether it contains multiple dubbing units.")
+        role = item.get("speech_role")
+        if role not in {"dialogue", "narration", "inner_monologue"}:
+            counts["unknown_speech_roles"] += 1
+            warnings.append(f"{uid}: non-canonical speech_role={role!r}; manual role review required.")
+        char_id = item.get("character_id")
+        if char_id and char_id not in known_character_ids:
+            counts["invalid_character_ids"] += 1
+            warnings.append(f"{uid}: character_id {char_id!r} is not in the character catalogue.")
+        speaker_id = item.get("speaker_id")
+        speaker = speakers.get(speaker_id)
+        if not speaker:
+            counts["missing_speaker_references"] += 1
+            warnings.append(f"{uid}: speaker_id {speaker_id!r} has no matching report speaker.")
+        elif char_id and speaker.get("character_id") and char_id != speaker.get("character_id"):
+            counts["speaker_character_mismatches"] += 1
+            warnings.append(f"{uid}: utterance character_id {char_id} conflicts with speaker profile {speaker_id} ({speaker.get('character_id')}); review identity.")
+        visual = item.get("visual_context")
+        if not isinstance(visual, dict) or not visual.get("scene_id"):
+            counts["missing_visual_context"] += 1
+        elif visual.get("scene_id") not in scene_ids:
+            counts["missing_scene_references"] += 1
+            warnings.append(f"{uid}: visual_context references a scene absent from the report.")
+    report["quality_checks"]["summary"] = counts
+    report["quality_checks"]["warnings"] = list(dict.fromkeys(warnings))
+    return report
+
+
 def main():
     parser = argparse.ArgumentParser(description="Chunked Gemini Agentic audiovisual analysis for dubbing metadata.")
     parser.add_argument("video", type=Path)
@@ -378,7 +465,7 @@ def main():
         chunks.append((cursor, length))
         cursor += length
 
-    print("\nGEMINI AGENTIC VIDEO ANALYSIS — V3", flush=True)
+    print("\nGEMINI AGENTIC VIDEO ANALYSIS — V3.1", flush=True)
     print(f"Video: {video.name} | Model: {model}", flush=True)
     print(f"Requested range: {args.start:.2f}s–{requested_end:.2f}s ({total_duration:.1f}s)", flush=True)
     print(f"Chunk size: {chunk_length:.1f}s | Total chunks: {len(chunks)}", flush=True)
@@ -444,6 +531,7 @@ def main():
                 report["scenes"].append(scene)
 
             local_speaker_map = {}
+            local_speaker_details = {}
             for speaker in data["speakers"]:
                 local_id = speaker.get("speaker_id") or f"SPK_LOCAL_{index}_{len(local_speaker_map)+1}"
                 character_id = speaker.get("character_id")
@@ -460,21 +548,52 @@ def main():
                         speaker_copy = dict(speaker)
                         speaker_copy["speaker_id"] = global_id
                         speaker_copy["segment_speaker_ids"] = [local_id]
+                        speaker_copy["segment_occurrences"] = [{
+                            "chunk_index": index, "chunk_start": chunk_start,
+                            "chunk_end": chunk_start + chunk_length_actual,
+                            "segment_speaker_id": local_id,
+                        }]
                         report["speakers"].append(speaker_copy)
                     else:
                         global_id = speaker_by_character[character_id]
                         existing = next(x for x in report["speakers"] if x["speaker_id"] == global_id)
                         if local_id not in existing["segment_speaker_ids"]:
                             existing["segment_speaker_ids"].append(local_id)
+                        existing.setdefault("segment_occurrences", []).append({
+                            "chunk_index": index, "chunk_start": chunk_start,
+                            "chunk_end": chunk_start + chunk_length_actual,
+                            "segment_speaker_id": local_id,
+                        })
                     local_speaker_map[local_id] = global_id
+                    local_speaker_details[local_id] = {
+                        "global_speaker_id": global_id,
+                        "character_id": character_id,
+                        "character_name": speaker.get("character_name"),
+                    }
                 else:
                     speaker_counter += 1
                     global_id = f"SPK_{speaker_counter:03d}"
                     speaker_copy = dict(speaker)
                     speaker_copy["speaker_id"] = global_id
                     speaker_copy["segment_speaker_ids"] = [local_id]
+                    speaker_copy["segment_occurrences"] = [{
+                        "chunk_index": index, "chunk_start": chunk_start,
+                        "chunk_end": chunk_start + chunk_length_actual,
+                        "segment_speaker_id": local_id,
+                    }]
                     report["speakers"].append(speaker_copy)
                     local_speaker_map[local_id] = global_id
+                    local_speaker_details[local_id] = {
+                        "global_speaker_id": global_id,
+                        "character_id": None,
+                        "character_name": None,
+                    }
+
+            scene_id_map = {
+                scene.get("segment_scene_id"): scene.get("scene_id")
+                for scene in report["scenes"]
+                if chunk_start <= scene.get("start_time", -1) < chunk_start + chunk_length_actual + 0.001
+            }
 
             for utterance in data["utterances"]:
                 utterance_counter += 1
@@ -483,22 +602,44 @@ def main():
                     utterance["character_id"] = None
                     utterance["character_name"] = None
                 utterance["segment_speaker_id"] = local_id
-                utterance["speaker_id"] = local_speaker_map.get(local_id, None)
+                utterance["speaker_id"] = local_speaker_map.get(local_id)
+                utterance["chunk_index"] = index
+                utterance["chunk_start"] = chunk_start
+                utterance["chunk_end"] = chunk_start + chunk_length_actual
                 utterance["utterance_id"] = f"UTT_{utterance_counter:05d}"
+                utterance["speech_role_raw"] = utterance.get("speech_role")
+                utterance["speech_role"] = normalize_speech_role(utterance.get("speech_role"))
                 utterance["start_time"] = offset_time(utterance.get("start_time"), chunk_start)
                 utterance["end_time"] = offset_time(utterance.get("end_time"), chunk_start)
                 if isinstance(utterance.get("visual_context"), dict):
                     local_scene_id = utterance["visual_context"].get("scene_id")
-                    mapped = next((s["scene_id"] for s in report["scenes"]
-                                   if s.get("segment_scene_id") == local_scene_id
-                                   and s.get("start_time", 0) >= chunk_start), None)
-                    utterance["visual_context"]["scene_id"] = mapped
+                    utterance["visual_context"]["segment_scene_id"] = local_scene_id
+                    utterance["visual_context"]["scene_id"] = scene_id_map.get(local_scene_id)
+                if local_id not in local_speaker_map:
+                    utterance.setdefault("unresolved_questions", [])
+                    if isinstance(utterance["unresolved_questions"], list):
+                        utterance["unresolved_questions"].append(
+                            f"Speaker {local_id!r} was not declared in this chunk's speakers array."
+                        )
+                else:
+                    detail = local_speaker_details[local_id]
+                    if utterance.get("character_id") and detail["character_id"] and utterance["character_id"] != detail["character_id"]:
+                        utterance.setdefault("unresolved_questions", [])
+                        if isinstance(utterance["unresolved_questions"], list):
+                            utterance["unresolved_questions"].append(
+                                "Utterance character identity conflicts with its chunk speaker profile."
+                            )
                 report["utterances"].append(utterance)
 
             for continuity in data["speaker_continuity"]:
                 local_id = continuity.get("speaker_id")
                 continuity["segment_speaker_id"] = local_id
                 continuity["speaker_id"] = local_speaker_map.get(local_id)
+                continuity["chunk_index"] = index
+                continuity["chunk_start"] = chunk_start
+                continuity["chunk_end"] = chunk_start + chunk_length_actual
+                if continuity["speaker_id"] is None:
+                    continuity["mapping_warning"] = "Local continuity speaker was not declared in this chunk's speakers array."
                 report["speaker_continuity"].append(continuity)
 
             for event in data["audio_events"]:
@@ -559,12 +700,13 @@ def main():
             report["unresolved_questions"].append(
                 "No transcribed utterances were returned; audio transcription requires manual verification."
             )
+        run_quality_checks(report, known_character_ids)
         report["_metadata"] = {
             "source_file": video.name,
             "source_start_seconds": args.start,
             "duration_seconds": total_duration,
             "model": model,
-            "processing": "agentic_chunked",
+            "processing": "agentic_chunked_v3_1",
             "chunk_duration_seconds": chunk_length,
             "segment_count": len(chunks),
             "interaction_ids": interaction_ids,
@@ -579,7 +721,7 @@ def main():
         temp_output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         os.replace(temp_output, output)
 
-        print("\nV3 ANALYSIS COMPLETE", flush=True)
+        print("\nV3.1 ANALYSIS COMPLETE", flush=True)
         print(f"  Scenes: {len(report['scenes'])}", flush=True)
         print(f"  Speakers: {len(report['speakers'])}", flush=True)
         print(f"  Utterances: {len(report['utterances'])}", flush=True)
