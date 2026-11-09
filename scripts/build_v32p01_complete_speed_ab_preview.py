@@ -202,8 +202,8 @@ def main() -> int:
     parser.add_argument("--output-dir", type=Path, default=OUTPUT_DEFAULT)
     parser.add_argument(
         "--cue2-start", type=float, default=11.94,
-        help="Absolute video timestamp for cue 0002; default leaves 100 ms "
-             "after the 1.10x cue 0001 audio.",
+        help="Absolute video timestamp for cue 0002; default leaves at least "
+             "20 ms after the 1.20x cue 0001 audio and 100 ms after 1.10x.",
     )
     args = parser.parse_args()
 
