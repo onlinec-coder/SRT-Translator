@@ -400,6 +400,7 @@ def main():
         "audio_events": [],
         "localization_notes": [],
         "unresolved_questions": [],
+        "quality_checks": {"chunk_results": [], "warnings": []},
     }
     speaker_by_character = {}
     speaker_counter = 0
@@ -498,13 +499,34 @@ def main():
                 event["end_time"] = offset_time(event.get("end_time"), chunk_start)
                 report["audio_events"].append(event)
 
-            for note in data.get("localization_notes", []):
-                report["localization_notes"].append(note)
+            notes = data.get("localization_notes", [])
+            if isinstance(notes, list):
+                report["localization_notes"].extend(notes)
+            elif notes:
+                report["localization_notes"].append(str(notes))
             unresolved = data.get("unresolved_questions", [])
             if isinstance(unresolved, list):
                 report["unresolved_questions"].extend(unresolved)
             elif unresolved:
                 report["unresolved_questions"].append(str(unresolved))
+
+            chunk_stats = {
+                "chunk_index": index,
+                "start_time": chunk_start,
+                "end_time": chunk_start + chunk_length_actual,
+                "scene_count": len(data["scenes"]),
+                "speaker_count": len(data["speakers"]),
+                "utterance_count": len(data["utterances"]),
+                "audio_event_count": len(data["audio_events"]),
+            }
+            report["quality_checks"]["chunk_results"].append(chunk_stats)
+            if not data["utterances"]:
+                warning = (
+                    f"Chunk {index} ({chunk_start:.1f}-{chunk_start + chunk_length_actual:.1f}s) "
+                    "returned zero utterances; verify whether it is truly silent."
+                )
+                report["quality_checks"]["warnings"].append(warning)
+                print(f"  WARNING: {warning}", flush=True)
 
             print(
                 f"  Segment result: {len(data['scenes'])} scenes, "
@@ -522,7 +544,12 @@ def main():
         # Add quality warnings rather than pretending a sparse transcript is complete.
         empty_chunks = len([x for x in report["utterances"] if x.get("verbatim_transcript")])
         if empty_chunks == 0:
-            report["unresolved_questions"].append("No transcribed utterances were returned; audio transcription requires manual verification.")
+            report["quality_checks"]["warnings"].append(
+                "No transcribed utterances were returned; audio transcription requires manual verification."
+            )
+            report["unresolved_questions"].append(
+                "No transcribed utterances were returned; audio transcription requires manual verification."
+            )
         report["_metadata"] = {
             "source_file": video.name,
             "source_start_seconds": args.start,
