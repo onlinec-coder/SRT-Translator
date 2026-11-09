@@ -465,6 +465,8 @@ def main():
     parser.add_argument("--poll-interval", type=float, default=5)
     parser.add_argument("--file-timeout", type=float, default=900)
     parser.add_argument("--analysis-timeout", type=float, default=1800)
+    parser.add_argument("--internal-retries", type=int, default=2,
+                        help="Retry transient Gemini INTERNAL failures per chunk (default: 2 retries).")
     args = parser.parse_args()
 
     video = args.video.resolve()
@@ -474,6 +476,8 @@ def main():
         raise SystemExit("--start must be >= 0 and --duration must be > 0.")
     if args.chunk_duration < 0 or args.poll_interval <= 0 or args.file_timeout <= 0 or args.analysis_timeout <= 0:
         raise SystemExit("Chunk duration must be >= 0 and polling/timeouts must be > 0.")
+    if args.internal_retries < 0:
+        raise SystemExit("--internal-retries must be >= 0.")
     if not video.is_file():
         raise SystemExit(f"Video not found: {video}")
     if output.exists() and not args.overwrite:
@@ -551,9 +555,27 @@ def main():
             prompt = PROMPT_TEMPLATE.format(
                 character_catalog=json.dumps(catalog, ensure_ascii=False, indent=2)
             )
-            data, interaction_id = run_agentic_for_chunk(
-                client, chunk_path, model, prompt, args, index, len(chunks)
-            )
+            attempt = 0
+            while True:
+                try:
+                    data, interaction_id = run_agentic_for_chunk(
+                        client, chunk_path, model, prompt, args, index, len(chunks)
+                    )
+                    break
+                except RuntimeError as error:
+                    is_internal = '"code": "INTERNAL"' in str(error) or
+                                  '"code":"INTERNAL"' in str(error)
+                    if not is_internal or attempt >= args.internal_retries:
+                        raise
+                    attempt += 1
+                    wait_seconds = 8 * attempt
+                    print(
+                        f"  Gemini INTERNAL серверийн алдаа. "
+                        f"Chunk {index}-ийг {attempt}/{args.internal_retries} дахин оролдоно "
+                        f"({wait_seconds}s дараа)...",
+                        flush=True
+                    )
+                    time.sleep(wait_seconds)
             if interaction_id:
                 interaction_ids.append(interaction_id)
 
