@@ -1,0 +1,14 @@
+﻿sequence,clip_id,cue_start,cue_end,cue_duration,source_speech_start,source_speech_end,source_speech_duration,recognized_words,generated_audio_duration,suggested_atempo,status
+1,V32P01_CUE_0001,9.2,11.2,2.0,9.07,12.53,3.46,The third bowl tasted like rot. I couldn't feel my hands,2.8,0.9,GENERATED_SHORTER_THAN_SOURCE_REVIEW
+2,V32P01_CUE_0002,11.4,13.2,1.8,9.99,14.59,4.6,tasted like rot. I couldn't feel my hands anymore. The wolf bead had,2.0,0.9,GENERATED_SHORTER_THAN_SOURCE_REVIEW
+3,V32P01_CUE_0003,13.791,16.0,2.209,12.53,17.31,4.78,anymore. The wolf bead had already reached my chest. Lucian stood at the end,2.32,0.9,GENERATED_SHORTER_THAN_SOURCE_REVIEW
+4,V32P01_CUES_0004_0005,16.2,18.8,2.6,14.89,19.63,4.74,reached my chest. Lucian stood at the end of the bed and watched me go. Seven pups.,3.04,0.9,GENERATED_SHORTER_THAN_SOURCE_REVIEW
+5,V32P01_CUES_0009_0010,22.0,24.6,2.6,20.65,24.71,4.06,blood. That's enough. I tried to speak. Nothing came out.,3.76,0.926,REVIEW
+6,V32P01_CUE_0013,29.541,30.8,1.259,29.43,30.53,1.1,His voice didn't wiggle.,2.32,1.25,WOULD_NEED_OVER_1_25X_REVIEW_TEXT_OR_TIMING
+7,V32P01_CUE_0017,36.0,37.374,1.374,34.67,38.95,4.28,"That's all this ever was. I wanted to scream. I wanted to tear him apart,",1.04,0.9,GENERATED_SHORTER_THAN_SOURCE_REVIEW
+8,V32P01_CUE_0018,37.5,39.166,1.666,36.15,40.47,4.32,"wanted to scream. I wanted to tear him apart, but my body was already",1.92,0.9,GENERATED_SHORTER_THAN_SOURCE_REVIEW
+9,V32P01_CUE_0019,39.2,41.0,1.8,37.91,40.99,3.08,"to tear him apart, but my body was already gone.",2.56,0.9,GENERATED_SHORTER_THAN_SOURCE_REVIEW
+10,V32P01_CUE_0021,45.6,47.166,1.566,45.62,46.94,1.32,He set the empty bowl down.,1.84,1.25,WOULD_NEED_OVER_1_25X_REVIEW_TEXT_OR_TIMING
+11,V32P01_CUE_0023,48.6,49.8,1.2,47.82,49.76,1.94,Rest now. My heart beat slowed.,2.0,1.031,REVIEW
+12,V32P01_CUE_0024,50.6,51.4,0.8,50.6,51.12,0.52,Then nothing.,1.92,1.25,WOULD_NEED_OVER_1_25X_REVIEW_TEXT_OR_TIMING
+13,V32P01_CUES_0025_0026,52.791,57.0,4.209,52.6,56.84,4.24,I opened my eyes. And my mother's sitting in room at Coldwell Manor.,4.48,1.057,REVIEW
