@@ -1,7 +1,7 @@
 {
   "title": "Husbands — Vivienne first 10-minute ElevenLabs-native speed test",
   "version": "1.0",
-  "status": "PREPARED ONLY — no ElevenLabs TTS requests sent; explicit batch approval required",
+  "status": "AUTHORIZED — user approved 214 paid ElevenLabs TTS requests",
   "source_repository": "onlinec-coder/SRT-Translator",
   "source_branch": "vivienne-v3-2-pilot-01",
   "source_files": {
@@ -6631,5 +6631,14 @@
       ],
       "batch_id": "VIV_07"
     }
-  ]
+  ],
+  "authorization": {
+    "approved_by_user": true,
+    "approved_request_count": 214,
+    "approved_speed": 1.1,
+    "approved_scope": "Husbands first 10 minutes, C001 Vivienne only",
+    "confirmation": "User replied 'тийм' to the explicit approval request for 214 paid TTS requests",
+    "authorized_at_utc": "2026-11-10",
+    "no_other_changes_authorized": true
+  }
 }
