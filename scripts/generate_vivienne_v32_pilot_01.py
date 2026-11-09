@@ -16,7 +16,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 PREP = ROOT / "acoustic_comparison_6_results_v2" / "VIVIENNE_V3_2_PILOT_01_PREP.json"
 OUT = ROOT / "vivienne_tts_output" / "V32P01"
 VOICE_ID = "6Km4T9TrZXIhfMaxglHw"
