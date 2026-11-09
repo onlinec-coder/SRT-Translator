@@ -1,0 +1,52 @@
+name: Vivienne V32P01 — ElevenLabs native speed A/B
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirmation:
+        description: "Type exactly GENERATE V32P01 SPEED AB to authorize 8 paid TTS requests"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: vivienne-v32p01-speed-ab
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: ${{ inputs.confirmation == 'GENERATE V32P01 SPEED AB' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout approved pilot branch
+        uses: actions/checkout@v4
+        with:
+          ref: vivienne-v3-2-pilot-01
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install ffmpeg for duration QA
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Generate ElevenLabs-native speed A/B samples
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          GENERATE_CONFIRMATION: ${{ inputs.confirmation }}
+        run: python scripts/generate_vivienne_v32_speed_ab.py
+
+      - name: Upload speed A/B audio and manifest
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: vivienne-V32P01-elevenlabs-speed-ab
+          path: vivienne_tts_output/V32P01_SPEED_AB/
+          if-no-files-found: warn
+          retention-days: 14
