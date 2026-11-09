@@ -744,7 +744,7 @@ def main():
             checkpoint.parent.mkdir(parents=True, exist_ok=True)
             checkpoint_tmp = checkpoint.with_name(checkpoint.name + ".tmp")
             checkpoint_tmp.write_text(
-                json.dumps(report, ensure_ascii=False, indent=2) + "\\n",
+                json.dumps(report, ensure_ascii=False, indent=2) + "\n",
                 encoding="utf-8"
             )
             os.replace(checkpoint_tmp, checkpoint)
