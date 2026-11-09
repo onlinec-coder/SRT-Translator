@@ -402,6 +402,7 @@ def main():
         "unresolved_questions": [],
         "quality_checks": {"chunk_results": [], "warnings": []},
     }
+    known_character_ids = {item.get("id") for item in catalog if item.get("id")}
     speaker_by_character = {}
     speaker_counter = 0
     scene_counter = 0
@@ -446,6 +447,11 @@ def main():
             for speaker in data["speakers"]:
                 local_id = speaker.get("speaker_id") or f"SPK_LOCAL_{index}_{len(local_speaker_map)+1}"
                 character_id = speaker.get("character_id")
+                if character_id not in known_character_ids:
+                    speaker["character_id"] = None
+                    speaker["character_name"] = None
+                    speaker["identity_confidence"] = "low"
+                    character_id = None
                 if character_id:
                     if character_id not in speaker_by_character:
                         speaker_counter += 1
@@ -473,6 +479,9 @@ def main():
             for utterance in data["utterances"]:
                 utterance_counter += 1
                 local_id = utterance.get("speaker_id")
+                if utterance.get("character_id") not in known_character_ids:
+                    utterance["character_id"] = None
+                    utterance["character_name"] = None
                 utterance["segment_speaker_id"] = local_id
                 utterance["speaker_id"] = local_speaker_map.get(local_id, None)
                 utterance["utterance_id"] = f"UTT_{utterance_counter:05d}"
