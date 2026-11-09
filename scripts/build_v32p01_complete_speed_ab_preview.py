@@ -114,6 +114,9 @@ def build_variant(
         # manual offset preserves the previously agreed 100 ms gap.
         if clip_id == "V32P01_CUE_0002":
             start = max(start, cue2_start)
+        # Prevent the original 0018 and 0019 voice clips from overlapping.
+        if clip_id == "V32P01_CUE_0019":
+            start = max(start, 39.50)
 
         duration = probe_duration(ffprobe, chosen_path)
         actual_end = start + duration
@@ -145,6 +148,22 @@ def build_variant(
             "overrun_seconds": round(actual_end - target_end, 3),
             "status": "CHECK" if actual_end > target_end + 0.15 else "OK",
         })
+
+    # Report actual voice-to-voice gaps separately from subtitle-window overruns.
+    for row_index, row in enumerate(clip_rows):
+        if row_index + 1 < len(clip_rows):
+            next_start = clip_rows[row_index + 1]["start_seconds"]
+            gap = round(next_start - row["actual_end_seconds"], 3)
+            row["next_start_seconds"] = next_start
+            row["gap_after_seconds"] = gap
+            row["timeline_status"] = (
+                "OVERLAP" if gap < -0.02 else
+                "TIGHT" if gap < 0.05 else "OK"
+            )
+        else:
+            row["next_start_seconds"] = ""
+            row["gap_after_seconds"] = ""
+            row["timeline_status"] = "END"
 
     duck_expression = "+".join(duck_intervals)
     filters.append(
