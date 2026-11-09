@@ -3,3 +3,4 @@
 __pycache__/
 *.pyc
 .venv-whisper/
+movie_analysis_reports/
