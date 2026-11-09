@@ -1,0 +1,349 @@
+{
+  "title": "Husbands — Vivienne V3.2 Representative Dubbing Pilot 01",
+  "version": "1.0",
+  "status": "PREPARED — no ElevenLabs TTS requests sent",
+  "source": {
+    "analysis": "movie_analysis_reports/Husbands_test_10min_v3_2.json",
+    "subtitle_ledger": "acoustic_comparison_6_results_v2/VIVIENNE_PRODUCTION_CUE_LEDGER_V1.json",
+    "source_srt": "Husbands_mn_v3.srt",
+    "speaker_assignments": "speaker_assignments.json"
+  },
+  "pilot_scope": {
+    "film_window": "00:00:09.200–00:00:57.500",
+    "purpose": "Test V3.2-informed emotion and delivery direction, connected-utterance grouping, natural Mongolian intelligibility, and timing before expanding to the full 10-minute Vivienne track.",
+    "tts_request_count": 13,
+    "speaker_id": "C001",
+    "speaker_name": "Vivienne",
+    "voice_id": "6Km4T9TrZXIhfMaxglHw",
+    "model_id": "eleven_v3",
+    "output_format": "mp3_44100_128",
+    "voice_settings": "Use existing saved voice settings unchanged; no numerical overrides."
+  },
+  "policies": [
+    "V3.2 provides scene, emotion, vocal delivery, and performance direction; it does not override verified subtitle speaker assignments.",
+    "Use the exact Mongolian subtitle wording from the existing production cue ledger; do not translate or paraphrase during TTS preparation.",
+    "Narration and inner monologue use the same Vivienne voice identity C001.",
+    "Cue 22 'Rest now.' is excluded because the verified speaker assignment identifies Lucian, not Vivienne.",
+    "Cue 27 is outside the available V3.2 utterance coverage and is excluded from this pilot.",
+    "Where V3.2 identifies one continuous utterance split across subtitle cues, prepare one connected TTS asset and preserve the full source timing span.",
+    "For cues 17–19, the user's previously confirmed natural, restrained Vivienne inner voice overrides V3.2's inferred anger/sadness intensities; do not add theatrical anger or sadness.",
+    "Do not automatically inject ElevenLabs emotion tags. Spoken text remains clean; direction is recorded separately for controlled evaluation.",
+    "Measure generated audio duration against the full source window. Flag overruns; never auto-truncate or time-stretch.",
+    "This preparation file does not authorize paid generation."
+  ],
+  "clips": [
+    {
+      "sequence": 1,
+      "clip_id": "V32P01_CUE_0001",
+      "cue_ids": [
+        1
+      ],
+      "source_time": "00:00:09,200 --> 00:00:11,200",
+      "target_window_ms": 2000,
+      "utterance_ids": [
+        "UTT_00001"
+      ],
+      "source_text": "Гурав дахь аяганы амт\nялзарсан зүйл шиг байлаа.",
+      "tts_text": "Гурав дахь аяганы амт ялзарсан зүйл шиг байлаа.",
+      "delivery_class": "disgust_reflective",
+      "emotion": {
+        "primary": "disgust",
+        "secondary": "fear",
+        "intensity": 3,
+        "confidence": 0.9
+      },
+      "direction": "Clear, reflective inner voice. Keep the texture neutral and measured; convey the unpleasant realization subtly, without theatrical disgust.",
+      "visual_context": "Close-up of bowls on a wooden table."
+    },
+    {
+      "sequence": 2,
+      "clip_id": "V32P01_CUE_0002",
+      "cue_ids": [
+        2
+      ],
+      "source_time": "00:00:11,400 --> 00:00:13,200",
+      "target_window_ms": 1800,
+      "utterance_ids": [
+        "UTT_00002"
+      ],
+      "source_text": "Би гараа мэдрэхээ\nбольчихсон байв.",
+      "tts_text": "Би гараа мэдрэхээ больчихсон байв.",
+      "delivery_class": "fear_breathless",
+      "emotion": {
+        "primary": "fear",
+        "secondary": "uncertainty",
+        "intensity": 4,
+        "confidence": 0.95
+      },
+      "direction": "Measured inner voice with slight breathiness and restrained panic. Keep every Mongolian word clear; do not whisper or overact.",
+      "visual_context": "Vivienne lying in bed, distressed, touching her mouth."
+    },
+    {
+      "sequence": 3,
+      "clip_id": "V32P01_CUE_0003",
+      "cue_ids": [
+        3
+      ],
+      "source_time": "00:00:13,791 --> 00:00:16,000",
+      "target_window_ms": 2209,
+      "utterance_ids": [
+        "UTT_00003"
+      ],
+      "source_text": "Чонын хор аль хэдийн\nцээжинд минь хүрчээ.",
+      "tts_text": "Чонын хор аль хэдийн цээжинд минь хүрчээ.",
+      "delivery_class": "fear_strained",
+      "emotion": {
+        "primary": "fear",
+        "secondary": "suspense",
+        "intensity": 4,
+        "confidence": 0.95
+      },
+      "direction": "Restrained strained inner voice reflecting physical pain. Keep pace measured and articulation clean; no exaggerated gasping.",
+      "visual_context": "Close-up of purple veins spreading across her chest."
+    },
+    {
+      "sequence": 4,
+      "clip_id": "V32P01_CUES_0004_0005",
+      "cue_ids": [
+        4,
+        5
+      ],
+      "source_time": "00:00:16,200 --> 00:00:18,800",
+      "target_window_ms": 2600,
+      "utterance_ids": [
+        "UTT_00004"
+      ],
+      "source_text": "Лусиан орны хөлд зогсоод\nамьсгал хураахыг минь харж байлаа.",
+      "tts_text": "Лусиан орны хөлд зогсоод амьсгал хураахыг минь харж байлаа.",
+      "delivery_class": "quiet_resentment",
+      "emotion": {
+        "primary": "frustration",
+        "secondary": "suspense",
+        "intensity": 3,
+        "confidence": 0.9
+      },
+      "direction": "Quiet resentment in Vivienne's inner narration. One connected sentence across both subtitle cues; avoid an artificial pause at the cue boundary.",
+      "visual_context": "Lucian standing at the foot of the bed, watching Vivienne."
+    },
+    {
+      "sequence": 5,
+      "clip_id": "V32P01_CUES_0009_0010",
+      "cue_ids": [
+        9,
+        10
+      ],
+      "source_time": "00:00:22,000 --> 00:00:24,600",
+      "target_window_ms": 2600,
+      "utterance_ids": [
+        "UTT_00006"
+      ],
+      "source_text": "Би юм хэлэхийг оролдсон ч\nамнаас минь ганц ч үг гарсангүй.",
+      "tts_text": "Би юм хэлэхийг оролдсон ч амнаас минь ганц ч үг гарсангүй.",
+      "delivery_class": "fear_breathless",
+      "emotion": {
+        "primary": "fear",
+        "secondary": "frustration",
+        "intensity": 4,
+        "confidence": 0.95
+      },
+      "direction": "One connected breathless inner thought. Preserve a natural slight hesitation after 'ч' if needed, but do not split it into two unrelated statements.",
+      "visual_context": "Vivienne opening her mouth in a silent gasp."
+    },
+    {
+      "sequence": 6,
+      "clip_id": "V32P01_CUE_0013",
+      "cue_ids": [
+        13
+      ],
+      "source_time": "00:00:29,541 --> 00:00:30,800",
+      "target_window_ms": 1259,
+      "utterance_ids": [
+        "UTT_00008"
+      ],
+      "source_text": "Түүний хоолой огт чичирсэнгүй.",
+      "tts_text": "Түүний хоолой огт чичирсэнгүй.",
+      "delivery_class": "bitter_inner_reflection",
+      "emotion": {
+        "primary": "frustration",
+        "secondary": "tension",
+        "intensity": 3,
+        "confidence": 0.9
+      },
+      "direction": "Bitter inner reflection, restrained and matter-of-fact. Avoid audible anger; keep the line compact and natural.",
+      "visual_context": "Lucian walking away from the bed."
+    },
+    {
+      "sequence": 7,
+      "clip_id": "V32P01_CUE_0017",
+      "cue_ids": [
+        17
+      ],
+      "source_time": "00:00:36,000 --> 00:00:37,374",
+      "target_window_ms": 1374,
+      "utterance_ids": [
+        "UTT_00010"
+      ],
+      "source_text": "Би орилмоор байлаа.",
+      "tts_text": "Би орилмоор байлаа.",
+      "delivery_class": "neutral_natural_user_confirmed",
+      "emotion": {
+        "primary": "neutral_natural",
+        "confidence": "user_confirmed"
+      },
+      "direction": "User-confirmed ordinary, natural Vivienne inner voice. No added dramatic anger, shouting, or strained acting.",
+      "visual_context": "Vivienne's hand clenching the bed cover."
+    },
+    {
+      "sequence": 8,
+      "clip_id": "V32P01_CUE_0018",
+      "cue_ids": [
+        18
+      ],
+      "source_time": "00:00:37,500 --> 00:00:39,166",
+      "target_window_ms": 1666,
+      "utterance_ids": [
+        "UTT_00011"
+      ],
+      "source_text": "Түүнийг тасчин хаямаар байлаа.",
+      "tts_text": "Түүнийг тасчин хаямаар байлаа.",
+      "delivery_class": "neutral_natural_user_confirmed",
+      "emotion": {
+        "primary": "neutral_natural",
+        "confidence": "user_confirmed"
+      },
+      "direction": "User-confirmed ordinary, natural Vivienne inner voice. Do not inject rage or theatrical intensity despite the subtitle wording.",
+      "visual_context": "Vivienne gripping the bed cover tightly."
+    },
+    {
+      "sequence": 9,
+      "clip_id": "V32P01_CUE_0019",
+      "cue_ids": [
+        19
+      ],
+      "source_time": "00:00:39,200 --> 00:00:41,000",
+      "target_window_ms": 1800,
+      "utterance_ids": [
+        "UTT_00012"
+      ],
+      "source_text": "Гэвч миний бие аль хэдийн\nамьгүй болж байв.",
+      "tts_text": "Гэвч миний бие аль хэдийн амьгүй болж байв.",
+      "delivery_class": "neutral_natural_user_confirmed",
+      "emotion": {
+        "primary": "neutral_natural",
+        "confidence": "user_confirmed"
+      },
+      "direction": "User-confirmed ordinary, natural Vivienne inner voice. Keep the delivery calm and intelligible; do not add defeated sadness or breathless drama.",
+      "visual_context": "Vivienne looking up with helpless eyes."
+    },
+    {
+      "sequence": 10,
+      "clip_id": "V32P01_CUE_0021",
+      "cue_ids": [
+        21
+      ],
+      "source_time": "00:00:45,600 --> 00:00:47,166",
+      "target_window_ms": 1566,
+      "utterance_ids": [
+        "UTT_00014"
+      ],
+      "source_text": "Тэр хоосон аягыг ширээн дээр тавив.",
+      "tts_text": "Тэр хоосон аягыг ширээн дээр тавив.",
+      "delivery_class": "matter_of_fact_narration",
+      "emotion": {
+        "primary": "neutral",
+        "secondary": "suspense",
+        "intensity": 2,
+        "confidence": 0.9
+      },
+      "direction": "Matter-of-fact narration in Vivienne's normal voice. Measured, clear, and unforced.",
+      "visual_context": "Lucian walking away through the doorway."
+    },
+    {
+      "sequence": 11,
+      "clip_id": "V32P01_CUE_0023",
+      "cue_ids": [
+        23
+      ],
+      "source_time": "00:00:48,600 --> 00:00:49,800",
+      "target_window_ms": 1200,
+      "utterance_ids": [
+        "UTT_00016"
+      ],
+      "source_text": "Зүрхний минь цохилт удааширлаа.",
+      "tts_text": "Зүрхний минь цохилт удааширлаа.",
+      "delivery_class": "fading_fear",
+      "emotion": {
+        "primary": "fear",
+        "secondary": "sadness",
+        "intensity": 3,
+        "confidence": 0.95
+      },
+      "direction": "Soft, fading inner voice with a slightly slower pace. Keep the words understandable; avoid a melodramatic fade or trailing off too early.",
+      "visual_context": "Vivienne closing her eyes in bed."
+    },
+    {
+      "sequence": 12,
+      "clip_id": "V32P01_CUE_0024",
+      "cue_ids": [
+        24
+      ],
+      "source_time": "00:00:50,600 --> 00:00:51,400",
+      "target_window_ms": 800,
+      "utterance_ids": [
+        "UTT_00017"
+      ],
+      "source_text": "Тэгээд бүх зүйл тасрав.",
+      "tts_text": "Тэгээд бүх зүйл тасрав.",
+      "delivery_class": "quiet_flat",
+      "emotion": {
+        "primary": "neutral",
+        "secondary": "suspense",
+        "intensity": 2,
+        "confidence": 0.9
+      },
+      "direction": "Quiet, flat, concise delivery. Preserve a natural sentence ending; do not force a dramatic whisper.",
+      "visual_context": "Vivienne unconscious."
+    },
+    {
+      "sequence": 13,
+      "clip_id": "V32P01_CUES_0025_0026",
+      "cue_ids": [
+        25,
+        26
+      ],
+      "source_time": "00:00:52,791 --> 00:00:57,000",
+      "target_window_ms": 4209,
+      "utterance_ids": [
+        "UTT_00018"
+      ],
+      "source_text": "Би нүдээ нээхэд\nээжийнхээ Коулдвелл эдлэн дэх\nзочны өрөөнд байлаа.",
+      "tts_text": "Би нүдээ нээхэд ээжийнхээ Коулдвелл эдлэн дэх зочны өрөөнд байлаа.",
+      "delivery_class": "surprised_awakening",
+      "emotion": {
+        "primary": "surprise",
+        "secondary": "uncertainty",
+        "intensity": 4,
+        "confidence": 0.95
+      },
+      "direction": "A sudden but natural awakening: mild surprise and uncertainty, with a slight lift in energy. Keep the Mongolian place name clear and do not overplay shock.",
+      "visual_context": "Vivienne abruptly opening her eyes on a sofa beside Lucian."
+    }
+  ],
+  "exclusions": [
+    {
+      "cue_id": 22,
+      "reason": "Verified speaker assignment identifies Lucian; do not synthesize this line in Vivienne's voice."
+    },
+    {
+      "cue_id": 27,
+      "reason": "The available V3.2 report has no matching utterance after 57.5 seconds; hold for the next analysis segment or a separate verified source."
+    }
+  ],
+  "acceptance_gates": [
+    "Native-listener intelligibility and natural Mongolian pronunciation.",
+    "Performance matches the scene and the user's confirmed acting direction.",
+    "Connected utterances sound continuous rather than like isolated subtitle fragments.",
+    "No cue is clipped; duration fits the available timing window or is explicitly flagged.",
+    "No speaker-identity contamination from Lucian dialogue."
+  ]
+}
