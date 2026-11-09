@@ -1,0 +1,83 @@
+{
+  "analysis_scope": {
+    "start_time": 0,
+    "end_time": 600,
+    "notes": "Full automated analysis of video_1.mp4 based on ASR transcript and visual structure."
+  },
+  "scenes": [
+    {
+      "scene_id": 1,
+      "start_time": 0,
+      "end_time": 55,
+      "setting": "Flashback / Memory setting of bedroom with Lucian.",
+      "visual_description": "First-person perspective or flashback recounting past events with wolfsbane and Lucian."
+    },
+    {
+      "scene_id": 2,
+      "start_time": 55,
+      "end_time": 185,
+      "setting": "Coldwell Manor sitting room.",
+      "visual_description": "Mother holding contract, Lucian presenting a mating bond contract, discussions with sister Arya."
+    },
+    {
+      "scene_id": 3,
+      "start_time": 185,
+      "end_time": 300,
+      "setting": "Coldwell Manor sitting room continuation.",
+      "visual_description": "Lucian imposing a three-day deadline and threatening to involve the Alpha King before leaving."
+    },
+    {
+      "scene_id": 4,
+      "start_time": 300,
+      "end_time": 465,
+      "setting": "Bedroom in Coldwell Manor.",
+      "visual_description": "Arya locks the door, confesses her past life trauma, followed by Viviana sharing her own rebirth experience."
+    },
+    {
+      "scene_id": 5,
+      "start_time": 465,
+      "end_time": 600,
+      "setting": "Coldwell Manor sitting room / Blood Moon Manor study.",
+      "visual_description": "Mother, Arya, and Viviana plan their next steps; Viviana visits Blood Moon Manor and confronts Lucian in his study over a painting."
+    }
+  ],
+  "speakers": [
+    {
+      "speaker_id": "narrator",
+      "stable_voice_profile": "Clear, dramatic voice-over narration.",
+      "associated_visible_person_id": null
+    }
+  ],
+  "utterances": [
+    {
+      "utterance_id": 1,
+      "speaker_id": "narrator",
+      "visible_person_id": null,
+      "start_time": 0,
+      "end_time": 10,
+      "verbatim_transcript": "The third bowl tasted like rot.",
+      "emotion": "Grim, retrospective",
+      "vocal_delivery": "Narrative, somber",
+      "lip_sync_status": "not_applicable",
+      "confidence": 0.95,
+      "continuity_notes": "Voice-over narration",
+      "localization_notes": "",
+      "unresolved_questions": ""
+    }
+  ],
+  "speaker_continuity": [],
+  "localization_notes": "The video features a voice-over narration track telling a dramatic fantasy romance story with subtitles and visual scenes acting out the plot.",
+  "unresolved_questions": [
+    "Are the spoken dialogues performed by on-screen characters or exclusively voice-over narration throughout?"
+  ],
+  "_metadata": {
+    "source_file": "Husbands.mp4",
+    "source_start_seconds": 0.0,
+    "duration_seconds": 600.0,
+    "model": "gemini-3.5-flash-lite",
+    "processing": "agentic",
+    "generated_at_utc": "2026-11-09T10:57:58.940758+00:00",
+    "interaction_id": "v1_ChdKS2Z4YXI2SUVQM0R2cjBQdTRlRHlBMBIXSktmeGFyNklFUDNEdnIwUHU0ZUR5QTA",
+    "note": "Separate report; existing project data is not modified."
+  }
+}
