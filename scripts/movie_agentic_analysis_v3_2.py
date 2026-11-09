@@ -103,7 +103,7 @@ STRUCTURED DATA RULES:
   recommendation, rationale, confidence). Return [] if none; never stringify objects.
 - unresolved_questions MUST be an array of objects (category, question,
   related_utterance_ids, confidence). Return [] if none. Never return empty objects,
-  empty strings, or {"questions": []}.
+  empty strings, or {{"questions": []}}.
 - Audio event times MUST use numeric start_time and end_time fields.
 
 emotion object:
