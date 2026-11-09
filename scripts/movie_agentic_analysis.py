@@ -562,18 +562,26 @@ def main():
                         client, chunk_path, model, prompt, args, index, len(chunks)
                     )
                     break
-                except RuntimeError as error:
+                except (RuntimeError, json.JSONDecodeError) as error:
                     error_text = str(error)
                     is_internal = (
                         '"code": "INTERNAL"' in error_text
                         or '"code":"INTERNAL"' in error_text
                     )
-                    if not is_internal or attempt >= args.internal_retries:
+                    is_invalid_json = isinstance(error, json.JSONDecodeError)
+                    if not (is_internal or is_invalid_json) or attempt >= args.internal_retries:
+                        if is_invalid_json:
+                            print(
+                                f"  JSON parse failure at line {error.lineno}, "
+                                f"column {error.colno}, position {error.pos}.",
+                                flush=True
+                            )
                         raise
                     attempt += 1
                     wait_seconds = 8 * attempt
+                    failure_kind = "буруу JSON" if is_invalid_json else "INTERNAL серверийн алдаа"
                     print(
-                        f"  Gemini INTERNAL серверийн алдаа. "
+                        f"  Gemini {failure_kind}. "
                         f"Chunk {index}-ийг {attempt}/{args.internal_retries} дахин оролдоно "
                         f"({wait_seconds}s дараа)...",
                         flush=True
@@ -730,6 +738,18 @@ def main():
                 "audio_event_count": len(data["audio_events"]),
             }
             report["quality_checks"]["chunk_results"].append(chunk_stats)
+
+            # Persist a recoverable snapshot after every successful chunk.
+            checkpoint = output.with_name(output.stem + ".partial" + output.suffix)
+            checkpoint.parent.mkdir(parents=True, exist_ok=True)
+            checkpoint_tmp = checkpoint.with_name(checkpoint.name + ".tmp")
+            checkpoint_tmp.write_text(
+                json.dumps(report, ensure_ascii=False, indent=2) + "\\n",
+                encoding="utf-8"
+            )
+            os.replace(checkpoint_tmp, checkpoint)
+            print(f"  Checkpoint saved: {checkpoint}", flush=True)
+
             if not data["utterances"]:
                 warning = (
                     f"Chunk {index} ({chunk_start:.1f}-{chunk_start + chunk_length_actual:.1f}s) "
