@@ -73,3 +73,51 @@ GEMINI_VIDEO_MODEL тохируулсан бол тэр нь нэн түрүүн
 - API key-г хэвлэхгүй, тайланд бичихгүй.
 - Gemini upload-ийг default байдлаар ажил дуусахад устгана.
 - Алдаа гарсан эсвэл JSON буруу бүтэцтэй бол partial report хадгалахгүй.
+
+## V3 — Chunked audiovisual analysis for dubbing
+
+V3 нь урт бичлэгийг жижиг хэсгүүдэд хувааж, хэсэг бүрийг тусдаа Agentic Video хүсэлтээр шинжилнэ. Ингэснээр нэг 10 минутын хүсэлтэд ердөө 1–2 utterance буцаах зэрэг хэт товч хариуны эрсдэлийг бууруулна.
+
+### V3-ийн шинэ өгөгдөл
+
+- Бүх сонсогдох яриаг utterance бүрээр тусад нь бүртгэхийг шаардсан.
+- Emotion: primary/secondary, intensity 1–5, confidence.
+- Vocal delivery: mode, volume, pace, texture, sigh/sob/laugh/gasp зэрэг voice action.
+- Lip-sync: status, visual evidence, confidence.
+- Visual context: scene, visible people, action, shot context.
+- Dubbing direction: target emotion, intensity, pitch direction, pace, volume, texture, breath/pause notes.
+- Pause before/after, non-speech audio events.
+- Дүрийн каталогийн canonical name, aliases, character ID-г боломжтой үед ашиглана.
+- Хэсэг бүрийн utterance тоо болон хоосон хэсгийн warning-ийг quality_checks-д хадгална.
+
+Narration болон Vivienne-ийн inner monologue нь Husbands-ийн dubbing-д нэг Vivienne voice identity (C001) хэвээр. Харин speech_role ялгаатай байна. Тодорхой бус дүрийг хүчээр оноохгүй.
+
+### V3 туршилт — эхний 10 минут
+
+Төслийн root хавтсанд:
+
+    git pull
+    python -m py_compile scripts/movie_agentic_analysis.py
+
+Дараа нь 60 секундийн хэсгүүдээр 10 минутыг турш:
+
+    python scripts/movie_agentic_analysis.py "C:\Users\chinzorig\Desktop\Husbands\Husbands.mp4" --start 0 --duration 600 --chunk-duration 60 --model "gemini-3.5-flash-lite" --output "movie_analysis_reports/Husbands_test_10min_v3.json"
+
+Энэ нь 10 тусдаа chunk хүсэлт үүсгэнэ. Chunk бүрийн upload, Gemini file processing, Agentic Analysis, үр дүнгийн тоо болон cleanup явцыг console дээр харуулна. Хүсэлт бүрийн timestamp-ийг эх киноны абсолют секунд рүү шилжүүлж нэг JSON тайланд нэгтгэнэ.
+
+### Chunk хэмжээ өөрчлөх
+
+- Default: 60 секунд.
+- --chunk-duration 90: 90 секундийн хэсэг.
+- --chunk-duration 120: 2 минутын хэсэг.
+- --chunk-duration 0: нэг бүхэл хүсэлт (V2 шиг нэг хүсэлтээр боловсруулах; бүрэн transcript-ийн эрсдэл өндөр).
+
+Хэсэг тус бүр тусдаа Gemini хүсэлт тул API usage болон processing хугацаа нэмэгдэнэ. 10 минутын туршилтын чанарыг шалгахаас өмнө бүтэн киног ажиллуулахгүй.
+
+### Чухал хамгаалалт
+
+- V3 зөвхөн тусдаа JSON тайлан үүсгэнэ.
+- SRT, character catalog, 1,213 гар шалгасан speaker assignments, review exports-д өөрчлөлт оруулахгүй.
+- Chunk бүрийн speaker ID-г автоматаар нэгтгэхдээ зөвхөн баттай character_id таарсан тохиолдолд нэг voice identity гэж үзнэ. Тодорхойгүй speaker-үүдийг хүчээр нэгтгэхгүй.
+- quality_checks.warnings болон unresolved_questions-ийг заавал шалгана.
+- AI-ийн emotion болон dubbing direction нь санал болгосон шинжилгээ; хүнээр сонсож баталгаажуулсны дараа л production dubbing-д ашиглана.
