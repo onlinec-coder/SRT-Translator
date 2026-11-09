@@ -1,0 +1,14 @@
+﻿sequence,clip_id,cue_ids,cue_start,cue_end,cue_window_duration,source_speech_start,source_speech_end,source_speech_duration,srt_text,whisper_matched_text,text_match_ratio,generated_duration,raw_required_atempo,conservative_atempo_reference,status
+1,V32P01_CUE_0001,1,9.2,11.2,2.0,8.76,11.04,2.28,The third bowl tasted like rot.,The third bowl tasted like rot.,1.0,2.8,1.228,1.228,TEXT_MATCHED_REVIEW
+2,V32P01_CUE_0002,2,11.4,13.2,1.8,11.52,13.16,1.64,I couldn't feel my hands anymore.,I couldn't feel my hands anymore.,1.0,2.0,1.22,1.22,TEXT_MATCHED_REVIEW
+3,V32P01_CUE_0003,3,13.791,16.0,2.209,14.3,15.88,1.58,The wolfsbane had already reached my chest.,had already reached my chest.,0.833,2.32,1.468,1.25,GENERATED_LONGER_THAN_SOURCE_REVIEW
+4,V32P01_CUES_0004_0005,"4,5",16.2,18.8,2.6,16.4,18.84,2.44,Lucian stood at the foot of the bed and watched me go.,Lucian stood at the end of the bed and watched me go.,0.917,3.04,1.246,1.246,TEXT_MATCHED_REVIEW
+5,V32P01_CUES_0009_0010,"9,10",22.0,24.6,2.6,22.08,24.68,2.6,I tried to speak. Nothing came out.,I tried to speak. Nothing came out.,1.0,3.76,1.446,1.25,GENERATED_LONGER_THAN_SOURCE_REVIEW
+6,V32P01_CUE_0013,13,29.541,30.8,1.259,29.28,30.28,1.0,His voice didn't waver.,His voice didn't,0.857,2.32,2.32,1.25,GENERATED_LONGER_THAN_SOURCE_REVIEW
+7,V32P01_CUE_0017,17,36.0,37.374,1.374,36.1,37.08,0.98,I wanted to scream.,I wanted to scream.,1.0,1.04,1.061,1.061,TEXT_MATCHED_REVIEW
+8,V32P01_CUE_0018,18,37.5,39.166,1.666,37.56,39.0,1.44,I wanted to tear him apart.,"I wanted to tear him apart,",1.0,1.92,1.333,1.25,GENERATED_LONGER_THAN_SOURCE_REVIEW
+9,V32P01_CUE_0019,19,39.2,41.0,1.8,39.12,40.92,1.8,But my body was already gone.,but my body was already gone.,1.0,2.56,1.422,1.25,GENERATED_LONGER_THAN_SOURCE_REVIEW
+10,V32P01_CUE_0021,21,45.6,47.166,1.566,45.48,46.92,1.44,He set the empty bowl down.,He set the empty bowl down.,1.0,1.84,1.278,1.25,GENERATED_LONGER_THAN_SOURCE_REVIEW
+11,V32P01_CUE_0023,23,48.6,49.8,1.2,48.72,49.76,1.04,My heartbeat slowed.,My heart beat slowed.,0.571,2.0,1.923,1.25,GENERATED_LONGER_THAN_SOURCE_REVIEW
+12,V32P01_CUE_0024,24,50.6,51.4,0.8,50.6,51.14,0.54,Then nothing.,Then nothing.,1.0,1.92,3.556,1.25,GENERATED_LONGER_THAN_SOURCE_REVIEW
+13,V32P01_CUES_0025_0026,"25,26",52.791,57.0,4.209,52.16,57.08,4.92,I opened my eyes in my mother's sitting room at Coldwell Manor,I opened my eyes in my mother's sitting room at Coldwell Manor.,1.0,4.48,0.911,0.911,TEXT_MATCHED_REVIEW
